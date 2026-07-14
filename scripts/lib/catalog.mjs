@@ -1,4 +1,5 @@
 import path from 'node:path'
+import { readdir, readFile } from 'node:fs/promises'
 
 const ROLE_ORDER = ['overview', 'financials', 'valuation', 'competitors', 'review', 'other']
 
@@ -95,4 +96,24 @@ export function buildCatalog(documents) {
   })).sort((left, right) => left.name.localeCompare(right.name, 'zh-CN'))
 
   return { companies, industries, documents }
+}
+
+async function findMarkdown(root, current = root, output = []) {
+  const entries = await readdir(current, { withFileTypes: true })
+  for (const entry of entries) {
+    const target = path.join(current, entry.name)
+    if (entry.isDirectory()) await findMarkdown(root, target, output)
+    else if (entry.isFile() && entry.name.endsWith('.md')) output.push(target)
+  }
+  return output
+}
+
+export async function loadCatalogFromSite(siteRoot) {
+  const researchRoot = path.join(siteRoot, 'research')
+  const files = await findMarkdown(researchRoot)
+  const documents = await Promise.all(files.sort().map(async file => {
+    const relativePath = path.relative(siteRoot, file).split(path.sep).join('/')
+    return parseResearchDocument(await readFile(file, 'utf8'), relativePath)
+  }))
+  return buildCatalog(documents)
 }
