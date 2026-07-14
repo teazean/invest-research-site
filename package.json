@@ -1,0 +1,24 @@
+{
+  "name": "invest-research-site",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "content:sync": "node scripts/sync-content.mjs",
+    "content:validate": "node scripts/validate-content.mjs",
+    "site:dev": "vitepress dev site",
+    "site:build": "vitepress build site",
+    "site:verify": "node scripts/verify-rendered.mjs"
+  },
+  "devDependencies": {
+    "cheerio": "1.2.0",
+    "markdown-it": "14.3.0",
+    "vitepress": "1.6.4",
+    "vitest": "4.1.10",
+    "vue": "3.5.22"
+  }
+}

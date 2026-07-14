@@ -1,1 +1,6 @@
 .worktrees/
+node_modules/
+site/.vitepress/cache/
+site/.vitepress/dist/
+coverage/
+.DS_Store
