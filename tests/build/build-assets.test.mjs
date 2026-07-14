@@ -60,6 +60,14 @@ afterEach(async () => {
 })
 
 describe('built research assets', () => {
+  it('runs asset finalization after every VitePress build', async () => {
+    const pkg = JSON.parse(await readFile(path.join(repoRoot, 'package.json'), 'utf8'))
+
+    expect(pkg.scripts['site:build']).toBe(
+      'vitepress build site && node scripts/finalize-site.mjs'
+    )
+  })
+
   it('links images to their hashed build asset and copies manifest CSV bytes', async () => {
     const fixture = await createFixture()
 

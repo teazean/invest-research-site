@@ -11,7 +11,7 @@
     "content:sync": "node scripts/sync-content.mjs",
     "content:validate": "node scripts/validate-content.mjs",
     "site:dev": "vitepress dev site",
-    "site:build": "vitepress build site",
+    "site:build": "vitepress build site && node scripts/finalize-site.mjs",
     "site:verify": "node scripts/verify-rendered.mjs"
   },
   "devDependencies": {
