@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="960" viewBox="0 0 1500 960" role="img">
+<rect x="0" y="0" width="1500" height="960" fill="#f7f9fb"/>
+
+    <defs>
+      <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3"
+              orient="auto" markerUnits="strokeWidth">
+        <path d="M0,0 L0,6 L9,3 z" fill="#94a3b8" />
+      </marker>
+      <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+        <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#0f172a" flood-opacity="0.08"/>
+      </filter>
+    </defs>
+    
+<text x="60.0" y="70.0" font-size="34" font-weight="800" fill="#22313f" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="60.0" dy="0">公司定位地图：不要把所有“储能概念”放在一个篮子里</tspan></text>
+<text x="60.0" y="108.0" font-size="18" font-weight="400" fill="#667085" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="60.0" dy="0">横轴：从硬件制造到资产运营；纵轴：从国内价格竞争到全球高端/bankability。</tspan></text>
+<rect x="150.0" y="180.0" width="1150.0" height="640.0" rx="16" fill="#ffffff" stroke="#d8dee8" stroke-width="1.2"/>
+<line x1="200.0" y1="760.0" x2="1245.0" y2="760.0" stroke="#475569" stroke-width="3" stroke-linecap="round" marker-end="url(#arrow)"/>
+<line x1="200.0" y1="760.0" x2="200.0" y2="230.0" stroke="#475569" stroke-width="3" stroke-linecap="round" marker-end="url(#arrow)"/>
+<text x="685.0" y="815.0" font-size="21" font-weight="800" fill="#22313f" text-anchor="middle" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="685.0" dy="0">硬件制造 / 单次销售  →  软件调度 / 长期运营</tspan></text>
+<text x="95.0" y="500.0" font-size="20" font-weight="800" fill="#22313f" text-anchor="middle" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="95.0" dy="0">全球高端 / Bankability</tspan></text>
+<text x="250.0" y="790.0" font-size="18" font-weight="700" fill="#667085" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="250.0" dy="0">国内低价竞争</tspan></text>
+<line x1="200.0" y1="495.0" x2="1245.0" y2="495.0" stroke="#e2e8f0" stroke-width="2" stroke-linecap="round" stroke-dasharray="8 8"/>
+<line x1="720.0" y1="230.0" x2="720.0" y2="760.0" stroke="#e2e8f0" stroke-width="2" stroke-linecap="round" stroke-dasharray="8 8"/>
+<rect x="335.0" y="391.0" width="150.0" height="48.0" rx="24" fill="#ffffff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="410.0" y="422.0" font-size="16" font-weight="800" fill="#2563eb" text-anchor="middle" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="410.0" dy="0">宁德时代</tspan></text>
+<rect x="395.0" y="441.0" width="150.0" height="48.0" rx="24" fill="#ffffff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="470.0" y="472.0" font-size="16" font-weight="800" fill="#2563eb" text-anchor="middle" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="470.0" dy="0">比亚迪</tspan></text>
+<rect x="275.0" y="521.0" width="150.0" height="48.0" rx="24" fill="#ffffff" stroke="#0891b2" stroke-width="1.5"/>
+<text x="350.0" y="552.0" font-size="16" font-weight="800" fill="#0891b2" text-anchor="middle" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="350.0" dy="0">亿纬/海辰</tspan></text>
+<rect x="685.0" y="276.0" width="150.0" height="48.0" rx="24" fill="#ffffff" stroke="#16a34a" stroke-width="1.5"/>
+<text x="760.0" y="307.0" font-size="16" font-weight="800" fill="#16a34a" text-anchor="middle" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="760.0" dy="0">阳光电源</tspan></text>
+<rect x="750.0" y="251.0" width="150.0" height="48.0" rx="24" fill="#ffffff" stroke="#16a34a" stroke-width="1.5"/>
+<text x="825.0" y="282.0" font-size="16" font-weight="800" fill="#16a34a" text-anchor="middle" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="825.0" dy="0">华为数字能源</tspan></text>
+<rect x="905.0" y="231.0" width="150.0" height="48.0" rx="24" fill="#ffffff" stroke="#7c3aed" stroke-width="1.5"/>
+<text x="980.0" y="262.0" font-size="16" font-weight="800" fill="#7c3aed" text-anchor="middle" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="980.0" dy="0">Tesla Energy</tspan></text>
+<rect x="945.0" y="306.0" width="150.0" height="48.0" rx="24" fill="#ffffff" stroke="#7c3aed" stroke-width="1.5"/>
+<text x="1020.0" y="337.0" font-size="16" font-weight="800" fill="#7c3aed" text-anchor="middle" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="1020.0" dy="0">Fluence</tspan></text>
+<rect x="1005.0" y="371.0" width="150.0" height="48.0" rx="24" fill="#ffffff" stroke="#7c3aed" stroke-width="1.5"/>
+<text x="1080.0" y="402.0" font-size="16" font-weight="800" fill="#7c3aed" text-anchor="middle" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="1080.0" dy="0">Wärtsilä</tspan></text>
+<rect x="605.0" y="496.0" width="150.0" height="48.0" rx="24" fill="#ffffff" stroke="#d97706" stroke-width="1.5"/>
+<text x="680.0" y="527.0" font-size="16" font-weight="800" fill="#d97706" text-anchor="middle" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="680.0" dy="0">科华/上能/盛弘</tspan></text>
+<rect x="685.0" y="541.0" width="150.0" height="48.0" rx="24" fill="#ffffff" stroke="#dc2626" stroke-width="1.5"/>
+<text x="760.0" y="572.0" font-size="16" font-weight="800" fill="#dc2626" text-anchor="middle" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="760.0" dy="0">海博思创/中车/远景</tspan></text>
+<rect x="1035.0" y="561.0" width="150.0" height="48.0" rx="24" fill="#ffffff" stroke="#0891b2" stroke-width="1.5"/>
+<text x="1110.0" y="592.0" font-size="16" font-weight="800" fill="#0891b2" text-anchor="middle" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="1110.0" dy="0">虚拟电厂/EMS</tspan></text>
+<text x="455.0" y="205.0" font-size="18" font-weight="800" fill="#2563eb" text-anchor="middle" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="455.0" dy="0">电芯/制造龙头</tspan></text>
+<text x="970.0" y="205.0" font-size="18" font-weight="800" fill="#7c3aed" text-anchor="middle" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="970.0" dy="0">系统 + 软件 + 融资认可</tspan></text>
+<text x="455.0" y="735.0" font-size="17" font-weight="700" fill="#667085" text-anchor="middle" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="455.0" dy="0">价格战和供给周期更强</tspan></text>
+<text x="980.0" y="735.0" font-size="17" font-weight="700" fill="#667085" text-anchor="middle" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="980.0" dy="0">取决于电力市场成熟度</tspan></text>
+</svg>

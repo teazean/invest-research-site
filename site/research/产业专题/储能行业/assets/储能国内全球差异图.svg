@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="920" viewBox="0 0 1500 920" role="img">
+<rect x="0" y="0" width="1500" height="920" fill="#f7f9fb"/>
+
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L0,6 L9,3 z" fill="#94a3b8" />
+  </marker>
+  <filter id="shadow" x="-15%" y="-15%" width="130%" height="130%">
+    <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#0f172a" flood-opacity="0.08"/>
+  </filter>
+</defs>
+
+<text x="60.0" y="70.0" font-size="36" font-weight="800" fill="#172033" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">国内 vs 全球：同一个储能，不同的赚钱机制</text>
+<text x="60.0" y="108.0" font-size="18" font-weight="400" fill="#667085" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">国内更看政策机制落地和低成本供应链；海外更看电力市场、认证、融资认可和本土化交付。</text>
+<g filter="url(#shadow)"><rect x="70" y="170" width="610" height="170" rx="12" fill="#ffffff" stroke="#d9e2ef" stroke-width="1.2"/></g>
+<rect x="70" y="170" width="8" height="170" rx="4" fill="#2563eb"/>
+<text x="94.0" y="205.0" font-size="22" font-weight="800" fill="#2563eb" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">中国市场</text>
+<text x="94.0" y="242.0" font-size="16" font-weight="500" fill="#667085" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">从强制配储切向市场化用储；2026</text>
+<text x="94.0" y="265.0" font-size="16" font-weight="500" fill="#667085" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">年容量电价让独立储能的现金流逻辑更清楚，但省级执行差异仍大。</text>
+<g filter="url(#shadow)"><rect x="820" y="170" width="610" height="170" rx="12" fill="#ffffff" stroke="#d9e2ef" stroke-width="1.2"/></g>
+<rect x="820" y="170" width="8" height="170" rx="4" fill="#16a34a"/>
+<text x="844.0" y="205.0" font-size="22" font-weight="800" fill="#16a34a" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">海外市场</text>
+<text x="844.0" y="242.0" font-size="16" font-weight="500" fill="#667085" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">美国、澳洲、中东、欧洲各自规则不同；大储客户更重视安全、可融资性、履</text>
+<text x="844.0" y="265.0" font-size="16" font-weight="500" fill="#667085" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">约和长期服务。</text>
+<line x1="680" y1="255" x2="820" y2="255" stroke="#475569" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+<text x="685.0" y="236.0" font-size="17" font-weight="700" fill="#475569" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">供应链出海</text>
+<line x1="820" y1="310" x2="680" y2="310" stroke="#475569" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+<text x="690.0" y="338.0" font-size="17" font-weight="700" fill="#475569" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">规则反向塑造产品</text>
+<rect x="90" y="405" width="190" height="82" rx="10" fill="#e8eef7" stroke="#d9e2ef" stroke-width="1.2"/>
+<text x="115.0" y="455.0" font-size="20" font-weight="800" fill="#172033" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">需求触发</text>
+<rect x="300" y="405" width="500" height="82" rx="10" fill="#ffffff" stroke="#d9e2ef" stroke-width="1.2"/>
+<text x="325.0" y="440.0" font-size="18" font-weight="600" fill="#172033" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">新能源消纳、电网调节、容量补偿、工商业价差</text>
+<rect x="820" y="405" width="560" height="82" rx="10" fill="#ffffff" stroke="#d9e2ef" stroke-width="1.2"/>
+<text x="845.0" y="440.0" font-size="18" font-weight="600" fill="#172033" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">光伏高渗透、数据中心负荷、容量短缺、极端天气</text>
+<rect x="90" y="513" width="190" height="82" rx="10" fill="#e8eef7" stroke="#d9e2ef" stroke-width="1.2"/>
+<text x="115.0" y="563.0" font-size="20" font-weight="800" fill="#172033" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">客户</text>
+<rect x="300" y="513" width="500" height="82" rx="10" fill="#ffffff" stroke="#d9e2ef" stroke-width="1.2"/>
+<text x="325.0" y="548.0" font-size="18" font-weight="600" fill="#172033" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">电网/发电集团/独立储能投资方/园区</text>
+<rect x="820" y="513" width="560" height="82" rx="10" fill="#ffffff" stroke="#d9e2ef" stroke-width="1.2"/>
+<text x="845.0" y="548.0" font-size="18" font-weight="600" fill="#172033" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">公用事业、IPP、开发商、数据中心、居民/渠道</text>
+<rect x="90" y="621" width="190" height="82" rx="10" fill="#e8eef7" stroke="#d9e2ef" stroke-width="1.2"/>
+<text x="115.0" y="671.0" font-size="20" font-weight="800" fill="#172033" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">利润池</text>
+<rect x="300" y="621" width="500" height="82" rx="10" fill="#ffffff" stroke="#d9e2ef" stroke-width="1.2"/>
+<text x="325.0" y="656.0" font-size="18" font-weight="600" fill="#172033" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">PCS/构网、头部集成、运维、少数低成本电芯</text>
+<rect x="820" y="621" width="560" height="82" rx="10" fill="#ffffff" stroke="#d9e2ef" stroke-width="1.2"/>
+<text x="845.0" y="656.0" font-size="18" font-weight="600" fill="#172033" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">可融资品牌、集成交付、软件优化、本土制造</text>
+<rect x="90" y="729" width="190" height="82" rx="10" fill="#e8eef7" stroke="#d9e2ef" stroke-width="1.2"/>
+<text x="115.0" y="779.0" font-size="20" font-weight="800" fill="#172033" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">最大风险</text>
+<rect x="300" y="729" width="500" height="82" rx="10" fill="#ffffff" stroke="#d9e2ef" stroke-width="1.2"/>
+<text x="325.0" y="764.0" font-size="18" font-weight="600" fill="#172033" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">低价竞标、利用小时不足、省级机制落地慢</text>
+<rect x="820" y="729" width="560" height="82" rx="10" fill="#ffffff" stroke="#d9e2ef" stroke-width="1.2"/>
+<text x="845.0" y="764.0" font-size="18" font-weight="600" fill="#172033" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">关税、进口限制、本土内容、项目延误、汇率</text>
+<text x="90.0" y="855.0" font-size="21" font-weight="800" fill="#172033" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">投资含义：国内看机制兑现和成本优势，海外看订单质量、交付风险和当地化能力；不能把国内低价配储逻辑直接套到全球大储。</text>
+</svg>

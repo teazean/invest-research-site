@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="980" viewBox="0 0 1500 980">
+  <rect width="1500" height="980" fill="#f8fafc"/>
+  <style>
+    .title { font: 800 34px "Arial Unicode MS", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; fill: #172033; }
+    .sub { font: 500 16px "Arial Unicode MS", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; fill: #667085; }
+    .head { font: 700 16px "Arial Unicode MS", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; fill: #172033; }
+    .cell { font: 700 15px "Arial Unicode MS", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; fill: #172033; }
+    .small { font: 500 13px "Arial Unicode MS", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; fill: #475467; }
+  </style>
+  <text x="70" y="70" class="title">储能产业链节点规模热力图</text>
+  <text x="70" y="105" class="sub">数据核验：2026-06-26。颜色表示公开证据和利润质量的相对强弱；这是投研定位图，不是精确估值模型。</text>
+
+  <rect x="70" y="135" width="1360" height="720" rx="10" fill="#ffffff" stroke="#d0d5dd"/>
+
+  <text x="95" y="178" class="head">节点</text>
+  <text x="330" y="178" class="head">物理规模</text>
+  <text x="505" y="178" class="head">金额披露</text>
+  <text x="680" y="178" class="head">利润质量</text>
+  <text x="855" y="178" class="head">证据强度</text>
+  <text x="1030" y="178" class="head">待补证重点</text>
+
+  <line x1="70" y1="195" x2="1430" y2="195" stroke="#e4e7ec"/>
+
+  <g transform="translate(0,0)">
+    <rect x="70" y="195" width="1360" height="61" fill="#ffffff"/>
+    <text x="95" y="232" class="cell">终端 BESS/项目建设</text>
+    <rect x="330" y="211" width="120" height="30" rx="15" fill="#10b981"/><text x="390" y="231" text-anchor="middle" class="cell" fill="#ffffff">高</text>
+    <rect x="505" y="211" width="120" height="30" rx="15" fill="#f59e0b"/><text x="565" y="231" text-anchor="middle" class="cell">中</text>
+    <rect x="680" y="211" width="120" height="30" rx="15" fill="#f59e0b"/><text x="740" y="231" text-anchor="middle" class="cell">看机制</text>
+    <rect x="855" y="211" width="120" height="30" rx="15" fill="#34d399"/><text x="915" y="231" text-anchor="middle" class="cell">A/B/C</text>
+    <text x="1030" y="224" class="small">项目 IRR、利用小时、容量补偿</text>
+    <line x1="70" y1="256" x2="1430" y2="256" stroke="#eef2f6"/>
+
+    <rect x="70" y="256" width="1360" height="61" fill="#fbfdff"/>
+    <text x="95" y="293" class="cell">电芯/储能电池系统</text>
+    <rect x="330" y="272" width="120" height="30" rx="15" fill="#10b981"/><text x="390" y="292" text-anchor="middle" class="cell" fill="#ffffff">高</text>
+    <rect x="505" y="272" width="120" height="30" rx="15" fill="#10b981"/><text x="565" y="292" text-anchor="middle" class="cell" fill="#ffffff">高</text>
+    <rect x="680" y="272" width="120" height="30" rx="15" fill="#f59e0b"/><text x="740" y="292" text-anchor="middle" class="cell">中</text>
+    <rect x="855" y="272" width="120" height="30" rx="15" fill="#10b981"/><text x="915" y="292" text-anchor="middle" class="cell" fill="#ffffff">A/B</text>
+    <text x="1030" y="285" class="small">ASP、成本曲线、非上市公司毛利</text>
+    <line x1="70" y1="317" x2="1430" y2="317" stroke="#eef2f6"/>
+
+    <rect x="70" y="317" width="1360" height="61" fill="#ffffff"/>
+    <text x="95" y="354" class="cell">Pack/电池舱</text>
+    <rect x="330" y="333" width="120" height="30" rx="15" fill="#10b981"/><text x="390" y="353" text-anchor="middle" class="cell" fill="#ffffff">高</text>
+    <rect x="505" y="333" width="120" height="30" rx="15" fill="#f97316"/><text x="565" y="353" text-anchor="middle" class="cell">低</text>
+    <rect x="680" y="333" width="120" height="30" rx="15" fill="#f59e0b"/><text x="740" y="353" text-anchor="middle" class="cell">中低</text>
+    <rect x="855" y="333" width="120" height="30" rx="15" fill="#f97316"/><text x="915" y="353" text-anchor="middle" class="cell">C</text>
+    <text x="1030" y="346" class="small">单独收入、单柜价值量、安全溢价</text>
+    <line x1="70" y1="378" x2="1430" y2="378" stroke="#eef2f6"/>
+
+    <rect x="70" y="378" width="1360" height="61" fill="#fbfdff"/>
+    <text x="95" y="415" class="cell">PCS/构网</text>
+    <rect x="330" y="394" width="120" height="30" rx="15" fill="#10b981"/><text x="390" y="414" text-anchor="middle" class="cell" fill="#ffffff">高</text>
+    <rect x="505" y="394" width="120" height="30" rx="15" fill="#f59e0b"/><text x="565" y="414" text-anchor="middle" class="cell">中</text>
+    <rect x="680" y="394" width="120" height="30" rx="15" fill="#34d399"/><text x="740" y="414" text-anchor="middle" class="cell">中高</text>
+    <rect x="855" y="394" width="120" height="30" rx="15" fill="#f59e0b"/><text x="915" y="414" text-anchor="middle" class="cell">B/C</text>
+    <text x="1030" y="407" class="small">纯 PCS 收入、构网溢价、认证</text>
+    <line x1="70" y1="439" x2="1430" y2="439" stroke="#eef2f6"/>
+
+    <rect x="70" y="439" width="1360" height="61" fill="#ffffff"/>
+    <text x="95" y="476" class="cell">BMS</text>
+    <rect x="330" y="455" width="120" height="30" rx="15" fill="#10b981"/><text x="390" y="475" text-anchor="middle" class="cell" fill="#ffffff">高</text>
+    <rect x="505" y="455" width="120" height="30" rx="15" fill="#f97316"/><text x="565" y="475" text-anchor="middle" class="cell">低</text>
+    <rect x="680" y="455" width="120" height="30" rx="15" fill="#f59e0b"/><text x="740" y="475" text-anchor="middle" class="cell">中</text>
+    <rect x="855" y="455" width="120" height="30" rx="15" fill="#f97316"/><text x="915" y="475" text-anchor="middle" class="cell">C</text>
+    <text x="1030" y="468" class="small">独立市场规模、质保价值</text>
+    <line x1="70" y1="500" x2="1430" y2="500" stroke="#eef2f6"/>
+
+    <rect x="70" y="500" width="1360" height="61" fill="#fbfdff"/>
+    <text x="95" y="537" class="cell">EMS/交易优化</text>
+    <rect x="330" y="516" width="120" height="30" rx="15" fill="#f59e0b"/><text x="390" y="536" text-anchor="middle" class="cell">中</text>
+    <rect x="505" y="516" width="120" height="30" rx="15" fill="#f97316"/><text x="565" y="536" text-anchor="middle" class="cell">低/样本</text>
+    <rect x="680" y="516" width="120" height="30" rx="15" fill="#10b981"/><text x="740" y="536" text-anchor="middle" class="cell" fill="#ffffff">高潜力</text>
+    <rect x="855" y="516" width="120" height="30" rx="15" fill="#f59e0b"/><text x="915" y="536" text-anchor="middle" class="cell">B/C</text>
+    <text x="1030" y="529" class="small">ARR、续费率、收益分成</text>
+    <line x1="70" y1="561" x2="1430" y2="561" stroke="#eef2f6"/>
+
+    <rect x="70" y="561" width="1360" height="61" fill="#ffffff"/>
+    <text x="95" y="598" class="cell">温控消防</text>
+    <rect x="330" y="577" width="120" height="30" rx="15" fill="#10b981"/><text x="390" y="597" text-anchor="middle" class="cell" fill="#ffffff">高</text>
+    <rect x="505" y="577" width="120" height="30" rx="15" fill="#f97316"/><text x="565" y="597" text-anchor="middle" class="cell">低</text>
+    <rect x="680" y="577" width="120" height="30" rx="15" fill="#f59e0b"/><text x="740" y="597" text-anchor="middle" class="cell">中</text>
+    <rect x="855" y="577" width="120" height="30" rx="15" fill="#f97316"/><text x="915" y="597" text-anchor="middle" class="cell">C</text>
+    <text x="1030" y="590" class="small">单 Wh 价值量、标准升级影响</text>
+    <line x1="70" y1="622" x2="1430" y2="622" stroke="#eef2f6"/>
+
+    <rect x="70" y="622" width="1360" height="61" fill="#fbfdff"/>
+    <text x="95" y="659" class="cell">系统集成/EPC</text>
+    <rect x="330" y="638" width="120" height="30" rx="15" fill="#10b981"/><text x="390" y="658" text-anchor="middle" class="cell" fill="#ffffff">高</text>
+    <rect x="505" y="638" width="120" height="30" rx="15" fill="#10b981"/><text x="565" y="658" text-anchor="middle" class="cell" fill="#ffffff">高样本</text>
+    <rect x="680" y="638" width="120" height="30" rx="15" fill="#34d399"/><text x="740" y="658" text-anchor="middle" class="cell">分化</text>
+    <rect x="855" y="638" width="120" height="30" rx="15" fill="#10b981"/><text x="915" y="658" text-anchor="middle" class="cell" fill="#ffffff">A/B</text>
+    <text x="1030" y="651" class="small">backlog 转收入、质保、现金流</text>
+    <line x1="70" y1="683" x2="1430" y2="683" stroke="#eef2f6"/>
+
+    <rect x="70" y="683" width="1360" height="61" fill="#ffffff"/>
+    <text x="95" y="720" class="cell">项目运营</text>
+    <rect x="330" y="699" width="120" height="30" rx="15" fill="#10b981"/><text x="390" y="719" text-anchor="middle" class="cell" fill="#ffffff">存量大</text>
+    <rect x="505" y="699" width="120" height="30" rx="15" fill="#f97316"/><text x="565" y="719" text-anchor="middle" class="cell">低透明</text>
+    <rect x="680" y="699" width="120" height="30" rx="15" fill="#f59e0b"/><text x="740" y="719" text-anchor="middle" class="cell">看机制</text>
+    <rect x="855" y="699" width="120" height="30" rx="15" fill="#f59e0b"/><text x="915" y="719" text-anchor="middle" class="cell">B/C</text>
+    <text x="1030" y="712" class="small">利用小时、IRR、容量电价执行</text>
+    <line x1="70" y1="744" x2="1430" y2="744" stroke="#eef2f6"/>
+
+    <rect x="70" y="744" width="1360" height="61" fill="#fbfdff"/>
+    <text x="95" y="781" class="cell">运维/质保</text>
+    <rect x="330" y="760" width="120" height="30" rx="15" fill="#34d399"/><text x="390" y="780" text-anchor="middle" class="cell">随存量增</text>
+    <rect x="505" y="760" width="120" height="30" rx="15" fill="#f59e0b"/><text x="565" y="780" text-anchor="middle" class="cell">样本少</text>
+    <rect x="680" y="760" width="120" height="30" rx="15" fill="#34d399"/><text x="740" y="780" text-anchor="middle" class="cell">中高</text>
+    <rect x="855" y="760" width="120" height="30" rx="15" fill="#f59e0b"/><text x="915" y="780" text-anchor="middle" class="cell">B/C</text>
+    <text x="1030" y="773" class="small">合同费率、故障率、续费率</text>
+    <line x1="70" y1="805" x2="1430" y2="805" stroke="#eef2f6"/>
+
+    <rect x="70" y="805" width="1360" height="50" fill="#ffffff"/>
+    <text x="95" y="837" class="cell">回收/长时储能</text>
+    <rect x="330" y="815" width="120" height="30" rx="15" fill="#f97316"/><text x="390" y="835" text-anchor="middle" class="cell">早期</text>
+    <rect x="505" y="815" width="120" height="30" rx="15" fill="#f97316"/><text x="565" y="835" text-anchor="middle" class="cell">低</text>
+    <rect x="680" y="815" width="120" height="30" rx="15" fill="#f59e0b"/><text x="740" y="835" text-anchor="middle" class="cell">期权</text>
+    <rect x="855" y="815" width="120" height="30" rx="15" fill="#f97316"/><text x="915" y="835" text-anchor="middle" class="cell">C</text>
+    <text x="1030" y="828" class="small">LCOS、运行数据、退役节奏</text>
+  </g>
+
+  <rect x="70" y="885" width="1360" height="48" rx="8" fill="#eef6ff" stroke="#bfdbfe"/>
+  <text x="95" y="915" class="small">关键规模锚：2025 中国新增 66.4GW/189.5GWh；2025 全球电池储能新增 108GW；2026 美国计划新增公用事业级电池储能 24GW。</text>
+  <text x="95" y="943" class="small">公司样本锚：宁德时代储能电池系统 624.40 亿元；阳光电源储能 372 亿元/43GWh；Tesla 储能部署 46.7GWh；Fluence backlog 53 亿美元、ARR 1.48 亿美元。</text>
+</svg>

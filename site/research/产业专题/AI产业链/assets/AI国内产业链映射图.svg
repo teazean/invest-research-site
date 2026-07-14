@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="980" viewBox="0 0 1700 980">
+  <rect width="1700" height="980" fill="#f8f8f4"/>
+  <text x="80" y="76" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700" fill="#202124">AI国内产业链映射图</text>
+  <text x="80" y="116" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#5f6368">从政策和算力需求出发，传导到硬件、基础设施、云模型、应用、端侧和机器人；每一层都要核验收入纯度。</text>
+
+  <rect x="80" y="170" width="280" height="650" rx="18" fill="#fffdf7" stroke="#c9b16a" stroke-width="3"/>
+  <text x="220" y="220" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#7a5c00">政策与需求</text>
+  <text x="115" y="275" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#3c4043">• 人工智能+</text>
+  <text x="115" y="312" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#3c4043">• 算力统筹</text>
+  <text x="115" y="349" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#3c4043">• 国产替代</text>
+  <text x="115" y="386" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#3c4043">• 政企数字化</text>
+  <text x="115" y="423" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#3c4043">• 智能制造</text>
+  <rect x="120" y="640" width="200" height="92" rx="12" fill="#fff2bf"/>
+  <text x="220" y="675" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#7a5c00">核心问题</text>
+  <text x="220" y="706" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#3c4043">是不是真需求</text>
+
+  <rect x="440" y="170" width="280" height="650" rx="18" fill="#ffffff" stroke="#b7cde0" stroke-width="3"/>
+  <text x="580" y="220" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#1b4d75">硬件卖铲子</text>
+  <text x="475" y="275" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#3c4043">• AI芯片</text>
+  <text x="475" y="312" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#3c4043">• AI服务器</text>
+  <text x="475" y="349" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#3c4043">• 光模块/网络</text>
+  <text x="475" y="386" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#3c4043">• PCB/封测</text>
+  <text x="475" y="423" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#3c4043">• 电子制造</text>
+  <rect x="480" y="640" width="200" height="92" rx="12" fill="#e4eef7"/>
+  <text x="580" y="675" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#1b4d75">核心问题</text>
+  <text x="580" y="706" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#3c4043">订单能否变利润</text>
+
+  <rect x="800" y="170" width="280" height="650" rx="18" fill="#ffffff" stroke="#bdcfb5" stroke-width="3"/>
+  <text x="940" y="220" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#27602b">基础设施</text>
+  <text x="835" y="275" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#3c4043">• IDC/智算中心</text>
+  <text x="835" y="312" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#3c4043">• 电力设备</text>
+  <text x="835" y="349" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#3c4043">• 液冷/温控</text>
+  <text x="835" y="386" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#3c4043">• 算力运营</text>
+  <text x="835" y="423" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#3c4043">• 枢纽节点</text>
+  <rect x="840" y="640" width="200" height="92" rx="12" fill="#e6f1df"/>
+  <text x="940" y="675" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#27602b">核心问题</text>
+  <text x="940" y="706" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#3c4043">上架率和现金流</text>
+
+  <rect x="1160" y="170" width="280" height="650" rx="18" fill="#ffffff" stroke="#d7c1da" stroke-width="3"/>
+  <text x="1300" y="220" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#6b3975">云模型应用</text>
+  <text x="1195" y="275" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#3c4043">• 阿里云/Qwen</text>
+  <text x="1195" y="312" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#3c4043">• 百度AI云/文心</text>
+  <text x="1195" y="349" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#3c4043">• 腾讯云/混元</text>
+  <text x="1195" y="386" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#3c4043">• 办公/教育/政企</text>
+  <text x="1195" y="423" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#3c4043">• Agent工作流</text>
+  <rect x="1200" y="640" width="200" height="92" rx="12" fill="#f0e6f3"/>
+  <text x="1300" y="675" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#6b3975">核心问题</text>
+  <text x="1300" y="706" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#3c4043">AI能否独立付费</text>
+
+  <rect x="1500" y="260" width="120" height="470" rx="18" fill="#ffffff" stroke="#d8c3b5" stroke-width="3"/>
+  <text x="1560" y="312" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#854d26">端侧</text>
+  <text x="1560" y="350" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#854d26">车端</text>
+  <text x="1560" y="388" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#854d26">机器人</text>
+  <text x="1560" y="458" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#3c4043">真实</text>
+  <text x="1560" y="488" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#3c4043">出货</text>
+  <text x="1560" y="518" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#3c4043">订单</text>
+  <text x="1560" y="548" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#3c4043">运行</text>
+
+  <path d="M360 495 L430 495" stroke="#72777c" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+  <path d="M720 495 L790 495" stroke="#72777c" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+  <path d="M1080 495 L1150 495" stroke="#72777c" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+  <path d="M1440 495 L1490 495" stroke="#72777c" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+
+  <rect x="108" y="865" width="1480" height="55" rx="14" fill="#ecebe5"/>
+  <text x="848" y="900" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#3c4043">读图方法：先确认政策和需求，再看订单进入哪一层，最后用收入纯度、毛利率、现金流和估值判断风险收益。</text>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#72777c"/>
+    </marker>
+  </defs>
+</svg>

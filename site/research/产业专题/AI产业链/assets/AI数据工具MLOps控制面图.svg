@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="960" viewBox="0 0 1500 960">
+  <rect width="1500" height="960" fill="#f7fafb"/>
+  <text x="70" y="78" font-size="38" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-weight="700" fill="#172033">AI数据工具、MLOps与安全控制面</text>
+  <text x="70" y="118" font-size="20" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" fill="#566274">企业Agent要进生产，不只要模型聪明，还要数据、权限、评测、监控和安全可控</text>
+
+  <defs>
+    <marker id="arrow-data" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#4d657c"/>
+    </marker>
+    <style>
+      .box { fill: #fff; stroke: #cbd7e2; stroke-width: 2; rx: 12; }
+      .center { fill: #edf5f8; stroke: #4d7f96; stroke-width: 3; rx: 16; }
+      .title { font: 700 22px Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif; fill: #172033; }
+      .body { font: 17px Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif; fill: #3c4658; }
+      .small { font: 15px Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif; fill: #6a7588; }
+    </style>
+  </defs>
+
+  <rect x="600" y="350" width="300" height="180" class="center"/>
+  <text x="665" y="405" class="title">企业AI / Agent</text>
+  <text x="635" y="445" class="body">读取上下文、调用工具</text>
+  <text x="635" y="476" class="body">执行动作、回写结果</text>
+  <text x="635" y="505" class="small">目标：从回答问题走向完成任务</text>
+
+  <rect x="95" y="190" width="285" height="145" class="box"/>
+  <text x="125" y="240" class="title">数据云 / 数据湖仓</text>
+  <text x="125" y="275" class="body">Snowflake、Databricks 等</text>
+  <text x="125" y="305" class="small">让数据能被统一治理和调用</text>
+
+  <rect x="95" y="570" width="285" height="145" class="box"/>
+  <text x="125" y="620" class="title">业务数据库 / 记忆</text>
+  <text x="125" y="655" class="body">MongoDB、向量存储等</text>
+  <text x="125" y="685" class="small">让Agent记住任务和业务对象</text>
+
+  <rect x="610" y="150" width="285" height="145" class="box"/>
+  <text x="640" y="200" class="title">检索 / 搜索 / RAG</text>
+  <text x="640" y="235" class="body">Elastic、向量检索</text>
+  <text x="640" y="265" class="small">减少幻觉，找对企业资料</text>
+
+  <rect x="1120" y="190" width="285" height="145" class="box"/>
+  <text x="1150" y="240" class="title">观测 / 评测 / MLOps</text>
+  <text x="1150" y="275" class="body">Datadog、实验、监控</text>
+  <text x="1150" y="305" class="small">知道Agent哪里失败、为何失败</text>
+
+  <rect x="1120" y="570" width="285" height="145" class="box"/>
+  <text x="1150" y="620" class="title">安全 / 身份 / 权限</text>
+  <text x="1150" y="655" class="body">CrowdStrike、Zscaler</text>
+  <text x="1150" y="685" class="small">防止Agent越权和数据泄露</text>
+
+  <rect x="610" y="680" width="285" height="145" class="box"/>
+  <text x="640" y="730" class="title">连接器 / MCP / API</text>
+  <text x="640" y="765" class="body">把模型接进工具和系统</text>
+  <text x="640" y="795" class="small">决定生态入口和可迁移性</text>
+
+  <line x1="380" y1="262" x2="600" y2="405" stroke="#4d657c" stroke-width="3" marker-end="url(#arrow-data)"/>
+  <line x1="380" y1="642" x2="600" y2="480" stroke="#4d657c" stroke-width="3" marker-end="url(#arrow-data)"/>
+  <line x1="752" y1="295" x2="752" y2="350" stroke="#4d657c" stroke-width="3" marker-end="url(#arrow-data)"/>
+  <line x1="1120" y1="262" x2="900" y2="405" stroke="#4d657c" stroke-width="3" marker-end="url(#arrow-data)"/>
+  <line x1="1120" y1="642" x2="900" y2="480" stroke="#4d657c" stroke-width="3" marker-end="url(#arrow-data)"/>
+  <line x1="752" y1="680" x2="752" y2="530" stroke="#4d657c" stroke-width="3" marker-end="url(#arrow-data)"/>
+
+  <rect x="70" y="870" width="1360" height="58" rx="14" fill="#eef3f6" stroke="#cbd7e2" stroke-width="2"/>
+  <text x="105" y="907" class="body">一句话：模型决定上限，数据和控制面决定能不能在企业里稳定、安全、可审计地创造价值。</text>
+</svg>

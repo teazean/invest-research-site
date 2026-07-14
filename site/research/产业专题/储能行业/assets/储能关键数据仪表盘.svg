@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="880" viewBox="0 0 1500 880">
+  <rect width="1500" height="880" fill="#f7f9fb"/>
+  <text x="60" y="70" font-size="36" font-weight="800" fill="#22313f" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">储能行业关键数据仪表盘</text>
+  <text x="60" y="108" font-size="18" font-weight="600" fill="#667085" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">口径混合：国内新型储能、全球电力侧电池储能、美国公用事业级电池。重点看方向，不直接混算。</text>
+
+  <g font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">
+    <rect x="60" y="165" width="420" height="165" rx="14" fill="#ffffff" stroke="#d8dee8"/>
+    <rect x="60" y="165" width="8" height="165" rx="4" fill="#2563eb"/>
+    <text x="82" y="200" font-size="23" font-weight="800" fill="#2563eb">中国 2025 年底</text>
+    <text x="82" y="238" font-size="16" font-weight="600" fill="#667085">累计新型储能 144.7GW</text>
+    <text x="82" y="263" font-size="16" font-weight="600" fill="#667085">同比增加约 85%</text>
+    <text x="82" y="288" font-size="16" font-weight="600" fill="#667085">已进入主流电力资产阶段</text>
+
+    <rect x="530" y="165" width="420" height="165" rx="14" fill="#ffffff" stroke="#d8dee8"/>
+    <rect x="530" y="165" width="8" height="165" rx="4" fill="#16a34a"/>
+    <text x="552" y="200" font-size="23" font-weight="800" fill="#16a34a">中国 2025 新增</text>
+    <text x="552" y="238" font-size="16" font-weight="600" fill="#667085">新增 66.4GW / 189.5GWh</text>
+    <text x="552" y="263" font-size="16" font-weight="600" fill="#667085">平均时长约 2.85h</text>
+    <text x="552" y="288" font-size="16" font-weight="600" fill="#667085">仍以日内调节为主</text>
+
+    <rect x="1000" y="165" width="420" height="165" rx="14" fill="#ffffff" stroke="#d8dee8"/>
+    <rect x="1000" y="165" width="8" height="165" rx="4" fill="#7c3aed"/>
+    <text x="1022" y="200" font-size="23" font-weight="800" fill="#7c3aed">中国 2027 目标</text>
+    <text x="1022" y="238" font-size="16" font-weight="600" fill="#667085">新型储能 180GW以上</text>
+    <text x="1022" y="263" font-size="16" font-weight="600" fill="#667085">直接投资约 2500 亿元</text>
+    <text x="1022" y="288" font-size="16" font-weight="600" fill="#667085">政策规模锚，不是利润承诺</text>
+
+    <rect x="60" y="395" width="420" height="165" rx="14" fill="#ffffff" stroke="#d8dee8"/>
+    <rect x="60" y="395" width="8" height="165" rx="4" fill="#0891b2"/>
+    <text x="82" y="430" font-size="23" font-weight="800" fill="#0891b2">全球 2025</text>
+    <text x="82" y="468" font-size="16" font-weight="600" fill="#667085">IEA：电池储能新增 108GW</text>
+    <text x="82" y="493" font-size="16" font-weight="600" fill="#667085">约 80% 为公用事业级</text>
+    <text x="82" y="518" font-size="16" font-weight="600" fill="#667085">同比约 +40%</text>
+
+    <rect x="530" y="395" width="420" height="165" rx="14" fill="#ffffff" stroke="#d8dee8"/>
+    <rect x="530" y="395" width="8" height="165" rx="4" fill="#d97706"/>
+    <text x="552" y="430" font-size="23" font-weight="800" fill="#d97706">IEA 2030 NZE</text>
+    <text x="552" y="468" font-size="16" font-weight="600" fill="#667085">全球储能约 1500GW</text>
+    <text x="552" y="493" font-size="16" font-weight="600" fill="#667085">电池储能约 1200GW</text>
+    <text x="552" y="518" font-size="16" font-weight="600" fill="#667085">情景目标，不是实际装机</text>
+
+    <rect x="1000" y="395" width="420" height="165" rx="14" fill="#ffffff" stroke="#d8dee8"/>
+    <rect x="1000" y="395" width="8" height="165" rx="4" fill="#dc2626"/>
+    <text x="1022" y="430" font-size="23" font-weight="800" fill="#dc2626">美国 2026 计划</text>
+    <text x="1022" y="468" font-size="16" font-weight="600" fill="#667085">EIA：拟新增 24GW</text>
+    <text x="1022" y="493" font-size="16" font-weight="600" fill="#667085">公用事业级电池储能</text>
+    <text x="1022" y="518" font-size="16" font-weight="600" fill="#667085">TX / CA / AZ 主导</text>
+
+    <text x="90" y="665" font-size="28" font-weight="800" fill="#22313f">投资含义</text>
+    <rect x="90" y="700" width="1320" height="105" rx="14" fill="#ffffff" stroke="#d8dee8"/>
+    <text x="120" y="737" font-size="20" font-weight="700" fill="#22313f">装机增长确定，但收益质量分化；中国从强配转向独立储能和市场化调用。</text>
+    <text x="120" y="768" font-size="20" font-weight="700" fill="#22313f">海外大储更看 bankability、认证、交付和融资；电池降本利好项目 IRR，但会压缩电芯利润。</text>
+    <text x="90" y="845" font-size="16" font-weight="500" fill="#667085">来源：国家能源局/CNESA、国家发改委、IEA、EIA；不同卡片口径不同，详见正文事实核验表。</text>
+  </g>
+</svg>

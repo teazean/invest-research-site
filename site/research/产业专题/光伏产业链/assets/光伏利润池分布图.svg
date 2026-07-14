@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="980" viewBox="0 0 1600 980">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#5b667a"/>
+    </marker>
+    <marker id="arrowGreen" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#28805a"/>
+    </marker>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="5" stdDeviation="8" flood-color="#0f172a" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="980" fill="#f7f9fc"/>
+  <text x="800.0" y="48" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',Arial,sans-serif" font-size="30" font-weight="700" fill="#172033"><tspan x="800.0" dy="0">光伏利润池分布</tspan></text>
+  <text x="800" y="88" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',Arial,sans-serif" font-size="20" font-weight="500" fill="#5b667a"><tspan x="800" dy="0">A股样本初筛：主链亏损，逆变器/储能与电站运营仍贡献利润</tspan></text>
+  <line x1="95" y1="540" x2="1465" y2="540" stroke="#8391a8" stroke-width="3"/>
+  <text x="80" y="546" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',Arial,sans-serif" font-size="18" font-weight="500" fill="#5b667a"><tspan x="80" dy="0">0</tspan></text>
+  <text x="80" y="190" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',Arial,sans-serif" font-size="18" font-weight="500" fill="#5b667a"><tspan x="80" dy="0">+280亿</tspan></text>
+  <text x="80" y="900" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',Arial,sans-serif" font-size="18" font-weight="500" fill="#5b667a"><tspan x="80" dy="0">-280亿</tspan></text>
+  <line x1="105" y1="180" x2="1465" y2="180" stroke="#dbe3ef" stroke-width="2" stroke-dasharray="6 8"/>
+  <line x1="105" y1="900" x2="1465" y2="900" stroke="#dbe3ef" stroke-width="2" stroke-dasharray="6 8"/>
+  <rect x="145.0" y="540" width="181.66666666666666" height="338.91428571428577" rx="12" fill="#d94b4b" opacity="0.88"/>
+  <text x="235.83333333333331" y="908.9142857142858" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',Arial,sans-serif" font-size="20" font-weight="750" fill="#d94b4b"><tspan x="235.83333333333331" dy="0">-263.6亿</tspan></text>
+  <text x="235.83333333333331" y="960" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',Arial,sans-serif" font-size="19" font-weight="650" fill="#172033"><tspan x="235.83333333333331" dy="0">主链上游</tspan></text>
+  <rect x="364.66666666666663" y="540" width="181.66666666666666" height="279.7714285714286" rx="12" fill="#d94b4b" opacity="0.88"/>
+  <text x="455.49999999999994" y="849.7714285714286" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',Arial,sans-serif" font-size="20" font-weight="750" fill="#d94b4b"><tspan x="455.49999999999994" dy="0">-217.6亿</tspan></text>
+  <text x="455.49999999999994" y="960" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',Arial,sans-serif" font-size="19" font-weight="650" fill="#172033"><tspan x="455.49999999999994" dy="0">电池/组件</tspan></text>
+  <rect x="584.3333333333333" y="317.0571428571428" width="181.66666666666666" height="222.94285714285718" rx="12" fill="#28805a" opacity="0.88"/>
+  <text x="675.1666666666666" y="299.0571428571428" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',Arial,sans-serif" font-size="20" font-weight="750" fill="#28805a"><tspan x="675.1666666666666" dy="0">173.4亿</tspan></text>
+  <text x="675.1666666666666" y="960" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',Arial,sans-serif" font-size="19" font-weight="650" fill="#172033"><tspan x="675.1666666666666" dy="0">逆变器/储能</tspan></text>
+  <rect x="804.0" y="515.7" width="181.66666666666666" height="24.3" rx="12" fill="#b8860b" opacity="0.88"/>
+  <text x="894.8333333333334" y="497.70000000000005" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',Arial,sans-serif" font-size="20" font-weight="750" fill="#b8860b"><tspan x="894.8333333333334" dy="0">18.9亿</tspan></text>
+  <text x="894.8333333333334" y="960" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',Arial,sans-serif" font-size="19" font-weight="650" fill="#172033"><tspan x="894.8333333333334" dy="0">辅材</tspan></text>
+  <rect x="1023.6666666666666" y="513.7714285714286" width="181.66666666666666" height="26.228571428571428" rx="12" fill="#b8860b" opacity="0.88"/>
+  <text x="1114.5" y="495.7714285714286" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',Arial,sans-serif" font-size="20" font-weight="750" fill="#b8860b"><tspan x="1114.5" dy="0">20.4亿</tspan></text>
+  <text x="1114.5" y="960" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',Arial,sans-serif" font-size="19" font-weight="650" fill="#172033"><tspan x="1114.5" dy="0">设备</tspan></text>
+  <rect x="1243.3333333333333" y="481.75714285714287" width="181.66666666666666" height="58.24285714285714" rx="12" fill="#28805a" opacity="0.88"/>
+  <text x="1334.1666666666665" y="463.75714285714287" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',Arial,sans-serif" font-size="20" font-weight="750" fill="#28805a"><tspan x="1334.1666666666665" dy="0">45.3亿</tspan></text>
+  <text x="1334.1666666666665" y="960" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',Arial,sans-serif" font-size="19" font-weight="650" fill="#172033"><tspan x="1334.1666666666665" dy="0">电站运营</tspan></text>
+  <rect x="1020" y="130" width="460" height="150" rx="16" fill="#fffdf2" stroke="#d1a634" stroke-width="2"/>
+  <text x="1250" y="170" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',Arial,sans-serif" font-size="22" font-weight="750" fill="#172033"><tspan x="1250" dy="0">口径说明</tspan></text>
+  <text x="1250" y="212" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',Arial,sans-serif" font-size="19" font-weight="500" fill="#5b667a"><tspan x="1250" dy="0">23家A股样本财务聚合</tspan><tspan x="1250" dy="23.75">用于观察利润池方向</tspan><tspan x="1250" dy="23.75">不等同全行业统计</tspan></text>
+  <text x="115" y="930" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',Arial,sans-serif" font-size="22" font-weight="650" fill="#172033"><tspan x="115" dy="0">投资含义：主链制造看周期反转；逆变器/储能、电站运营和优质辅材更接近当期利润池。</tspan></text>
+</svg>

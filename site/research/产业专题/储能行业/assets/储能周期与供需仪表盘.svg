@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="900" viewBox="0 0 1500 900" role="img">
+<rect x="0" y="0" width="1500" height="900" fill="#f7f9fb"/>
+
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L0,6 L9,3 z" fill="#94a3b8" />
+  </marker>
+  <filter id="shadow" x="-15%" y="-15%" width="130%" height="130%">
+    <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#0f172a" flood-opacity="0.08"/>
+  </filter>
+</defs>
+
+<text x="60" y="70" font-size="36" font-weight="800" fill="#172033" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">储能周期与供需仪表盘</text>
+<text x="60" y="108" font-size="18" font-weight="400" fill="#667085" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">核验日期：2026-06-25。当前阶段：需求成长仍在，制造利润分化，项目收益机制进入市场化验证。</text>
+
+<g filter="url(#shadow)">
+  <rect x="60" y="155" width="420" height="170" rx="12" fill="#ffffff" stroke="#d9e2ef" stroke-width="1.2"/>
+</g>
+<rect x="60" y="155" width="8" height="170" rx="4" fill="#2563eb"/>
+<text x="85" y="195" font-size="24" font-weight="800" fill="#2563eb" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">需求周期：仍在上行</text>
+<text x="85" y="235" font-size="17" font-weight="600" fill="#172033" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">中国 2025 新增 66.4GW / 189.5GWh</text>
+<text x="85" y="262" font-size="17" font-weight="600" fill="#172033" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">全球 2025 新增电池储能 108GW</text>
+<text x="85" y="292" font-size="15" fill="#667085" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">why：风光波动、负荷增长、容量紧张，需要灵活性。</text>
+
+<g filter="url(#shadow)">
+  <rect x="540" y="155" width="420" height="170" rx="12" fill="#ffffff" stroke="#d9e2ef" stroke-width="1.2"/>
+</g>
+<rect x="540" y="155" width="8" height="170" rx="4" fill="#dc2626"/>
+<text x="565" y="195" font-size="24" font-weight="800" fill="#dc2626" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">供给周期：竞争出清</text>
+<text x="565" y="235" font-size="17" font-weight="600" fill="#172033" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">LFP 主流，供应链成熟</text>
+<text x="565" y="262" font-size="17" font-weight="600" fill="#172033" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">普通硬件和集成容易价格战</text>
+<text x="565" y="292" font-size="15" fill="#667085" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">why：产能扩张快，标准化环节会被买方压价。</text>
+
+<g filter="url(#shadow)">
+  <rect x="1020" y="155" width="420" height="170" rx="12" fill="#ffffff" stroke="#d9e2ef" stroke-width="1.2"/>
+</g>
+<rect x="1020" y="155" width="8" height="170" rx="4" fill="#16a34a"/>
+<text x="1045" y="195" font-size="24" font-weight="800" fill="#16a34a" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">收益周期：机制验证</text>
+<text x="1045" y="235" font-size="17" font-weight="600" fill="#172033" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">136 号文：强配逻辑弱化</text>
+<text x="1045" y="262" font-size="17" font-weight="600" fill="#172033" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">114 号文：容量电价入口</text>
+<text x="1045" y="292" font-size="15" fill="#667085" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">why：储能要从“建了”变成“被调用并收费”。</text>
+
+<path d="M480 240 L535 240" stroke="#94a3b8" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M960 240 L1015 240" stroke="#94a3b8" stroke-width="3" marker-end="url(#arrow)"/>
+
+<rect x="95" y="385" width="1310" height="72" rx="12" fill="#172033"/>
+<text x="125" y="430" font-size="24" font-weight="800" fill="#ffffff" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">核心传导：真实需求 -> 项目收益 -> 设备定价 -> 公司毛利 -> 现金流 -> 估值预期</text>
+
+<g filter="url(#shadow)">
+  <rect x="80" y="515" width="300" height="145" rx="12" fill="#ffffff" stroke="#d9e2ef" stroke-width="1.2"/>
+</g>
+<text x="105" y="552" font-size="21" font-weight="800" fill="#2563eb" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">看需求质量</text>
+<text x="105" y="588" font-size="16" fill="#172033" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">装机不是终点</text>
+<text x="105" y="614" font-size="16" fill="#172033" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">调用小时和价差才说明价值</text>
+<text x="105" y="640" font-size="15" fill="#667085" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">高质量需求会愿意为好系统付费。</text>
+
+<g filter="url(#shadow)">
+  <rect x="430" y="515" width="300" height="145" rx="12" fill="#ffffff" stroke="#d9e2ef" stroke-width="1.2"/>
+</g>
+<text x="455" y="552" font-size="21" font-weight="800" fill="#dc2626" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">看价格和毛利</text>
+<text x="455" y="588" font-size="16" fill="#172033" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">ASP 跌快于成本</text>
+<text x="455" y="614" font-size="16" fill="#172033" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">收入增长也可能不赚钱</text>
+<text x="455" y="640" font-size="15" fill="#667085" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">制造环节要防价格战。</text>
+
+<g filter="url(#shadow)">
+  <rect x="780" y="515" width="300" height="145" rx="12" fill="#ffffff" stroke="#d9e2ef" stroke-width="1.2"/>
+</g>
+<text x="805" y="552" font-size="21" font-weight="800" fill="#16a34a" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">看收益机制</text>
+<text x="805" y="588" font-size="16" fill="#172033" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">价差、辅助服务、容量补偿</text>
+<text x="805" y="614" font-size="16" fill="#172033" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">共同决定项目 IRR</text>
+<text x="805" y="640" font-size="15" fill="#667085" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">政策文件要落到现金流。</text>
+
+<g filter="url(#shadow)">
+  <rect x="1130" y="515" width="300" height="145" rx="12" fill="#ffffff" stroke="#d9e2ef" stroke-width="1.2"/>
+</g>
+<text x="1155" y="552" font-size="21" font-weight="800" fill="#7c3aed" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">看海外门槛</text>
+<text x="1155" y="588" font-size="16" fill="#172033" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">bankability、认证、本土化</text>
+<text x="1155" y="614" font-size="16" fill="#172033" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">比单纯低价更重要</text>
+<text x="1155" y="640" font-size="15" fill="#667085" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">高毛利要扣除交付和贸易风险。</text>
+
+<rect x="95" y="725" width="1310" height="95" rx="12" fill="#ffffff" stroke="#d9e2ef" stroke-width="1.2"/>
+<text x="125" y="765" font-size="24" font-weight="800" fill="#172033" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">一句话判断</text>
+<text x="125" y="800" font-size="19" font-weight="600" fill="#172033" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">储能现在是“需求成长 + 制造出清 + 项目收益重定价”叠加期。投资节奏要从看装机，转向看利用小时、容量补偿、毛利、现金流和海外履约。</text>
+
+<text x="60" y="865" font-size="15" fill="#667085" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">来源：国家能源局、国家发改委、IEA、EIA、Tesla、Fluence；详见《储能行业周期、供需与投资节奏》事实核验表。</text>
+</svg>

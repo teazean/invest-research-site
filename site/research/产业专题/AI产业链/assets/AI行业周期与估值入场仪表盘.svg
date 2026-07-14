@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <rect width="1600" height="1000" fill="#f7f7f2"/>
+  <text x="80" y="76" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700" fill="#202124">AI行业周期与估值入场仪表盘</text>
+  <text x="80" y="116" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#5f6368">横轴看估值和拥挤度，纵轴看基本面兑现；越靠右越需要分批和等待回撤。</text>
+
+  <line x1="220" y1="820" x2="1400" y2="820" stroke="#3c4043" stroke-width="3"/>
+  <line x1="220" y1="820" x2="220" y2="180" stroke="#3c4043" stroke-width="3"/>
+  <polygon points="1400,820 1378,808 1378,832" fill="#3c4043"/>
+  <polygon points="220,180 208,202 232,202" fill="#3c4043"/>
+  <text x="650" y="875" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#3c4043">估值 / 涨幅 / 交易拥挤度</text>
+  <text x="60" y="500" transform="rotate(-90 60 500)" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#3c4043">基本面兑现度</text>
+
+  <line x1="810" y1="820" x2="810" y2="180" stroke="#d0d0ca" stroke-width="2" stroke-dasharray="10 10"/>
+  <line x1="220" y1="500" x2="1400" y2="500" stroke="#d0d0ca" stroke-width="2" stroke-dasharray="10 10"/>
+
+  <rect x="260" y="220" width="500" height="240" rx="18" fill="#e6f1df" stroke="#aac59a" stroke-width="2"/>
+  <text x="510" y="270" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#27602b">舒服区</text>
+  <text x="510" y="312" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#3c4043">基本面向上，估值还没完全打满</text>
+  <text x="510" y="350" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#3c4043">适合认真研究、分批配置</text>
+
+  <rect x="860" y="220" width="500" height="240" rx="18" fill="#fff1d6" stroke="#ddba66" stroke-width="2"/>
+  <text x="1110" y="270" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#865c00">高景气高拥挤</text>
+  <text x="1090" y="312" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#3c4043">半导体、光模块、AI硬件热门环节</text>
+  <text x="1090" y="350" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#3c4043">适合分批或等回撤，慎重追高</text>
+
+  <rect x="260" y="550" width="500" height="220" rx="18" fill="#e8eef6" stroke="#a9bdd7" stroke-width="2"/>
+  <text x="510" y="600" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#1b4d75">观察区</text>
+  <text x="510" y="642" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#3c4043">应用、Agent、端侧早期商业化</text>
+  <text x="510" y="680" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#3c4043">等收入、续费、ROI 数据出来</text>
+
+  <rect x="860" y="550" width="500" height="220" rx="18" fill="#f6e3e1" stroke="#d5aaa5" stroke-width="2"/>
+  <text x="1110" y="600" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#8a3030">风险区</text>
+  <text x="1110" y="642" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#3c4043">故事很热，财务证据不足</text>
+  <text x="1110" y="680" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#3c4043">先小仓或不碰，等反证解除</text>
+
+  <circle cx="1246" cy="383" r="42" fill="#f2c15c"/>
+  <text x="1246" y="377" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#202124">SMH</text>
+  <text x="1246" y="400" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#202124">SOXX</text>
+
+  <circle cx="1018" cy="392" r="38" fill="#ffdb8a"/>
+  <text x="1018" y="386" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#202124">A股AI</text>
+  <text x="1018" y="409" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#202124">ETF</text>
+
+  <circle cx="900" cy="350" r="36" fill="#efd8f2"/>
+  <text x="900" y="357" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#202124">QQQ</text>
+
+  <circle cx="665" cy="707" r="42" fill="#c7d9ee"/>
+  <text x="665" y="700" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#202124">应用</text>
+  <text x="665" y="724" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#202124">Agent</text>
+
+  <circle cx="1248" cy="706" r="43" fill="#edc4bf"/>
+  <text x="1248" y="699" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#202124">人形</text>
+  <text x="1248" y="723" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#202124">机器人</text>
+
+  <rect x="185" y="885" width="1230" height="58" rx="14" fill="#ecebe5"/>
+  <text x="800" y="921" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#3c4043">一句话：长期看AI，短期别追热度；想参与可以分批，想重仓必须等证据和价格都更舒服。</text>
+</svg>

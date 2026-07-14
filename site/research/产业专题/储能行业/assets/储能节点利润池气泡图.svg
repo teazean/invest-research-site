@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="980" viewBox="0 0 1500 980">
+  <rect width="1500" height="980" fill="#f8fafc"/>
+  <style>
+    .title { font: 800 34px "Arial Unicode MS", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; fill: #172033; }
+    .sub { font: 500 16px "Arial Unicode MS", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; fill: #667085; }
+    .axis { font: 700 17px "Arial Unicode MS", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; fill: #172033; }
+    .tick { font: 500 14px "Arial Unicode MS", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; fill: #667085; }
+    .label { font: 800 16px "Arial Unicode MS", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; fill: #172033; }
+    .note { font: 500 13px "Arial Unicode MS", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; fill: #475467; }
+  </style>
+  <text x="70" y="70" class="title">储能节点利润池气泡图</text>
+  <text x="70" y="105" class="sub">横轴看“公开样本金额/行业规模”，纵轴看“利润质量/议价权”；气泡大小表示与装机或存量资产的绑定强度。</text>
+
+  <rect x="120" y="145" width="1180" height="690" rx="10" fill="#ffffff" stroke="#d0d5dd"/>
+  <line x1="210" y1="735" x2="1225" y2="735" stroke="#344054" stroke-width="2"/>
+  <line x1="210" y1="735" x2="210" y2="210" stroke="#344054" stroke-width="2"/>
+  <polygon points="1225,735 1208,727 1208,743" fill="#344054"/>
+  <polygon points="210,210 202,227 218,227" fill="#344054"/>
+
+  <line x1="210" y1="605" x2="1225" y2="605" stroke="#e4e7ec"/>
+  <line x1="210" y1="475" x2="1225" y2="475" stroke="#e4e7ec"/>
+  <line x1="210" y1="345" x2="1225" y2="345" stroke="#e4e7ec"/>
+  <line x1="470" y1="735" x2="470" y2="210" stroke="#e4e7ec"/>
+  <line x1="730" y1="735" x2="730" y2="210" stroke="#e4e7ec"/>
+  <line x1="990" y1="735" x2="990" y2="210" stroke="#e4e7ec"/>
+
+  <text x="705" y="790" text-anchor="middle" class="axis">公开样本金额规模 / 物理规模</text>
+  <text x="106" y="472" text-anchor="middle" class="axis" transform="rotate(-90 106 472)">利润质量 / 议价权 / 持续收入潜力</text>
+  <text x="210" y="764" text-anchor="middle" class="tick">低</text>
+  <text x="730" y="764" text-anchor="middle" class="tick">中</text>
+  <text x="1225" y="764" text-anchor="middle" class="tick">高</text>
+  <text x="178" y="740" text-anchor="end" class="tick">低</text>
+  <text x="178" y="475" text-anchor="end" class="tick">中</text>
+  <text x="178" y="215" text-anchor="end" class="tick">高</text>
+
+  <circle cx="980" cy="450" r="72" fill="#60a5fa" fill-opacity="0.55" stroke="#2563eb" stroke-width="2"/>
+  <text x="980" y="443" text-anchor="middle" class="label">电芯/电池系统</text>
+  <text x="980" y="466" text-anchor="middle" class="note">规模大，怕价格战</text>
+
+  <circle cx="1010" cy="525" r="64" fill="#38bdf8" fill-opacity="0.48" stroke="#0284c7" stroke-width="2"/>
+  <text x="1010" y="518" text-anchor="middle" class="label">系统集成/EPC</text>
+  <text x="1010" y="541" text-anchor="middle" class="note">强者分化，弱者履约压力</text>
+
+  <circle cx="875" cy="325" r="48" fill="#34d399" fill-opacity="0.56" stroke="#059669" stroke-width="2"/>
+  <text x="875" y="319" text-anchor="middle" class="label">PCS/构网</text>
+  <text x="875" y="342" text-anchor="middle" class="note">电网接口壁垒</text>
+
+  <circle cx="690" cy="270" r="42" fill="#a78bfa" fill-opacity="0.55" stroke="#7c3aed" stroke-width="2"/>
+  <text x="690" y="264" text-anchor="middle" class="label">EMS/交易优化</text>
+  <text x="690" y="287" text-anchor="middle" class="note">高潜力，收费待证</text>
+
+  <circle cx="1080" cy="360" r="86" fill="#fbbf24" fill-opacity="0.45" stroke="#d97706" stroke-width="2"/>
+  <text x="1080" y="353" text-anchor="middle" class="label">项目运营</text>
+  <text x="1080" y="376" text-anchor="middle" class="note">资产大，看利用小时和机制</text>
+
+  <circle cx="650" cy="350" r="38" fill="#22c55e" fill-opacity="0.45" stroke="#16a34a" stroke-width="2"/>
+  <text x="650" y="344" text-anchor="middle" class="label">运维/质保</text>
+  <text x="650" y="367" text-anchor="middle" class="note">随存量扩大</text>
+
+  <circle cx="560" cy="535" r="34" fill="#fb7185" fill-opacity="0.43" stroke="#e11d48" stroke-width="2"/>
+  <text x="560" y="529" text-anchor="middle" class="label">BMS/温控消防</text>
+  <text x="560" y="552" text-anchor="middle" class="note">安全价值强，披露弱</text>
+
+  <circle cx="390" cy="620" r="30" fill="#94a3b8" fill-opacity="0.45" stroke="#64748b" stroke-width="2" stroke-dasharray="6 5"/>
+  <text x="390" y="614" text-anchor="middle" class="label">回收/长时</text>
+  <text x="390" y="637" text-anchor="middle" class="note">中长期期权</text>
+
+  <rect x="122" y="855" width="1178" height="74" rx="8" fill="#fff7ed" stroke="#fed7aa"/>
+  <text x="150" y="884" class="note">读法：右上角最值得优先跟踪，但不是直接买入结论。电芯和系统规模大，仍要看 ASP、毛利和现金流；EMS/运维/构网利润质量潜力好，但要补独立收费证据。</text>
+  <text x="150" y="914" class="note">定位依据：国家能源局、IEA、EIA、宁德时代、阳光电源、Tesla、Fluence、比亚迪等公开资料；截至 2026-06-26。</text>
+</svg>

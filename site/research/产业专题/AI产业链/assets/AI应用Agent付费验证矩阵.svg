@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="960" viewBox="0 0 1500 960">
+  <rect width="1500" height="960" fill="#fbfbf8"/>
+  <text x="70" y="78" font-size="38" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-weight="700" fill="#172033">AI应用与Agent付费验证矩阵</text>
+  <text x="70" y="118" font-size="20" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" fill="#596273">越靠近业务闭环、越能量化ROI，越容易从“试用”变成“续费”</text>
+
+  <defs>
+    <marker id="axis-arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#4a5c70"/>
+    </marker>
+    <style>
+      .axis { stroke: #4a5c70; stroke-width: 3; marker-end: url(#axis-arrow); }
+      .grid { stroke: #d7dce4; stroke-width: 2; }
+      .title { font: 700 23px Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif; fill: #172033; }
+      .body { font: 18px Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif; fill: #3c4658; }
+      .small { font: 15px Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif; fill: #6a7588; }
+      .bubble { stroke: #ffffff; stroke-width: 3; }
+    </style>
+  </defs>
+
+  <rect x="190" y="175" width="1120" height="620" rx="16" fill="#ffffff" stroke="#d7dce4" stroke-width="2"/>
+  <line x1="190" y1="485" x2="1310" y2="485" class="grid"/>
+  <line x1="750" y1="175" x2="750" y2="795" class="grid"/>
+  <line x1="190" y1="815" x2="1325" y2="815" class="axis"/>
+  <line x1="170" y1="795" x2="170" y2="165" class="axis"/>
+  <text x="560" y="870" class="title">越靠近业务闭环、越嵌入工作流</text>
+  <text x="25" y="510" class="title" transform="rotate(-90 25,510)">ROI越容易量化</text>
+
+  <text x="245" y="235" class="title">好用但难定价</text>
+  <text x="245" y="270" class="body">通用问答、头脑风暴</text>
+  <text x="245" y="300" class="small">价值存在，但客户可能不愿高价续费</text>
+
+  <text x="825" y="235" class="title">最优先验证</text>
+  <text x="825" y="270" class="body">客服、销售、代码、投研、财务、人力</text>
+  <text x="825" y="300" class="small">能直接量化省时、省人、增收、降错</text>
+
+  <text x="245" y="545" class="title">体验型功能</text>
+  <text x="245" y="580" class="body">图片润色、摘要、轻量助手</text>
+  <text x="245" y="610" class="small">适合拉动使用，但未必形成独立利润池</text>
+
+  <text x="825" y="545" class="title">流程型工具</text>
+  <text x="825" y="580" class="body">数据分析、知识库、审批、IT工单</text>
+  <text x="825" y="610" class="small">如果接入权限和系统，续费粘性更强</text>
+
+  <circle cx="980" cy="370" r="54" fill="#3d8880" class="bubble"/>
+  <text x="980" y="364" text-anchor="middle" font-size="18" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-weight="700" fill="#fff">客服</text>
+  <text x="980" y="390" text-anchor="middle" font-size="15" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" fill="#fff">Agent</text>
+
+  <circle cx="1120" cy="330" r="60" fill="#516d9c" class="bubble"/>
+  <text x="1120" y="325" text-anchor="middle" font-size="18" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-weight="700" fill="#fff">编程</text>
+  <text x="1120" y="351" text-anchor="middle" font-size="15" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" fill="#fff">Codex</text>
+
+  <circle cx="900" cy="620" r="56" fill="#7b5ca8" class="bubble"/>
+  <text x="900" y="615" text-anchor="middle" font-size="18" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-weight="700" fill="#fff">数据</text>
+  <text x="900" y="641" text-anchor="middle" font-size="15" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" fill="#fff">分析</text>
+
+  <circle cx="1070" cy="640" r="55" fill="#9b6b43" class="bubble"/>
+  <text x="1070" y="635" text-anchor="middle" font-size="18" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-weight="700" fill="#fff">HR</text>
+  <text x="1070" y="661" text-anchor="middle" font-size="15" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" fill="#fff">流程</text>
+
+  <circle cx="565" cy="330" r="50" fill="#b75f55" class="bubble"/>
+  <text x="565" y="325" text-anchor="middle" font-size="18" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-weight="700" fill="#fff">创意</text>
+  <text x="565" y="351" text-anchor="middle" font-size="15" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" fill="#fff">生成</text>
+
+  <circle cx="450" cy="650" r="48" fill="#8894a8" class="bubble"/>
+  <text x="450" y="645" text-anchor="middle" font-size="18" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-weight="700" fill="#fff">摘要</text>
+  <text x="450" y="671" text-anchor="middle" font-size="15" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" fill="#fff">助手</text>
+
+  <rect x="70" y="895" width="1360" height="42" rx="12" fill="#eef3f6" stroke="#d7dce4" stroke-width="2"/>
+  <text x="105" y="923" class="small">读图要点：不是所有AI功能都有同等投资价值。越能进入具体流程并证明业务结果，越可能形成稳定收入和估值支撑。</text>
+</svg>

@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="980" viewBox="0 0 1600 980" role="img">
+<rect x="0" y="0" width="1600" height="980" fill="#f7f9fb"/>
+
+    <defs>
+      <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3"
+              orient="auto" markerUnits="strokeWidth">
+        <path d="M0,0 L0,6 L9,3 z" fill="#94a3b8" />
+      </marker>
+      <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+        <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#0f172a" flood-opacity="0.08"/>
+      </filter>
+    </defs>
+    
+<text x="60.0" y="70.0" font-size="36" font-weight="800" fill="#22313f" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="60.0" dy="0">应用场景地图：谁买单，为什么买</tspan></text>
+<text x="60.0" y="108.0" font-size="18" font-weight="400" fill="#667085" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="60.0" dy="0">储能不是单一市场，不同买方的收益来源和风险完全不同。</tspan></text>
+<rect x="70.0" y="165.0" width="285.0" height="58.0" rx="10" fill="#e8eef7" stroke="#d8dee8" stroke-width="1.2"/>
+<text x="90.0" y="202.0" font-size="20" font-weight="800" fill="#22313f" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="90.0" dy="0">场景</tspan></text>
+<rect x="367.0" y="165.0" width="335.0" height="58.0" rx="10" fill="#e8eef7" stroke="#d8dee8" stroke-width="1.2"/>
+<text x="387.0" y="202.0" font-size="20" font-weight="800" fill="#22313f" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="387.0" dy="0">买方</tspan></text>
+<rect x="714.0" y="165.0" width="445.0" height="58.0" rx="10" fill="#e8eef7" stroke="#d8dee8" stroke-width="1.2"/>
+<text x="734.0" y="202.0" font-size="20" font-weight="800" fill="#22313f" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="734.0" dy="0">收益来源</tspan></text>
+<rect x="1171.0" y="165.0" width="370.0" height="58.0" rx="10" fill="#e8eef7" stroke="#d8dee8" stroke-width="1.2"/>
+<text x="1191.0" y="202.0" font-size="20" font-weight="800" fill="#22313f" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="1191.0" dy="0">最大难点</tspan></text>
+<rect x="70.0" y="243.0" width="285.0" height="86.0" rx="10" fill="#ffffff" stroke="#d8dee8" stroke-width="1.2"/>
+<text x="88.0" y="278.0" font-size="19" font-weight="700" fill="#16a34a" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="88.0" dy="0">发电侧配储</tspan></text>
+<rect x="367.0" y="243.0" width="335.0" height="86.0" rx="10" fill="#ffffff" stroke="#d8dee8" stroke-width="1.2"/>
+<text x="385.0" y="278.0" font-size="19" font-weight="600" fill="#22313f" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="385.0" dy="0">新能源项目业主</tspan></text>
+<rect x="714.0" y="243.0" width="445.0" height="86.0" rx="10" fill="#ffffff" stroke="#d8dee8" stroke-width="1.2"/>
+<text x="732.0" y="278.0" font-size="19" font-weight="600" fill="#22313f" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="732.0" dy="0">减少弃电、优化报价、满足并网</tspan></text>
+<rect x="1171.0" y="243.0" width="370.0" height="86.0" rx="10" fill="#ffffff" stroke="#d8dee8" stroke-width="1.2"/>
+<text x="1189.0" y="278.0" font-size="19" font-weight="600" fill="#22313f" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="1189.0" dy="0">利用小时不足、强配退潮</tspan></text>
+<rect x="70.0" y="355.0" width="285.0" height="86.0" rx="10" fill="#ffffff" stroke="#d8dee8" stroke-width="1.2"/>
+<text x="88.0" y="390.0" font-size="19" font-weight="700" fill="#2563eb" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="88.0" dy="0">电网侧 / 独立储能</tspan></text>
+<rect x="367.0" y="355.0" width="335.0" height="86.0" rx="10" fill="#ffffff" stroke="#d8dee8" stroke-width="1.2"/>
+<text x="385.0" y="390.0" font-size="19" font-weight="600" fill="#22313f" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="385.0" dy="0">电网 / 独立投资方</tspan></text>
+<rect x="714.0" y="355.0" width="445.0" height="86.0" rx="10" fill="#ffffff" stroke="#d8dee8" stroke-width="1.2"/>
+<text x="732.0" y="390.0" font-size="19" font-weight="600" fill="#22313f" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="732.0" dy="0">调峰、调频、容量、现货价差</tspan></text>
+<rect x="1171.0" y="355.0" width="370.0" height="86.0" rx="10" fill="#ffffff" stroke="#d8dee8" stroke-width="1.2"/>
+<text x="1189.0" y="390.0" font-size="19" font-weight="600" fill="#22313f" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="1189.0" dy="0">市场规则和容量补偿</tspan></text>
+<rect x="70.0" y="467.0" width="285.0" height="86.0" rx="10" fill="#ffffff" stroke="#d8dee8" stroke-width="1.2"/>
+<text x="88.0" y="502.0" font-size="19" font-weight="700" fill="#d97706" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="88.0" dy="0">工商业储能</tspan></text>
+<rect x="367.0" y="467.0" width="335.0" height="86.0" rx="10" fill="#ffffff" stroke="#d8dee8" stroke-width="1.2"/>
+<text x="385.0" y="502.0" font-size="19" font-weight="600" fill="#22313f" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="385.0" dy="0">工厂 / 园区 / 充电站</tspan></text>
+<rect x="714.0" y="467.0" width="445.0" height="86.0" rx="10" fill="#ffffff" stroke="#d8dee8" stroke-width="1.2"/>
+<text x="732.0" y="502.0" font-size="19" font-weight="600" fill="#22313f" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="732.0" dy="0">峰谷套利、需量管理、备电</tspan></text>
+<rect x="1171.0" y="467.0" width="370.0" height="86.0" rx="10" fill="#ffffff" stroke="#d8dee8" stroke-width="1.2"/>
+<text x="1189.0" y="502.0" font-size="19" font-weight="600" fill="#22313f" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="1189.0" dy="0">价差、消防、回款</tspan></text>
+<rect x="70.0" y="579.0" width="285.0" height="86.0" rx="10" fill="#ffffff" stroke="#d8dee8" stroke-width="1.2"/>
+<text x="88.0" y="614.0" font-size="19" font-weight="700" fill="#0891b2" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="88.0" dy="0">户用储能</tspan></text>
+<rect x="367.0" y="579.0" width="335.0" height="86.0" rx="10" fill="#ffffff" stroke="#d8dee8" stroke-width="1.2"/>
+<text x="385.0" y="614.0" font-size="19" font-weight="600" fill="#22313f" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="385.0" dy="0">海外居民 / 渠道</tspan></text>
+<rect x="714.0" y="579.0" width="445.0" height="86.0" rx="10" fill="#ffffff" stroke="#d8dee8" stroke-width="1.2"/>
+<text x="732.0" y="614.0" font-size="19" font-weight="600" fill="#22313f" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="732.0" dy="0">自发自用、备电、补贴</tspan></text>
+<rect x="1171.0" y="579.0" width="370.0" height="86.0" rx="10" fill="#ffffff" stroke="#d8dee8" stroke-width="1.2"/>
+<text x="1189.0" y="614.0" font-size="19" font-weight="600" fill="#22313f" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="1189.0" dy="0">库存和补贴周期</tspan></text>
+<rect x="70.0" y="691.0" width="285.0" height="86.0" rx="10" fill="#ffffff" stroke="#d8dee8" stroke-width="1.2"/>
+<text x="88.0" y="726.0" font-size="19" font-weight="700" fill="#7c3aed" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="88.0" dy="0">数据中心 / 微电网</tspan></text>
+<rect x="367.0" y="691.0" width="335.0" height="86.0" rx="10" fill="#ffffff" stroke="#d8dee8" stroke-width="1.2"/>
+<text x="385.0" y="726.0" font-size="19" font-weight="600" fill="#22313f" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="385.0" dy="0">算力园区 / 关键设施</tspan></text>
+<rect x="714.0" y="691.0" width="445.0" height="86.0" rx="10" fill="#ffffff" stroke="#d8dee8" stroke-width="1.2"/>
+<text x="732.0" y="726.0" font-size="19" font-weight="600" fill="#22313f" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="732.0" dy="0">电能质量、备用、削峰</tspan></text>
+<rect x="1171.0" y="691.0" width="370.0" height="86.0" rx="10" fill="#ffffff" stroke="#d8dee8" stroke-width="1.2"/>
+<text x="1189.0" y="726.0" font-size="19" font-weight="600" fill="#22313f" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="1189.0" dy="0">可靠性、架构替代关系</tspan></text>
+<rect x="70.0" y="803.0" width="285.0" height="86.0" rx="10" fill="#ffffff" stroke="#d8dee8" stroke-width="1.2"/>
+<text x="88.0" y="838.0" font-size="19" font-weight="700" fill="#dc2626" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="88.0" dy="0">虚拟电厂</tspan></text>
+<rect x="367.0" y="803.0" width="335.0" height="86.0" rx="10" fill="#ffffff" stroke="#d8dee8" stroke-width="1.2"/>
+<text x="385.0" y="838.0" font-size="19" font-weight="600" fill="#22313f" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="385.0" dy="0">聚合商 / 售电公司</tspan></text>
+<rect x="714.0" y="803.0" width="445.0" height="86.0" rx="10" fill="#ffffff" stroke="#d8dee8" stroke-width="1.2"/>
+<text x="732.0" y="838.0" font-size="19" font-weight="600" fill="#22313f" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="732.0" dy="0">聚合分布式资源参与市场</tspan></text>
+<rect x="1171.0" y="803.0" width="370.0" height="86.0" rx="10" fill="#ffffff" stroke="#d8dee8" stroke-width="1.2"/>
+<text x="1189.0" y="838.0" font-size="19" font-weight="600" fill="#22313f" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="1189.0" dy="0">政策、数据、调度能力</tspan></text>
+<text x="90.0" y="910.0" font-size="22" font-weight="800" fill="#22313f" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="90.0" dy="0">读图：先判断“谁付钱”和“凭什么付钱”，再判断设备商能否拿到稳定毛利。</tspan></text>
+</svg>

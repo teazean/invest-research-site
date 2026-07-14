@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="940" viewBox="0 0 1500 940">
+  <rect width="1500" height="940" fill="#fbf9f6"/>
+  <text x="70" y="78" font-size="38" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-weight="700" fill="#172033">AI数据中心瓶颈仪表盘</text>
+  <text x="70" y="118" font-size="20" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" fill="#596273">AI数据中心的约束正在从“有没有机房”转向“有没有电、能不能散热、能不能快速并网”</text>
+  <defs>
+    <style>
+      .panel { fill: #fff; stroke: #d8d2c8; stroke-width: 2; rx: 14; }
+      .title { font: 700 23px Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif; fill: #172033; }
+      .big { font: 700 40px Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif; fill: #8a5a2b; }
+      .body { font: 18px Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif; fill: #3e4757; }
+      .small { font: 15px Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif; fill: #6c7482; }
+    </style>
+  </defs>
+
+  <rect x="70" y="175" width="410" height="205" class="panel"/>
+  <text x="105" y="225" class="title">全球数据中心用电</text>
+  <text x="105" y="285" class="big">485 → 950 TWh</text>
+  <text x="105" y="325" class="body">IEA预计 2025 到 2030 接近翻倍</text>
+  <text x="105" y="352" class="small">AI-focused data centers 预计增长更快</text>
+
+  <rect x="545" y="175" width="410" height="205" class="panel"/>
+  <text x="580" y="225" class="title">单机柜功率密度</text>
+  <text x="580" y="285" class="big">更高热负荷</text>
+  <text x="580" y="325" class="body">AI服务器让液冷和供配电变关键</text>
+  <text x="580" y="352" class="small">IEA称先进机柜峰值功率可接近数十户家庭</text>
+
+  <rect x="1020" y="175" width="410" height="205" class="panel"/>
+  <text x="1055" y="225" class="title">资本开支压力</text>
+  <text x="1055" y="285" class="big">长期资产增加</text>
+  <text x="1055" y="325" class="body">云厂商要先建房、买电、买设备</text>
+  <text x="1055" y="352" class="small">收入兑现慢时，自由现金流会承压</text>
+
+  <rect x="70" y="500" width="1360" height="245" class="panel"/>
+  <text x="105" y="555" class="title">投资观察清单</text>
+  <text x="105" y="600" class="body">1. 电力接入：新数据中心能否拿到足够容量，审批和并网时间是否变长。</text>
+  <text x="105" y="635" class="body">2. 供配电设备：变压器、开关柜、UPS、母线、配电模块是否出现交期拉长和价格改善。</text>
+  <text x="105" y="670" class="body">3. 热管理：单机柜功率密度上升后，液冷从可选配置变成高端AI集群的必要条件。</text>
+  <text x="105" y="705" class="body">4. 回本能力：云租赁和API收入是否覆盖折旧、电费、融资成本和运维成本。</text>
+
+  <rect x="70" y="815" width="1360" height="70" rx="14" fill="#f1ece4" stroke="#d8d2c8" stroke-width="2"/>
+  <text x="105" y="858" class="body">一句话：AI数据中心不是普通仓库，它更像一座高耗能、高散热、高资本密度的“智能工厂”。</text>
+</svg>

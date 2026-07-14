@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1040" viewBox="0 0 1800 1040">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#5b667a"/>
+    </marker>
+    <marker id="arrowGreen" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#28805a"/>
+    </marker>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="5" stdDeviation="8" flood-color="#0f172a" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+  <rect width="1800" height="1040" fill="#f7f9fc"/>
+  <text x="900.0" y="48" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',Arial,sans-serif" font-size="30" font-weight="700" fill="#172033"><tspan x="900.0" dy="0">光伏产业链全景图</tspan></text>
+  <g filter="url(#softShadow)"><rect x="80" y="245" width="205" height="120" rx="16" fill="#e8f0ff" stroke="#7da2f7" stroke-width="2"/></g>
+  <text x="182.5" y="288" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',Arial,sans-serif" font-size="21" font-weight="650" fill="#172033"><tspan x="182.5" dy="0">工业硅/原料</tspan><tspan x="182.5" dy="26.25">工业硅、硅粉</tspan></text>
+  <g filter="url(#softShadow)"><rect x="335" y="245" width="205" height="120" rx="16" fill="#eef7ff" stroke="#74a9d8" stroke-width="2"/></g>
+  <text x="437.5" y="288" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',Arial,sans-serif" font-size="21" font-weight="650" fill="#172033"><tspan x="437.5" dy="0">硅料</tspan><tspan x="437.5" dy="26.25">通威/大全/协鑫</tspan></text>
+  <g filter="url(#softShadow)"><rect x="590" y="245" width="205" height="120" rx="16" fill="#eefaf4" stroke="#64b883" stroke-width="2"/></g>
+  <text x="692.5" y="288" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',Arial,sans-serif" font-size="21" font-weight="650" fill="#172033"><tspan x="692.5" dy="0">硅片</tspan><tspan x="692.5" dy="26.25">隆基/TCL中环</tspan></text>
+  <g filter="url(#softShadow)"><rect x="845" y="245" width="225" height="120" rx="16" fill="#fff7e8" stroke="#e2a94f" stroke-width="2"/></g>
+  <text x="957.5" y="288" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',Arial,sans-serif" font-size="21" font-weight="650" fill="#172033"><tspan x="957.5" dy="0">电池片</tspan><tspan x="957.5" dy="26.25">TOPCon/BC/HJT</tspan></text>
+  <g filter="url(#softShadow)"><rect x="1120" y="245" width="225" height="120" rx="16" fill="#fff0f0" stroke="#df7d7d" stroke-width="2"/></g>
+  <text x="1232.5" y="288" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',Arial,sans-serif" font-size="21" font-weight="650" fill="#172033"><tspan x="1232.5" dy="0">组件</tspan><tspan x="1232.5" dy="26.25">隆基/晶科/天合/晶澳</tspan></text>
+  <g filter="url(#softShadow)"><rect x="1395" y="245" width="225" height="120" rx="16" fill="#f0edff" stroke="#9788e8" stroke-width="2"/></g>
+  <text x="1507.5" y="288" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',Arial,sans-serif" font-size="21" font-weight="650" fill="#172033"><tspan x="1507.5" dy="0">系统集成/EPC</tspan><tspan x="1507.5" dy="26.25">央国企/民营EPC</tspan></text>
+  <line x1="301" y1="305.0" x2="319" y2="305.0" stroke="#5b667a" stroke-width="3" stroke-linecap="round" marker-end="url(#arrow)"/>
+  <line x1="556" y1="305.0" x2="574" y2="305.0" stroke="#5b667a" stroke-width="3" stroke-linecap="round" marker-end="url(#arrow)"/>
+  <line x1="811" y1="305.0" x2="829" y2="305.0" stroke="#5b667a" stroke-width="3" stroke-linecap="round" marker-end="url(#arrow)"/>
+  <line x1="1086" y1="305.0" x2="1104" y2="305.0" stroke="#5b667a" stroke-width="3" stroke-linecap="round" marker-end="url(#arrow)"/>
+  <line x1="1361" y1="305.0" x2="1379" y2="305.0" stroke="#5b667a" stroke-width="3" stroke-linecap="round" marker-end="url(#arrow)"/>
+  <g filter="url(#softShadow)"><rect x="1170" y="515" width="250" height="120" rx="16" fill="#eefaf4" stroke="#64b883" stroke-width="2"/></g>
+  <text x="1295.0" y="558" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',Arial,sans-serif" font-size="21" font-weight="650" fill="#172033"><tspan x="1295.0" dy="0">集中式电站</tspan><tspan x="1295.0" dy="26.25">沙戈荒/地面电站</tspan></text>
+  <g filter="url(#softShadow)"><rect x="1470" y="515" width="250" height="120" rx="16" fill="#eefaf4" stroke="#64b883" stroke-width="2"/></g>
+  <text x="1595.0" y="558" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',Arial,sans-serif" font-size="21" font-weight="650" fill="#172033"><tspan x="1595.0" dy="0">分布式光伏</tspan><tspan x="1595.0" dy="26.25">工商业/户用/BIPV</tspan></text>
+  <g filter="url(#softShadow)"><rect x="1320" y="760" width="280" height="120" rx="16" fill="#e9f7ef" stroke="#28805a" stroke-width="2"/></g>
+  <text x="1460.0" y="803" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',Arial,sans-serif" font-size="21" font-weight="650" fill="#172033"><tspan x="1460.0" dy="0">电站运营/售电</tspan><tspan x="1460.0" dy="26.25">三峡能源/太阳能/龙源</tspan></text>
+  <line x1="1508" y1="365" x2="1295" y2="500" stroke="#5b667a" stroke-width="3" stroke-linecap="round" marker-end="url(#arrow)"/>
+  <line x1="1508" y1="365" x2="1595" y2="500" stroke="#5b667a" stroke-width="3" stroke-linecap="round" marker-end="url(#arrow)"/>
+  <line x1="1295" y1="635" x2="1430" y2="745" stroke="#28805a" stroke-width="3" stroke-linecap="round" marker-end="url(#arrowGreen)"/>
+  <line x1="1595" y1="635" x2="1490" y2="745" stroke="#28805a" stroke-width="3" stroke-linecap="round" marker-end="url(#arrowGreen)"/>
+  <rect x="210" y="75" width="450" height="96" rx="14" fill="#fffdf2" stroke="#d1a634" stroke-width="2"/>
+  <text x="435.0" y="109" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',Arial,sans-serif" font-size="20" font-weight="650" fill="#172033"><tspan x="435.0" dy="0">生产设备</tspan><tspan x="435.0" dy="25.0">硅料/硅片/电池/组件产线</tspan></text>
+  <rect x="720" y="75" width="450" height="96" rx="14" fill="#fff7f0" stroke="#d1843f" stroke-width="2"/>
+  <text x="945.0" y="109" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',Arial,sans-serif" font-size="20" font-weight="650" fill="#172033"><tspan x="945.0" dy="0">关键辅材</tspan><tspan x="945.0" dy="25.0">玻璃/胶膜/银浆/边框/背板</tspan></text>
+  <rect x="1228" y="75" width="450" height="96" rx="14" fill="#eef8ff" stroke="#4d99c7" stroke-width="2"/>
+  <text x="1453.0" y="109" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',Arial,sans-serif" font-size="20" font-weight="650" fill="#172033"><tspan x="1453.0" dy="0">电力电子</tspan><tspan x="1453.0" dy="25.0">逆变器/储能/EMS/虚拟电厂</tspan></text>
+  <rect x="1228" y="910" width="450" height="82" rx="14" fill="#f1f5f9" stroke="#8391a8" stroke-width="2"/>
+  <text x="1453.0" y="944" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',Arial,sans-serif" font-size="20" font-weight="650" fill="#172033"><tspan x="1453.0" dy="0">电网与电力市场</tspan><tspan x="1453.0" dy="25.0">消纳/绿电交易/机制电价</tspan></text>
+  <line x1="435" y1="171" x2="438" y2="230" stroke="#9a7a25" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="8 7" marker-end="url(#arrow)"/>
+  <line x1="435" y1="171" x2="692" y2="230" stroke="#9a7a25" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="8 7" marker-end="url(#arrow)"/>
+  <line x1="435" y1="171" x2="958" y2="230" stroke="#9a7a25" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="8 7" marker-end="url(#arrow)"/>
+  <line x1="435" y1="171" x2="1232" y2="230" stroke="#9a7a25" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="8 7" marker-end="url(#arrow)"/>
+  <line x1="945" y1="171" x2="958" y2="230" stroke="#a0632e" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="8 7" marker-end="url(#arrow)"/>
+  <line x1="945" y1="171" x2="1232" y2="230" stroke="#a0632e" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="8 7" marker-end="url(#arrow)"/>
+  <line x1="1453" y1="171" x2="1508" y2="230" stroke="#4d99c7" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="8 7" marker-end="url(#arrow)"/>
+  <line x1="1453" y1="171" x2="1595" y2="500" stroke="#4d99c7" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="8 7" marker-end="url(#arrow)"/>
+  <line x1="1453" y1="880" x2="1453" y2="900" stroke="#8391a8" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="8 7" marker-end="url(#arrow)"/>
+  <line x1="1453" y1="900" x2="1453" y2="880" stroke="#8391a8" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="8 7" marker-end="url(#arrow)"/>
+  <text x="88" y="940" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',Arial,sans-serif" font-size="20" font-weight="500" fill="#5b667a"><tspan x="88" dy="0">虚线：支撑/约束关系    实线：产品/电力价值流</tspan></text>
+  <text x="88" y="972" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',Arial,sans-serif" font-size="20" font-weight="500" fill="#5b667a"><tspan x="88" dy="0">核心变化：组件降本后，行业瓶颈逐渐转向电网接入、消纳、电价机制和光储交易能力。</tspan></text>
+</svg>

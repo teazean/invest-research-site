@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="880" viewBox="0 0 1500 880" role="img">
+<rect x="0" y="0" width="1500" height="880" fill="#f7f9fb"/>
+
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L0,6 L9,3 z" fill="#94a3b8" />
+  </marker>
+  <filter id="shadow" x="-15%" y="-15%" width="130%" height="130%">
+    <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#0f172a" flood-opacity="0.08"/>
+  </filter>
+</defs>
+
+<text x="60.0" y="70.0" font-size="36" font-weight="800" fill="#172033" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">储能投研总览仪表盘</text>
+<text x="60.0" y="108.0" font-size="18" font-weight="400" fill="#667085" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">写作日期：2026-06-21。不同卡片口径不同，不能直接相加；重点看需求、机制和利润留存。</text>
+<g filter="url(#shadow)"><rect x="60" y="165" width="420" height="155" rx="12" fill="#ffffff" stroke="#d9e2ef" stroke-width="1.2"/></g>
+<rect x="60" y="165" width="8" height="155" rx="4" fill="#2563eb"/>
+<text x="84.0" y="200.0" font-size="22" font-weight="800" fill="#2563eb" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">中国 2025 年底</text>
+<text x="84.0" y="237.0" font-size="16" font-weight="500" fill="#667085" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">CNESA 口径：累计 144.7GW</text>
+<text x="84.0" y="260.0" font-size="16" font-weight="500" fill="#667085" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">新增 66.4GW / 189.5GWh</text>
+<text x="84.0" y="283.0" font-size="16" font-weight="500" fill="#667085" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">中国占全球超半数</text>
+<g filter="url(#shadow)"><rect x="530" y="165" width="420" height="155" rx="12" fill="#ffffff" stroke="#d9e2ef" stroke-width="1.2"/></g>
+<rect x="530" y="165" width="8" height="155" rx="4" fill="#16a34a"/>
+<text x="554.0" y="200.0" font-size="22" font-weight="800" fill="#16a34a" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">2027 国内目标</text>
+<text x="554.0" y="237.0" font-size="16" font-weight="500" fill="#667085" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">新型储能 180GW以上</text>
+<text x="554.0" y="260.0" font-size="16" font-weight="500" fill="#667085" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">直接投资约 2500 亿元</text>
+<text x="554.0" y="283.0" font-size="16" font-weight="500" fill="#667085" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">锂电仍为主，多技术示范</text>
+<g filter="url(#shadow)"><rect x="1000" y="165" width="420" height="155" rx="12" fill="#ffffff" stroke="#d9e2ef" stroke-width="1.2"/></g>
+<rect x="1000" y="165" width="8" height="155" rx="4" fill="#7c3aed"/>
+<text x="1024.0" y="200.0" font-size="22" font-weight="800" fill="#7c3aed" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">政策主线变化</text>
+<text x="1024.0" y="237.0" font-size="16" font-weight="500" fill="#667085" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">2025：取消强制配储</text>
+<text x="1024.0" y="260.0" font-size="16" font-weight="500" fill="#667085" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">2026：独立储能容量电价</text>
+<text x="1024.0" y="283.0" font-size="16" font-weight="500" fill="#667085" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">从成本项转向价值项</text>
+<g filter="url(#shadow)"><rect x="60" y="380" width="420" height="155" rx="12" fill="#ffffff" stroke="#d9e2ef" stroke-width="1.2"/></g>
+<rect x="60" y="380" width="8" height="155" rx="4" fill="#0891b2"/>
+<text x="84.0" y="415.0" font-size="22" font-weight="800" fill="#0891b2" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">全球需求底座</text>
+<text x="84.0" y="452.0" font-size="16" font-weight="500" fill="#667085" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">IEA：NZE 情景 2030 年</text>
+<text x="84.0" y="475.0" font-size="16" font-weight="500" fill="#667085" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">全球储能约 1500GW</text>
+<text x="84.0" y="498.0" font-size="16" font-weight="500" fill="#667085" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">电池储能约 1200GW</text>
+<g filter="url(#shadow)"><rect x="530" y="380" width="420" height="155" rx="12" fill="#ffffff" stroke="#d9e2ef" stroke-width="1.2"/></g>
+<rect x="530" y="380" width="8" height="155" rx="4" fill="#d97706"/>
+<text x="554.0" y="415.0" font-size="22" font-weight="800" fill="#d97706" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">美国边际增量</text>
+<text x="554.0" y="452.0" font-size="16" font-weight="500" fill="#667085" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">EIA：2026 年计划新增</text>
+<text x="554.0" y="475.0" font-size="16" font-weight="500" fill="#667085" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">24GW 公用事业级电池</text>
+<text x="554.0" y="498.0" font-size="16" font-weight="500" fill="#667085" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">TX/CA/AZ 主导</text>
+<g filter="url(#shadow)"><rect x="1000" y="380" width="420" height="155" rx="12" fill="#ffffff" stroke="#d9e2ef" stroke-width="1.2"/></g>
+<rect x="1000" y="380" width="8" height="155" rx="4" fill="#dc2626"/>
+<text x="1024.0" y="415.0" font-size="22" font-weight="800" fill="#dc2626" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">公司分化信号</text>
+<text x="1024.0" y="452.0" font-size="16" font-weight="500" fill="#667085" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">Tesla 能源毛利率 29.8%</text>
+<text x="1024.0" y="475.0" font-size="16" font-weight="500" fill="#667085" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">阳光储能毛利率 36.5%</text>
+<text x="1024.0" y="498.0" font-size="16" font-weight="500" fill="#667085" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">Fluence 仍有执行风险</text>
+<rect x="95" y="635" width="1310" height="135" rx="14" fill="#ffffff" stroke="#d9e2ef" stroke-width="1.2"/>
+<text x="125.0" y="680.0" font-size="27" font-weight="800" fill="#172033" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">一句话结论</text>
+<text x="125.0" y="723.0" font-size="21" font-weight="600" fill="#172033" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">储能的投资主线不是“电池卖得更多”这么简单，而是电力系统愿意为可调容量、安全并网、快速响应和长期运维付多少钱；利润更</text>
+<text x="125.0" y="754.0" font-size="21" font-weight="600" fill="#172033" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">可能留在具备电芯成本、PCS/构网控制、海外认证、软件调度和融资认可的公司手里。</text>
+<text x="60.0" y="830.0" font-size="16" font-weight="400" fill="#667085" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">来源：国家能源局/CNESA、国家发改委、IEA、EIA、公司年报与 IR；详见正文事实核验表。</text>
+</svg>

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="980" viewBox="0 0 1600 980">
+  <rect width="1600" height="980" fill="#f7f7f2"/>
+  <text x="80" y="72" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700" fill="#202124">AI产业链规模利润池矩阵</text>
+  <text x="80" y="112" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#5f6368">横轴看公开可核验规模锚点，纵轴看利润留存能力；位置是研究框架，不是精确估值。</text>
+
+  <line x1="220" y1="820" x2="1400" y2="820" stroke="#3c4043" stroke-width="3"/>
+  <line x1="220" y1="820" x2="220" y2="180" stroke="#3c4043" stroke-width="3"/>
+  <polygon points="1400,820 1378,808 1378,832" fill="#3c4043"/>
+  <polygon points="220,180 208,202 232,202" fill="#3c4043"/>
+  <text x="650" y="875" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#3c4043">规模锚点：公司收入 / 订单 / 市场支出</text>
+  <text x="60" y="500" transform="rotate(-90 60 500)" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#3c4043">利润留存能力</text>
+
+  <line x1="810" y1="820" x2="810" y2="180" stroke="#d0d0ca" stroke-width="2" stroke-dasharray="10 10"/>
+  <line x1="220" y1="500" x2="1400" y2="500" stroke="#d0d0ca" stroke-width="2" stroke-dasharray="10 10"/>
+
+  <rect x="260" y="220" width="500" height="240" rx="18" fill="#e7f0f8" stroke="#a8bfd7" stroke-width="2"/>
+  <text x="510" y="270" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#174d78">高利润但规模需分拆</text>
+  <text x="510" y="310" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#3c4043">HBM、先进封装、软件控制面</text>
+  <text x="510" y="348" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#3c4043">重点核验细分口径和客户认证</text>
+
+  <rect x="860" y="220" width="500" height="240" rx="18" fill="#e6f1df" stroke="#aac59a" stroke-width="2"/>
+  <text x="1110" y="270" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#27602b">大规模高利润池</text>
+  <text x="1110" y="310" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#3c4043">GPU、ASIC、先进制程、高端网络</text>
+  <text x="1110" y="348" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#3c4043">优先研究，但估值也最容易打满</text>
+
+  <rect x="260" y="550" width="500" height="220" rx="18" fill="#f0e6f3" stroke="#d1b8d8" stroke-width="2"/>
+  <text x="510" y="600" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#6b3975">早期商业化</text>
+  <text x="510" y="642" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#3c4043">Agent、端侧AI、人形机器人</text>
+  <text x="510" y="680" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#3c4043">先看真实订单和续费，不急着写死TAM</text>
+
+  <rect x="860" y="550" width="500" height="220" rx="18" fill="#fff1d6" stroke="#ddba66" stroke-width="2"/>
+  <text x="1110" y="600" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#865c00">大规模但重资产</text>
+  <text x="1110" y="642" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#3c4043">AI云、算力租赁、IDC、服务器整机</text>
+  <text x="1110" y="680" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#3c4043">收入大，关键看现金流和毛利率</text>
+
+  <circle cx="1238" cy="395" r="44" fill="#8ecf9b"/>
+  <text x="1238" y="389" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#202124">GPU</text>
+  <text x="1238" y="412" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#202124">ASIC</text>
+  <circle cx="1325" cy="300" r="40" fill="#9dd8aa"/>
+  <text x="1325" y="295" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#202124">网络</text>
+  <text x="1325" y="318" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#202124">光模块</text>
+  <circle cx="675" cy="390" r="42" fill="#bcd3e8"/>
+  <text x="675" y="384" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#202124">HBM</text>
+  <text x="675" y="407" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#202124">封装</text>
+  <circle cx="1110" cy="710" r="44" fill="#ffd889"/>
+  <text x="1110" y="703" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#202124">AI云</text>
+  <text x="1110" y="727" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#202124">IDC</text>
+  <circle cx="1280" cy="610" r="38" fill="#ffd889"/>
+  <text x="1280" y="605" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#202124">服务器</text>
+  <text x="1280" y="627" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#202124">整机</text>
+  <circle cx="660" cy="715" r="40" fill="#e0c7e7"/>
+  <text x="660" y="709" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#202124">Agent</text>
+  <text x="660" y="732" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#202124">应用</text>
+  <circle cx="390" cy="710" r="38" fill="#e0c7e7"/>
+  <text x="390" y="704" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#202124">人形</text>
+  <text x="390" y="726" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#202124">机器人</text>
+
+  <rect x="185" y="900" width="1230" height="52" rx="14" fill="#ecebe5"/>
+  <text x="800" y="933" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#3c4043">读图方法：先建立量级，再判断利润池，最后用估值和反证决定是否值得继续研究。</text>
+</svg>

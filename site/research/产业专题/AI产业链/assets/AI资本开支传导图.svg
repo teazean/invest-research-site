@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="920" viewBox="0 0 1500 920">
+  <rect width="1500" height="920" fill="#fbfaf7"/>
+  <text x="70" y="78" font-size="38" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-weight="700" fill="#172033">AI资本开支传导图</text>
+  <text x="70" y="118" font-size="20" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" fill="#5c6472">核心问题：谁先收钱，谁承担回本压力？数据日期：2026-07-03</text>
+  <defs>
+    <marker id="arrow2" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#4f6078"/>
+    </marker>
+    <style>
+      .box { fill: #fff; stroke: #d3d8e2; stroke-width: 2; rx: 12; }
+      .hot { fill: #fff4e6; stroke: #d99536; stroke-width: 3; rx: 12; }
+      .title { font: 700 24px Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif; fill: #172033; }
+      .body { font: 18px Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif; fill: #3e4757; }
+      .small { font: 15px Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif; fill: #6c7482; }
+    </style>
+  </defs>
+
+  <rect x="70" y="180" width="310" height="165" class="box"/>
+  <text x="100" y="230" class="title">需求方</text>
+  <text x="100" y="268" class="body">云厂商 / 大模型公司</text>
+  <text x="100" y="300" class="body">企业客户 / 主权AI</text>
+  <text x="100" y="326" class="small">目标：获得训练和推理能力</text>
+
+  <rect x="475" y="180" width="310" height="165" class="hot"/>
+  <text x="505" y="230" class="title">资本开支</text>
+  <text x="505" y="268" class="body">GPU、服务器、网络</text>
+  <text x="505" y="300" class="body">数据中心、电力、液冷</text>
+  <text x="505" y="326" class="small">先花钱，后靠云收入和应用回收</text>
+
+  <rect x="880" y="180" width="310" height="165" class="box"/>
+  <text x="910" y="230" class="title">先收钱的环节</text>
+  <text x="910" y="268" class="body">芯片、HBM、代工</text>
+  <text x="910" y="300" class="body">服务器、网络、供配电</text>
+  <text x="910" y="326" class="small">订单通常领先最终应用利润</text>
+
+  <line x1="380" y1="263" x2="475" y2="263" stroke="#4f6078" stroke-width="3" marker-end="url(#arrow2)"/>
+  <line x1="785" y1="263" x2="880" y2="263" stroke="#4f6078" stroke-width="3" marker-end="url(#arrow2)"/>
+
+  <rect x="260" y="500" width="360" height="170" class="box"/>
+  <text x="290" y="550" class="title">回本路径</text>
+  <text x="290" y="588" class="body">云租赁、API调用、企业订阅</text>
+  <text x="290" y="620" class="body">广告效率、软件提价、自动化降本</text>
+  <text x="290" y="648" class="small">若利用率不够，折旧和电费会反噬利润</text>
+
+  <rect x="835" y="500" width="360" height="170" class="box"/>
+  <text x="865" y="550" class="title">主要反证</text>
+  <text x="865" y="588" class="body">推理成本降不下来</text>
+  <text x="865" y="620" class="body">应用付费慢于产能扩张</text>
+  <text x="865" y="648" class="small">资本市场收紧会压制重资产扩张</text>
+
+  <line x1="1035" y1="345" x2="1015" y2="500" stroke="#4f6078" stroke-width="3" marker-end="url(#arrow2)"/>
+  <line x1="630" y1="345" x2="440" y2="500" stroke="#4f6078" stroke-width="3" marker-end="url(#arrow2)"/>
+
+  <rect x="70" y="760" width="1360" height="90" rx="14" fill="#eef1f5" stroke="#d3d8e2" stroke-width="2"/>
+  <text x="105" y="812" class="body">读表方法：如果只看“AI很火”，会漏掉回本压力；如果只看“应用还早”，又会漏掉上游订单已经兑现。</text>
+  <text x="105" y="842" class="small">投资上要同时跟踪资本开支强度、供应瓶颈、云和应用收入、自由现金流。</text>
+</svg>

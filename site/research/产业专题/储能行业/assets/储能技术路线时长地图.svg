@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="860" viewBox="0 0 1600 860" role="img">
+<rect x="0" y="0" width="1600" height="860" fill="#f7f9fb"/>
+
+    <defs>
+      <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3"
+              orient="auto" markerUnits="strokeWidth">
+        <path d="M0,0 L0,6 L9,3 z" fill="#94a3b8" />
+      </marker>
+      <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+        <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#0f172a" flood-opacity="0.08"/>
+      </filter>
+    </defs>
+    
+<text x="60.0" y="70.0" font-size="36" font-weight="800" fill="#22313f" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="60.0" dy="0">技术路线时长地图</tspan></text>
+<text x="60.0" y="108.0" font-size="18" font-weight="400" fill="#667085" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="60.0" dy="0">不同储能技术不是互相简单替代，而是服务不同放电时长、响应速度和场景。</tspan></text>
+<line x1="120.0" y1="430.0" x2="1480.0" y2="430.0" stroke="#94a3b8" stroke-width="5" stroke-linecap="round" marker-end="url(#arrow)"/>
+<line x1="150.0" y1="400.0" x2="150.0" y2="460.0" stroke="#2563eb" stroke-width="4" stroke-linecap="round"/>
+<rect x="15.0" y="200.0" width="270.0" height="150.0" rx="14" fill="#ffffff" stroke="#d8dee8" stroke-width="1.2"/>
+<text x="150.0" y="240.0" font-size="24" font-weight="800" fill="#2563eb" text-anchor="middle" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="150.0" dy="0">毫秒-分钟</tspan></text>
+<text x="150.0" y="285.0" font-size="18" font-weight="600" fill="#22313f" text-anchor="middle" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="150.0" dy="0">飞轮 / 超级电容</tspan><tspan x="150.0" dy="24">电池调频</tspan></text>
+<line x1="150.0" y1="350.0" x2="150.0" y2="400.0" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 6"/>
+<line x1="415.0" y1="400.0" x2="415.0" y2="460.0" stroke="#16a34a" stroke-width="4" stroke-linecap="round"/>
+<rect x="280.0" y="200.0" width="270.0" height="150.0" rx="14" fill="#ffffff" stroke="#d8dee8" stroke-width="1.2"/>
+<text x="415.0" y="240.0" font-size="24" font-weight="800" fill="#16a34a" text-anchor="middle" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="415.0" dy="0">1-4 小时</tspan></text>
+<text x="415.0" y="285.0" font-size="18" font-weight="600" fill="#22313f" text-anchor="middle" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="415.0" dy="0">锂电 LFP</tspan><tspan x="415.0" dy="24">当前主战场</tspan></text>
+<line x1="415.0" y1="350.0" x2="415.0" y2="400.0" stroke="#16a34a" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 6"/>
+<line x1="700.0" y1="400.0" x2="700.0" y2="460.0" stroke="#d97706" stroke-width="4" stroke-linecap="round"/>
+<rect x="565.0" y="200.0" width="270.0" height="150.0" rx="14" fill="#ffffff" stroke="#d8dee8" stroke-width="1.2"/>
+<text x="700.0" y="240.0" font-size="24" font-weight="800" fill="#d97706" text-anchor="middle" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="700.0" dy="0">4-8 小时</tspan></text>
+<text x="700.0" y="285.0" font-size="18" font-weight="600" fill="#22313f" text-anchor="middle" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="700.0" dy="0">锂电 / 液流</tspan><tspan x="700.0" dy="24">压缩空气竞争</tspan></text>
+<line x1="700.0" y1="350.0" x2="700.0" y2="400.0" stroke="#d97706" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 6"/>
+<line x1="1000.0" y1="400.0" x2="1000.0" y2="460.0" stroke="#7c3aed" stroke-width="4" stroke-linecap="round"/>
+<rect x="865.0" y="200.0" width="270.0" height="150.0" rx="14" fill="#ffffff" stroke="#d8dee8" stroke-width="1.2"/>
+<text x="1000.0" y="240.0" font-size="24" font-weight="800" fill="#7c3aed" text-anchor="middle" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="1000.0" dy="0">8 小时-数天</tspan></text>
+<text x="1000.0" y="285.0" font-size="18" font-weight="600" fill="#22313f" text-anchor="middle" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="1000.0" dy="0">液流 / 压缩空气</tspan><tspan x="1000.0" dy="24">储热 / 重力</tspan></text>
+<line x1="1000.0" y1="350.0" x2="1000.0" y2="400.0" stroke="#7c3aed" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 6"/>
+<line x1="1300.0" y1="400.0" x2="1300.0" y2="460.0" stroke="#dc2626" stroke-width="4" stroke-linecap="round"/>
+<rect x="1165.0" y="200.0" width="270.0" height="150.0" rx="14" fill="#ffffff" stroke="#d8dee8" stroke-width="1.2"/>
+<text x="1300.0" y="240.0" font-size="24" font-weight="800" fill="#dc2626" text-anchor="middle" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="1300.0" dy="0">跨周-跨季节</tspan></text>
+<text x="1300.0" y="285.0" font-size="18" font-weight="600" fill="#22313f" text-anchor="middle" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="1300.0" dy="0">氢 / 氨 / 甲醇</tspan><tspan x="1300.0" dy="24">抽水蓄能</tspan></text>
+<line x1="1300.0" y1="350.0" x2="1300.0" y2="400.0" stroke="#dc2626" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 6"/>
+<rect x="150.0" y="585.0" width="1230.0" height="115.0" rx="16" fill="#fff7ed" stroke="#fed7aa" stroke-width="1.2"/>
+<text x="190.0" y="627.0" font-size="25" font-weight="800" fill="#d97706" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="190.0" dy="0">投资提醒</tspan></text>
+<text x="190.0" y="668.0" font-size="20" font-weight="600" fill="#22313f" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"><tspan x="190.0" dy="0">短时储能已经规模化，价格竞争更激烈；长时储能是期权，但需要项目验证、成本下降和市场机制共同成熟。</tspan></text>
+</svg>

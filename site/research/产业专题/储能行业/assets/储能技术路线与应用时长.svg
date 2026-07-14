@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="900" viewBox="0 0 1500 900" role="img">
+<rect x="0" y="0" width="1500" height="900" fill="#f7f9fb"/>
+
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L0,6 L9,3 z" fill="#94a3b8" />
+  </marker>
+  <filter id="shadow" x="-15%" y="-15%" width="130%" height="130%">
+    <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#0f172a" flood-opacity="0.08"/>
+  </filter>
+</defs>
+
+<text x="60.0" y="70.0" font-size="36" font-weight="800" fill="#172033" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">技术路线与适用时长</text>
+<text x="60.0" y="108.0" font-size="18" font-weight="400" fill="#667085" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">这张图帮助小白先分清：不同储能技术不是互相完全替代，而是在不同时间尺度上解决不同问题。</text>
+<line x1="240" y1="720" x2="1320" y2="720" stroke="#475569" stroke-width="3" stroke-linecap="round" marker-end="url(#arrow)"/>
+<line x1="240.0" y1="705" x2="240.0" y2="735" stroke="#475569" stroke-width="2" stroke-linecap="round"/>
+<text x="240.0" y="765.0" font-size="17" font-weight="700" fill="#475569" text-anchor="middle" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">秒-分钟</text>
+<line x1="600.476073850853" y1="705" x2="600.476073850853" y2="735" stroke="#475569" stroke-width="2" stroke-linecap="round"/>
+<text x="600.5" y="765.0" font-size="17" font-weight="700" fill="#475569" text-anchor="middle" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">1h</text>
+<line x1="817.5042957474354" y1="705" x2="817.5042957474354" y2="735" stroke="#475569" stroke-width="2" stroke-linecap="round"/>
+<text x="817.5" y="765.0" font-size="17" font-weight="700" fill="#475569" text-anchor="middle" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">4h</text>
+<line x1="926.0184066957266" y1="705" x2="926.0184066957266" y2="735" stroke="#475569" stroke-width="2" stroke-linecap="round"/>
+<text x="926.0" y="765.0" font-size="17" font-weight="700" fill="#475569" text-anchor="middle" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">8h</text>
+<line x1="1098.0092033478631" y1="705" x2="1098.0092033478631" y2="735" stroke="#475569" stroke-width="2" stroke-linecap="round"/>
+<text x="1098.0" y="765.0" font-size="17" font-weight="700" fill="#475569" text-anchor="middle" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">24h</text>
+<line x1="1270.0" y1="705" x2="1270.0" y2="735" stroke="#475569" stroke-width="2" stroke-linecap="round"/>
+<text x="1270.0" y="765.0" font-size="17" font-weight="700" fill="#475569" text-anchor="middle" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">72h+</text>
+<text x="70.0" y="192.0" font-size="19" font-weight="800" fill="#172033" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">超级电容/飞轮</text>
+<line x1="240.0" y1="185" x2="491.9619629025617" y2="185" stroke="#0891b2" stroke-width="15" stroke-linecap="round"/>
+<circle cx="240.0" cy="185" r="9" fill="#0891b2"/>
+<circle cx="491.9619629025617" cy="185" r="9" fill="#0891b2"/>
+<text x="510.0" y="192.0" font-size="17" font-weight="600" fill="#667085" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">秒级响应、调频</text>
+<text x="70.0" y="270.0" font-size="19" font-weight="800" fill="#172033" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">锂离子电池</text>
+<line x1="600.476073850853" y1="263" x2="880.9809814512809" y2="263" stroke="#2563eb" stroke-width="15" stroke-linecap="round"/>
+<circle cx="600.476073850853" cy="263" r="9" fill="#2563eb"/>
+<circle cx="880.9809814512809" cy="263" r="9" fill="#2563eb"/>
+<text x="899.0" y="270.0" font-size="17" font-weight="600" fill="#667085" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">主流 1-6 小时，商业化最成熟</text>
+<text x="70.0" y="348.0" font-size="19" font-weight="800" fill="#172033" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">钠离子电池</text>
+<line x1="600.476073850853" y1="341" x2="817.5042957474354" y2="341" stroke="#16a34a" stroke-width="15" stroke-linecap="round"/>
+<circle cx="600.476073850853" cy="341" r="9" fill="#16a34a"/>
+<circle cx="817.5042957474354" cy="341" r="9" fill="#16a34a"/>
+<text x="835.5" y="348.0" font-size="17" font-weight="600" fill="#667085" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">低温和成本潜力，仍需验证</text>
+<text x="70.0" y="426.0" font-size="19" font-weight="800" fill="#172033" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">液流电池</text>
+<line x1="817.5042957474354" y1="419" x2="989.4950923995722" y2="419" stroke="#7c3aed" stroke-width="15" stroke-linecap="round"/>
+<circle cx="817.5042957474354" cy="419" r="9" fill="#7c3aed"/>
+<circle cx="989.4950923995722" cy="419" r="9" fill="#7c3aed"/>
+<text x="1007.5" y="426.0" font-size="17" font-weight="600" fill="#667085" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">长时储能、安全性好，成本待降</text>
+<text x="70.0" y="504.0" font-size="19" font-weight="800" fill="#172033" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">压缩空气</text>
+<line x1="817.5042957474354" y1="497" x2="1098.0092033478631" y2="497" stroke="#d97706" stroke-width="15" stroke-linecap="round"/>
+<circle cx="817.5042957474354" cy="497" r="9" fill="#d97706"/>
+<circle cx="1098.0092033478631" cy="497" r="9" fill="#d97706"/>
+<text x="1425.0" y="479.0" font-size="17" font-weight="600" fill="#667085" text-anchor="end" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">长时/大规模，选址和效率约束</text>
+<text x="70.0" y="582.0" font-size="19" font-weight="800" fill="#172033" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">氢/热/重力储能</text>
+<line x1="926.0184066957266" y1="575" x2="1270.0" y2="575" stroke="#dc2626" stroke-width="15" stroke-linecap="round"/>
+<circle cx="926.0184066957266" cy="575" r="9" fill="#dc2626"/>
+<circle cx="1270.0" cy="575" r="9" fill="#dc2626"/>
+<text x="1425.0" y="557.0" font-size="17" font-weight="600" fill="#667085" text-anchor="end" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">更长时段，示范和商业模式早期</text>
+<text x="70.0" y="840.0" font-size="21" font-weight="800" fill="#172033" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">投资含义：锂电是主战场，但长时储能是期权；真正的变量是系统需要多长时间的调节，以及市场是否为这种调节付费。</text>
+</svg>

@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="900" viewBox="0 0 1500 900" role="img">
+<rect x="0" y="0" width="1500" height="900" fill="#f7f9fb"/>
+
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L0,6 L9,3 z" fill="#94a3b8" />
+  </marker>
+  <filter id="shadow" x="-15%" y="-15%" width="130%" height="130%">
+    <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#0f172a" flood-opacity="0.08"/>
+  </filter>
+</defs>
+
+<text x="60" y="70" font-size="36" font-weight="800" fill="#172033" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">储能情景推演路径图</text>
+<text x="60" y="108" font-size="18" fill="#667085" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">时间范围：未来 4-8 个季度。情景不是预测，作用是告诉我们要看哪些事实来修正判断。</text>
+
+<g filter="url(#shadow)">
+  <rect x="80" y="155" width="390" height="585" rx="12" fill="#ffffff" stroke="#d9e2ef" stroke-width="1.2"/>
+</g>
+<rect x="80" y="155" width="390" height="64" rx="12" fill="#16a34a"/>
+<text x="110" y="196" font-size="25" font-weight="800" fill="#ffffff" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">乐观情景</text>
+<text x="110" y="255" font-size="19" font-weight="800" fill="#16a34a" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">项目收益改善</text>
+<text x="110" y="292" font-size="16" fill="#172033" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">容量电价和辅助服务落地清晰</text>
+<text x="110" y="322" font-size="16" fill="#172033" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">利用小时提升，项目 IRR 改善</text>
+<text x="110" y="352" font-size="16" fill="#172033" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">系统价格企稳，头部毛利稳定</text>
+<text x="110" y="382" font-size="16" fill="#172033" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">海外本土化和交付风险可控</text>
+<line x1="120" y1="430" x2="430" y2="430" stroke="#d9e2ef" stroke-width="1.2"/>
+<text x="110" y="470" font-size="19" font-weight="800" fill="#172033" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">更该看</text>
+<text x="110" y="505" font-size="16" fill="#172033" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">PCS/构网、EMS、可融资品牌</text>
+<text x="110" y="535" font-size="16" fill="#172033" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">高质量海外交付和长期运维</text>
+<text x="110" y="590" font-size="16" font-weight="700" fill="#16a34a" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">触发信号：收入、毛利、现金流同步改善</text>
+
+<g filter="url(#shadow)">
+  <rect x="555" y="155" width="390" height="585" rx="12" fill="#ffffff" stroke="#d9e2ef" stroke-width="1.2"/>
+</g>
+<rect x="555" y="155" width="390" height="64" rx="12" fill="#2563eb"/>
+<text x="585" y="196" font-size="25" font-weight="800" fill="#ffffff" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">基准情景</text>
+<text x="585" y="255" font-size="19" font-weight="800" fill="#2563eb" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">需求增长，利润分化</text>
+<text x="585" y="292" font-size="16" fill="#172033" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">装机和订单仍增长</text>
+<text x="585" y="322" font-size="16" fill="#172033" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">普通硬件继续价格竞争</text>
+<text x="585" y="352" font-size="16" fill="#172033" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">头部公司靠安全、成本、交付分化</text>
+<text x="585" y="382" font-size="16" fill="#172033" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">政策从文件逐步进入项目验证</text>
+<line x1="595" y1="430" x2="905" y2="430" stroke="#d9e2ef" stroke-width="1.2"/>
+<text x="585" y="470" font-size="19" font-weight="800" fill="#172033" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">更该看</text>
+<text x="585" y="505" font-size="16" fill="#172033" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">利用小时、价格、毛利、现金流</text>
+<text x="585" y="535" font-size="16" fill="#172033" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">海外订单履约和本土化成本</text>
+<text x="585" y="590" font-size="16" font-weight="700" fill="#2563eb" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">触发信号：高增长但公司质量拉开差距</text>
+
+<g filter="url(#shadow)">
+  <rect x="1030" y="155" width="390" height="585" rx="12" fill="#ffffff" stroke="#d9e2ef" stroke-width="1.2"/>
+</g>
+<rect x="1030" y="155" width="390" height="64" rx="12" fill="#dc2626"/>
+<text x="1060" y="196" font-size="25" font-weight="800" fill="#ffffff" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">悲观情景</text>
+<text x="1060" y="255" font-size="19" font-weight="800" fill="#dc2626" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">装机增长，利润失真</text>
+<text x="1060" y="292" font-size="16" fill="#172033" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">利用小时低，项目收益不足</text>
+<text x="1060" y="322" font-size="16" fill="#172033" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">ASP 跌快于成本，毛利下行</text>
+<text x="1060" y="352" font-size="16" fill="#172033" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">海外关税和本土内容推高成本</text>
+<text x="1060" y="382" font-size="16" fill="#172033" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">安全事故影响融资和保险</text>
+<line x1="1070" y1="430" x2="1380" y2="430" stroke="#d9e2ef" stroke-width="1.2"/>
+<text x="1060" y="470" font-size="19" font-weight="800" fill="#172033" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">更该防</text>
+<text x="1060" y="505" font-size="16" fill="#172033" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">低价中标、应收上升、库存增加</text>
+<text x="1060" y="535" font-size="16" fill="#172033" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">backlog 多但亏损和现金流变差</text>
+<text x="1060" y="590" font-size="16" font-weight="700" fill="#dc2626" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">触发信号：收入增，毛利和现金流掉队</text>
+
+<rect x="130" y="790" width="1240" height="60" rx="12" fill="#172033"/>
+<text x="165" y="828" font-size="22" font-weight="800" fill="#ffffff" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">使用方法：不要赌单一情景，按季度用事实修正。最关键的事实是利用小时、容量补偿、系统价格、公司毛利和现金流。</text>
+
+<text x="60" y="875" font-size="15" fill="#667085" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">来源：国家能源局、国家发改委、IEA、EIA、公司披露；详见正文事实核验表。</text>
+</svg>

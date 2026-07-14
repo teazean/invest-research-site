@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="960" viewBox="0 0 1500 960">
+  <rect width="1500" height="960" fill="#f8faf8"/>
+  <text x="70" y="78" font-size="38" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-weight="700" fill="#172033">AI云、模型与应用回本链路</text>
+  <text x="70" y="118" font-size="20" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" fill="#566274">基础设施花出去的钱，必须沿着这条链变成客户愿意持续支付的收入</text>
+
+  <defs>
+    <marker id="arrow-return" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#4b637d"/>
+    </marker>
+    <style>
+      .box { fill: #fff; stroke: #cbd7e2; stroke-width: 2; rx: 12; }
+      .hot { fill: #fff3e8; stroke: #d8883c; stroke-width: 3; rx: 12; }
+      .good { fill: #edf7f2; stroke: #4e9273; stroke-width: 2; rx: 12; }
+      .title { font: 700 23px Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif; fill: #172033; }
+      .body { font: 18px Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif; fill: #3c4658; }
+      .small { font: 15px Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif; fill: #6a7588; }
+      .tag { font: 700 15px Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif; fill: #ffffff; }
+    </style>
+  </defs>
+
+  <rect x="70" y="180" width="250" height="170" class="hot"/>
+  <rect x="95" y="202" width="92" height="30" rx="15" fill="#d8883c"/>
+  <text x="118" y="223" class="tag">先花钱</text>
+  <text x="95" y="264" class="title">AI基础设施</text>
+  <text x="95" y="300" class="body">GPU、服务器、网络</text>
+  <text x="95" y="328" class="body">数据中心、电力、液冷</text>
+
+  <rect x="390" y="180" width="250" height="170" class="box"/>
+  <rect x="415" y="202" width="92" height="30" rx="15" fill="#526b9c"/>
+  <text x="438" y="223" class="tag">云层</text>
+  <text x="415" y="264" class="title">AI云 / 算力租赁</text>
+  <text x="415" y="300" class="body">按算力、实例、用量收费</text>
+  <text x="415" y="328" class="small">关键：利用率、价格、合同期限</text>
+
+  <rect x="710" y="180" width="250" height="170" class="box"/>
+  <rect x="735" y="202" width="92" height="30" rx="15" fill="#7b5ca8"/>
+  <text x="758" y="223" class="tag">模型</text>
+  <text x="735" y="264" class="title">大模型 / API</text>
+  <text x="735" y="300" class="body">按 token、席位、平台收费</text>
+  <text x="735" y="328" class="small">关键：成本/Token 与留存</text>
+
+  <rect x="1030" y="180" width="250" height="170" class="box"/>
+  <rect x="1055" y="202" width="92" height="30" rx="15" fill="#3d8880"/>
+  <text x="1078" y="223" class="tag">应用</text>
+  <text x="1055" y="264" class="title">软件 / Agent</text>
+  <text x="1055" y="300" class="body">按席位、模块、工作量收费</text>
+  <text x="1055" y="328" class="small">关键：省人、省时、提收入</text>
+
+  <line x1="320" y1="265" x2="390" y2="265" stroke="#4b637d" stroke-width="3" marker-end="url(#arrow-return)"/>
+  <line x1="640" y1="265" x2="710" y2="265" stroke="#4b637d" stroke-width="3" marker-end="url(#arrow-return)"/>
+  <line x1="960" y1="265" x2="1030" y2="265" stroke="#4b637d" stroke-width="3" marker-end="url(#arrow-return)"/>
+
+  <rect x="230" y="495" width="305" height="165" class="good"/>
+  <text x="260" y="545" class="title">客户为什么付钱？</text>
+  <text x="260" y="582" class="body">节省工时、减少错误</text>
+  <text x="260" y="612" class="body">提升销售、客服、研发效率</text>
+  <text x="260" y="640" class="small">如果收益说不清，续费会变弱</text>
+
+  <rect x="605" y="495" width="305" height="165" class="good"/>
+  <text x="635" y="545" class="title">平台为什么能留利润？</text>
+  <text x="635" y="582" class="body">有数据、权限、工作流</text>
+  <text x="635" y="612" class="body">能把模型接到业务结果</text>
+  <text x="635" y="640" class="small">不是只把聊天框放进软件</text>
+
+  <rect x="980" y="495" width="305" height="165" class="good"/>
+  <text x="1010" y="545" class="title">投资上看什么？</text>
+  <text x="1010" y="582" class="body">ARR、RPO、续费、毛利</text>
+  <text x="1010" y="612" class="body">自由现金流、用量、客户扩张</text>
+  <text x="1010" y="640" class="small">收入增长要能变成现金和利润</text>
+
+  <line x1="1155" y1="350" x2="1132" y2="495" stroke="#4b637d" stroke-width="3" marker-end="url(#arrow-return)"/>
+  <line x1="1132" y1="660" x2="382" y2="660" stroke="#4b637d" stroke-width="3" marker-end="url(#arrow-return)"/>
+  <line x1="382" y1="660" x2="195" y2="350" stroke="#4b637d" stroke-width="3" marker-end="url(#arrow-return)"/>
+
+  <rect x="70" y="760" width="1360" height="130" rx="14" fill="#eef3f6" stroke="#cbd7e2" stroke-width="2"/>
+  <text x="105" y="810" class="title">读图要点</text>
+  <text x="105" y="848" class="body">基础设施订单证明“有人在建智能工厂”，但应用和Agent收入证明“工厂产出的服务有人持续买单”。</text>
+  <text x="105" y="878" class="body">投资上要同时看两头：上游是否还有瓶颈，下游是否已经把AI接进真实工作流并形成可续费收入。</text>
+</svg>

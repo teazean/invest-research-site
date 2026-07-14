@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="850" viewBox="0 0 1500 850" role="img">
+<rect x="0" y="0" width="1500" height="850" fill="#f7f9fb"/>
+
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L0,6 L9,3 z" fill="#94a3b8" />
+  </marker>
+  <filter id="shadow" x="-15%" y="-15%" width="130%" height="130%">
+    <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#0f172a" flood-opacity="0.08"/>
+  </filter>
+</defs>
+
+<text x="60.0" y="70.0" font-size="36" font-weight="800" fill="#172033" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">反证跟踪仪表盘</text>
+<text x="60.0" y="108.0" font-size="18" font-weight="400" fill="#667085" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">投资研究不是只找利好。下面这些信号出现，说明“高景气能转成好利润”的假设需要下修。</text>
+<g filter="url(#shadow)"><rect x="75" y="170" width="620" height="125" rx="12" fill="#ffffff" stroke="#d9e2ef" stroke-width="1.2"/></g>
+<rect x="75" y="170" width="8" height="125" rx="4" fill="#dc2626"/>
+<text x="99.0" y="205.0" font-size="22" font-weight="800" fill="#dc2626" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">价格</text>
+<text x="99.0" y="242.0" font-size="16" font-weight="500" fill="#667085" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">电芯/系统继续快速降价，设备商收入增长被 ASP 抹平</text>
+<g filter="url(#shadow)"><rect x="760" y="170" width="620" height="125" rx="12" fill="#ffffff" stroke="#d9e2ef" stroke-width="1.2"/></g>
+<rect x="760" y="170" width="8" height="125" rx="4" fill="#d97706"/>
+<text x="784.0" y="205.0" font-size="22" font-weight="800" fill="#d97706" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">利用</text>
+<text x="784.0" y="242.0" font-size="16" font-weight="500" fill="#667085" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">独立储能调用小时低，容量补偿覆盖不足</text>
+<g filter="url(#shadow)"><rect x="75" y="345" width="620" height="125" rx="12" fill="#ffffff" stroke="#d9e2ef" stroke-width="1.2"/></g>
+<rect x="75" y="345" width="8" height="125" rx="4" fill="#7c3aed"/>
+<text x="99.0" y="380.0" font-size="22" font-weight="800" fill="#7c3aed" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">政策</text>
+<text x="99.0" y="417.0" font-size="16" font-weight="500" fill="#667085" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">省级现货、辅助服务、容量补偿迟迟落地慢</text>
+<g filter="url(#shadow)"><rect x="760" y="345" width="620" height="125" rx="12" fill="#ffffff" stroke="#d9e2ef" stroke-width="1.2"/></g>
+<rect x="760" y="345" width="8" height="125" rx="4" fill="#2563eb"/>
+<text x="784.0" y="380.0" font-size="22" font-weight="800" fill="#2563eb" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">海外</text>
+<text x="784.0" y="417.0" font-size="16" font-weight="500" fill="#667085" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">关税、本土内容、认证和供应链导致交付延期</text>
+<g filter="url(#shadow)"><rect x="75" y="520" width="620" height="125" rx="12" fill="#ffffff" stroke="#d9e2ef" stroke-width="1.2"/></g>
+<rect x="75" y="520" width="8" height="125" rx="4" fill="#dc2626"/>
+<text x="99.0" y="555.0" font-size="22" font-weight="800" fill="#dc2626" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">安全</text>
+<text x="99.0" y="592.0" font-size="16" font-weight="500" fill="#667085" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">火灾事故或质量问题导致准入收紧、保险成本上升</text>
+<g filter="url(#shadow)"><rect x="760" y="520" width="620" height="125" rx="12" fill="#ffffff" stroke="#d9e2ef" stroke-width="1.2"/></g>
+<rect x="760" y="520" width="8" height="125" rx="4" fill="#475569"/>
+<text x="784.0" y="555.0" font-size="22" font-weight="800" fill="#475569" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">公司</text>
+<text x="784.0" y="592.0" font-size="16" font-weight="500" fill="#667085" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">订单增长但应收、存货和现金流恶化</text>
+<text x="80.0" y="790.0" font-size="22" font-weight="800" fill="#172033" text-anchor="start" font-family="Arial Unicode MS, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">跟踪频率：政策月度/季度跟踪，公司财报季度跟踪，项目事故和海外关税即时跟踪。</text>
+</svg>
