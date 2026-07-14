@@ -2,6 +2,7 @@ import { readFile } from 'node:fs/promises'
 import path from 'node:path'
 import { buildCatalog, parseResearchDocument } from './catalog.mjs'
 import { writeGeneratedPages } from './generated-pages.mjs'
+import { createIntegrityManifest } from './manifest.mjs'
 import { syncResearch } from './sync.mjs'
 
 export async function publishResearchSite({ sourceRoot, siteRoot }) {
@@ -15,5 +16,6 @@ export async function publishResearchSite({ sourceRoot, siteRoot }) {
 
   const catalog = buildCatalog(documents)
   await writeGeneratedPages({ catalog, siteRoot })
-  return { ...syncResult, catalog }
+  const manifest = await createIntegrityManifest({ syncResult, siteRoot })
+  return { ...syncResult, catalog, manifest }
 }

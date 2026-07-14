@@ -24,5 +24,8 @@ describe('publishResearchSite', () => {
 
     expect(result.catalog.companies).toHaveLength(1)
     expect(await readFile(path.join(siteRoot, 'index.md'), 'utf8')).toContain('示例公司（000001.SZ）')
+    const manifest = JSON.parse(await readFile(path.join(siteRoot, 'public/research-manifest.json'), 'utf8'))
+    expect(manifest.files).toHaveLength(1)
+    expect(manifest.files[0].semanticSha256).toMatch(/^[a-f0-9]{64}$/)
   })
 })
