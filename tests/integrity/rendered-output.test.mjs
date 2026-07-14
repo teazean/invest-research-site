@@ -1,3 +1,4 @@
+import { createHash } from 'node:crypto'
 import { mkdir, mkdtemp, rm, writeFile } from 'node:fs/promises'
 import { tmpdir } from 'node:os'
 import path from 'node:path'
@@ -5,6 +6,49 @@ import { afterEach, describe, expect, it } from 'vitest'
 import { verifyRenderedDocument, verifyRenderedSite } from '../../scripts/lib/rendered-integrity.mjs'
 
 const roots = []
+
+function sha256(content) {
+  return createHash('sha256').update(content).digest('hex')
+}
+
+async function createRenderedSiteFixture() {
+  const root = await mkdtemp(path.join(tmpdir(), 'rendered-site-'))
+  roots.push(root)
+  const siteRoot = path.join(root, 'site')
+  const distRoot = path.join(root, 'dist')
+  const imagePath = path.join(distRoot, 'assets/chart.HASH.png')
+  const csvBytes = Buffer.from('year,revenue\n2025,100\n')
+  const csvPublicPath = 'research/公司研究/A/financials.csv'
+  const csvPath = path.join(distRoot, csvPublicPath)
+  await mkdir(path.join(siteRoot, 'research/公司研究/A'), { recursive: true })
+  await mkdir(path.join(distRoot, 'research/公司研究/A'), { recursive: true })
+  await mkdir(path.join(distRoot, 'assets'), { recursive: true })
+  await mkdir(path.join(siteRoot, 'public'), { recursive: true })
+  await writeFile(path.join(siteRoot, 'research/公司研究/A/研究.md'), '# 研究\n\n完整正文 100 亿元。')
+  await writeFile(path.join(distRoot, 'research/公司研究/A/研究.html'), '<main class="vp-doc"><h1>研究</h1><p>完整正文 100 亿元。</p><a class="research-image-link" href="/invest-research-site/assets/chart.HASH.png"><img src="/invest-research-site/assets/chart.HASH.png"></a></main>')
+  await writeFile(imagePath, Buffer.from('image'))
+  await writeFile(csvPath, csvBytes)
+  await writeFile(path.join(siteRoot, 'public/research-manifest.json'), JSON.stringify({
+    files: [
+      { publicPath: 'research/公司研究/A/研究.md', kind: 'markdown' },
+      {
+        publicPath: csvPublicPath,
+        kind: 'csv',
+        publicSize: csvBytes.length,
+        publicSha256: sha256(csvBytes)
+      }
+    ]
+  }))
+  return {
+    siteRoot,
+    distRoot,
+    htmlPath: path.join(distRoot, 'research/公司研究/A/研究.html'),
+    imagePath,
+    csvPath,
+    csvBytes,
+    csvPublicPath
+  }
+}
 
 afterEach(async () => {
   await Promise.all(roots.splice(0).map(root => rm(root, { recursive: true, force: true })))
@@ -44,19 +88,40 @@ describe('rendered document integrity', () => {
   })
 
   it('verifies every Markdown route listed in the manifest', async () => {
-    const root = await mkdtemp(path.join(tmpdir(), 'rendered-site-'))
-    roots.push(root)
-    const siteRoot = path.join(root, 'site')
-    const distRoot = path.join(root, 'dist')
-    await mkdir(path.join(siteRoot, 'research/公司研究/A'), { recursive: true })
-    await mkdir(path.join(distRoot, 'research/公司研究/A'), { recursive: true })
-    await mkdir(path.join(siteRoot, 'public'), { recursive: true })
-    await writeFile(path.join(siteRoot, 'research/公司研究/A/研究.md'), '# 研究\n\n完整正文 100 亿元。')
-    await writeFile(path.join(distRoot, 'research/公司研究/A/研究.html'), '<main class="vp-doc"><h1>研究</h1><p>完整正文 100 亿元。</p></main>')
-    await writeFile(path.join(siteRoot, 'public/research-manifest.json'), JSON.stringify({
-      files: [{ publicPath: 'research/公司研究/A/研究.md', kind: 'markdown' }]
-    }))
+    const fixture = await createRenderedSiteFixture()
 
-    await expect(verifyRenderedSite({ siteRoot, distRoot })).resolves.toEqual({ documents: 1 })
+    await expect(verifyRenderedSite(fixture)).resolves.toEqual({
+      documents: 1,
+      imageLinks: 1,
+      csvFiles: 1
+    })
+  })
+
+  it('fails when a linked built image is missing', async () => {
+    const fixture = await createRenderedSiteFixture()
+    await rm(fixture.imagePath)
+
+    await expect(verifyRenderedSite(fixture)).rejects.toThrow(/image target/)
+  })
+
+  it('fails when an image href differs from its built img src', async () => {
+    const fixture = await createRenderedSiteFixture()
+    await writeFile(fixture.htmlPath, '<main class="vp-doc"><h1>研究</h1><p>完整正文 100 亿元。</p><a class="research-image-link" href="./assets/chart.png"><img src="/invest-research-site/assets/chart.HASH.png"></a></main>')
+
+    await expect(verifyRenderedSite(fixture)).rejects.toThrow(/href differs from img src/)
+  })
+
+  it('fails when a manifest CSV is missing from the build', async () => {
+    const fixture = await createRenderedSiteFixture()
+    await rm(fixture.csvPath)
+
+    await expect(verifyRenderedSite(fixture)).rejects.toThrow(fixture.csvPublicPath)
+  })
+
+  it('fails when a built CSV has been tampered with', async () => {
+    const fixture = await createRenderedSiteFixture()
+    await writeFile(fixture.csvPath, Buffer.from('year,revenue\n2025,999\n'))
+
+    await expect(verifyRenderedSite(fixture)).rejects.toThrow(/SHA-256 mismatch/)
   })
 })

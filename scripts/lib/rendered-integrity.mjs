@@ -1,6 +1,7 @@
 import { load } from 'cheerio'
 import { readFile } from 'node:fs/promises'
 import path from 'node:path'
+import { verifyBuiltResearchAssets } from './build-assets.mjs'
 import { renderMarkdown } from './integrity.mjs'
 import { stripFrontmatter } from './security.mjs'
 
@@ -63,7 +64,7 @@ export function verifyRenderedDocument({ markdown, html, documentPath }) {
   }
 }
 
-export async function verifyRenderedSite({ siteRoot, distRoot }) {
+export async function verifyRenderedSite({ siteRoot, distRoot, siteBase = '/invest-research-site/' }) {
   const manifest = JSON.parse(await readFile(path.join(siteRoot, 'public/research-manifest.json'), 'utf8'))
   const markdownEntries = manifest.files.filter(entry => entry.kind === 'markdown')
   for (const entry of markdownEntries) {
@@ -75,5 +76,6 @@ export async function verifyRenderedSite({ siteRoot, distRoot }) {
     ])
     verifyRenderedDocument({ markdown: source, html, documentPath: entry.publicPath })
   }
-  return { documents: markdownEntries.length }
+  const assets = await verifyBuiltResearchAssets({ distRoot, manifest, siteBase })
+  return { documents: markdownEntries.length, ...assets }
 }
