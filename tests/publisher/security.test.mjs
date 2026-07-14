@@ -3,7 +3,8 @@ import { validateMarkdownSecurity } from '../../scripts/lib/security.mjs'
 
 describe('validateMarkdownSecurity', () => {
   it.each([
-    ['YAML frontmatter', '---\ntitle: secret\n---\n# A'],
+    ['unsafe YAML field', '---\nlayout: home\n---\n# A'],
+    ['unsafe CSS class', '---\ncssclasses:\n  - private-layout\n---\n# A'],
     ['Obsidian wikilink', '# A\n[[private note]]'],
     ['Obsidian embed', '# A\n![[private.png]]'],
     ['Obsidian callout', '# A\n> [!warning] private'],
@@ -17,5 +18,25 @@ describe('validateMarkdownSecurity', () => {
   it('accepts standard GFM research content', () => {
     expect(() => validateMarkdownSecurity('# 研究\n\n| 年度 | 收入 |\n|---|---:|\n| 2025 | 100亿元 |', '研究.md'))
       .not.toThrow()
+  })
+
+  it('accepts the bounded research metadata used by the vault', () => {
+    const markdown = `---
+title: AI产业链深度调研
+date: 2026-07-03
+updated: 2026-07-14
+tags:
+  - 投资研究
+  - AI
+cssclasses:
+  - wide-tables
+aliases:
+  - 人工智能产业链
+status: reviewed
+---
+
+# AI产业链深度调研`
+
+    expect(() => validateMarkdownSecurity(markdown, '研究.md')).not.toThrow()
   })
 })

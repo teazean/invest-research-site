@@ -2,9 +2,22 @@ import { load } from 'cheerio'
 import { readFile } from 'node:fs/promises'
 import path from 'node:path'
 import { renderMarkdown } from './integrity.mjs'
+import { stripFrontmatter } from './security.mjs'
 
 function normalizeText(value) {
-  return value.replace(/\u200B/g, '').replace(/\s+/g, ' ').trim()
+  const normalized = value.replace(/\u200B/g, '').replace(/\s+/g, ' ').trim()
+  try {
+    return decodeURI(normalized)
+  } catch {
+    return normalized
+  }
+}
+
+function externalLinkTargets($, root) {
+  return root.find('a[href]').toArray()
+    .map(anchor => $(anchor).attr('href'))
+    .filter(href => /^https?:\/\//i.test(href))
+    .map(normalizeText)
 }
 
 function tableMatrices($, root) {
@@ -21,18 +34,32 @@ function canonicalHtml(html, selector) {
     visibleBlocks: root.find('h1,h2,h3,h4,h5,h6,p,li,pre').toArray()
       .filter(element => $(element).parents('table').length === 0)
       .map(element => normalizeText($(element).text())),
-    tables: tableMatrices($, root)
+    tables: tableMatrices($, root),
+    externalLinks: externalLinkTargets($, root)
   }
 }
 
+function containsWithMultiplicity(actual, expected) {
+  const remaining = [...actual]
+  for (const value of expected) {
+    const index = remaining.indexOf(value)
+    if (index === -1) return false
+    remaining.splice(index, 1)
+  }
+  return true
+}
+
 export function verifyRenderedDocument({ markdown, html, documentPath }) {
-  const expected = canonicalHtml(renderMarkdown(markdown))
+  const expected = canonicalHtml(renderMarkdown(stripFrontmatter(markdown)))
   const actual = canonicalHtml(html, '.vp-doc')
   if (JSON.stringify(expected.visibleBlocks) !== JSON.stringify(actual.visibleBlocks)) {
     throw new Error(`${documentPath}: rendered visible text differs from public Markdown`)
   }
   if (JSON.stringify(expected.tables) !== JSON.stringify(actual.tables)) {
     throw new Error(`${documentPath}: rendered table cell matrix differs from public Markdown`)
+  }
+  if (!containsWithMultiplicity(actual.externalLinks, expected.externalLinks)) {
+    throw new Error(`${documentPath}: rendered link targets differ from public Markdown`)
   }
 }
 

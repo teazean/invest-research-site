@@ -17,6 +17,25 @@ describe('rendered document integrity', () => {
     expect(() => verifyRenderedDocument({ markdown, html, documentPath: '财务.md' })).not.toThrow()
   })
 
+  it('treats validated frontmatter as metadata rather than visible body text', () => {
+    const markdown = '---\ntitle: 财务研究\ntags:\n  - 投资研究\n---\n\n# 财务研究\n\n收入 100 亿元。'
+    const html = '<main class="vp-doc"><h1>财务研究</h1><p>收入 100 亿元。</p></main>'
+    expect(() => verifyRenderedDocument({ markdown, html, documentPath: '财务.md' })).not.toThrow()
+  })
+
+  it('accepts decoded display text while requiring the same URL target', () => {
+    const markdown = '# 来源\n\nhttps://example.com/%E4%B8%AD%E6%96%87.pdf'
+    const html = '<main class="vp-doc"><h1>来源</h1><p><a href="https://example.com/%E4%B8%AD%E6%96%87.pdf">https://example.com/中文.pdf</a></p></main>'
+    expect(() => verifyRenderedDocument({ markdown, html, documentPath: '来源.md' })).not.toThrow()
+  })
+
+  it('fails when a rendered link target changes', () => {
+    const markdown = '# 来源\n\n[公告](https://example.com/original.pdf)'
+    const html = '<main class="vp-doc"><h1>来源</h1><p><a href="https://example.com/changed.pdf">公告</a></p></main>'
+    expect(() => verifyRenderedDocument({ markdown, html, documentPath: '来源.md' }))
+      .toThrow(/rendered link targets/)
+  })
+
   it('fails when rendered HTML omits a source paragraph', () => {
     const markdown = '# 研究\n\n第一段。\n\n第二段包含 100 亿元。'
     const html = '<main class="vp-doc"><h1>研究</h1><p>第一段。</p></main>'

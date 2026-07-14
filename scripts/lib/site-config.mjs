@@ -52,7 +52,10 @@ export function createSiteConfig(catalog) {
     base: '/invest-research-site/',
     cleanUrls: true,
     lastUpdated: true,
-    head: [['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1, viewport-fit=cover' }]],
+    head: [
+      ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1, viewport-fit=cover' }],
+      ['link', { rel: 'icon', href: '/invest-research-site/favicon.svg' }]
+    ],
     markdown: {
       externalLinks: { target: '_blank', rel: 'noreferrer' },
       config: installMarkdownRenderers

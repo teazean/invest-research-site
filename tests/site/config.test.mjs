@@ -24,6 +24,7 @@ describe('VitePress site configuration', () => {
     expect(config.themeConfig.sidebar['/research/公司研究/中际旭创（300308.SZ）调研/'][0].items).toHaveLength(1)
     expect(config.themeConfig.sidebar['/research/产业专题/AI产业链/'][0].items).toHaveLength(1)
     expect(config.themeConfig.footer.message).toContain('不构成确定性投资建议')
+    expect(config.head).toContainEqual(['link', { rel: 'icon', href: '/invest-research-site/favicon.svg' }])
   })
 
   it('wraps tables for mobile scrolling without changing table content', () => {

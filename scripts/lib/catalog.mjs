@@ -37,7 +37,10 @@ export function parseResearchDocument(markdown, relativePath) {
   const companyIndex = parts.indexOf('公司研究')
   const industryIndex = parts.indexOf('产业专题')
   const companyFolder = companyIndex === -1 ? null : parts[companyIndex + 1]
-  const industryFolder = industryIndex === -1 ? null : parts[industryIndex + 1]
+  const isIndustryRootDocument = industryIndex !== -1 && industryIndex + 2 === parts.length
+  const industryFolder = industryIndex === -1
+    ? null
+    : isIndustryRootDocument ? '综合产业研究' : parts[industryIndex + 1]
   const companyMatch = companyFolder?.match(/^(.+?)（([A-Za-z0-9.]+)）调研$/)
   const dataDate = markdown.match(/(?:数据核验日|数据日期)[:：]\s*(\d{4}-\d{2}-\d{2})/)?.[1] ?? null
   const headings = [...markdown.matchAll(/^#{2,6}\s+(.+)$/gm)].map(match => match[1].trim())

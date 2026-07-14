@@ -46,4 +46,15 @@ describe('research catalog', () => {
     expect(catalog.documents).toHaveLength(3)
     expect(catalog.documents.every(document => document.link.startsWith('/research/'))).toBe(true)
   })
+
+  it('groups legacy industry notes stored at the section root under a readable catalog', () => {
+    const document = parseResearchDocument(
+      '# 新能源氢能储能产业链调研',
+      'research/产业专题/2026-06-08-新能源氢能储能产业链调研.md'
+    )
+    const catalog = buildCatalog([document])
+    expect(document.folder).toBe('综合产业研究')
+    expect(catalog.industries[0].name).toBe('综合产业研究')
+    expect(catalog.industries[0].documents[0].title).toBe('新能源氢能储能产业链调研')
+  })
 })
