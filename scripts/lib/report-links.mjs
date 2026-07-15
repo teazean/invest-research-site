@@ -18,7 +18,10 @@ function privateReportUrl({ documentPath, localPath, privateReports }) {
     throw new Error(`${documentPath}: private report is outside the public research roots`)
   }
 
-  const topicRoot = documentPath.split('/').slice(0, 3).join('/')
+  const segments = documentPath.split('/')
+  const topicRoot = segments.length === 3
+    ? path.posix.dirname(documentPath)
+    : segments.slice(0, 3).join('/')
   const resolved = path.posix.normalize(path.posix.join(path.posix.dirname(documentPath), localPath))
   if (!resolved.startsWith(`${topicRoot}/`)) {
     throw new Error(`${documentPath}: private report path escapes its research topic`)

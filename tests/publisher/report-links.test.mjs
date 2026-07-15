@@ -64,6 +64,20 @@ describe('report link rewriting', () => {
     )
   })
 
+  it('supports an industry document stored directly under the industry root', () => {
+    const result = rewriteReportLinks(
+      '[报告](reports/industry.pdf)',
+      new Map(),
+      '投资研究/产业专题/储能行业调研.md',
+      { repository: 'teazean/obsidian-vault-invest', ref: 'master' }
+    )
+
+    expect(result.markdown).toContain(
+      '/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/' +
+      'reports/industry.pdf'
+    )
+  })
+
   it('rejects a private report path that escapes its research topic', () => {
     expect(() => rewriteReportLinks(
       '[公告](reports/../../secret.pdf)',
