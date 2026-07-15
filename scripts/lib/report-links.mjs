@@ -1,9 +1,30 @@
+import path from 'node:path'
+
 const MARKDOWN_LINK = /\[[^\]]*\]\(([^)]+)\)/g
 const LOCAL_REPORT = /^reports\/[^\s)]+\.pdf(?:#[^\s)]*)?$/i
 const EXTERNAL_URL = /^https?:\/\//i
 
 function stripFragment(target) {
   return target.split('#')[0]
+}
+
+function privateReportUrl({ documentPath, localPath, privateReports }) {
+  if (!privateReports) return undefined
+  const { repository, ref, serverUrl = 'https://github.com' } = privateReports
+  if (!/^[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+$/.test(repository) || !ref?.trim()) {
+    throw new Error(`${documentPath}: invalid private report repository context`)
+  }
+  if (!documentPath.startsWith('投资研究/公司研究/') && !documentPath.startsWith('投资研究/产业专题/')) {
+    throw new Error(`${documentPath}: private report is outside the public research roots`)
+  }
+
+  const topicRoot = documentPath.split('/').slice(0, 3).join('/')
+  const resolved = path.posix.normalize(path.posix.join(path.posix.dirname(documentPath), localPath))
+  if (!resolved.startsWith(`${topicRoot}/`)) {
+    throw new Error(`${documentPath}: private report path escapes its research topic`)
+  }
+  const encodedPath = resolved.split('/').map(encodeURIComponent).join('/')
+  return `${serverUrl.replace(/\/$/, '')}/${repository}/blob/${encodeURIComponent(ref)}/${encodedPath}`
 }
 
 export function buildReportLinkMap(markdownFiles) {
@@ -25,17 +46,21 @@ export function buildReportLinkMap(markdownFiles) {
   return result
 }
 
-export function rewriteReportLinks(markdown, linkMap, documentPath) {
+export function rewriteReportLinks(markdown, linkMap, documentPath, privateReports) {
   const rewrites = []
   const rewritten = markdown.replace(MARKDOWN_LINK, (fullMatch, target) => {
     if (!LOCAL_REPORT.test(target)) return fullMatch
     const fragment = target.includes('#') ? `#${target.split('#').slice(1).join('#')}` : ''
     const localPath = stripFragment(target)
-    const authoritativeUrl = linkMap.get(localPath)
-    if (!authoritativeUrl) {
+    const replacementBase = linkMap.get(localPath) ?? privateReportUrl({
+      documentPath,
+      localPath,
+      privateReports
+    })
+    if (!replacementBase) {
       throw new Error(`${documentPath}: missing authoritative report URL for ${localPath}`)
     }
-    const replacement = `${authoritativeUrl}${fragment}`
+    const replacement = `${replacementBase}${fragment}`
     rewrites.push({ document: documentPath, from: target, to: replacement })
     return fullMatch.replace(`(${target})`, `(${replacement})`)
   })
