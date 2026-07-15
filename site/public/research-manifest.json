@@ -264,18 +264,6 @@
   ],
   "files": [
     {
-      "sourceRelativePath": "投资研究/产业专题/2026-06-21-储能行业深度调研.md",
-      "publicPath": "research/产业专题/2026-06-21-储能行业深度调研.md",
-      "kind": "markdown",
-      "sourceSize": 696,
-      "publicSize": 696,
-      "sourceSha256": "2196f22f88d12345d3cea633d8c18cfc31d19d8d830dbe3f7ab05a6bf0ba1114",
-      "publicSha256": "2196f22f88d12345d3cea633d8c18cfc31d19d8d830dbe3f7ab05a6bf0ba1114",
-      "semanticSha256": "e09cef3f5f140dbe33d17ebf63ebb1c211c51b06e4add11950a1b69361d0a510",
-      "tableDimensions": [],
-      "numericTokenCount": 0
-    },
-    {
       "sourceRelativePath": "投资研究/产业专题/AI产业链/AI云、大模型与应用Agent产业链.md",
       "publicPath": "research/产业专题/AI产业链/AI云、大模型与应用Agent产业链.md",
       "kind": "markdown",
