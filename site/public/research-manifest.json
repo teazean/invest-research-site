@@ -122,6 +122,21 @@
       "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E5%AF%92%E6%AD%A6%E7%BA%AA%EF%BC%88688256.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2025_labor_litigation.pdf"
     },
     {
+      "document": "投资研究/公司研究/寒武纪（688256.SH）调研/技术与壁垒 - 寒武纪.md",
+      "from": "reports/2025_annual.pdf",
+      "to": "https://static.cninfo.com.cn/finalpage/2026-03-13/1225007336.PDF"
+    },
+    {
+      "document": "投资研究/公司研究/寒武纪（688256.SH）调研/技术与壁垒 - 寒武纪.md",
+      "from": "reports/2026Q1.pdf",
+      "to": "https://static.cninfo.com.cn/finalpage/2026-04-30/1225264337.PDF"
+    },
+    {
+      "document": "投资研究/公司研究/寒武纪（688256.SH）调研/技术与壁垒 - 寒武纪.md",
+      "from": "reports/2026Q1_impairment.pdf",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E5%AF%92%E6%AD%A6%E7%BA%AA%EF%BC%88688256.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2026Q1_impairment.pdf"
+    },
+    {
       "document": "投资研究/公司研究/寒武纪（688256.SH）调研/竞对对比 - 寒武纪.md",
       "from": "reports/2025_annual.pdf",
       "to": "https://static.cninfo.com.cn/finalpage/2026-03-13/1225007336.PDF"
@@ -204,17 +219,17 @@
     {
       "document": "投资研究/公司研究/摩尔线程（688795.SH）调研/公司调研 - 摩尔线程.md",
       "from": "reports/2025_annual.pdf",
-      "to": "https://static.cninfo.com.cn/finalpage/2026-04-23/1225149215.PDF"
+      "to": "https://www.mthreads.com/investor"
     },
     {
       "document": "投资研究/公司研究/摩尔线程（688795.SH）调研/公司调研 - 摩尔线程.md",
       "from": "reports/2026Q1.pdf",
-      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E6%91%A9%E5%B0%94%E7%BA%BF%E7%A8%8B%EF%BC%88688795.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2026Q1.pdf"
+      "to": "https://www.mthreads.com/investor"
     },
     {
       "document": "投资研究/公司研究/摩尔线程（688795.SH）调研/公司调研 - 摩尔线程.md",
       "from": "reports/prospectus_final.pdf",
-      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E6%91%A9%E5%B0%94%E7%BA%BF%E7%A8%8B%EF%BC%88688795.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/prospectus_final.pdf"
+      "to": "https://www.mthreads.com/investor"
     },
     {
       "document": "投资研究/公司研究/摩尔线程（688795.SH）调研/公司调研 - 摩尔线程.md",
@@ -237,9 +252,24 @@
       "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E6%91%A9%E5%B0%94%E7%BA%BF%E7%A8%8B%EF%BC%88688795.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/incentive_grant_2026-05-20.pdf"
     },
     {
+      "document": "投资研究/公司研究/摩尔线程（688795.SH）调研/技术与壁垒 - 摩尔线程.md",
+      "from": "reports/2025_annual.pdf",
+      "to": "https://www.mthreads.com/investor"
+    },
+    {
+      "document": "投资研究/公司研究/摩尔线程（688795.SH）调研/技术与壁垒 - 摩尔线程.md",
+      "from": "reports/2026Q1.pdf",
+      "to": "https://www.mthreads.com/investor"
+    },
+    {
+      "document": "投资研究/公司研究/摩尔线程（688795.SH）调研/技术与壁垒 - 摩尔线程.md",
+      "from": "reports/prospectus_final.pdf",
+      "to": "https://www.mthreads.com/investor"
+    },
+    {
       "document": "投资研究/公司研究/摩尔线程（688795.SH）调研/竞对对比 - 摩尔线程.md",
       "from": "reports/2025_annual.pdf",
-      "to": "https://static.cninfo.com.cn/finalpage/2026-04-23/1225149215.PDF"
+      "to": "https://www.mthreads.com/investor"
     },
     {
       "document": "投资研究/公司研究/摩尔线程（688795.SH）调研/股价预期 - 摩尔线程.md",
@@ -248,18 +278,33 @@
     },
     {
       "document": "投资研究/公司研究/摩尔线程（688795.SH）调研/财务报表 - 摩尔线程.md",
+      "from": "reports/prospectus_final.pdf",
+      "to": "https://www.mthreads.com/investor"
+    },
+    {
+      "document": "投资研究/公司研究/摩尔线程（688795.SH）调研/财务报表 - 摩尔线程.md",
       "from": "reports/2025_annual.pdf",
-      "to": "https://static.cninfo.com.cn/finalpage/2026-04-23/1225149215.PDF"
+      "to": "https://www.mthreads.com/investor"
     },
     {
       "document": "投资研究/公司研究/摩尔线程（688795.SH）调研/财务报表 - 摩尔线程.md",
       "from": "reports/2026Q1.pdf",
-      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E6%91%A9%E5%B0%94%E7%BA%BF%E7%A8%8B%EF%BC%88688795.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2026Q1.pdf"
+      "to": "https://www.mthreads.com/investor"
+    },
+    {
+      "document": "投资研究/公司研究/摩尔线程（688795.SH）调研/财务报表 - 摩尔线程.md",
+      "from": "reports/2025_annual.pdf",
+      "to": "https://www.mthreads.com/investor"
+    },
+    {
+      "document": "投资研究/公司研究/摩尔线程（688795.SH）调研/财务报表 - 摩尔线程.md",
+      "from": "reports/2026Q1.pdf",
+      "to": "https://www.mthreads.com/investor"
     },
     {
       "document": "投资研究/公司研究/摩尔线程（688795.SH）调研/财务报表 - 摩尔线程.md",
       "from": "reports/prospectus_final.pdf",
-      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E6%91%A9%E5%B0%94%E7%BA%BF%E7%A8%8B%EF%BC%88688795.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/prospectus_final.pdf"
+      "to": "https://www.mthreads.com/investor"
     }
   ],
   "files": [
@@ -3113,6 +3158,15 @@
       "publicSha256": "3a01fa66a75d6a88672dba8f49abb33a2075788e5ad2bfebb200b5f24d419709"
     },
     {
+      "sourceRelativePath": "投资研究/公司研究/寒武纪（688256.SH）调研/csv/产品代际路线图.csv",
+      "publicPath": "research/公司研究/寒武纪（688256.SH）调研/csv/产品代际路线图.csv",
+      "kind": "csv",
+      "sourceSize": 2829,
+      "publicSize": 2829,
+      "sourceSha256": "0ddef74cff34848d6fa8fcae7e5da68ef02f271ed4401f318d44a4a206ae8841",
+      "publicSha256": "0ddef74cff34848d6fa8fcae7e5da68ef02f271ed4401f318d44a4a206ae8841"
+    },
+    {
       "sourceRelativePath": "投资研究/公司研究/寒武纪（688256.SH）调研/csv/季度利润表.csv",
       "publicPath": "research/公司研究/寒武纪（688256.SH）调研/csv/季度利润表.csv",
       "kind": "csv",
@@ -3185,6 +3239,24 @@
       "publicSha256": "1e8183bbc48a2bba3ef8593e638c4d94ea1f9181dc674ecb2a8773580a96a89b"
     },
     {
+      "sourceRelativePath": "投资研究/公司研究/寒武纪（688256.SH）调研/csv/技术壁垒证据.csv",
+      "publicPath": "research/公司研究/寒武纪（688256.SH）调研/csv/技术壁垒证据.csv",
+      "kind": "csv",
+      "sourceSize": 3794,
+      "publicSize": 3794,
+      "sourceSha256": "d25bf14c09461a9f4fdcb669863886a4ca660cd28f0d6204c1c0f545fbae4f7c",
+      "publicSha256": "d25bf14c09461a9f4fdcb669863886a4ca660cd28f0d6204c1c0f545fbae4f7c"
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/寒武纪（688256.SH）调研/csv/技术水位矩阵.csv",
+      "publicPath": "research/公司研究/寒武纪（688256.SH）调研/csv/技术水位矩阵.csv",
+      "kind": "csv",
+      "sourceSize": 2977,
+      "publicSize": 2977,
+      "sourceSha256": "4ffc54497fcf56f03b4a16cdb4991f964dfb8a233fb249b159f4dc967c7bdbd5",
+      "publicSha256": "4ffc54497fcf56f03b4a16cdb4991f964dfb8a233fb249b159f4dc967c7bdbd5"
+    },
+    {
       "sourceRelativePath": "投资研究/公司研究/寒武纪（688256.SH）调研/csv/盈利预测桥.csv",
       "publicPath": "research/公司研究/寒武纪（688256.SH）调研/csv/盈利预测桥.csv",
       "kind": "csv",
@@ -3197,10 +3269,10 @@
       "sourceRelativePath": "投资研究/公司研究/寒武纪（688256.SH）调研/csv/竞对全景.csv",
       "publicPath": "research/公司研究/寒武纪（688256.SH）调研/csv/竞对全景.csv",
       "kind": "csv",
-      "sourceSize": 1680,
-      "publicSize": 1680,
-      "sourceSha256": "f7132beae3e7ef40159f820bf4259643502aa5eea3e2e8b90e512088a7a20365",
-      "publicSha256": "f7132beae3e7ef40159f820bf4259643502aa5eea3e2e8b90e512088a7a20365"
+      "sourceSize": 1972,
+      "publicSize": 1972,
+      "sourceSha256": "6cba6cfe43b08926d2af5b8e50ada7db9ef3b8a4a885118586008371453382cd",
+      "publicSha256": "6cba6cfe43b08926d2af5b8e50ada7db9ef3b8a4a885118586008371453382cd"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/寒武纪（688256.SH）调研/csv/股价估值快照.csv",
@@ -3233,14 +3305,14 @@
       "sourceRelativePath": "投资研究/公司研究/寒武纪（688256.SH）调研/公司调研 - 寒武纪.md",
       "publicPath": "research/公司研究/寒武纪（688256.SH）调研/公司调研 - 寒武纪.md",
       "kind": "markdown",
-      "sourceSize": 24855,
-      "publicSize": 25774,
-      "sourceSha256": "ab3056251167b56c95bba710164f002e87a51576400b017a2352c53366054001",
-      "publicSha256": "0043fc67bb49bdf72ca6667c157156b8f0c5df57acd327b37104922f046a6aa8",
-      "semanticSha256": "898ed99699e6b76cef91c13398eeb46239a887c1aa197f3d24bb71251e2ed326",
+      "sourceSize": 36579,
+      "publicSize": 37498,
+      "sourceSha256": "94ffd8d038be16521cae2816c01b2a0070ec757c8f3adeb4995dfccbb4fd3924",
+      "publicSha256": "4aa7e32b043a2df3d2374f386d315bcf10e342c7e68a7c1e7de5084197548f9b",
+      "semanticSha256": "3985b5f86487cc9796bbafc814713f28a81c9b8432ab7cd17e25db8aa753933d",
       "tableDimensions": [
         {
-          "rows": 8,
+          "rows": 9,
           "columns": 2
         },
         {
@@ -3252,8 +3324,12 @@
           "columns": 6
         },
         {
-          "rows": 11,
+          "rows": 23,
           "columns": 2
+        },
+        {
+          "rows": 4,
+          "columns": 6
         },
         {
           "rows": 6,
@@ -3284,54 +3360,188 @@
           "columns": 3
         },
         {
+          "rows": 5,
+          "columns": 7
+        },
+        {
           "rows": 9,
           "columns": 5
         },
         {
           "rows": 4,
+          "columns": 6
+        },
+        {
+          "rows": 4,
+          "columns": 5
+        },
+        {
+          "rows": 7,
+          "columns": 6
+        },
+        {
+          "rows": 3,
           "columns": 5
         }
       ],
-      "numericTokenCount": 210
+      "numericTokenCount": 283
     },
     {
       "sourceRelativePath": "投资研究/公司研究/寒武纪（688256.SH）调研/小白审核记录 - 寒武纪.md",
       "publicPath": "research/公司研究/寒武纪（688256.SH）调研/小白审核记录 - 寒武纪.md",
       "kind": "markdown",
-      "sourceSize": 6159,
-      "publicSize": 6159,
-      "sourceSha256": "543eeb21bfd2e171c3340708a1d22a3743e239481cc731021473a9eff13154ca",
-      "publicSha256": "543eeb21bfd2e171c3340708a1d22a3743e239481cc731021473a9eff13154ca",
-      "semanticSha256": "e61b814d8fbc2dbc53793f39b395296599f522b67eeb290970a218f0e1877d2a",
+      "sourceSize": 5595,
+      "publicSize": 5595,
+      "sourceSha256": "0e86232a00f2a015ce41f444c79acda4412a777bbd7a29541b9d4c2a5eac0fc9",
+      "publicSha256": "0e86232a00f2a015ce41f444c79acda4412a777bbd7a29541b9d4c2a5eac0fc9",
+      "semanticSha256": "3046d77e136d1dd54b1583f14823548f728655a75fef1e026662a01bb190fb76",
       "tableDimensions": [
         {
-          "rows": 8,
+          "rows": 10,
           "columns": 2
         },
         {
-          "rows": 13,
-          "columns": 4
+          "rows": 14,
+          "columns": 3
+        },
+        {
+          "rows": 3,
+          "columns": 5
         },
         {
           "rows": 3,
           "columns": 3
         },
         {
+          "rows": 4,
+          "columns": 2
+        }
+      ],
+      "numericTokenCount": 58
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/寒武纪（688256.SH）调研/技术与壁垒 - 寒武纪.md",
+      "publicPath": "research/公司研究/寒武纪（688256.SH）调研/技术与壁垒 - 寒武纪.md",
+      "kind": "markdown",
+      "sourceSize": 38846,
+      "publicSize": 39141,
+      "sourceSha256": "28517bd05a699bb3cf0e9dd691309fc9513405b120855c5536add25142564c8c",
+      "publicSha256": "2e319b5608f4fcfb61fe74648aa95ee9ca06b8b446916276d5f6473ce68935dc",
+      "semanticSha256": "acfff1bd9bf7e80822eb28d7ec0735923ebdded162ab7d5aec90c34b8a9758f1",
+      "tableDimensions": [
+        {
+          "rows": 8,
+          "columns": 2
+        },
+        {
+          "rows": 8,
+          "columns": 2
+        },
+        {
+          "rows": 5,
+          "columns": 6
+        },
+        {
+          "rows": 6,
+          "columns": 6
+        },
+        {
+          "rows": 8,
+          "columns": 7
+        },
+        {
+          "rows": 4,
+          "columns": 3
+        },
+        {
+          "rows": 9,
+          "columns": 6
+        },
+        {
+          "rows": 6,
+          "columns": 7
+        },
+        {
+          "rows": 7,
+          "columns": 8
+        },
+        {
+          "rows": 7,
+          "columns": 6
+        },
+        {
+          "rows": 7,
+          "columns": 5
+        },
+        {
+          "rows": 6,
+          "columns": 6
+        },
+        {
+          "rows": 7,
+          "columns": 9
+        },
+        {
+          "rows": 7,
+          "columns": 7
+        },
+        {
+          "rows": 6,
+          "columns": 4
+        },
+        {
+          "rows": 8,
+          "columns": 5
+        },
+        {
+          "rows": 7,
+          "columns": 7
+        },
+        {
+          "rows": 7,
+          "columns": 5
+        }
+      ],
+      "numericTokenCount": 257
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/寒武纪（688256.SH）调研/技术红队审核记录 - 寒武纪.md",
+      "publicPath": "research/公司研究/寒武纪（688256.SH）调研/技术红队审核记录 - 寒武纪.md",
+      "kind": "markdown",
+      "sourceSize": 5306,
+      "publicSize": 5306,
+      "sourceSha256": "6861b300c3cae066b70afcacd223144cd70ea1e2b8f19aee05408ecd31aeb849",
+      "publicSha256": "6861b300c3cae066b70afcacd223144cd70ea1e2b8f19aee05408ecd31aeb849",
+      "semanticSha256": "7e5aad68e17c969dfbf3960deff791b873f44ea992432d9d866893884f4386fb",
+      "tableDimensions": [
+        {
+          "rows": 7,
+          "columns": 2
+        },
+        {
           "rows": 12,
+          "columns": 3
+        },
+        {
+          "rows": 5,
+          "columns": 4
+        },
+        {
+          "rows": 5,
           "columns": 3
         }
       ],
-      "numericTokenCount": 96
+      "numericTokenCount": 61
     },
     {
       "sourceRelativePath": "投资研究/公司研究/寒武纪（688256.SH）调研/竞对对比 - 寒武纪.md",
       "publicPath": "research/公司研究/寒武纪（688256.SH）调研/竞对对比 - 寒武纪.md",
       "kind": "markdown",
-      "sourceSize": 13131,
-      "publicSize": 13172,
-      "sourceSha256": "bda1e9d8003524ed6765d932ce8eaa7318d573e56733a86c54481900a2362955",
-      "publicSha256": "d55bc917aedd45d62f9b1f0f784229c5c5e8e99f8e2c1cb1432a8fc91b81572c",
-      "semanticSha256": "901c5d017d02c19d614d587ca59f57a1ebbbd2f8dad914db7195853664efa7aa",
+      "sourceSize": 15048,
+      "publicSize": 15089,
+      "sourceSha256": "46e71ff63b190890f60f1f06220178b78065ec8a203a919e60460194a090f5f6",
+      "publicSha256": "7d3fc969f7bc964abf38ed2df1bfaa77cf25d8aad011dc668da442f2980999ac",
+      "semanticSha256": "097fb91c8283f860916152079fee75097bd24925e913acd91817207d38812586",
       "tableDimensions": [
         {
           "rows": 5,
@@ -3346,7 +3556,7 @@
           "columns": 9
         },
         {
-          "rows": 6,
+          "rows": 7,
           "columns": 6
         },
         {
@@ -3354,7 +3564,7 @@
           "columns": 5
         },
         {
-          "rows": 6,
+          "rows": 7,
           "columns": 7
         },
         {
@@ -3366,7 +3576,7 @@
           "columns": 7
         }
       ],
-      "numericTokenCount": 63
+      "numericTokenCount": 65
     },
     {
       "sourceRelativePath": "投资研究/公司研究/寒武纪（688256.SH）调研/股价预期 - 寒武纪.md",
@@ -3429,11 +3639,11 @@
       "sourceRelativePath": "投资研究/公司研究/寒武纪（688256.SH）调研/财务报表 - 寒武纪.md",
       "publicPath": "research/公司研究/寒武纪（688256.SH）调研/财务报表 - 寒武纪.md",
       "kind": "markdown",
-      "sourceSize": 19261,
-      "publicSize": 19788,
-      "sourceSha256": "f1957f9c1fdf0728ed9e2ab75920fe77d26c3d77a9c5ff2e799078f6948e8e73",
-      "publicSha256": "887dbe92bf93a66882e91122ef66d66813ccd2629b1750269550da753dedfc39",
-      "semanticSha256": "30a22ab653517ea2f677ffbd688c1081ef2c69983a93fa81003fa0cd9536e94f",
+      "sourceSize": 21054,
+      "publicSize": 21581,
+      "sourceSha256": "a42e3c25486d1ae0c08c1648afe84e01a9e8df069e550f3360b848d31fa4f825",
+      "publicSha256": "e614c96ca0313cf564b77417e271665753a070c36f73cb6cadd3d563d616a673",
+      "semanticSha256": "2c7f905fee56b1fe3a0d911ab2d23855d8c18e7337f6bdd72a6e53d6e47073d4",
       "tableDimensions": [
         {
           "rows": 8,
@@ -3442,6 +3652,10 @@
         {
           "rows": 13,
           "columns": 6
+        },
+        {
+          "rows": 5,
+          "columns": 8
         },
         {
           "rows": 6,
@@ -3484,7 +3698,7 @@
           "columns": 6
         }
       ],
-      "numericTokenCount": 645
+      "numericTokenCount": 679
     },
     {
       "sourceRelativePath": "投资研究/公司研究/摩尔线程（688795.SH）调研/csv/annual_financials.csv",
@@ -3512,6 +3726,15 @@
       "publicSize": 3734,
       "sourceSha256": "4561c57e5f88e68b365dda9f02aa232310a98a623101c540a85c08bdcad0f43b",
       "publicSha256": "4561c57e5f88e68b365dda9f02aa232310a98a623101c540a85c08bdcad0f43b"
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/摩尔线程（688795.SH）调研/csv/产品代际路线图.csv",
+      "publicPath": "research/公司研究/摩尔线程（688795.SH）调研/csv/产品代际路线图.csv",
+      "kind": "csv",
+      "sourceSize": 5681,
+      "publicSize": 5681,
+      "sourceSha256": "9baba55ace986e2b37ee6271aca91648cde1462d15e9b5d465c311ff5bbf34b2",
+      "publicSha256": "9baba55ace986e2b37ee6271aca91648cde1462d15e9b5d465c311ff5bbf34b2"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/摩尔线程（688795.SH）调研/csv/季度利润表.csv",
@@ -3586,6 +3809,24 @@
       "publicSha256": "84be45f4e71546c88e5b1f9651fa0ea4fcb08c43f019be2efbd3ea07259d1b5a"
     },
     {
+      "sourceRelativePath": "投资研究/公司研究/摩尔线程（688795.SH）调研/csv/技术壁垒证据.csv",
+      "publicPath": "research/公司研究/摩尔线程（688795.SH）调研/csv/技术壁垒证据.csv",
+      "kind": "csv",
+      "sourceSize": 4219,
+      "publicSize": 4219,
+      "sourceSha256": "b72da5dc200654549f30eb45a9e8abe6c98dcd276454c5e644aa8306dd1b1817",
+      "publicSha256": "b72da5dc200654549f30eb45a9e8abe6c98dcd276454c5e644aa8306dd1b1817"
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/摩尔线程（688795.SH）调研/csv/技术水位矩阵.csv",
+      "publicPath": "research/公司研究/摩尔线程（688795.SH）调研/csv/技术水位矩阵.csv",
+      "kind": "csv",
+      "sourceSize": 4028,
+      "publicSize": 4028,
+      "sourceSha256": "833bf90de06653f61fcd1dc2779823896dcf6b82431d451e956019b3314d08c9",
+      "publicSha256": "833bf90de06653f61fcd1dc2779823896dcf6b82431d451e956019b3314d08c9"
+    },
+    {
       "sourceRelativePath": "投资研究/公司研究/摩尔线程（688795.SH）调研/csv/盈利预测桥.csv",
       "publicPath": "research/公司研究/摩尔线程（688795.SH）调研/csv/盈利预测桥.csv",
       "kind": "csv",
@@ -3598,10 +3839,10 @@
       "sourceRelativePath": "投资研究/公司研究/摩尔线程（688795.SH）调研/csv/竞对全景.csv",
       "publicPath": "research/公司研究/摩尔线程（688795.SH）调研/csv/竞对全景.csv",
       "kind": "csv",
-      "sourceSize": 3024,
-      "publicSize": 3024,
-      "sourceSha256": "d15df97d79a005c283bffc141b918bb80ebe777c11dc439dcf87c7517282e029",
-      "publicSha256": "d15df97d79a005c283bffc141b918bb80ebe777c11dc439dcf87c7517282e029"
+      "sourceSize": 3277,
+      "publicSize": 3277,
+      "sourceSha256": "95eabfcc0500e340b63549dc68b287ca6ef9820ec7dbe8a3d77e28d8552a8815",
+      "publicSha256": "95eabfcc0500e340b63549dc68b287ca6ef9820ec7dbe8a3d77e28d8552a8815"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/摩尔线程（688795.SH）调研/csv/股价估值快照.csv",
@@ -3634,14 +3875,14 @@
       "sourceRelativePath": "投资研究/公司研究/摩尔线程（688795.SH）调研/公司调研 - 摩尔线程.md",
       "publicPath": "research/公司研究/摩尔线程（688795.SH）调研/公司调研 - 摩尔线程.md",
       "kind": "markdown",
-      "sourceSize": 24081,
-      "publicSize": 25405,
-      "sourceSha256": "7481edd05478b4f7712231ab508680c2cf41b7f253a37889e2661bbc52468229",
-      "publicSha256": "0effe60a5cb04ba33c90d6994ede3e4646157ab3e32fd1d7cfd787e69583c59d",
-      "semanticSha256": "98f773214979b3b1abbea56e641bfc0a6803427126849b162c2d23fee94defc4",
+      "sourceSize": 37676,
+      "publicSize": 38555,
+      "sourceSha256": "a21893e1758ec7bed3569f83d8cebf88492684a21537701392fc6692ca84195c",
+      "publicSha256": "2b80fa3e8311b81c8765572775ee7ee401306dde692e0126fa7b259b8304c50c",
+      "semanticSha256": "065e3d843c3d8995fc1ffec300f9399cea1db6dc54d502ba18947589cde08618",
       "tableDimensions": [
         {
-          "rows": 7,
+          "rows": 8,
           "columns": 2
         },
         {
@@ -3653,12 +3894,20 @@
           "columns": 6
         },
         {
-          "rows": 18,
+          "rows": 33,
           "columns": 2
+        },
+        {
+          "rows": 4,
+          "columns": 5
         },
         {
           "rows": 7,
           "columns": 5
+        },
+        {
+          "rows": 6,
+          "columns": 4
         },
         {
           "rows": 8,
@@ -3677,8 +3926,16 @@
           "columns": 5
         },
         {
+          "rows": 6,
+          "columns": 5
+        },
+        {
           "rows": 7,
           "columns": 2
+        },
+        {
+          "rows": 6,
+          "columns": 6
         },
         {
           "rows": 5,
@@ -3691,26 +3948,144 @@
         {
           "rows": 11,
           "columns": 4
+        },
+        {
+          "rows": 3,
+          "columns": 5
         }
       ],
-      "numericTokenCount": 296
+      "numericTokenCount": 373
     },
     {
       "sourceRelativePath": "投资研究/公司研究/摩尔线程（688795.SH）调研/小白审核记录 - 摩尔线程.md",
       "publicPath": "research/公司研究/摩尔线程（688795.SH）调研/小白审核记录 - 摩尔线程.md",
       "kind": "markdown",
-      "sourceSize": 8251,
-      "publicSize": 8251,
-      "sourceSha256": "65e8a69fa0c12a4273c3a60adac11d0c92c9161312c3a99987a8fa71850c761b",
-      "publicSha256": "65e8a69fa0c12a4273c3a60adac11d0c92c9161312c3a99987a8fa71850c761b",
-      "semanticSha256": "bb47fa0b68e095665987a5d0ae66b39e76ecff28e32a27863c1d9f4c2bc00cb0",
+      "sourceSize": 4942,
+      "publicSize": 4942,
+      "sourceSha256": "444aa7edc54c04da45fc02168dfab2d68988bee3ecec1a5de43b7d2c1cbece2c",
+      "publicSha256": "444aa7edc54c04da45fc02168dfab2d68988bee3ecec1a5de43b7d2c1cbece2c",
+      "semanticSha256": "99a4c8e77ea87fdb24ba4f831778f6a8e25360f3c80b9a759770752e9fbe178c",
       "tableDimensions": [
         {
-          "rows": 6,
+          "rows": 9,
           "columns": 2
         },
         {
+          "rows": 14,
+          "columns": 3
+        },
+        {
+          "rows": 3,
+          "columns": 2
+        },
+        {
+          "rows": 4,
+          "columns": 2
+        },
+        {
+          "rows": 6,
+          "columns": 3
+        },
+        {
           "rows": 5,
+          "columns": 2
+        }
+      ],
+      "numericTokenCount": 62
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/摩尔线程（688795.SH）调研/技术与壁垒 - 摩尔线程.md",
+      "publicPath": "research/公司研究/摩尔线程（688795.SH）调研/技术与壁垒 - 摩尔线程.md",
+      "kind": "markdown",
+      "sourceSize": 43492,
+      "publicSize": 43522,
+      "sourceSha256": "aa5b446109c127ee4034914606adcecdeea913ad220f8f0729284e7e4e485e59",
+      "publicSha256": "9fea0c5e5217a99060936f08146c4ad5ddfbfd61e75fc493cc442bcff33cfbf2",
+      "semanticSha256": "9d792575a5f9ff64c46700aed4d3a5699026fcc7c507e3e59d57e4b5f7aff1c6",
+      "tableDimensions": [
+        {
+          "rows": 8,
+          "columns": 2
+        },
+        {
+          "rows": 8,
+          "columns": 2
+        },
+        {
+          "rows": 6,
+          "columns": 6
+        },
+        {
+          "rows": 7,
+          "columns": 6
+        },
+        {
+          "rows": 16,
+          "columns": 6
+        },
+        {
+          "rows": 5,
+          "columns": 6
+        },
+        {
+          "rows": 9,
+          "columns": 6
+        },
+        {
+          "rows": 9,
+          "columns": 7
+        },
+        {
+          "rows": 10,
+          "columns": 7
+        },
+        {
+          "rows": 7,
+          "columns": 6
+        },
+        {
+          "rows": 8,
+          "columns": 5
+        },
+        {
+          "rows": 7,
+          "columns": 6
+        },
+        {
+          "rows": 7,
+          "columns": 9
+        },
+        {
+          "rows": 7,
+          "columns": 7
+        },
+        {
+          "rows": 8,
+          "columns": 5
+        },
+        {
+          "rows": 7,
+          "columns": 6
+        },
+        {
+          "rows": 7,
+          "columns": 5
+        }
+      ],
+      "numericTokenCount": 237
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/摩尔线程（688795.SH）调研/技术红队审核记录 - 摩尔线程.md",
+      "publicPath": "research/公司研究/摩尔线程（688795.SH）调研/技术红队审核记录 - 摩尔线程.md",
+      "kind": "markdown",
+      "sourceSize": 5359,
+      "publicSize": 5359,
+      "sourceSha256": "279ba75a92a44ef0c4d75d40fd15e7b0b8e61b515b941df069b1e3c0c35e31f3",
+      "publicSha256": "279ba75a92a44ef0c4d75d40fd15e7b0b8e61b515b941df069b1e3c0c35e31f3",
+      "semanticSha256": "cdd7bb27e46928f276f089754ee9027af85d4e4e435c9af267b528fcd4939bcc",
+      "tableDimensions": [
+        {
+          "rows": 7,
           "columns": 2
         },
         {
@@ -3718,37 +4093,25 @@
           "columns": 3
         },
         {
-          "rows": 10,
-          "columns": 3
+          "rows": 5,
+          "columns": 4
         },
         {
           "rows": 7,
-          "columns": 2
-        },
-        {
-          "rows": 6,
-          "columns": 3
-        },
-        {
-          "rows": 6,
-          "columns": 2
-        },
-        {
-          "rows": 4,
           "columns": 3
         }
       ],
-      "numericTokenCount": 117
+      "numericTokenCount": 59
     },
     {
       "sourceRelativePath": "投资研究/公司研究/摩尔线程（688795.SH）调研/竞对对比 - 摩尔线程.md",
       "publicPath": "research/公司研究/摩尔线程（688795.SH）调研/竞对对比 - 摩尔线程.md",
       "kind": "markdown",
-      "sourceSize": 17080,
-      "publicSize": 17121,
-      "sourceSha256": "3572473b1e2597a09777568ec869ea39f0867a2509e4e8f93633f5f18a50237c",
-      "publicSha256": "4b1654cc84b3e31229bd5a48a5cc49579609bc9167689156b551566cf9bf53cc",
-      "semanticSha256": "0bf0906bf0774bcd7fb21a8f64fef528bc43a88b8ab0dc81ecb62d9c511be6d0",
+      "sourceSize": 19556,
+      "publicSize": 19566,
+      "sourceSha256": "eb0b80188c5a4106f09936a390041603e276dc09e77d7e229ce8192d10a803b0",
+      "publicSha256": "41bf1e73f3a64ec6e3bc9c91f67ae691bdac2f9d5962cec4547582972fc57b12",
+      "semanticSha256": "fbe6f10c5cf4b59359c61b2f9466e1b52707d92b3772f95a0a6de1b613b02ae5",
       "tableDimensions": [
         {
           "rows": 4,
@@ -3763,7 +4126,7 @@
           "columns": 8
         },
         {
-          "rows": 6,
+          "rows": 7,
           "columns": 5
         },
         {
@@ -3779,7 +4142,7 @@
           "columns": 6
         },
         {
-          "rows": 5,
+          "rows": 6,
           "columns": 6
         },
         {
@@ -3799,17 +4162,17 @@
           "columns": 5
         }
       ],
-      "numericTokenCount": 63
+      "numericTokenCount": 66
     },
     {
       "sourceRelativePath": "投资研究/公司研究/摩尔线程（688795.SH）调研/股价预期 - 摩尔线程.md",
       "publicPath": "research/公司研究/摩尔线程（688795.SH）调研/股价预期 - 摩尔线程.md",
       "kind": "markdown",
-      "sourceSize": 14119,
-      "publicSize": 14317,
-      "sourceSha256": "fd9dd3e1fab02ef398f6094b6668560d2403e066243c8ff7eee40c54c6b2346c",
-      "publicSha256": "1e86806164bff6aacada0f5fe6fe4ce311b1c80720791a1e1cd40a1d664071c0",
-      "semanticSha256": "7b57f90fddba865147dab173c7b743a56f646a566a22be831c5723f64240aad2",
+      "sourceSize": 14437,
+      "publicSize": 14635,
+      "sourceSha256": "bb6d0eedcf598d7d7ef65aaf63e804450c348b8c2d3787e56ae7bbbad8355610",
+      "publicSha256": "7fe5ab0b5eec37a9d0ac1fcc8d30a4b5aedfd26014e42a041dbc7879ed90c0d2",
+      "semanticSha256": "81ac1999ed15b68beaf6744b8f7c706bb8c3c81a0e8460a4aad0250e8f83287f",
       "tableDimensions": [
         {
           "rows": 7,
@@ -3862,15 +4225,23 @@
       "sourceRelativePath": "投资研究/公司研究/摩尔线程（688795.SH）调研/财务报表 - 摩尔线程.md",
       "publicPath": "research/公司研究/摩尔线程（688795.SH）调研/财务报表 - 摩尔线程.md",
       "kind": "markdown",
-      "sourceSize": 16956,
-      "publicSize": 17431,
-      "sourceSha256": "78ef23ee1b831003bf2f1558906e5eca2c7cd93178cbf89e788096b461f85f9b",
-      "publicSha256": "c8299be63e512b0224b89e87306bd23a9a360b3ebda78cd59bb245f6011f0ca0",
-      "semanticSha256": "f67e64ad5bd2fb3f943fbcefa097b6ea9464321ddd37f670b9927aba221be3ed",
+      "sourceSize": 20771,
+      "publicSize": 20831,
+      "sourceSha256": "52c51723608476c814fe05df018be3a63a5ad81fd48490e42c528e7ca19fc902",
+      "publicSha256": "b295864aa4e0a55a9d8fac5499ee1a51e09d5a562572b026327b84ad76ed265c",
+      "semanticSha256": "9fab2cdad9e585f6069c0c997c1e1ccc6a6b05763a1431bf124eae4d00f81594",
       "tableDimensions": [
         {
           "rows": 6,
           "columns": 2
+        },
+        {
+          "rows": 4,
+          "columns": 7
+        },
+        {
+          "rows": 6,
+          "columns": 8
         },
         {
           "rows": 5,
@@ -3921,7 +4292,7 @@
           "columns": 5
         }
       ],
-      "numericTokenCount": 489
+      "numericTokenCount": 576
     },
     {
       "sourceRelativePath": "投资研究/公司研究/阳光电源（300274.SZ）调研/csv/季度利润表.csv",
