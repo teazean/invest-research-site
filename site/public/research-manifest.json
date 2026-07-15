@@ -2224,26 +2224,30 @@
       "sourceRelativePath": "投资研究/公司研究/寒武纪（688256.SH）调研/小白审核记录 - 寒武纪.md",
       "publicPath": "research/公司研究/寒武纪（688256.SH）调研/小白审核记录 - 寒武纪.md",
       "kind": "markdown",
-      "sourceSize": 876,
-      "publicSize": 876,
-      "sourceSha256": "5529fdd10e088cd4cb26cfd6e8a06ebd7178c55bd23bc52289b82c6609729485",
-      "publicSha256": "5529fdd10e088cd4cb26cfd6e8a06ebd7178c55bd23bc52289b82c6609729485",
-      "semanticSha256": "b80c4172422582cdda8e80866f2f3f043ce2658ad801ffff57a4cc692ab4d6c9",
+      "sourceSize": 6159,
+      "publicSize": 6159,
+      "sourceSha256": "543eeb21bfd2e171c3340708a1d22a3743e239481cc731021473a9eff13154ca",
+      "publicSha256": "543eeb21bfd2e171c3340708a1d22a3743e239481cc731021473a9eff13154ca",
+      "semanticSha256": "e61b814d8fbc2dbc53793f39b395296599f522b67eeb290970a218f0e1877d2a",
       "tableDimensions": [
         {
-          "rows": 11,
-          "columns": 3
+          "rows": 8,
+          "columns": 2
         },
         {
-          "rows": 1,
+          "rows": 13,
           "columns": 4
         },
         {
-          "rows": 1,
+          "rows": 3,
+          "columns": 3
+        },
+        {
+          "rows": 12,
           "columns": 3
         }
       ],
-      "numericTokenCount": 3
+      "numericTokenCount": 96
     },
     {
       "sourceRelativePath": "投资研究/公司研究/寒武纪（688256.SH）调研/竞对对比 - 寒武纪.md",
