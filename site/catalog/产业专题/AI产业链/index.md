@@ -14,6 +14,7 @@
 - [AI服务器、网络与光模块产业链](/research/产业专题/AI产业链/AI服务器、网络与光模块产业链)
 - [AI国内视角、公司映射与对比](/research/产业专题/AI产业链/AI国内视角、公司映射与对比)
 - [AI技术成熟度与发展趋势](/research/产业专题/AI产业链/AI技术成熟度与发展趋势)
+- [AI全球视角、竞争格局与利润池](/research/产业专题/AI产业链/AI全球视角、竞争格局与利润池)
 - [AI手机、AI PC与可穿戴产业链](/research/产业专题/AI产业链/AI手机、AI%20PC与可穿戴产业链)
 - [AI数据工具、MLOps与安全产业链](/research/产业专题/AI产业链/AI数据工具、MLOps与安全产业链)
 - [AI数据工具与MLOps产业链（兼容导航）](/research/产业专题/AI产业链/AI数据工具与MLOps产业链)

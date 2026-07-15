@@ -65,4 +65,3 @@
 - [Apple FY2026Q2](https://www.apple.com/newsroom/2026/04/apple-reports-second-quarter-results/)
 - [Qualcomm FY2026Q2](https://s204.q4cdn.com/645488518/files/doc_financials/2026/q2/FY2026-2nd-Quarter-Earnings-Release.pdf)
 - [IDC 中国智能手机 2026Q1](https://www.idc.com/resource-center/blog/china-smartphone-market-q1-2026-huawei-apple/)
-

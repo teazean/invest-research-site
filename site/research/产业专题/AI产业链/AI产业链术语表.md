@@ -1,5 +1,7 @@
 # AI产业链术语表
 
+数据日期：2026-07-15
+
 > 更新日期：2026-07-15。
 
 这份术语表的目标不是写得学术，而是帮投资阅读时不被概念绕晕。每个术语都尽量用“小白话 + 投资含义”的方式解释。
@@ -58,6 +60,24 @@
 | Utilization / 利用率 | 算力设备实际被使用的比例 | 算力云能否赚钱，很大程度取决于利用率 |
 | Net Revenue Retention / NRR | 老客户本期收入相对上一期收入的留存和扩张比例 | AI 软件如果能让老客户加购，NRR 会更好；如果只是试用，NRR 不一定改善 |
 | AI-first ARR | Adobe 等公司用来描述 AI优先产品带来的年化经常性收入 | 可以观察 AI商业化，但各公司定义不同，不能直接横向相加 |
+| IDC | Internet Data Center，互联网数据中心 | 给服务器提供机房、电力、网络和运维；有机房不等于赚钱，还要看上架率、电价、折旧和融资 |
+| API | Application Programming Interface，应用程序接口 | 让应用按调用次数使用模型或数据服务；调用量、单价和推理成本共同决定利润 |
+| ASP | Average Selling Price，平均售价 | 产品升级可能抬高 ASP，但价格竞争和成熟供给也会让 ASP 下降 |
+| ROI | Return on Investment，投资回报 | 客户从 AI 获得的增收或降本是否覆盖购买、实施和运营成本，决定能否续费 |
+| GAAP | 美国通用会计准则口径 | 与公司自定义的调整后利润不同，比较公司时必须看清是否剔除了股权激励等费用 |
+| EBITDA | 息税折旧摊销前利润 | 重资产公司常用，但它没有扣资本开支、利息和税，不能直接当自由现金流 |
+| IRR | Internal Rate of Return，内部收益率 | 用来判断数据中心、算力项目等长期投资能否覆盖资本成本 |
+| FCF | Free Cash Flow，自由现金流 | 经营现金流扣除资本开支后可用于还债、分红或再投资的钱 |
+| CRM | Customer Relationship Management，客户关系管理 | 销售和客服工作流入口，AI Agent 能否收费取决于是否真正改善转化或效率 |
+| ITSM | IT Service Management，IT 服务管理 | 企业处理 IT 工单和流程的平台，是 Agent 进入可审计工作流的重要场景 |
+| HR | Human Resources，人力资源 | 招聘、薪酬和员工服务场景；AI 能降本，但涉及隐私、偏见和合规风险 |
+| LTV | Lifetime Value，客户生命周期价值 | 一个客户整个合作期贡献的毛利；要与获客成本一起看，不能只看签约额 |
+| ARPU | Average Revenue Per User，每用户平均收入 | 用来判断 AI 功能是否带来提价或加购，而不只是用户数增长 |
+| IOPV | Indicative Optimized Portfolio Value，ETF 盘中参考净值 | 用来观察 ETF 价格相对篮子资产是否折价或溢价，仍需交易终端复核 |
+| SKU | Stock Keeping Unit，最小库存/产品单元 | 软件公司也会用来指不同版本；新增 AI SKU 不等于客户一定购买 |
+| BOM | Bill of Materials，物料清单成本 | 机器人、服务器和终端的零部件成本总和，决定降本和量产空间 |
+| ETF | Exchange-Traded Fund，交易型开放式指数基金 | 买的是指数规则下的一篮子资产，不等于平均买到整条产业链 |
+| TAM | Total Addressable Market，理论可服务总市场 | 常被用来讲长期空间，但不等于未来收入，更不等于利润或现金流 |
 
 ## 英文全称速查
 
@@ -95,3 +115,8 @@
 第五组是“ARR、RPO、NRR、自由现金流”。这组决定 AI热度是否真的进入财务报表，尤其能帮助判断收入增长是不是有质量。
 
 第六组是“PE、PB、Beta、回撤、持仓集中度”。这组用来判断相关基金/ETF是不是已经很贵、很拥挤，避免把长期产业趋势误读成短期无风险买点。
+
+## 来源
+
+- [U.S. SEC：Beginners' Guide to Financial Statements](https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide)
+- 其他行业术语的具体口径和公司自定义指标，见九篇子产业链文档及其公司原始来源；同名指标跨公司比较前必须重新核验定义。
