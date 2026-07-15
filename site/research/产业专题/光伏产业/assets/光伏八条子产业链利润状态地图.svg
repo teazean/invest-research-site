@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1900" height="1184" viewBox="0 0 1900 1184">
+<defs><style>
+          .title{font:700 45px 'Hiragino Sans GB','Arial Unicode MS',sans-serif;fill:#172033}
+          .sub{font:500 21px 'Hiragino Sans GB','Arial Unicode MS',sans-serif;fill:#475569;text-anchor:middle}
+          .head{font:700 23px 'Hiragino Sans GB','Arial Unicode MS',sans-serif;fill:#172033;text-anchor:middle}
+          .cell{font:600 20px 'Hiragino Sans GB','Arial Unicode MS',sans-serif;fill:#172033;text-anchor:middle}
+        </style></defs>
+<rect width="1900" height="1184" fill="#f8fafc"/>
+<text x="950.0" y="65" class="title" text-anchor="middle">光伏八条子产业链：当前利润状态与验证指标</text>
+<text x="950.0" y="110" class="sub">这是2025年报与2026年现货价格所处阶段的研究判断，不是永恒排序。更新：2026-07-15</text>
+<rect x="40" y="145" width="350" height="65" rx="6" fill="#cbd5e1"/>
+<text x="215.0" y="187" class="head">子产业链</text>
+<rect x="400" y="145" width="500" height="65" rx="6" fill="#cbd5e1"/>
+<text x="650.0" y="187" class="head">产业现状</text>
+<rect x="910" y="145" width="300" height="65" rx="6" fill="#cbd5e1"/>
+<text x="1060.0" y="187" class="head">当前利润状态</text>
+<rect x="1220" y="145" width="650" height="65" rx="6" fill="#cbd5e1"/>
+<text x="1545.0" y="187" class="head">下一步验证指标</text>
+<rect x="40" y="220" width="350" height="100" rx="6" fill="#e0f2fe" stroke="#94a3b8"/>
+<text x="215.0" y="262" class="cell"><tspan x="215.0" dy="0">工业硅/多晶硅</tspan></text>
+<rect x="400" y="220" width="500" height="100" rx="6" fill="#dcfce7" stroke="#94a3b8"/>
+<text x="650.0" y="262" class="cell"><tspan x="650.0" dy="0">供给过剩、价格接近低位</tspan></text>
+<rect x="910" y="220" width="300" height="100" rx="6" fill="#fef3c7" stroke="#94a3b8"/>
+<text x="1060.0" y="262" class="cell"><tspan x="1060.0" dy="0">偏弱</tspan></text>
+<rect x="1220" y="220" width="650" height="100" rx="6" fill="#fae8ff" stroke="#94a3b8"/>
+<text x="1545.0" y="262" class="cell"><tspan x="1545.0" dy="0">电价、现金成本、停复产</tspan></text>
+<rect x="40" y="328" width="350" height="100" rx="6" fill="#e0f2fe" stroke="#94a3b8"/>
+<text x="215.0" y="370" class="cell"><tspan x="215.0" dy="0">硅片/切片</tspan></text>
+<rect x="400" y="328" width="500" height="100" rx="6" fill="#dcfce7" stroke="#94a3b8"/>
+<text x="650.0" y="370" class="cell"><tspan x="650.0" dy="0">库存和低价出货压力</tspan></text>
+<rect x="910" y="328" width="300" height="100" rx="6" fill="#fef3c7" stroke="#94a3b8"/>
+<text x="1060.0" y="370" class="cell"><tspan x="1060.0" dy="0">偏弱</tspan></text>
+<rect x="1220" y="328" width="650" height="100" rx="6" fill="#fae8ff" stroke="#94a3b8"/>
+<text x="1545.0" y="370" class="cell"><tspan x="1545.0" dy="0">排产、库存、薄片化与非硅成本</tspan></text>
+<rect x="40" y="436" width="350" height="100" rx="6" fill="#e0f2fe" stroke="#94a3b8"/>
+<text x="215.0" y="478" class="cell"><tspan x="215.0" dy="0">电池片</tspan></text>
+<rect x="400" y="436" width="500" height="100" rx="6" fill="#dcfce7" stroke="#94a3b8"/>
+<text x="650.0" y="478" class="cell"><tspan x="650.0" dy="0">价格接近现金成本</tspan></text>
+<rect x="910" y="436" width="300" height="100" rx="6" fill="#fef3c7" stroke="#94a3b8"/>
+<text x="1060.0" y="478" class="cell"><tspan x="1060.0" dy="0">承压</tspan></text>
+<rect x="1220" y="436" width="650" height="100" rx="6" fill="#fae8ff" stroke="#94a3b8"/>
+<text x="1545.0" y="478" class="cell"><tspan x="1545.0" dy="0">银价、效率溢价、减产力度</tspan></text>
+<rect x="40" y="544" width="350" height="100" rx="6" fill="#e0f2fe" stroke="#94a3b8"/>
+<text x="215.0" y="586" class="cell"><tspan x="215.0" dy="0">组件/辅材</tspan></text>
+<rect x="400" y="544" width="500" height="100" rx="6" fill="#dcfce7" stroke="#94a3b8"/>
+<text x="650.0" y="586" class="cell"><tspan x="650.0" dy="0">终端议价强，海外市场分化</tspan></text>
+<rect x="910" y="544" width="300" height="100" rx="6" fill="#fef3c7" stroke="#94a3b8"/>
+<text x="1060.0" y="586" class="cell"><tspan x="1060.0" dy="0">低位分化</tspan></text>
+<rect x="1220" y="544" width="650" height="100" rx="6" fill="#fae8ff" stroke="#94a3b8"/>
+<text x="1545.0" y="586" class="cell"><tspan x="1545.0" dy="0">订单质量、海外价格、质保与回款</tspan></text>
+<rect x="40" y="652" width="350" height="100" rx="6" fill="#e0f2fe" stroke="#94a3b8"/>
+<text x="215.0" y="694" class="cell"><tspan x="215.0" dy="0">制造设备</tspan></text>
+<rect x="400" y="652" width="500" height="100" rx="6" fill="#dcfce7" stroke="#94a3b8"/>
+<text x="650.0" y="694" class="cell"><tspan x="650.0" dy="0">新增扩产放缓，靠迭代和改造</tspan></text>
+<rect x="910" y="652" width="300" height="100" rx="6" fill="#fef3c7" stroke="#94a3b8"/>
+<text x="1060.0" y="694" class="cell"><tspan x="1060.0" dy="0">分化</tspan></text>
+<rect x="1220" y="652" width="650" height="100" rx="6" fill="#fae8ff" stroke="#94a3b8"/>
+<text x="1545.0" y="694" class="cell"><tspan x="1545.0" dy="0">在手订单、验收、应收和新技术份额</tspan></text>
+<rect x="40" y="760" width="350" height="100" rx="6" fill="#e0f2fe" stroke="#94a3b8"/>
+<text x="215.0" y="802" class="cell"><tspan x="215.0" dy="0">逆变器/电力电子</tspan></text>
+<rect x="400" y="760" width="500" height="100" rx="6" fill="#dcfce7" stroke="#94a3b8"/>
+<text x="650.0" y="802" class="cell"><tspan x="650.0" dy="0">技术、渠道、服务壁垒较强</tspan></text>
+<rect x="910" y="760" width="300" height="100" rx="6" fill="#fef3c7" stroke="#94a3b8"/>
+<text x="1060.0" y="802" class="cell"><tspan x="1060.0" dy="0">相对较好</tspan></text>
+<rect x="1220" y="760" width="650" height="100" rx="6" fill="#fae8ff" stroke="#94a3b8"/>
+<text x="1545.0" y="802" class="cell"><tspan x="1545.0" dy="0">海外毛利、库存、认证与售后</tspan></text>
+<rect x="40" y="868" width="350" height="100" rx="6" fill="#e0f2fe" stroke="#94a3b8"/>
+<text x="215.0" y="910" class="cell"><tspan x="215.0" dy="0">BOS/EPC</tspan></text>
+<rect x="400" y="868" width="500" height="100" rx="6" fill="#dcfce7" stroke="#94a3b8"/>
+<text x="650.0" y="910" class="cell"><tspan x="650.0" dy="0">规模大但工程利润薄</tspan></text>
+<rect x="910" y="868" width="300" height="100" rx="6" fill="#fef3c7" stroke="#94a3b8"/>
+<text x="1060.0" y="910" class="cell"><tspan x="1060.0" dy="0">中低</tspan></text>
+<rect x="1220" y="868" width="650" height="100" rx="6" fill="#fae8ff" stroke="#94a3b8"/>
+<text x="1545.0" y="910" class="cell"><tspan x="1545.0" dy="0">钢材、工期、回款与索赔</tspan></text>
+<rect x="40" y="976" width="350" height="100" rx="6" fill="#e0f2fe" stroke="#94a3b8"/>
+<text x="215.0" y="1018" class="cell"><tspan x="215.0" dy="0">开发运营/O&amp;M</tspan></text>
+<rect x="400" y="976" width="500" height="100" rx="6" fill="#dcfce7" stroke="#94a3b8"/>
+<text x="650.0" y="1018" class="cell"><tspan x="650.0" dy="0">存量现金流较稳但电价市场化</tspan></text>
+<rect x="910" y="976" width="300" height="100" rx="6" fill="#fef3c7" stroke="#94a3b8"/>
+<text x="1060.0" y="1018" class="cell"><tspan x="1060.0" dy="0">中等分化</tspan></text>
+<rect x="1220" y="976" width="650" height="100" rx="6" fill="#fae8ff" stroke="#94a3b8"/>
+<text x="1545.0" y="1018" class="cell"><tspan x="1545.0" dy="0">结算电价、利用率、融资成本</tspan></text>
+</svg>

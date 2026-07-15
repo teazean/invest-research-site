@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1900" height="1184" viewBox="0 0 1900 1184">
+<defs><style>
+          .title{font:700 45px 'Hiragino Sans GB','Arial Unicode MS',sans-serif;fill:#172033}
+          .sub{font:500 21px 'Hiragino Sans GB','Arial Unicode MS',sans-serif;fill:#475569;text-anchor:middle}
+          .head{font:700 23px 'Hiragino Sans GB','Arial Unicode MS',sans-serif;fill:#172033;text-anchor:middle}
+          .cell{font:600 20px 'Hiragino Sans GB','Arial Unicode MS',sans-serif;fill:#172033;text-anchor:middle}
+        </style></defs>
+<rect width="1900" height="1184" fill="#f8fafc"/>
+<text x="950.0" y="65" class="title" text-anchor="middle">光伏八条子产业链：成熟度、瓶颈与发展方向</text>
+<text x="950.0" y="110" class="sub">成熟不等于值得投资；要看技术改善能否转成溢价、订单、利润和现金流。更新：2026-07-15</text>
+<rect x="40" y="145" width="350" height="65" rx="6" fill="#cbd5e1"/>
+<text x="215.0" y="187" class="head">子产业链</text>
+<rect x="400" y="145" width="500" height="65" rx="6" fill="#cbd5e1"/>
+<text x="650.0" y="187" class="head">当前阶段</text>
+<rect x="910" y="145" width="300" height="65" rx="6" fill="#cbd5e1"/>
+<text x="1060.0" y="187" class="head">当前主要瓶颈</text>
+<rect x="1220" y="145" width="650" height="65" rx="6" fill="#cbd5e1"/>
+<text x="1545.0" y="187" class="head">未来1-3年方向</text>
+<rect x="40" y="220" width="350" height="100" rx="6" fill="#e0f2fe" stroke="#94a3b8"/>
+<text x="215.0" y="262" class="cell"><tspan x="215.0" dy="0">工业硅/多晶硅</tspan></text>
+<rect x="400" y="220" width="500" height="100" rx="6" fill="#dcfce7" stroke="#94a3b8"/>
+<text x="650.0" y="262" class="cell"><tspan x="650.0" dy="0">成熟规模化</tspan></text>
+<rect x="910" y="220" width="300" height="100" rx="6" fill="#fef3c7" stroke="#94a3b8"/>
+<text x="1060.0" y="262" class="cell"><tspan x="1060.0" dy="0">高能耗、价格与产能出清</tspan></text>
+<rect x="1220" y="220" width="650" height="100" rx="6" fill="#fae8ff" stroke="#94a3b8"/>
+<text x="1545.0" y="262" class="cell"><tspan x="1545.0" dy="0">低能耗、低碳电力、品质稳定</tspan></text>
+<rect x="40" y="328" width="350" height="100" rx="6" fill="#e0f2fe" stroke="#94a3b8"/>
+<text x="215.0" y="370" class="cell"><tspan x="215.0" dy="0">硅片/切片</tspan></text>
+<rect x="400" y="328" width="500" height="100" rx="6" fill="#dcfce7" stroke="#94a3b8"/>
+<text x="650.0" y="370" class="cell"><tspan x="650.0" dy="0">成熟规模化</tspan></text>
+<rect x="910" y="328" width="300" height="100" rx="6" fill="#fef3c7" stroke="#94a3b8"/>
+<text x="1060.0" y="370" class="cell"><tspan x="1060.0" dy="0">薄片化、破片率和非硅成本</tspan></text>
+<rect x="1220" y="328" width="650" height="100" rx="6" fill="#fae8ff" stroke="#94a3b8"/>
+<text x="1545.0" y="370" class="cell"><tspan x="1545.0" dy="0">更薄硅片、细线化、降耗</tspan></text>
+<rect x="40" y="436" width="350" height="100" rx="6" fill="#e0f2fe" stroke="#94a3b8"/>
+<text x="215.0" y="478" class="cell"><tspan x="215.0" dy="0">电池片</tspan></text>
+<rect x="400" y="436" width="500" height="100" rx="6" fill="#dcfce7" stroke="#94a3b8"/>
+<text x="650.0" y="478" class="cell"><tspan x="650.0" dy="0">TOPCon主流；多路线并存</tspan></text>
+<rect x="910" y="436" width="300" height="100" rx="6" fill="#fef3c7" stroke="#94a3b8"/>
+<text x="1060.0" y="478" class="cell"><tspan x="1060.0" dy="0">效率、银耗、良率和设备兼容</tspan></text>
+<rect x="1220" y="436" width="650" height="100" rx="6" fill="#fae8ff" stroke="#94a3b8"/>
+<text x="1545.0" y="478" class="cell"><tspan x="1545.0" dy="0">TOPCon提效、BC/HJT扩量、铜替银</tspan></text>
+<rect x="40" y="544" width="350" height="100" rx="6" fill="#e0f2fe" stroke="#94a3b8"/>
+<text x="215.0" y="586" class="cell"><tspan x="215.0" dy="0">组件/辅材</tspan></text>
+<rect x="400" y="544" width="500" height="100" rx="6" fill="#dcfce7" stroke="#94a3b8"/>
+<text x="650.0" y="586" class="cell"><tspan x="650.0" dy="0">成熟规模化</tspan></text>
+<rect x="910" y="544" width="300" height="100" rx="6" fill="#fef3c7" stroke="#94a3b8"/>
+<text x="1060.0" y="586" class="cell"><tspan x="1060.0" dy="0">低价下的可靠性与长期衰减</tspan></text>
+<rect x="1220" y="544" width="650" height="100" rx="6" fill="#fae8ff" stroke="#94a3b8"/>
+<text x="1545.0" y="586" class="cell"><tspan x="1545.0" dy="0">高功率、轻量化、可回收与低碳</tspan></text>
+<rect x="40" y="652" width="350" height="100" rx="6" fill="#e0f2fe" stroke="#94a3b8"/>
+<text x="215.0" y="694" class="cell"><tspan x="215.0" dy="0">制造设备</tspan></text>
+<rect x="400" y="652" width="500" height="100" rx="6" fill="#dcfce7" stroke="#94a3b8"/>
+<text x="650.0" y="694" class="cell"><tspan x="650.0" dy="0">成熟但迭代驱动</tspan></text>
+<rect x="910" y="652" width="300" height="100" rx="6" fill="#fef3c7" stroke="#94a3b8"/>
+<text x="1060.0" y="694" class="cell"><tspan x="1060.0" dy="0">客户资本开支与新工艺验证</tspan></text>
+<rect x="1220" y="652" width="650" height="100" rx="6" fill="#fae8ff" stroke="#94a3b8"/>
+<text x="1545.0" y="694" class="cell"><tspan x="1545.0" dy="0">存量改造、降本提效、海外服务</tspan></text>
+<rect x="40" y="760" width="350" height="100" rx="6" fill="#e0f2fe" stroke="#94a3b8"/>
+<text x="215.0" y="802" class="cell"><tspan x="215.0" dy="0">逆变器/电力电子</tspan></text>
+<rect x="400" y="760" width="500" height="100" rx="6" fill="#dcfce7" stroke="#94a3b8"/>
+<text x="650.0" y="802" class="cell"><tspan x="650.0" dy="0">成熟规模化</tspan></text>
+<rect x="910" y="760" width="300" height="100" rx="6" fill="#fef3c7" stroke="#94a3b8"/>
+<text x="1060.0" y="802" class="cell"><tspan x="1060.0" dy="0">并网认证、可靠性和渠道服务</tspan></text>
+<rect x="1220" y="760" width="650" height="100" rx="6" fill="#fae8ff" stroke="#94a3b8"/>
+<text x="1545.0" y="802" class="cell"><tspan x="1545.0" dy="0">构网能力、智能运维、光储融合</tspan></text>
+<rect x="40" y="868" width="350" height="100" rx="6" fill="#e0f2fe" stroke="#94a3b8"/>
+<text x="215.0" y="910" class="cell"><tspan x="215.0" dy="0">BOS/EPC</tspan></text>
+<rect x="400" y="868" width="500" height="100" rx="6" fill="#dcfce7" stroke="#94a3b8"/>
+<text x="650.0" y="910" class="cell"><tspan x="650.0" dy="0">成熟工程化</tspan></text>
+<rect x="910" y="868" width="300" height="100" rx="6" fill="#fef3c7" stroke="#94a3b8"/>
+<text x="1060.0" y="910" class="cell"><tspan x="1060.0" dy="0">工期、回款、接网和原材料波动</tspan></text>
+<rect x="1220" y="868" width="650" height="100" rx="6" fill="#fae8ff" stroke="#94a3b8"/>
+<text x="1545.0" y="910" class="cell"><tspan x="1545.0" dy="0">跟踪器、数字设计、全生命周期交付</tspan></text>
+<rect x="40" y="976" width="350" height="100" rx="6" fill="#e0f2fe" stroke="#94a3b8"/>
+<text x="215.0" y="1018" class="cell"><tspan x="215.0" dy="0">开发运营/O&amp;M</tspan></text>
+<rect x="400" y="976" width="500" height="100" rx="6" fill="#dcfce7" stroke="#94a3b8"/>
+<text x="650.0" y="1018" class="cell"><tspan x="650.0" dy="0">成熟但规则变化</tspan></text>
+<rect x="910" y="976" width="300" height="100" rx="6" fill="#fef3c7" stroke="#94a3b8"/>
+<text x="1060.0" y="1018" class="cell"><tspan x="1060.0" dy="0">电价、消纳、融资和利用小时</tspan></text>
+<rect x="1220" y="976" width="650" height="100" rx="6" fill="#fae8ff" stroke="#94a3b8"/>
+<text x="1545.0" y="1018" class="cell"><tspan x="1545.0" dy="0">市场交易、绿证、功率预测与资产优化</tspan></text>
+</svg>

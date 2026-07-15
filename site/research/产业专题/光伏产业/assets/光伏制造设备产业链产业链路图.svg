@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1040" viewBox="0 0 1800 1040">
+<defs>
+          <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#2563eb"/></marker>
+          <marker id="money" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#c2410c"/></marker>
+          <style>
+            .title{font:700 43px 'Hiragino Sans GB','Arial Unicode MS',sans-serif;fill:#172033}
+            .head{font:700 25px 'Hiragino Sans GB','Arial Unicode MS',sans-serif;fill:#172033;text-anchor:middle}
+            .body{font:500 20px 'Hiragino Sans GB','Arial Unicode MS',sans-serif;fill:#334155;text-anchor:middle}
+            .rev{font:600 18px 'Hiragino Sans GB','Arial Unicode MS',sans-serif;fill:#7c2d12;text-anchor:middle}
+            .legend{font:600 21px 'Hiragino Sans GB','Arial Unicode MS',sans-serif;fill:#334155}
+            .note{font:500 19px 'Hiragino Sans GB','Arial Unicode MS',sans-serif;fill:#475569;text-anchor:middle}
+          </style>
+        </defs>
+<rect width="1800" height="1040" fill="#f8fafc"/>
+<text x="900" y="70" class="title" text-anchor="middle">光伏制造设备：订单、验收与资金流</text>
+<line x1="160" y1="175" x2="1640" y2="175" stroke="#2563eb" stroke-width="5" marker-end="url(#arrow)"/>
+<text x="900" y="150" class="legend" text-anchor="middle">蓝线：产品、设备、工程或电力向右交付</text>
+<line x1="1640" y1="690" x2="160" y2="690" stroke="#c2410c" stroke-width="5" marker-end="url(#money)"/>
+<text x="900" y="730" class="legend" text-anchor="middle">橙线：货款、工程款或电费沿合同向左回流；不是每一层都能留下利润</text>
+<rect x="75" y="275" width="290" height="250" rx="8" fill="#e0f2fe" stroke="#64748b" stroke-width="2"/>
+<text x="220.0" y="323" class="head"><tspan x="220.0" dy="0">核心零部件</tspan></text>
+<text x="220.0" y="380" class="body"><tspan x="220.0" dy="0">真空、热场、激光、运动控制</tspan></text>
+<line x1="93" y1="441" x2="347" y2="441" stroke="#94a3b8"/>
+<text x="220.0" y="473" class="rev"><tspan x="220.0" dy="0">零部件交付确认收入</tspan></text>
+<line x1="370" y1="400" x2="396" y2="400" stroke="#2563eb" stroke-width="5" marker-end="url(#arrow)"/>
+<rect x="403" y="275" width="290" height="250" rx="8" fill="#dcfce7" stroke="#64748b" stroke-width="2"/>
+<text x="548.0" y="323" class="head"><tspan x="548.0" dy="0">研发与制造</tspan></text>
+<text x="548.0" y="380" class="body"><tspan x="548.0" dy="0">单机、自动化和工艺方案</tspan></text>
+<line x1="421" y1="441" x2="675" y2="441" stroke="#94a3b8"/>
+<text x="548.0" y="473" class="rev"><tspan x="548.0" dy="0">在产品占用现金和产能</tspan></text>
+<line x1="698" y1="400" x2="724" y2="400" stroke="#2563eb" stroke-width="5" marker-end="url(#arrow)"/>
+<rect x="731" y="275" width="290" height="250" rx="8" fill="#fef3c7" stroke="#64748b" stroke-width="2"/>
+<text x="876.0" y="323" class="head"><tspan x="876.0" dy="0">安装调试</tspan></text>
+<text x="876.0" y="380" class="body"><tspan x="876.0" dy="0">进场、联线、试生产</tspan></text>
+<line x1="749" y1="441" x2="1003" y2="441" stroke="#94a3b8"/>
+<text x="876.0" y="473" class="rev"><tspan x="876.0" dy="0">通常收预付款和进度款</tspan></text>
+<line x1="1026" y1="400" x2="1052" y2="400" stroke="#2563eb" stroke-width="5" marker-end="url(#arrow)"/>
+<rect x="1059" y="275" width="290" height="250" rx="8" fill="#fae8ff" stroke="#64748b" stroke-width="2"/>
+<text x="1204.0" y="323" class="head"><tspan x="1204.0" dy="0">验收与服务</tspan></text>
+<text x="1204.0" y="380" class="body"><tspan x="1204.0" dy="0">良率、产能、效率达标</tspan></text>
+<line x1="1077" y1="441" x2="1331" y2="441" stroke="#94a3b8"/>
+<text x="1204.0" y="473" class="rev"><tspan x="1204.0" dy="0">验收确认设备收入；服务分期</tspan></text>
+<line x1="1354" y1="400" x2="1380" y2="400" stroke="#2563eb" stroke-width="5" marker-end="url(#arrow)"/>
+<rect x="1387" y="275" width="290" height="250" rx="8" fill="#fee2e2" stroke="#64748b" stroke-width="2"/>
+<text x="1532.0" y="323" class="head"><tspan x="1532.0" dy="0">制造客户</tspan></text>
+<text x="1532.0" y="380" class="body"><tspan x="1532.0" dy="0">以资本开支购买降本增效</tspan></text>
+<line x1="1405" y1="441" x2="1659" y2="441" stroke="#94a3b8"/>
+<text x="1532.0" y="473" class="rev"><tspan x="1532.0" dy="0">扩产意愿决定设备订单</tspan></text>
+<rect x="105" y="790" width="600" height="145" rx="8" fill="#fff7ed" stroke="#c2410c" stroke-width="2"/>
+<text x="405" y="835" class="head">最终付费方</text>
+<text x="405" y="885" class="body"><tspan x="405" dy="0">硅料、硅片、电池和组件制造商</tspan></text>
+<rect x="1095" y="790" width="600" height="145" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<text x="1395" y="835" class="head">客户最终买到的价值</text>
+<text x="1395" y="885" class="body"><tspan x="1395" dy="0">提高效率、良率、产能并降低单位成本的产线</tspan></text>
+<text x="900" y="995" class="note">读图顺序：先找最终付费方，再看合同交付和收入确认，最后判断直接成本、费用、回款与再投资后还剩多少现金。</text>
+</svg>

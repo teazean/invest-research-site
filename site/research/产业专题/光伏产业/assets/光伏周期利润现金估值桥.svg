@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1900" height="980" viewBox="0 0 1900 980">
+<defs>
+          <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#2563eb"/></marker>
+          <style>
+            .title{font:700 44px 'Hiragino Sans GB','Arial Unicode MS',sans-serif;fill:#172033}
+            .sub{font:500 21px 'Hiragino Sans GB','Arial Unicode MS',sans-serif;fill:#475569;text-anchor:middle}
+            .head{font:700 27px 'Hiragino Sans GB','Arial Unicode MS',sans-serif;fill:#172033;text-anchor:middle}
+            .body{font:600 20px 'Hiragino Sans GB','Arial Unicode MS',sans-serif;fill:#334155;text-anchor:middle}
+            .why{font:600 19px 'Hiragino Sans GB','Arial Unicode MS',sans-serif;fill:#7c2d12;text-anchor:middle}
+            .note{font:600 22px 'Hiragino Sans GB','Arial Unicode MS',sans-serif;fill:#172033;text-anchor:middle}
+          </style>
+        </defs>
+<rect width="1900" height="980" fill="#f8fafc"/>
+<text x="950" y="70" class="title" text-anchor="middle">光伏周期：从需求增长到可分配现金与估值</text>
+<text x="950" y="115" class="sub">每一箭头都要有数据验证；不能从“装机增长”直接跳到“股票便宜”。更新：2026-07-15</text>
+<rect x="40" y="245" width="270" height="285" rx="8" fill="#e0f2fe" stroke="#64748b" stroke-width="2"/>
+<text x="175.0" y="300" class="head"><tspan x="175.0" dy="0">终端需求</tspan></text>
+<text x="175.0" y="370" class="body"><tspan x="175.0" dy="0">新增并网、发电和项目回报</tspan></text>
+<line x1="58" y1="440" x2="292" y2="440" stroke="#94a3b8"/>
+<text x="175.0" y="480" class="why"><tspan x="175.0" dy="0">需求增长只是起点</tspan></text>
+<line x1="314" y1="388" x2="333" y2="388" stroke="#2563eb" stroke-width="5" marker-end="url(#arrow)"/>
+<rect x="340" y="245" width="270" height="285" rx="8" fill="#dcfce7" stroke="#64748b" stroke-width="2"/>
+<text x="475.0" y="300" class="head"><tspan x="475.0" dy="0">有效供给</tspan></text>
+<text x="475.0" y="370" class="body"><tspan x="475.0" dy="0">产量、库存、停复产和退出</tspan></text>
+<line x1="358" y1="440" x2="592" y2="440" stroke="#94a3b8"/>
+<text x="475.0" y="480" class="why"><tspan x="475.0" dy="0">比较需求是否快过供给</tspan></text>
+<line x1="614" y1="388" x2="633" y2="388" stroke="#2563eb" stroke-width="5" marker-end="url(#arrow)"/>
+<rect x="640" y="245" width="270" height="285" rx="8" fill="#fef3c7" stroke="#64748b" stroke-width="2"/>
+<text x="775.0" y="300" class="head"><tspan x="775.0" dy="0">价格与价差</tspan></text>
+<text x="775.0" y="370" class="body"><tspan x="775.0" dy="0">售价减现金/完整成本</tspan></text>
+<line x1="658" y1="440" x2="892" y2="440" stroke="#94a3b8"/>
+<text x="775.0" y="480" class="why"><tspan x="775.0" dy="0">止跌不等于盈利</tspan></text>
+<line x1="914" y1="388" x2="933" y2="388" stroke="#2563eb" stroke-width="5" marker-end="url(#arrow)"/>
+<rect x="940" y="245" width="270" height="285" rx="8" fill="#fee2e2" stroke="#64748b" stroke-width="2"/>
+<text x="1075.0" y="300" class="head"><tspan x="1075.0" dy="0">会计利润</tspan></text>
+<text x="1075.0" y="370" class="body"><tspan x="1075.0" dy="0">毛利、费用、减值和利息</tspan></text>
+<line x1="958" y1="440" x2="1192" y2="440" stroke="#94a3b8"/>
+<text x="1075.0" y="480" class="why"><tspan x="1075.0" dy="0">技术优势要落到利润</tspan></text>
+<line x1="1214" y1="388" x2="1233" y2="388" stroke="#2563eb" stroke-width="5" marker-end="url(#arrow)"/>
+<rect x="1240" y="245" width="270" height="285" rx="8" fill="#fae8ff" stroke="#64748b" stroke-width="2"/>
+<text x="1375.0" y="300" class="head"><tspan x="1375.0" dy="0">可分配现金</tspan></text>
+<text x="1375.0" y="370" class="body"><tspan x="1375.0" dy="0">经营现金流减资本开支</tspan></text>
+<line x1="1258" y1="440" x2="1492" y2="440" stroke="#94a3b8"/>
+<text x="1375.0" y="480" class="why"><tspan x="1375.0" dy="0">库存应收会吞现金</tspan></text>
+<line x1="1514" y1="388" x2="1533" y2="388" stroke="#2563eb" stroke-width="5" marker-end="url(#arrow)"/>
+<rect x="1540" y="245" width="270" height="285" rx="8" fill="#ede9fe" stroke="#64748b" stroke-width="2"/>
+<text x="1675.0" y="300" class="head"><tspan x="1675.0" dy="0">估值与动作</tspan></text>
+<text x="1675.0" y="370" class="body"><tspan x="1675.0" dy="0">正常化利润、PB和风险预算</tspan></text>
+<line x1="1558" y1="440" x2="1792" y2="440" stroke="#94a3b8"/>
+<text x="1675.0" y="480" class="why"><tspan x="1675.0" dy="0">证据不足时保持观察</tspan></text>
+<rect x="110" y="625" width="1680" height="210" rx="8" fill="#ffffff" stroke="#94a3b8" stroke-width="2"/>
+<text x="950" y="675" class="head">三组不能跳过的核验</text>
+<text x="950" y="730" class="note">供需：库存下降 + 有效产能退出 + 开工回升时价格不再跌</text>
+<text x="950" y="775" class="note">盈利：完整成本毛利转正 + 减值收窄 + 经营现金流同步改善</text>
+<text x="950" y="820" class="note">估值：正常化利润能兑现 + 净资产不继续缩水 + 风险预算能承受回撤</text>
+<text x="950" y="920" class="sub">反证：需求放缓、涨价引发复产、库存应收再增，都会让传导链在中间断掉。</text>
+</svg>
