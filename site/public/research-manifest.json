@@ -4605,11 +4605,11 @@
       "sourceRelativePath": "投资研究/公司研究/紫金矿业（601899.SH）调研/公司调研 - 紫金矿业.md",
       "publicPath": "research/公司研究/紫金矿业（601899.SH）调研/公司调研 - 紫金矿业.md",
       "kind": "markdown",
-      "sourceSize": 29776,
-      "publicSize": 29917,
-      "sourceSha256": "e31d35fe20925dd4148231af65568726201c7f1d1abe0a35383686270d1c967b",
-      "publicSha256": "233606c40b7ec123699e242fec8c3df01cc7975a6484d0b97d54c27dbf349ffb",
-      "semanticSha256": "a634a8ea012eaa1fbe04abb90fe4a7639d7d71006688336b7c75bab95a5805b4",
+      "sourceSize": 30656,
+      "publicSize": 30797,
+      "sourceSha256": "f234ce367bce32aecddd919c209ed591e5092f2d86d5d0173721a55458e30979",
+      "publicSha256": "80e855529df85d433016a1e135b48cf7a47846ac1469a06c1592e100fe934b31",
+      "semanticSha256": "65183c2cca8eca3bad2ce6fe39612d3d3c83163e5c9ccc37e18fb83e16fadcf7",
       "tableDimensions": [
         {
           "rows": 8,
@@ -4652,7 +4652,7 @@
           "columns": 5
         },
         {
-          "rows": 7,
+          "rows": 10,
           "columns": 2
         },
         {
@@ -4680,17 +4680,17 @@
           "columns": 2
         }
       ],
-      "numericTokenCount": 301
+      "numericTokenCount": 314
     },
     {
       "sourceRelativePath": "投资研究/公司研究/紫金矿业（601899.SH）调研/小白审核记录 - 紫金矿业.md",
       "publicPath": "research/公司研究/紫金矿业（601899.SH）调研/小白审核记录 - 紫金矿业.md",
       "kind": "markdown",
-      "sourceSize": 4937,
-      "publicSize": 4937,
-      "sourceSha256": "f185d3e9612d497c846ceb049991d08604e619c466c42acce8aceebc429cb11e",
-      "publicSha256": "f185d3e9612d497c846ceb049991d08604e619c466c42acce8aceebc429cb11e",
-      "semanticSha256": "1e413af23eb595dcf0fa20836ce394e1e8421ad55a50f8c9e6519ccb703a1c56",
+      "sourceSize": 6238,
+      "publicSize": 6238,
+      "sourceSha256": "a367f0bee7226177588ef0d12438e6595ee8717df60bd0d9dc95c605f84037f4",
+      "publicSha256": "a367f0bee7226177588ef0d12438e6595ee8717df60bd0d9dc95c605f84037f4",
+      "semanticSha256": "930387787403bc008eb999af459a7f7b8c13566d7377c1ac9ff7da7ab60048d4",
       "tableDimensions": [
         {
           "rows": 7,
@@ -4703,9 +4703,13 @@
         {
           "rows": 9,
           "columns": 3
+        },
+        {
+          "rows": 6,
+          "columns": 3
         }
       ],
-      "numericTokenCount": 49
+      "numericTokenCount": 58
     },
     {
       "sourceRelativePath": "投资研究/公司研究/紫金矿业（601899.SH）调研/竞对对比 - 紫金矿业.md",
@@ -4740,19 +4744,27 @@
       "sourceRelativePath": "投资研究/公司研究/紫金矿业（601899.SH）调研/股价预期 - 紫金矿业.md",
       "publicPath": "research/公司研究/紫金矿业（601899.SH）调研/股价预期 - 紫金矿业.md",
       "kind": "markdown",
-      "sourceSize": 16073,
-      "publicSize": 16175,
-      "sourceSha256": "02d801466a9394a17c750cfcb9f4e9441ecb614f80a236ae5c9d33d6dbadab17",
-      "publicSha256": "741609fdcdefb105106dd8ed17ec5acae9a665ac1184e95e9eea821170f34358",
-      "semanticSha256": "b824d91988c30ef66c03ab5c44efa7a4a2b597eefb0ba76a5d394e991c9cdf52",
+      "sourceSize": 19895,
+      "publicSize": 19997,
+      "sourceSha256": "46688c606cf0cbc1d414962c8d374a7eda61a20266bb4e2e099674cecd2c5aa7",
+      "publicSha256": "fe4e08128c95717aade7c13d3014d95d42d96a6831a19c7d97edaec4fe510c5d",
+      "semanticSha256": "55482f37961b0ba6a2ef3c7fe7ea3ea69a5e34f1efa7956bc5bb8eb4b8f9ab53",
       "tableDimensions": [
         {
           "rows": 5,
+          "columns": 4
+        },
+        {
+          "rows": 7,
           "columns": 5
         },
         {
-          "rows": 6,
-          "columns": 6
+          "rows": 3,
+          "columns": 5
+        },
+        {
+          "rows": 4,
+          "columns": 5
         },
         {
           "rows": 14,
@@ -4787,7 +4799,7 @@
           "columns": 2
         }
       ],
-      "numericTokenCount": 249
+      "numericTokenCount": 300
     },
     {
       "sourceRelativePath": "投资研究/公司研究/紫金矿业（601899.SH）调研/财务报表 - 紫金矿业.md",
