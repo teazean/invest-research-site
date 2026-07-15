@@ -30,7 +30,7 @@ async function fixture() {
   await writeFile(path.join(company, 'data/raw.csv'), 'not-public')
   await writeFile(path.join(root, 'vault/投资研究/关注池/个股关注池.md'), '# private')
 
-  return { root, sourceRoot: path.join(root, 'vault'), siteRoot: path.join(root, 'site') }
+  return { root, company, sourceRoot: path.join(root, 'vault'), siteRoot: path.join(root, 'site') }
 }
 
 afterEach(async () => {
@@ -62,5 +62,35 @@ describe('research synchronization', () => {
     await expect(stat(path.join(publicRoot, 'reports/2025.pdf'))).rejects.toMatchObject({ code: 'ENOENT' })
     expect(result.files).toHaveLength(4)
     expect(result.rewrites).toHaveLength(2)
+  })
+
+  it('uses a private GitHub link for an unmapped report without publishing the PDF', async () => {
+    const { company, sourceRoot, siteRoot } = await fixture()
+    await writeFile(path.join(company, '私有公告.md'), '# 私有公告\n\n[附件](reports/private.pdf)')
+    await writeFile(path.join(company, 'reports/private.pdf'), 'private-pdf')
+
+    const result = await syncResearch({
+      sourceRoot,
+      siteRoot,
+      privateReports: {
+        repository: 'teazean/obsidian-vault-invest',
+        ref: 'master',
+        serverUrl: 'https://github.com'
+      }
+    })
+    const publicRoot = path.join(siteRoot, 'research/公司研究/示例公司（000001.SZ）调研')
+    const publicMarkdown = await readFile(path.join(publicRoot, '私有公告.md'), 'utf8')
+
+    expect(publicMarkdown).toContain(
+      'https://github.com/teazean/obsidian-vault-invest/blob/master/' +
+      '%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/' +
+      '%E7%A4%BA%E4%BE%8B%E5%85%AC%E5%8F%B8%EF%BC%88000001.SZ%EF%BC%89%E8%B0%83%E7%A0%94/' +
+      'reports/private.pdf'
+    )
+    await expect(stat(path.join(publicRoot, 'reports/private.pdf'))).rejects.toMatchObject({ code: 'ENOENT' })
+    expect(result.rewrites).toContainEqual(expect.objectContaining({
+      document: '投资研究/公司研究/示例公司（000001.SZ）调研/私有公告.md',
+      from: 'reports/private.pdf'
+    }))
   })
 })

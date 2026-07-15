@@ -49,8 +49,13 @@ npm run site:verify
 重新从本机 vault 生成公开副本：
 
 ```bash
-npm run content:sync -- --source /Users/zhang/Documents/obsidian_vaults/invest
+npm run content:sync -- \
+  --source /Users/zhang/Documents/obsidian_vaults/invest \
+  --private-repository teazean/obsidian-vault-invest \
+  --private-ref master
 ```
+
+本地 PDF 仍不会进入公开站点。发布器优先把 `reports/*.pdf` 改写为已登记的权威公开地址；没有权威地址时，才改写为私有仓库的 `github.com/.../blob/master/...` 页面。私有链接只对已登录且拥有该仓库权限的用户可见，公开页面会暴露仓库名和文件路径，但不会公开 PDF 内容。
 
 ## 故障恢复
 

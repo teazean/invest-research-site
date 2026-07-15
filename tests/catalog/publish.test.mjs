@@ -11,6 +11,32 @@ afterEach(async () => {
 })
 
 describe('publishResearchSite', () => {
+  it('passes private report context into research synchronization', async () => {
+    const root = await mkdtemp(path.join(tmpdir(), 'publish-private-report-'))
+    roots.push(root)
+    const sourceRoot = path.join(root, 'vault')
+    const siteRoot = path.join(root, 'site')
+    const company = path.join(sourceRoot, '投资研究/公司研究/示例公司（000001.SZ）调研')
+    await mkdir(path.join(company, 'reports'), { recursive: true })
+    await writeFile(path.join(company, '公司调研 - 示例公司.md'), '# 公司调研 - 示例公司（000001.SZ）\n\n> **先说结论**\n> 完整结论。\n\n[附件](reports/private.pdf)')
+    await writeFile(path.join(company, 'reports/private.pdf'), 'private')
+
+    await publishResearchSite({
+      sourceRoot,
+      siteRoot,
+      privateReports: {
+        repository: 'teazean/obsidian-vault-invest',
+        ref: 'master',
+        serverUrl: 'https://github.com'
+      }
+    })
+
+    expect(await readFile(path.join(
+      siteRoot,
+      'research/公司研究/示例公司（000001.SZ）调研/公司调研 - 示例公司.md'
+    ), 'utf8')).toContain('github.com/teazean/obsidian-vault-invest/blob/master/')
+  })
+
   it('synchronizes research and writes catalog pages', async () => {
     const root = await mkdtemp(path.join(tmpdir(), 'publish-site-'))
     roots.push(root)

@@ -35,7 +35,7 @@ async function replaceDirectoryAtomically(stagedRoot, liveRoot) {
   }
 }
 
-export async function syncResearch({ sourceRoot, siteRoot }) {
+export async function syncResearch({ sourceRoot, siteRoot, privateReports }) {
   const files = await discoverPublicationFiles(sourceRoot)
   const markdownByTopic = new Map()
 
@@ -69,7 +69,8 @@ export async function syncResearch({ sourceRoot, siteRoot }) {
         const rewritten = rewriteReportLinks(
           sourceBuffer.toString('utf8'),
           reportMaps.get(topicKey(file.relativePath)) ?? new Map(),
-          file.relativePath
+          file.relativePath,
+          privateReports
         )
         publicBuffer = Buffer.from(rewritten.markdown)
         rewrites.push(...rewritten.rewrites)

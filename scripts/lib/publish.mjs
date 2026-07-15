@@ -5,8 +5,9 @@ import { writeGeneratedPages } from './generated-pages.mjs'
 import { createIntegrityManifest } from './manifest.mjs'
 import { syncResearch } from './sync.mjs'
 
-export async function publishResearchSite({ sourceRoot, siteRoot }) {
-  const syncResult = await syncResearch({ sourceRoot, siteRoot })
+export async function publishResearchSite(options) {
+  const { siteRoot } = options
+  const syncResult = await syncResearch(options)
   const documents = []
 
   for (const file of syncResult.files.filter(file => file.kind === 'markdown')) {
