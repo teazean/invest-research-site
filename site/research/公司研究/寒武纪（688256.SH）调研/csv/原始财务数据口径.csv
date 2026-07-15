@@ -1,0 +1,4 @@
+文件,数据粒度,金额单位,每股单位,比率口径,日期格式,来源,证据等级,推导说明
+annual_financials.csv,完整年度,亿元,元,小数；例如0.55表示55%,YYYYMMDD,reports/2021_annual.pdf至reports/2025_annual.pdf,A,年度法定报表结构化整理
+quarterly_cumulative_financials.csv,年初至报告期累计；资产负债表为期末时点,亿元,元,小数；例如0.55表示55%,YYYYMMDD,reports/2024Q1.pdf至reports/2026Q1.pdf及对应半年报三季报年报,A,利润表和现金流为累计口径；资产负债表为期末余额
+quarterly_single_financials.csv,单季度利润和现金流差分；资产负债表仍为期末时点,亿元,元,小数；例如0.55表示55%,YYYYMMDD,quarterly_cumulative_financials.csv及法定报告,A/C,Q2/Q3/Q4利润表和现金流由相邻累计期机械差分；年末可能含审计调整；资产负债表不得差分
