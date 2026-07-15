@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs>
+          <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#2563eb"/></marker>
+          <marker id="money" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#c2410c"/></marker>
+          <style>
+            .title{font:700 42px 'Hiragino Sans GB','Arial Unicode MS',sans-serif;fill:#172033}
+            .label{font:600 23px 'Hiragino Sans GB','Arial Unicode MS',sans-serif;fill:#172033;text-anchor:middle}
+            .small{font:500 20px 'Hiragino Sans GB','Arial Unicode MS',sans-serif;fill:#4b5563;text-anchor:middle}
+            .flow{font:600 21px 'Hiragino Sans GB','Arial Unicode MS',sans-serif;fill:#2563eb}
+            .cash{font:600 21px 'Hiragino Sans GB','Arial Unicode MS',sans-serif;fill:#c2410c}
+          </style>
+        </defs>
+<rect width="1600" height="900" fill="#f8fafc"/>
+<text x="800" y="80" class="title" text-anchor="middle">AI云、算力租赁、大模型与API：服务流与资金流</text>
+<text x="140" y="225" class="flow">产品 / 服务流</text>
+<text x="140" y="650" class="cash">资金回流</text>
+<rect x="160" y="305" width="250" height="150" rx="8" fill="#dbeafe" stroke="#64748b" stroke-width="2"/>
+<text x="285" y="367" class="label"><tspan x="285" dy="0">GPU与机房</tspan><tspan x="285" dy="30">资本投入</tspan></text>
+<line x1="418" y1="380" x2="447" y2="380" stroke="#2563eb" stroke-width="5" marker-end="url(#arrow)"/>
+<line x1="447" y1="555" x2="418" y2="555" stroke="#c2410c" stroke-width="5" marker-end="url(#money)"/>
+<rect x="455" y="305" width="250" height="150" rx="8" fill="#dcfce7" stroke="#64748b" stroke-width="2"/>
+<text x="580" y="367" class="label"><tspan x="580" dy="0">云与算力租赁</tspan><tspan x="580" dy="30">实例 / GPU小时</tspan></text>
+<line x1="713" y1="380" x2="742" y2="380" stroke="#2563eb" stroke-width="5" marker-end="url(#arrow)"/>
+<line x1="742" y1="555" x2="713" y2="555" stroke="#c2410c" stroke-width="5" marker-end="url(#money)"/>
+<rect x="750" y="305" width="250" height="150" rx="8" fill="#fef3c7" stroke="#64748b" stroke-width="2"/>
+<text x="875" y="367" class="label"><tspan x="875" dy="0">基础模型</tspan><tspan x="875" dy="30">训练与推理</tspan></text>
+<line x1="1008" y1="380" x2="1037" y2="380" stroke="#2563eb" stroke-width="5" marker-end="url(#arrow)"/>
+<line x1="1037" y1="555" x2="1008" y2="555" stroke="#c2410c" stroke-width="5" marker-end="url(#money)"/>
+<rect x="1045" y="305" width="250" height="150" rx="8" fill="#fce7f3" stroke="#64748b" stroke-width="2"/>
+<text x="1170" y="367" class="label"><tspan x="1170" dy="0">API平台</tspan><tspan x="1170" dy="30">token / 订阅</tspan></text>
+<rect x="80" y="710" width="360" height="90" rx="8" fill="#fff7ed" stroke="#c2410c" stroke-width="2"/>
+<text x="260" y="765" class="label"><tspan x="260" dy="0">企业 / 开发者 / 政府</tspan></text>
+<text x="260" y="835" class="small">最终付费方：预算决定需求能否兑现</text>
+<rect x="1160" y="710" width="360" height="90" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<text x="1340" y="765" class="label"><tspan x="1340" dy="0">可调用的模型能力</tspan></text>
+<text x="1340" y="835" class="small">最终价值：决定客户是否续费或扩产</text>
+<line x1="440" y1="755" x2="1145" y2="755" stroke="#c2410c" stroke-width="5" marker-end="url(#money)"/>
+<text x="800" y="735" class="cash" text-anchor="middle">客户付款沿合同逐层回流；每层收入同时是下一层的成本</text>
+<text x="800" y="505" class="small">蓝线看交付，橙线看钱。利润取决于议价权、直接成本、经营费用和资本占用。</text>
+</svg>

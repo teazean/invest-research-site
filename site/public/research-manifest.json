@@ -231,65 +231,85 @@
       "sourceRelativePath": "投资研究/产业专题/AI产业链/AI云、大模型与应用Agent产业链.md",
       "publicPath": "research/产业专题/AI产业链/AI云、大模型与应用Agent产业链.md",
       "kind": "markdown",
-      "sourceSize": 21609,
-      "publicSize": 21609,
-      "sourceSha256": "3a2ec9e96c7845e80cb01e89175f990eca5d00889a80a2c52e3425b698d90ff2",
-      "publicSha256": "3a2ec9e96c7845e80cb01e89175f990eca5d00889a80a2c52e3425b698d90ff2",
-      "semanticSha256": "c56c54a57501096e24567c25e21f35f74d41288d29159836ebfa5878f9ad209f",
+      "sourceSize": 767,
+      "publicSize": 767,
+      "sourceSha256": "6bb811cb1ce435990eb720c1703164ea4b6cfb15b4f0687812fadc5763890777",
+      "publicSha256": "6bb811cb1ce435990eb720c1703164ea4b6cfb15b4f0687812fadc5763890777",
+      "semanticSha256": "e83dde04c345c8fa8a69d5bd738419f0cd7b06f1a2bd5dad14a0a0ca6b63714b",
+      "tableDimensions": [],
+      "numericTokenCount": 3
+    },
+    {
+      "sourceRelativePath": "投资研究/产业专题/AI产业链/AI云、算力租赁、大模型与API产业链.md",
+      "publicPath": "research/产业专题/AI产业链/AI云、算力租赁、大模型与API产业链.md",
+      "kind": "markdown",
+      "sourceSize": 11361,
+      "publicSize": 11361,
+      "sourceSha256": "b792cfd845c6a274ff31a77a97c1813c943a73940890d50598f055398120ad78",
+      "publicSha256": "b792cfd845c6a274ff31a77a97c1813c943a73940890d50598f055398120ad78",
+      "semanticSha256": "ce925a9f400acf67bc150a4e05a5401a1a0581e25f7fcc4e9ef8dfb7ec87d399",
       "tableDimensions": [
-        {
-          "rows": 4,
-          "columns": 6
-        },
-        {
-          "rows": 12,
-          "columns": 6
-        },
         {
           "rows": 6,
           "columns": 6
         },
         {
+          "rows": 6,
+          "columns": 10
+        },
+        {
           "rows": 7,
+          "columns": 8
+        }
+      ],
+      "numericTokenCount": 121
+    },
+    {
+      "sourceRelativePath": "投资研究/产业专题/AI产业链/AI产业链子产业链覆盖矩阵.md",
+      "publicPath": "research/产业专题/AI产业链/AI产业链子产业链覆盖矩阵.md",
+      "kind": "markdown",
+      "sourceSize": 9206,
+      "publicSize": 9206,
+      "sourceSha256": "fb9fcb2a42c3f7e4c44d2645d187d635f68c9e9f3f3d880708021f4be2782f99",
+      "publicSha256": "fb9fcb2a42c3f7e4c44d2645d187d635f68c9e9f3f3d880708021f4be2782f99",
+      "semanticSha256": "ea2577724cbfcd9c90032d5e06551e78159f68ba8b2a6d9057642ae1513528ef",
+      "tableDimensions": [
+        {
+          "rows": 10,
+          "columns": 4
+        },
+        {
+          "rows": 10,
+          "columns": 9
+        },
+        {
+          "rows": 6,
           "columns": 4
         }
       ],
-      "numericTokenCount": 193
+      "numericTokenCount": 17
     },
     {
       "sourceRelativePath": "投资研究/产业专题/AI产业链/AI产业链小白审核结果.md",
       "publicPath": "research/产业专题/AI产业链/AI产业链小白审核结果.md",
       "kind": "markdown",
-      "sourceSize": 5025,
-      "publicSize": 5025,
-      "sourceSha256": "c87db39bed08191608bf3bc67a82e2b48b6bc7c3677862adf03bb98dd266ebde",
-      "publicSha256": "c87db39bed08191608bf3bc67a82e2b48b6bc7c3677862adf03bb98dd266ebde",
-      "semanticSha256": "66c162fc59d5fc1bab213a969166372003aba530d33b9d5c0aab4bfc89f62774",
-      "tableDimensions": [
-        {
-          "rows": 5,
-          "columns": 3
-        },
-        {
-          "rows": 4,
-          "columns": 2
-        },
-        {
-          "rows": 6,
-          "columns": 2
-        }
-      ],
-      "numericTokenCount": 18
+      "sourceSize": 373,
+      "publicSize": 373,
+      "sourceSha256": "a023cad24212f75bec940d07ef0fe420448d1fdd3bb65046b28b1a415f91a817",
+      "publicSha256": "a023cad24212f75bec940d07ef0fe420448d1fdd3bb65046b28b1a415f91a817",
+      "semanticSha256": "95254bc84eadfa7ab066014b2decf5a28d4248118b193a8ac2020f96e552605a",
+      "tableDimensions": [],
+      "numericTokenCount": 6
     },
     {
       "sourceRelativePath": "投资研究/产业专题/AI产业链/AI产业链术语表.md",
       "publicPath": "research/产业专题/AI产业链/AI产业链术语表.md",
       "kind": "markdown",
-      "sourceSize": 9671,
-      "publicSize": 9671,
-      "sourceSha256": "8365b362f6bfd24327572104934d8f51f11cf6ae92384ea337590c5df36ac809",
-      "publicSha256": "8365b362f6bfd24327572104934d8f51f11cf6ae92384ea337590c5df36ac809",
-      "semanticSha256": "84ff7c3d0290172b2c15bd52b97b6580d389990ba807213304dc0b43ec834068",
+      "sourceSize": 9526,
+      "publicSize": 9526,
+      "sourceSha256": "150f44691709007535cea4bf3ac66fdec79c1a4f4955ecb5df4986f589735d86",
+      "publicSha256": "150f44691709007535cea4bf3ac66fdec79c1a4f4955ecb5df4986f589735d86",
+      "semanticSha256": "22cd4faec2d809203c094abeeaae509192d213f5600f1e06eb7ac85b71210565",
       "tableDimensions": [
         {
           "rows": 53,
@@ -300,96 +320,75 @@
           "columns": 3
         }
       ],
-      "numericTokenCount": 7
+      "numericTokenCount": 4
     },
     {
       "sourceRelativePath": "投资研究/产业专题/AI产业链/AI产业链深度调研 - 总览.md",
       "publicPath": "research/产业专题/AI产业链/AI产业链深度调研 - 总览.md",
       "kind": "markdown",
-      "sourceSize": 18303,
-      "publicSize": 18303,
-      "sourceSha256": "8b925924c80bb66f71cd472db776639b663801bbb58bf7e801c9765b08976486",
-      "publicSha256": "8b925924c80bb66f71cd472db776639b663801bbb58bf7e801c9765b08976486",
-      "semanticSha256": "f93c92b045b33dfab42f6a30bc5fbbfe284803c13734813c174f3da55c756dc4",
+      "sourceSize": 9438,
+      "publicSize": 9438,
+      "sourceSha256": "80dde2ec2f585ab792e1a963cc73019b60c746a9afcb8353d88b30c52764c218",
+      "publicSha256": "80dde2ec2f585ab792e1a963cc73019b60c746a9afcb8353d88b30c52764c218",
+      "semanticSha256": "f1ba2418279af23421bbea4c7b6ef6794aea43b243a01c4f73e4392b3640732a",
       "tableDimensions": [
         {
-          "rows": 6,
-          "columns": 2
-        },
-        {
-          "rows": 8,
-          "columns": 6
-        },
-        {
-          "rows": 7,
-          "columns": 6
-        },
-        {
-          "rows": 7,
+          "rows": 10,
           "columns": 5
-        },
-        {
-          "rows": 8,
-          "columns": 3
-        }
-      ],
-      "numericTokenCount": 137
-    },
-    {
-      "sourceRelativePath": "投资研究/产业专题/AI产业链/AI产业链深度调研.md",
-      "publicPath": "research/产业专题/AI产业链/AI产业链深度调研.md",
-      "kind": "markdown",
-      "sourceSize": 5736,
-      "publicSize": 5736,
-      "sourceSha256": "79e0af5f63d40fff1adbb6d73b583d3acd9e30941827781c2fca46feee84be90",
-      "publicSha256": "79e0af5f63d40fff1adbb6d73b583d3acd9e30941827781c2fca46feee84be90",
-      "semanticSha256": "fac031e13c8709f4f68247cf497361aeae3ff4f4204bd10a4780d590d1a62e95",
-      "tableDimensions": [
-        {
-          "rows": 11,
-          "columns": 3
-        },
-        {
-          "rows": 12,
-          "columns": 3
-        }
-      ],
-      "numericTokenCount": 6
-    },
-    {
-      "sourceRelativePath": "投资研究/产业专题/AI产业链/AI产业链节点规模与利润池总表.md",
-      "publicPath": "research/产业专题/AI产业链/AI产业链节点规模与利润池总表.md",
-      "kind": "markdown",
-      "sourceSize": 16536,
-      "publicSize": 16536,
-      "sourceSha256": "9a36587676134b39bcdb18d6d22333e6b77199d317eb3bdc3f7f8a9fec3ac781",
-      "publicSha256": "9a36587676134b39bcdb18d6d22333e6b77199d317eb3bdc3f7f8a9fec3ac781",
-      "semanticSha256": "375fecbe56615888d206d73e74975e700fb73a914cf3ecc531c4f1f8f2bbb0f6",
-      "tableDimensions": [
-        {
-          "rows": 17,
-          "columns": 7
         },
         {
           "rows": 7,
           "columns": 4
         },
         {
-          "rows": 6,
-          "columns": 3
+          "rows": 7,
+          "columns": 4
+        },
+        {
+          "rows": 4,
+          "columns": 2
         }
       ],
-      "numericTokenCount": 216
+      "numericTokenCount": 36
+    },
+    {
+      "sourceRelativePath": "投资研究/产业专题/AI产业链/AI产业链深度调研.md",
+      "publicPath": "research/产业专题/AI产业链/AI产业链深度调研.md",
+      "kind": "markdown",
+      "sourceSize": 918,
+      "publicSize": 918,
+      "sourceSha256": "914d09ad4fd9f19a6f757ecf7072edf7316ee9906848cf4293efc27f78fe4d04",
+      "publicSha256": "914d09ad4fd9f19a6f757ecf7072edf7316ee9906848cf4293efc27f78fe4d04",
+      "semanticSha256": "ae0c73a8f0266c719ae9744ed029530bf6df5d99a86414a2db0cda6b5ced8ae9",
+      "tableDimensions": [],
+      "numericTokenCount": 3
+    },
+    {
+      "sourceRelativePath": "投资研究/产业专题/AI产业链/AI产业链节点规模与利润池总表.md",
+      "publicPath": "research/产业专题/AI产业链/AI产业链节点规模与利润池总表.md",
+      "kind": "markdown",
+      "sourceSize": 2726,
+      "publicSize": 2726,
+      "sourceSha256": "0824472719597549a5090253354b4bb54cf8df3758ae9592f834cee0bf3d31de",
+      "publicSha256": "0824472719597549a5090253354b4bb54cf8df3758ae9592f834cee0bf3d31de",
+      "semanticSha256": "53fb59d296b33dfccfe3c4fa32fd2bf072ad32322345b85153091a8bfd9e50a0",
+      "tableDimensions": [
+        {
+          "rows": 10,
+          "columns": 5
+        }
+      ],
+      "numericTokenCount": 25
     },
     {
       "sourceRelativePath": "投资研究/产业专题/AI产业链/AI国内视角、公司映射与对比.md",
       "publicPath": "research/产业专题/AI产业链/AI国内视角、公司映射与对比.md",
       "kind": "markdown",
-      "sourceSize": 26484,
-      "publicSize": 26484,
-      "sourceSha256": "6b22a9106797e281cf6c82e76f4fbbe854b0c3f91071c1c341876469d75c3239",
-      "publicSha256": "6b22a9106797e281cf6c82e76f4fbbe854b0c3f91071c1c341876469d75c3239",
-      "semanticSha256": "cb7cc553d70f66c68c6bbf855add0cba9723055e522838fe7c3694199a779bfe",
+      "sourceSize": 26444,
+      "publicSize": 26444,
+      "sourceSha256": "b3c14d091dc5a5b16728d2de86fdf612abfcd0afad667b19f8ba714159ff7698",
+      "publicSha256": "b3c14d091dc5a5b16728d2de86fdf612abfcd0afad667b19f8ba714159ff7698",
+      "semanticSha256": "8312cf5d4c3542a1df5b9b301adf52e52bb3f90fdabf0831f9ed704a7f36d4fb",
       "tableDimensions": [
         {
           "rows": 8,
@@ -431,21 +430,75 @@
       "numericTokenCount": 322
     },
     {
-      "sourceRelativePath": "投资研究/产业专题/AI产业链/AI数据中心、电力与液冷产业链.md",
-      "publicPath": "research/产业专题/AI产业链/AI数据中心、电力与液冷产业链.md",
+      "sourceRelativePath": "投资研究/产业专题/AI产业链/AI应用与Agent产业链.md",
+      "publicPath": "research/产业专题/AI产业链/AI应用与Agent产业链.md",
       "kind": "markdown",
-      "sourceSize": 11688,
-      "publicSize": 11688,
-      "sourceSha256": "5f3c5a8864aaa2a82dec8b528cc90f0a641427225d5addb3b41a0e07e1e33bad",
-      "publicSha256": "5f3c5a8864aaa2a82dec8b528cc90f0a641427225d5addb3b41a0e07e1e33bad",
-      "semanticSha256": "6fef799c1fdabccf7fb89a8d089fa40a46ca92aa1dfa9e331bf1547b6c7f3ac9",
+      "sourceSize": 11164,
+      "publicSize": 11164,
+      "sourceSha256": "a018e62fe4ab39a4ab5d96d3ce92e7255ec2ffd24b98a3d20333b5f26ae34a1d",
+      "publicSha256": "a018e62fe4ab39a4ab5d96d3ce92e7255ec2ffd24b98a3d20333b5f26ae34a1d",
+      "semanticSha256": "55b901d3c50279213256473addde134c7917a42494d10a99c663445467b1d62b",
       "tableDimensions": [
         {
-          "rows": 9,
+          "rows": 5,
           "columns": 6
         },
         {
+          "rows": 5,
+          "columns": 10
+        },
+        {
           "rows": 8,
+          "columns": 8
+        }
+      ],
+      "numericTokenCount": 100
+    },
+    {
+      "sourceRelativePath": "投资研究/产业专题/AI产业链/AI手机、AI PC与可穿戴产业链.md",
+      "publicPath": "research/产业专题/AI产业链/AI手机、AI PC与可穿戴产业链.md",
+      "kind": "markdown",
+      "sourceSize": 9276,
+      "publicSize": 9276,
+      "sourceSha256": "58a4aa1950399eb162c003f0d5842054ff6078f36622cae76fa10f6fb65b3779",
+      "publicSha256": "58a4aa1950399eb162c003f0d5842054ff6078f36622cae76fa10f6fb65b3779",
+      "semanticSha256": "fe89163202b8fe1c5799e00de42244196e769360e5285216d9469363d580023d",
+      "tableDimensions": [
+        {
+          "rows": 5,
+          "columns": 6
+        },
+        {
+          "rows": 5,
+          "columns": 10
+        },
+        {
+          "rows": 6,
+          "columns": 8
+        }
+      ],
+      "numericTokenCount": 83
+    },
+    {
+      "sourceRelativePath": "投资研究/产业专题/AI产业链/AI技术成熟度与发展趋势.md",
+      "publicPath": "research/产业专题/AI产业链/AI技术成熟度与发展趋势.md",
+      "kind": "markdown",
+      "sourceSize": 19165,
+      "publicSize": 19165,
+      "sourceSha256": "ebd278fbb6a63d448bebff6777f6618f8ca16cf1c19ce8651917e682c5dc0254",
+      "publicSha256": "ebd278fbb6a63d448bebff6777f6618f8ca16cf1c19ce8651917e682c5dc0254",
+      "semanticSha256": "afc2f6257a88dd39f76fdc611c45aa483fc2874d7ab7f054fededda9558bba25",
+      "tableDimensions": [
+        {
+          "rows": 6,
+          "columns": 4
+        },
+        {
+          "rows": 26,
+          "columns": 7
+        },
+        {
+          "rows": 25,
           "columns": 5
         },
         {
@@ -453,100 +506,149 @@
           "columns": 3
         }
       ],
-      "numericTokenCount": 112
+      "numericTokenCount": 149
+    },
+    {
+      "sourceRelativePath": "投资研究/产业专题/AI产业链/AI数据中心、电力与液冷产业链.md",
+      "publicPath": "research/产业专题/AI产业链/AI数据中心、电力与液冷产业链.md",
+      "kind": "markdown",
+      "sourceSize": 11271,
+      "publicSize": 11271,
+      "sourceSha256": "e9459774adacb1b9334baa5792bfb122ea49c416b093c27237e2a36c9aa25370",
+      "publicSha256": "e9459774adacb1b9334baa5792bfb122ea49c416b093c27237e2a36c9aa25370",
+      "semanticSha256": "7123ab745115e43fc88e582412c0676e8d2ac590e7d4efd390e1ef78a20aa477",
+      "tableDimensions": [
+        {
+          "rows": 5,
+          "columns": 6
+        },
+        {
+          "rows": 5,
+          "columns": 10
+        },
+        {
+          "rows": 7,
+          "columns": 8
+        }
+      ],
+      "numericTokenCount": 97
+    },
+    {
+      "sourceRelativePath": "投资研究/产业专题/AI产业链/AI数据工具、MLOps与安全产业链.md",
+      "publicPath": "research/产业专题/AI产业链/AI数据工具、MLOps与安全产业链.md",
+      "kind": "markdown",
+      "sourceSize": 8889,
+      "publicSize": 8889,
+      "sourceSha256": "b09b671a935a95b3963fadae289afe6f6615b69142b9b677ce70ef06fc59a8b8",
+      "publicSha256": "b09b671a935a95b3963fadae289afe6f6615b69142b9b677ce70ef06fc59a8b8",
+      "semanticSha256": "ba647498cbee271fa6b05e31188c12e9eb1f36129db1d9eb4b36fc87800f4321",
+      "tableDimensions": [
+        {
+          "rows": 5,
+          "columns": 6
+        },
+        {
+          "rows": 5,
+          "columns": 10
+        },
+        {
+          "rows": 5,
+          "columns": 8
+        }
+      ],
+      "numericTokenCount": 80
     },
     {
       "sourceRelativePath": "投资研究/产业专题/AI产业链/AI数据工具与MLOps产业链.md",
       "publicPath": "research/产业专题/AI产业链/AI数据工具与MLOps产业链.md",
       "kind": "markdown",
-      "sourceSize": 14963,
-      "publicSize": 14963,
-      "sourceSha256": "9cf5a307185fa69e5c5d70b4991325eaa9be2a870bd4b9c755a9396536e70f15",
-      "publicSha256": "9cf5a307185fa69e5c5d70b4991325eaa9be2a870bd4b9c755a9396536e70f15",
-      "semanticSha256": "02fc3287f94aab3eeadbdc68c0b4adb37ac6cc7382a096121388aa65fd6ae99e",
+      "sourceSize": 571,
+      "publicSize": 571,
+      "sourceSha256": "0d4f6d36372b2489cc4ecdbc05e131326a54c1c99530ac7dbb0d048d1668beee",
+      "publicSha256": "0d4f6d36372b2489cc4ecdbc05e131326a54c1c99530ac7dbb0d048d1668beee",
+      "semanticSha256": "d256861fb59d25d23ec29f612736cb4cf693b7e45174a35ea7b5cc953dad1e7e",
+      "tableDimensions": [],
+      "numericTokenCount": 3
+    },
+    {
+      "sourceRelativePath": "投资研究/产业专题/AI产业链/AI服务器、网络与光模块产业链.md",
+      "publicPath": "research/产业专题/AI产业链/AI服务器、网络与光模块产业链.md",
+      "kind": "markdown",
+      "sourceSize": 10230,
+      "publicSize": 10230,
+      "sourceSha256": "c7362080d7c06b559236ed93e090077c92563025a750e3347147931f7e14e180",
+      "publicSha256": "c7362080d7c06b559236ed93e090077c92563025a750e3347147931f7e14e180",
+      "semanticSha256": "7cd07b29320ce6494b22c2eb922d6f3c2bda52976db8592d5cf73edcea4ea0a5",
       "tableDimensions": [
         {
-          "rows": 7,
+          "rows": 5,
           "columns": 6
         },
         {
-          "rows": 8,
-          "columns": 6
-        },
-        {
-          "rows": 7,
-          "columns": 4
+          "rows": 5,
+          "columns": 10
         },
         {
           "rows": 6,
-          "columns": 4
+          "columns": 8
         }
       ],
-      "numericTokenCount": 133
+      "numericTokenCount": 102
     },
     {
       "sourceRelativePath": "投资研究/产业专题/AI产业链/AI端侧AI与具身智能产业链.md",
       "publicPath": "research/产业专题/AI产业链/AI端侧AI与具身智能产业链.md",
       "kind": "markdown",
-      "sourceSize": 27534,
-      "publicSize": 27534,
-      "sourceSha256": "2f76f7a6711eae8ef540bc0d4450cfb75bb7cee0c4c1cede087dbbc3f9de9a4d",
-      "publicSha256": "2f76f7a6711eae8ef540bc0d4450cfb75bb7cee0c4c1cede087dbbc3f9de9a4d",
-      "semanticSha256": "06b39b57290cb95481d957f3dea45de27686248f270d8daae7c1f6157b98d5ae",
-      "tableDimensions": [
-        {
-          "rows": 9,
-          "columns": 5
-        },
-        {
-          "rows": 11,
-          "columns": 6
-        },
-        {
-          "rows": 10,
-          "columns": 5
-        },
-        {
-          "rows": 8,
-          "columns": 4
-        }
-      ],
-      "numericTokenCount": 161
+      "sourceSize": 803,
+      "publicSize": 803,
+      "sourceSha256": "c6b3bc20616fbbf0fe042d1929e2dd238ed4fc609e67467ef77ec3fb65570f35",
+      "publicSha256": "c6b3bc20616fbbf0fe042d1929e2dd238ed4fc609e67467ef77ec3fb65570f35",
+      "semanticSha256": "497eeee7d40763124fba22290ea39037d72984d7288c2e5d76f8efcbfbf56d8c",
+      "tableDimensions": [],
+      "numericTokenCount": 3
     },
     {
       "sourceRelativePath": "投资研究/产业专题/AI产业链/AI算力基础设施产业链.md",
       "publicPath": "research/产业专题/AI产业链/AI算力基础设施产业链.md",
       "kind": "markdown",
-      "sourceSize": 12708,
-      "publicSize": 12708,
-      "sourceSha256": "fdfe8600298feb2586913b0a682469cefe01b1007a7344c1ee9184a2b10ed212",
-      "publicSha256": "fdfe8600298feb2586913b0a682469cefe01b1007a7344c1ee9184a2b10ed212",
-      "semanticSha256": "d14bd90a46ccb932cc66e0c1683ec1e56752fd7fff5f14bc71a458b5d392156b",
+      "sourceSize": 862,
+      "publicSize": 862,
+      "sourceSha256": "09a65e0b42b51d155a3618131199a407b58577dd7e85caf22c4d75027bc84376",
+      "publicSha256": "09a65e0b42b51d155a3618131199a407b58577dd7e85caf22c4d75027bc84376",
+      "semanticSha256": "f00ae0d25a27350fae63be19aa463a46c1b2d4c501ed0eeb6e11a6ea6fb528ac",
+      "tableDimensions": [],
+      "numericTokenCount": 3
+    },
+    {
+      "sourceRelativePath": "投资研究/产业专题/AI产业链/AI芯片、HBM与先进封装产业链.md",
+      "publicPath": "research/产业专题/AI产业链/AI芯片、HBM与先进封装产业链.md",
+      "kind": "markdown",
+      "sourceSize": 8598,
+      "publicSize": 8598,
+      "sourceSha256": "6cebc2c87a8a31d3605a400f5402486f1d24823b14431d9b477f053b4f5c7a12",
+      "publicSha256": "6cebc2c87a8a31d3605a400f5402486f1d24823b14431d9b477f053b4f5c7a12",
+      "semanticSha256": "0c05cda34dc3520559a644daa4926e2f502988082806b58f013677d36e741dcf",
       "tableDimensions": [
         {
-          "rows": 8,
-          "columns": 6
-        },
-        {
-          "rows": 8,
+          "rows": 6,
           "columns": 6
         },
         {
           "rows": 6,
-          "columns": 3
+          "columns": 10
         }
       ],
-      "numericTokenCount": 115
+      "numericTokenCount": 118
     },
     {
       "sourceRelativePath": "投资研究/产业专题/AI产业链/AI行业周期、估值与入场节奏.md",
       "publicPath": "research/产业专题/AI产业链/AI行业周期、估值与入场节奏.md",
       "kind": "markdown",
-      "sourceSize": 16306,
-      "publicSize": 16306,
-      "sourceSha256": "4386293bdd770d3b58ff08106d0560251dc4a8030ae6634012a78fc0ca7ea54f",
-      "publicSha256": "4386293bdd770d3b58ff08106d0560251dc4a8030ae6634012a78fc0ca7ea54f",
-      "semanticSha256": "5945c8bbf263af22ca9bee9e8472f2884a4be9c04c1d538c06e3f69a521d22b5",
+      "sourceSize": 16823,
+      "publicSize": 16823,
+      "sourceSha256": "4b5d50db299c47bc4df69ecd38a3341bd4ee781fde01876523557f02df859bfa",
+      "publicSha256": "4b5d50db299c47bc4df69ecd38a3341bd4ee781fde01876523557f02df859bfa",
+      "semanticSha256": "35bc799133f7447aa8b45898510133980422d7b9d02e7bc760be28398c7bc0bd",
       "tableDimensions": [
         {
           "rows": 9,
@@ -565,7 +667,25 @@
           "columns": 4
         }
       ],
-      "numericTokenCount": 157
+      "numericTokenCount": 158
+    },
+    {
+      "sourceRelativePath": "投资研究/产业专题/AI产业链/assets/AI九条子产业链技术成熟度地图.png",
+      "publicPath": "research/产业专题/AI产业链/assets/AI九条子产业链技术成熟度地图.png",
+      "kind": "asset",
+      "sourceSize": 304945,
+      "publicSize": 304945,
+      "sourceSha256": "6cd60405a874a3289bbd09eb0e54abbbceaa93ee10694bbe0bb7a20538f1352b",
+      "publicSha256": "6cd60405a874a3289bbd09eb0e54abbbceaa93ee10694bbe0bb7a20538f1352b"
+    },
+    {
+      "sourceRelativePath": "投资研究/产业专题/AI产业链/assets/AI九条子产业链技术成熟度地图.svg",
+      "publicPath": "research/产业专题/AI产业链/assets/AI九条子产业链技术成熟度地图.svg",
+      "kind": "asset",
+      "sourceSize": 7296,
+      "publicSize": 7296,
+      "sourceSha256": "18dfb970fc670f6516f2eadb50f75ab7acc4c25dafcb2180d9ca2eed7f0e7438",
+      "publicSha256": "18dfb970fc670f6516f2eadb50f75ab7acc4c25dafcb2180d9ca2eed7f0e7438"
     },
     {
       "sourceRelativePath": "投资研究/产业专题/AI产业链/assets/AI云模型应用回本链路图.png",
@@ -584,6 +704,24 @@
       "publicSize": 5297,
       "sourceSha256": "09441cc4d1e49b6aa8f274e171d90e1550b4a83fe8b6725f82cdf85223843aa0",
       "publicSha256": "09441cc4d1e49b6aa8f274e171d90e1550b4a83fe8b6725f82cdf85223843aa0"
+    },
+    {
+      "sourceRelativePath": "投资研究/产业专题/AI产业链/assets/AI云算力租赁大模型API产业链路图.png",
+      "publicPath": "research/产业专题/AI产业链/assets/AI云算力租赁大模型API产业链路图.png",
+      "kind": "asset",
+      "sourceSize": 122963,
+      "publicSize": 122963,
+      "sourceSha256": "82cc1f2eff27b02430dc915373c773e44721a1adbab691d24011ced33fa4440b",
+      "publicSha256": "82cc1f2eff27b02430dc915373c773e44721a1adbab691d24011ced33fa4440b"
+    },
+    {
+      "sourceRelativePath": "投资研究/产业专题/AI产业链/assets/AI云算力租赁大模型API产业链路图.svg",
+      "publicPath": "research/产业专题/AI产业链/assets/AI云算力租赁大模型API产业链路图.svg",
+      "kind": "asset",
+      "sourceSize": 3829,
+      "publicSize": 3829,
+      "sourceSha256": "de5617aac9878bd100de05997cd04a041edbbfb2be44bb5338c4e26c6cf6d196",
+      "publicSha256": "de5617aac9878bd100de05997cd04a041edbbfb2be44bb5338c4e26c6cf6d196"
     },
     {
       "sourceRelativePath": "投资研究/产业专题/AI产业链/assets/AI产业链总地图.png",
@@ -640,6 +778,24 @@
       "publicSha256": "159f7e8d85c7d1c10583064f2194c23f6a41e9ce76f512ca7afd2d8155884d84"
     },
     {
+      "sourceRelativePath": "投资研究/产业专题/AI产业链/assets/AI应用Agent产业链路图.png",
+      "publicPath": "research/产业专题/AI产业链/assets/AI应用Agent产业链路图.png",
+      "kind": "asset",
+      "sourceSize": 119016,
+      "publicSize": 119016,
+      "sourceSha256": "eb3c31a6b6d139d37278d1d044036f75fc7c06aba482a4871fdc7778e1baa211",
+      "publicSha256": "eb3c31a6b6d139d37278d1d044036f75fc7c06aba482a4871fdc7778e1baa211"
+    },
+    {
+      "sourceRelativePath": "投资研究/产业专题/AI产业链/assets/AI应用Agent产业链路图.svg",
+      "publicPath": "research/产业专题/AI产业链/assets/AI应用Agent产业链路图.svg",
+      "kind": "asset",
+      "sourceSize": 3817,
+      "publicSize": 3817,
+      "sourceSha256": "107e79981a2d743fa32f7b7717628d158194c42f24b309860e74d2bee41a277a",
+      "publicSha256": "107e79981a2d743fa32f7b7717628d158194c42f24b309860e74d2bee41a277a"
+    },
+    {
       "sourceRelativePath": "投资研究/产业专题/AI产业链/assets/AI应用Agent付费验证矩阵.png",
       "publicPath": "research/产业专题/AI产业链/assets/AI应用Agent付费验证矩阵.png",
       "kind": "asset",
@@ -656,6 +812,24 @@
       "publicSize": 5365,
       "sourceSha256": "a1c226322e22c4d1714f507370a22bd6c8cc63474de344287381770cf64de15f",
       "publicSha256": "a1c226322e22c4d1714f507370a22bd6c8cc63474de344287381770cf64de15f"
+    },
+    {
+      "sourceRelativePath": "投资研究/产业专题/AI产业链/assets/AI手机AIPC可穿戴产业链路图.png",
+      "publicPath": "research/产业专题/AI产业链/assets/AI手机AIPC可穿戴产业链路图.png",
+      "kind": "asset",
+      "sourceSize": 122129,
+      "publicSize": 122129,
+      "sourceSha256": "46329beba2f2aa119a7ba6c20548ecd3ebbc16636489c3f0553cee18cf8be450",
+      "publicSha256": "46329beba2f2aa119a7ba6c20548ecd3ebbc16636489c3f0553cee18cf8be450"
+    },
+    {
+      "sourceRelativePath": "投资研究/产业专题/AI产业链/assets/AI手机AIPC可穿戴产业链路图.svg",
+      "publicPath": "research/产业专题/AI产业链/assets/AI手机AIPC可穿戴产业链路图.svg",
+      "kind": "asset",
+      "sourceSize": 3828,
+      "publicSize": 3828,
+      "sourceSha256": "1cfd2d2970b7406eb11a5399e5145181a58719249a638a986bc737dff0974893",
+      "publicSha256": "1cfd2d2970b7406eb11a5399e5145181a58719249a638a986bc737dff0974893"
     },
     {
       "sourceRelativePath": "投资研究/产业专题/AI产业链/assets/AI数据中心瓶颈仪表盘.png",
@@ -676,6 +850,42 @@
       "publicSha256": "9682ce12fd24800e7a4a8d4e1a6e4f5aed5f2b6ee9090ed319198bcc2ad85dcf"
     },
     {
+      "sourceRelativePath": "投资研究/产业专题/AI产业链/assets/AI数据中心电力液冷产业链路图.png",
+      "publicPath": "research/产业专题/AI产业链/assets/AI数据中心电力液冷产业链路图.png",
+      "kind": "asset",
+      "sourceSize": 120173,
+      "publicSize": 120173,
+      "sourceSha256": "6a7a9c8b6b000938e10a6d6da068c4d23769f21a90272cd6ee2e3ac98e341827",
+      "publicSha256": "6a7a9c8b6b000938e10a6d6da068c4d23769f21a90272cd6ee2e3ac98e341827"
+    },
+    {
+      "sourceRelativePath": "投资研究/产业专题/AI产业链/assets/AI数据中心电力液冷产业链路图.svg",
+      "publicPath": "research/产业专题/AI产业链/assets/AI数据中心电力液冷产业链路图.svg",
+      "kind": "asset",
+      "sourceSize": 3815,
+      "publicSize": 3815,
+      "sourceSha256": "f500bf9ce2e693c8a1e086ffd4bd117261152b31bdc8bea91e382f4a4c414b06",
+      "publicSha256": "f500bf9ce2e693c8a1e086ffd4bd117261152b31bdc8bea91e382f4a4c414b06"
+    },
+    {
+      "sourceRelativePath": "投资研究/产业专题/AI产业链/assets/AI数据工具MLOps安全产业链路图.png",
+      "publicPath": "research/产业专题/AI产业链/assets/AI数据工具MLOps安全产业链路图.png",
+      "kind": "asset",
+      "sourceSize": 123116,
+      "publicSize": 123116,
+      "sourceSha256": "7ac04fbcf002fffe6fa4cee0acf27fec4f5a2f35a866f0b42dda86319966159d",
+      "publicSha256": "7ac04fbcf002fffe6fa4cee0acf27fec4f5a2f35a866f0b42dda86319966159d"
+    },
+    {
+      "sourceRelativePath": "投资研究/产业专题/AI产业链/assets/AI数据工具MLOps安全产业链路图.svg",
+      "publicPath": "research/产业专题/AI产业链/assets/AI数据工具MLOps安全产业链路图.svg",
+      "kind": "asset",
+      "sourceSize": 3835,
+      "publicSize": 3835,
+      "sourceSha256": "f0c52c3fd3d8c4ae979edb5b520ae7fcb95d6d5dd14137e2de8d77b226dcf5f6",
+      "publicSha256": "f0c52c3fd3d8c4ae979edb5b520ae7fcb95d6d5dd14137e2de8d77b226dcf5f6"
+    },
+    {
       "sourceRelativePath": "投资研究/产业专题/AI产业链/assets/AI数据工具MLOps控制面图.png",
       "publicPath": "research/产业专题/AI产业链/assets/AI数据工具MLOps控制面图.png",
       "kind": "asset",
@@ -692,6 +902,24 @@
       "publicSize": 4214,
       "sourceSha256": "e398076190099533bb3a097bb5caf8634595af69805b5a3479c4efa91b36c210",
       "publicSha256": "e398076190099533bb3a097bb5caf8634595af69805b5a3479c4efa91b36c210"
+    },
+    {
+      "sourceRelativePath": "投资研究/产业专题/AI产业链/assets/AI服务器网络光模块产业链路图.png",
+      "publicPath": "research/产业专题/AI产业链/assets/AI服务器网络光模块产业链路图.png",
+      "kind": "asset",
+      "sourceSize": 123386,
+      "publicSize": 123386,
+      "sourceSha256": "35b54f2ba6d3195d9fda1d99a345c552e7ba426e9679a27be8ece9c4c602184c",
+      "publicSha256": "35b54f2ba6d3195d9fda1d99a345c552e7ba426e9679a27be8ece9c4c602184c"
+    },
+    {
+      "sourceRelativePath": "投资研究/产业专题/AI产业链/assets/AI服务器网络光模块产业链路图.svg",
+      "publicPath": "research/产业专题/AI产业链/assets/AI服务器网络光模块产业链路图.svg",
+      "kind": "asset",
+      "sourceSize": 3817,
+      "publicSize": 3817,
+      "sourceSha256": "3fa75309a8bbe2dd32e35c1ef81336a29b445160a9083de4907975b40115c2b0",
+      "publicSha256": "3fa75309a8bbe2dd32e35c1ef81336a29b445160a9083de4907975b40115c2b0"
     },
     {
       "sourceRelativePath": "投资研究/产业专题/AI产业链/assets/AI端侧AI与具身智能成熟度地图.png",
@@ -730,6 +958,24 @@
       "publicSha256": "e46c6ee0d0df8f5416f400eaf21f599dfc78f08aafe295b40ca05287f765e436"
     },
     {
+      "sourceRelativePath": "投资研究/产业专题/AI产业链/assets/AI芯片HBM先进封装产业链路图.png",
+      "publicPath": "research/产业专题/AI产业链/assets/AI芯片HBM先进封装产业链路图.png",
+      "kind": "asset",
+      "sourceSize": 117268,
+      "publicSize": 117268,
+      "sourceSha256": "a666e91b334d0fcbd993fd1029f1cf8108b513ee6e8562299ecf16766b58231b",
+      "publicSha256": "a666e91b334d0fcbd993fd1029f1cf8108b513ee6e8562299ecf16766b58231b"
+    },
+    {
+      "sourceRelativePath": "投资研究/产业专题/AI产业链/assets/AI芯片HBM先进封装产业链路图.svg",
+      "publicPath": "research/产业专题/AI产业链/assets/AI芯片HBM先进封装产业链路图.svg",
+      "kind": "asset",
+      "sourceSize": 3800,
+      "publicSize": 3800,
+      "sourceSha256": "7f8a40b5b9cd0841aa0fcd5b2fb6b7d35a70da85f21fb512906828556fb586ca",
+      "publicSha256": "7f8a40b5b9cd0841aa0fcd5b2fb6b7d35a70da85f21fb512906828556fb586ca"
+    },
+    {
       "sourceRelativePath": "投资研究/产业专题/AI产业链/assets/AI行业周期与估值入场仪表盘.png",
       "publicPath": "research/产业专题/AI产业链/assets/AI行业周期与估值入场仪表盘.png",
       "kind": "asset",
@@ -764,6 +1010,92 @@
       "publicSize": 3811,
       "sourceSha256": "ef1bc4bc8a727c9adb312dd820cd9b2ea9360d06dca2dabd5f1d5b3e6b6586bb",
       "publicSha256": "ef1bc4bc8a727c9adb312dd820cd9b2ea9360d06dca2dabd5f1d5b3e6b6586bb"
+    },
+    {
+      "sourceRelativePath": "投资研究/产业专题/AI产业链/assets/工业人形机器人具身智能产业链路图.png",
+      "publicPath": "research/产业专题/AI产业链/assets/工业人形机器人具身智能产业链路图.png",
+      "kind": "asset",
+      "sourceSize": 129190,
+      "publicSize": 129190,
+      "sourceSha256": "d02ace509c1d090cf565c9b988aef97ed2884388b145b736153373c3229b0c7a",
+      "publicSha256": "d02ace509c1d090cf565c9b988aef97ed2884388b145b736153373c3229b0c7a"
+    },
+    {
+      "sourceRelativePath": "投资研究/产业专题/AI产业链/assets/工业人形机器人具身智能产业链路图.svg",
+      "publicPath": "research/产业专题/AI产业链/assets/工业人形机器人具身智能产业链路图.svg",
+      "kind": "asset",
+      "sourceSize": 3876,
+      "publicSize": 3876,
+      "sourceSha256": "b2eeb6a2519eaac15f0edf43860b5ac6de93493742e3f7c3fbd1137a3697d2a4",
+      "publicSha256": "b2eeb6a2519eaac15f0edf43860b5ac6de93493742e3f7c3fbd1137a3697d2a4"
+    },
+    {
+      "sourceRelativePath": "投资研究/产业专题/AI产业链/assets/车端智能自动驾驶产业链路图.png",
+      "publicPath": "research/产业专题/AI产业链/assets/车端智能自动驾驶产业链路图.png",
+      "kind": "asset",
+      "sourceSize": 120744,
+      "publicSize": 120744,
+      "sourceSha256": "a987fed684e9cb5d4658d6b52baed49ad78a86956ed29af5e28b81b441a950c2",
+      "publicSha256": "a987fed684e9cb5d4658d6b52baed49ad78a86956ed29af5e28b81b441a950c2"
+    },
+    {
+      "sourceRelativePath": "投资研究/产业专题/AI产业链/assets/车端智能自动驾驶产业链路图.svg",
+      "publicPath": "research/产业专题/AI产业链/assets/车端智能自动驾驶产业链路图.svg",
+      "kind": "asset",
+      "sourceSize": 3831,
+      "publicSize": 3831,
+      "sourceSha256": "c6e8e9c18c4f7243e99531f5659ca1b01c66400b3e323264ef9a08c2d1235913",
+      "publicSha256": "c6e8e9c18c4f7243e99531f5659ca1b01c66400b3e323264ef9a08c2d1235913"
+    },
+    {
+      "sourceRelativePath": "投资研究/产业专题/AI产业链/工业机器人、人形机器人与具身智能产业链.md",
+      "publicPath": "research/产业专题/AI产业链/工业机器人、人形机器人与具身智能产业链.md",
+      "kind": "markdown",
+      "sourceSize": 10999,
+      "publicSize": 10999,
+      "sourceSha256": "998bce789f149fe65ebc884047143c15377c5235a9b10a3c8e6c2b1acc63608e",
+      "publicSha256": "998bce789f149fe65ebc884047143c15377c5235a9b10a3c8e6c2b1acc63608e",
+      "semanticSha256": "77d223a508cef334b4eb2c4359c2ffd3cd42f74c51b80ad8ffb9a2251701e6af",
+      "tableDimensions": [
+        {
+          "rows": 5,
+          "columns": 6
+        },
+        {
+          "rows": 5,
+          "columns": 10
+        },
+        {
+          "rows": 8,
+          "columns": 8
+        }
+      ],
+      "numericTokenCount": 102
+    },
+    {
+      "sourceRelativePath": "投资研究/产业专题/AI产业链/车端智能与自动驾驶产业链.md",
+      "publicPath": "research/产业专题/AI产业链/车端智能与自动驾驶产业链.md",
+      "kind": "markdown",
+      "sourceSize": 8981,
+      "publicSize": 8981,
+      "sourceSha256": "4fbefa0315d96f88160daf1a4c5798a6575f75b59b59772237cae5af4ca7c1f0",
+      "publicSha256": "4fbefa0315d96f88160daf1a4c5798a6575f75b59b59772237cae5af4ca7c1f0",
+      "semanticSha256": "773a508db32d3fab26ba217cf611cc7d479158431ea0fea7fe5986510e7d5443",
+      "tableDimensions": [
+        {
+          "rows": 5,
+          "columns": 6
+        },
+        {
+          "rows": 5,
+          "columns": 10
+        },
+        {
+          "rows": 6,
+          "columns": 8
+        }
+      ],
+      "numericTokenCount": 83
     },
     {
       "sourceRelativePath": "投资研究/产业专题/储能行业/assets/储能ETF估值位置仪表盘.png",

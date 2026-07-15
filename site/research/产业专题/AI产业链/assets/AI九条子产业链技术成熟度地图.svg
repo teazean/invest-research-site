@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1260" viewBox="0 0 1800 1260">
+<defs><style>
+          .title{font:700 46px 'Hiragino Sans GB','Arial Unicode MS',sans-serif;fill:#172033}
+          .head{font:700 24px 'Hiragino Sans GB','Arial Unicode MS',sans-serif;fill:#172033;text-anchor:middle}
+          .cell{font:600 22px 'Hiragino Sans GB','Arial Unicode MS',sans-serif;fill:#172033;text-anchor:middle}
+          .note{font:500 20px 'Hiragino Sans GB','Arial Unicode MS',sans-serif;fill:#4b5563;text-anchor:middle}
+        </style></defs>
+<rect width="1800" height="1260" fill="#f8fafc"/>
+<text x="900" y="70" class="title" text-anchor="middle">AI九条子产业链：成熟度、瓶颈与发展方向</text>
+<text x="900" y="115" class="note">成熟度不等于投资吸引力；它只说明技术和商业验证走到了哪一步。更新：2026-07-15</text>
+<rect x="40" y="135" width="430" height="55" rx="6" fill="#e2e8f0"/>
+<text x="255.0" y="171" class="head">子产业链</text>
+<rect x="480" y="135" width="300" height="55" rx="6" fill="#e2e8f0"/>
+<text x="630.0" y="171" class="head">当前阶段</text>
+<rect x="830" y="135" width="430" height="55" rx="6" fill="#e2e8f0"/>
+<text x="1045.0" y="171" class="head">决定成败的瓶颈</text>
+<rect x="1310" y="135" width="450" height="55" rx="6" fill="#e2e8f0"/>
+<text x="1535.0" y="171" class="head">未来1-3年方向</text>
+<rect x="40" y="190" width="430" height="97" rx="6" fill="#dbeafe" stroke="#94a3b8"/>
+<text x="255.0" y="248" class="cell">AI芯片 / HBM / 封装</text>
+<rect x="480" y="190" width="300" height="97" rx="6" fill="#dcfce7" stroke="#94a3b8"/>
+<text x="630.0" y="248" class="cell">规模化扩产</text>
+<rect x="830" y="190" width="430" height="97" rx="6" fill="#fef3c7" stroke="#94a3b8"/>
+<text x="1045.0" y="248" class="cell">性能、良率与稀缺产能</text>
+<rect x="1310" y="190" width="450" height="97" rx="6" fill="#fce7f3" stroke="#94a3b8"/>
+<text x="1535.0" y="248" class="cell">ASIC、互连与供给扩张</text>
+<rect x="40" y="295" width="430" height="97" rx="6" fill="#dbeafe" stroke="#94a3b8"/>
+<text x="255.0" y="353" class="cell">服务器 / 网络 / 光模块</text>
+<rect x="480" y="295" width="300" height="97" rx="6" fill="#dcfce7" stroke="#94a3b8"/>
+<text x="630.0" y="353" class="cell">规模化交付</text>
+<rect x="830" y="295" width="430" height="97" rx="6" fill="#fef3c7" stroke="#94a3b8"/>
+<text x="1045.0" y="353" class="cell">集成、带宽与客户认证</text>
+<rect x="1310" y="295" width="450" height="97" rx="6" fill="#fce7f3" stroke="#94a3b8"/>
+<text x="1535.0" y="353" class="cell">1.6T互连与机架级系统</text>
+<rect x="40" y="400" width="430" height="97" rx="6" fill="#dbeafe" stroke="#94a3b8"/>
+<text x="255.0" y="458" class="cell">数据中心 / 电力 / 液冷</text>
+<rect x="480" y="400" width="300" height="97" rx="6" fill="#dcfce7" stroke="#94a3b8"/>
+<text x="630.0" y="458" class="cell">规模化建设</text>
+<rect x="830" y="400" width="430" height="97" rx="6" fill="#fef3c7" stroke="#94a3b8"/>
+<text x="1045.0" y="458" class="cell">并网、功率密度与运维</text>
+<rect x="1310" y="400" width="450" height="97" rx="6" fill="#fce7f3" stroke="#94a3b8"/>
+<text x="1535.0" y="458" class="cell">高压直流、液冷与能源协同</text>
+<rect x="40" y="505" width="430" height="97" rx="6" fill="#dbeafe" stroke="#94a3b8"/>
+<text x="255.0" y="563" class="cell">云 / 模型 / API</text>
+<rect x="480" y="505" width="300" height="97" rx="6" fill="#dcfce7" stroke="#94a3b8"/>
+<text x="630.0" y="563" class="cell">商业化加速</text>
+<rect x="830" y="505" width="430" height="97" rx="6" fill="#fef3c7" stroke="#94a3b8"/>
+<text x="1045.0" y="563" class="cell">利用率、推理成本与留存</text>
+<rect x="1310" y="505" width="450" height="97" rx="6" fill="#fce7f3" stroke="#94a3b8"/>
+<text x="1535.0" y="563" class="cell">低成本推理与多模型平台</text>
+<rect x="40" y="610" width="430" height="97" rx="6" fill="#dbeafe" stroke="#94a3b8"/>
+<text x="255.0" y="668" class="cell">数据工具 / MLOps / 安全</text>
+<rect x="480" y="610" width="300" height="97" rx="6" fill="#dcfce7" stroke="#94a3b8"/>
+<text x="630.0" y="668" class="cell">商业化成长</text>
+<rect x="830" y="610" width="430" height="97" rx="6" fill="#fef3c7" stroke="#94a3b8"/>
+<text x="1045.0" y="668" class="cell">数据入口、治理与权限</text>
+<rect x="1310" y="610" width="450" height="97" rx="6" fill="#fce7f3" stroke="#94a3b8"/>
+<text x="1535.0" y="668" class="cell">Agent观测、评测与安全</text>
+<rect x="40" y="715" width="430" height="97" rx="6" fill="#dbeafe" stroke="#94a3b8"/>
+<text x="255.0" y="773" class="cell">AI应用 / Agent</text>
+<rect x="480" y="715" width="300" height="97" rx="6" fill="#dcfce7" stroke="#94a3b8"/>
+<text x="630.0" y="773" class="cell">早期商业化</text>
+<rect x="830" y="715" width="430" height="97" rx="6" fill="#fef3c7" stroke="#94a3b8"/>
+<text x="1045.0" y="773" class="cell">付费、续费与业务结果</text>
+<rect x="1310" y="715" width="450" height="97" rx="6" fill="#fce7f3" stroke="#94a3b8"/>
+<text x="1535.0" y="773" class="cell">从助手走向可控工作流</text>
+<rect x="40" y="820" width="430" height="97" rx="6" fill="#dbeafe" stroke="#94a3b8"/>
+<text x="255.0" y="878" class="cell">AI手机 / AI PC / 穿戴</text>
+<rect x="480" y="820" width="300" height="97" rx="6" fill="#dcfce7" stroke="#94a3b8"/>
+<text x="630.0" y="878" class="cell">渗透初期</text>
+<rect x="830" y="820" width="430" height="97" rx="6" fill="#fef3c7" stroke="#94a3b8"/>
+<text x="1045.0" y="878" class="cell">换机、端云协同与生态</text>
+<rect x="1310" y="820" width="450" height="97" rx="6" fill="#fce7f3" stroke="#94a3b8"/>
+<text x="1535.0" y="878" class="cell">端侧模型与持续服务</text>
+<rect x="40" y="925" width="430" height="97" rx="6" fill="#dbeafe" stroke="#94a3b8"/>
+<text x="255.0" y="983" class="cell">车端智能 / 自动驾驶</text>
+<rect x="480" y="925" width="300" height="97" rx="6" fill="#dcfce7" stroke="#94a3b8"/>
+<text x="630.0" y="983" class="cell">分层成熟</text>
+<rect x="830" y="925" width="430" height="97" rx="6" fill="#fef3c7" stroke="#94a3b8"/>
+<text x="1045.0" y="983" class="cell">L2已规模化，L3/L4待验证</text>
+<rect x="1310" y="925" width="450" height="97" rx="6" fill="#fce7f3" stroke="#94a3b8"/>
+<text x="1535.0" y="983" class="cell">法规、安全与单车经济</text>
+<rect x="40" y="1030" width="430" height="97" rx="6" fill="#dbeafe" stroke="#94a3b8"/>
+<text x="255.0" y="1088" class="cell">工业 / 人形 / 具身智能</text>
+<rect x="480" y="1030" width="300" height="97" rx="6" fill="#dcfce7" stroke="#94a3b8"/>
+<text x="630.0" y="1088" class="cell">两极分化</text>
+<rect x="830" y="1030" width="430" height="97" rx="6" fill="#fef3c7" stroke="#94a3b8"/>
+<text x="1045.0" y="1088" class="cell">工业成熟，人形仍在试点</text>
+<rect x="1310" y="1030" width="450" height="97" rx="6" fill="#fce7f3" stroke="#94a3b8"/>
+<text x="1535.0" y="1088" class="cell">可靠性、成本与复用数据</text>
+<text x="900" y="1185" class="note">读法：先看当前阶段，再看瓶颈是否正在改善；只有瓶颈改善能转成订单、利润和现金流，技术进步才构成投资兑现。</text>
+</svg>
