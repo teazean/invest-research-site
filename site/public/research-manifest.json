@@ -1385,6 +1385,15 @@
       "numericTokenCount": 83
     },
     {
+      "sourceRelativePath": "投资研究/产业专题/储能行业/assets/储能EMS、交易优化与聚合产业链路图.png",
+      "publicPath": "research/产业专题/储能行业/assets/储能EMS、交易优化与聚合产业链路图.png",
+      "kind": "asset",
+      "sourceSize": 126661,
+      "publicSize": 126661,
+      "sourceSha256": "4e0c39be6f50b7afbb91e78d3b41b996c8c05553294482519f1edbd8c7f919be",
+      "publicSha256": "4e0c39be6f50b7afbb91e78d3b41b996c8c05553294482519f1edbd8c7f919be"
+    },
+    {
       "sourceRelativePath": "投资研究/产业专题/储能行业/assets/储能ETF估值位置仪表盘.png",
       "publicPath": "research/产业专题/储能行业/assets/储能ETF估值位置仪表盘.png",
       "kind": "asset",
@@ -1419,6 +1428,15 @@
       "publicSize": 3538,
       "sourceSha256": "c3befe0f02adcfd01cee059344990c32d5894507e2c4877ccf1741d0fde8f62a",
       "publicSha256": "c3befe0f02adcfd01cee059344990c32d5894507e2c4877ccf1741d0fde8f62a"
+    },
+    {
+      "sourceRelativePath": "投资研究/产业专题/储能行业/assets/储能PCS、构网与并网设备产业链路图.png",
+      "publicPath": "research/产业专题/储能行业/assets/储能PCS、构网与并网设备产业链路图.png",
+      "kind": "asset",
+      "sourceSize": 123400,
+      "publicSize": 123400,
+      "sourceSha256": "c819719b6afe3da8c5cc4e5478a522ad38459f3d86c13bbec5e15335f4dfe801",
+      "publicSha256": "c819719b6afe3da8c5cc4e5478a522ad38459f3d86c13bbec5e15335f4dfe801"
     },
     {
       "sourceRelativePath": "投资研究/产业专题/储能行业/assets/储能产业链地图.png",
@@ -1763,6 +1781,24 @@
       "publicSha256": "6cdc9e5809384f7de894645e7607f9dec86dd42c782bc83d018c8516a723ed86"
     },
     {
+      "sourceRelativePath": "投资研究/产业专题/储能行业/assets/储能电芯、电池舱与热安全产业链路图.png",
+      "publicPath": "research/产业专题/储能行业/assets/储能电芯、电池舱与热安全产业链路图.png",
+      "kind": "asset",
+      "sourceSize": 130186,
+      "publicSize": 130186,
+      "sourceSha256": "cb8993f4318cc2f3a4069760ed3fcf7f37d83250d7cc8b8ccce684f6119203d5",
+      "publicSha256": "cb8993f4318cc2f3a4069760ed3fcf7f37d83250d7cc8b8ccce684f6119203d5"
+    },
+    {
+      "sourceRelativePath": "投资研究/产业专题/储能行业/assets/储能系统集成、EPC与长期服务产业链路图.png",
+      "publicPath": "research/产业专题/储能行业/assets/储能系统集成、EPC与长期服务产业链路图.png",
+      "kind": "asset",
+      "sourceSize": 130538,
+      "publicSize": 130538,
+      "sourceSha256": "28ffe9654ed9679e7d83c974aa72ae1e62d436eeddc345906808dfce5ee10eed",
+      "publicSha256": "28ffe9654ed9679e7d83c974aa72ae1e62d436eeddc345906808dfce5ee10eed"
+    },
+    {
       "sourceRelativePath": "投资研究/产业专题/储能行业/assets/储能节点利润池气泡图.png",
       "publicPath": "research/产业专题/储能行业/assets/储能节点利润池气泡图.png",
       "kind": "asset",
@@ -1781,14 +1817,141 @@
       "publicSha256": "e30769057c170992cc75fae81249c57704883cc24cb5bb86cfc3a6f50ed0f329"
     },
     {
+      "sourceRelativePath": "投资研究/产业专题/储能行业/assets/工商业与户用分布式储能产业链路图.png",
+      "publicPath": "research/产业专题/储能行业/assets/工商业与户用分布式储能产业链路图.png",
+      "kind": "asset",
+      "sourceSize": 121331,
+      "publicSize": 121331,
+      "sourceSha256": "0b558afaeb5f95d19e81991d3a3c5d1a114f3b78ecb8acb8d041509bad48ca4a",
+      "publicSha256": "0b558afaeb5f95d19e81991d3a3c5d1a114f3b78ecb8acb8d041509bad48ca4a"
+    },
+    {
+      "sourceRelativePath": "投资研究/产业专题/储能行业/assets/电源侧与电网侧储能资产产业链路图.png",
+      "publicPath": "research/产业专题/储能行业/assets/电源侧与电网侧储能资产产业链路图.png",
+      "kind": "asset",
+      "sourceSize": 124620,
+      "publicSize": 124620,
+      "sourceSha256": "fff64c6b3ebcf7636cf2a0d0fefa460261cd32ce7f5fd83d65a786054298c2e5",
+      "publicSha256": "fff64c6b3ebcf7636cf2a0d0fefa460261cd32ce7f5fd83d65a786054298c2e5"
+    },
+    {
+      "sourceRelativePath": "投资研究/产业专题/储能行业/assets/长时储能装备与项目产业链路图.png",
+      "publicPath": "research/产业专题/储能行业/assets/长时储能装备与项目产业链路图.png",
+      "kind": "asset",
+      "sourceSize": 123813,
+      "publicSize": 123813,
+      "sourceSha256": "b6144b381e4f78aac429c59d54b8c72e31ff27a66871d1dea7eb8ed01e9904e9",
+      "publicSha256": "b6144b381e4f78aac429c59d54b8c72e31ff27a66871d1dea7eb8ed01e9904e9"
+    },
+    {
+      "sourceRelativePath": "投资研究/产业专题/储能行业/储能EMS、交易优化与聚合.md",
+      "publicPath": "research/产业专题/储能行业/储能EMS、交易优化与聚合.md",
+      "kind": "markdown",
+      "sourceSize": 8030,
+      "publicSize": 8030,
+      "sourceSha256": "9a8e058fee93d934c3b49d5f353944a60099166d76c62c21169318a841cc1ae3",
+      "publicSha256": "9a8e058fee93d934c3b49d5f353944a60099166d76c62c21169318a841cc1ae3",
+      "semanticSha256": "2135ae9f23055c3e7442b727bdf18c943b88e19f6b8ab99d7dc4f6dac994e8ba",
+      "tableDimensions": [
+        {
+          "rows": 4,
+          "columns": 10
+        },
+        {
+          "rows": 3,
+          "columns": 10
+        },
+        {
+          "rows": 4,
+          "columns": 8
+        }
+      ],
+      "numericTokenCount": 96
+    },
+    {
+      "sourceRelativePath": "投资研究/产业专题/储能行业/储能PCS、构网与并网设备.md",
+      "publicPath": "research/产业专题/储能行业/储能PCS、构网与并网设备.md",
+      "kind": "markdown",
+      "sourceSize": 9348,
+      "publicSize": 9348,
+      "sourceSha256": "02c56b61c85a414b1b7edb20372915dd5bbb952b67d159dab0b29e5bbf8e4764",
+      "publicSha256": "02c56b61c85a414b1b7edb20372915dd5bbb952b67d159dab0b29e5bbf8e4764",
+      "semanticSha256": "07b06adb4d030be8530233e935823c15bb5e74cdfffb6e9c43d2dccdee60ef8d",
+      "tableDimensions": [
+        {
+          "rows": 4,
+          "columns": 10
+        },
+        {
+          "rows": 4,
+          "columns": 10
+        },
+        {
+          "rows": 9,
+          "columns": 8
+        }
+      ],
+      "numericTokenCount": 106
+    },
+    {
+      "sourceRelativePath": "投资研究/产业专题/储能行业/储能电芯、电池舱与热安全.md",
+      "publicPath": "research/产业专题/储能行业/储能电芯、电池舱与热安全.md",
+      "kind": "markdown",
+      "sourceSize": 9024,
+      "publicSize": 9024,
+      "sourceSha256": "b3c3681cc90e9141f73c03dd72d97e1c0979f36ccb129062896a5378226d840c",
+      "publicSha256": "b3c3681cc90e9141f73c03dd72d97e1c0979f36ccb129062896a5378226d840c",
+      "semanticSha256": "c211c7bed39f0f0985c2c8267d59cc2c13bc8cb5b34d9eb9e5d75c71a8b6dd57",
+      "tableDimensions": [
+        {
+          "rows": 4,
+          "columns": 10
+        },
+        {
+          "rows": 3,
+          "columns": 10
+        },
+        {
+          "rows": 4,
+          "columns": 8
+        }
+      ],
+      "numericTokenCount": 93
+    },
+    {
+      "sourceRelativePath": "投资研究/产业专题/储能行业/储能系统集成、EPC与长期服务.md",
+      "publicPath": "research/产业专题/储能行业/储能系统集成、EPC与长期服务.md",
+      "kind": "markdown",
+      "sourceSize": 7099,
+      "publicSize": 7099,
+      "sourceSha256": "cd2a197cb1492a6eec92d09982a30da41bef0382557de953078c89be113c9d94",
+      "publicSha256": "cd2a197cb1492a6eec92d09982a30da41bef0382557de953078c89be113c9d94",
+      "semanticSha256": "bc9004003a629c3e993449754eebd461f0e427acc8e39fcf7a40ad3bc4abacc6",
+      "tableDimensions": [
+        {
+          "rows": 4,
+          "columns": 10
+        },
+        {
+          "rows": 3,
+          "columns": 10
+        },
+        {
+          "rows": 2,
+          "columns": 8
+        }
+      ],
+      "numericTokenCount": 89
+    },
+    {
       "sourceRelativePath": "投资研究/产业专题/储能行业/储能行业产业链节点规模与利润池.md",
       "publicPath": "research/产业专题/储能行业/储能行业产业链节点规模与利润池.md",
       "kind": "markdown",
-      "sourceSize": 20719,
-      "publicSize": 20719,
-      "sourceSha256": "a0a7028168fa426eca7077bda472a64e06724df777a28b3f2f9e6007fd825d53",
-      "publicSha256": "a0a7028168fa426eca7077bda472a64e06724df777a28b3f2f9e6007fd825d53",
-      "semanticSha256": "d993d14510692788358513d868e9a4bf6dfdf2a79611ae4236f9aab55aa630e0",
+      "sourceSize": 21177,
+      "publicSize": 21177,
+      "sourceSha256": "92f2eeb76e07ae0936595653b389dc6ae3d84c403680c53117afb3e3795fb4d4",
+      "publicSha256": "92f2eeb76e07ae0936595653b389dc6ae3d84c403680c53117afb3e3795fb4d4",
+      "semanticSha256": "152076d64cd06dbf65dec0b383dd01794d6ff7b91f8451e3622316e42e797184",
       "tableDimensions": [
         {
           "rows": 4,
@@ -1811,17 +1974,17 @@
           "columns": 6
         }
       ],
-      "numericTokenCount": 114
+      "numericTokenCount": 123
     },
     {
       "sourceRelativePath": "投资研究/产业专题/储能行业/储能行业公司财务与业务对比表.md",
       "publicPath": "research/产业专题/储能行业/储能行业公司财务与业务对比表.md",
       "kind": "markdown",
-      "sourceSize": 15927,
-      "publicSize": 15927,
-      "sourceSha256": "cd699315b04699246c99cfbeb91cce65cb976ad589a08a78781095ad75d65b08",
-      "publicSha256": "cd699315b04699246c99cfbeb91cce65cb976ad589a08a78781095ad75d65b08",
-      "semanticSha256": "c30838aa1d28c3aba6131290faf52a0f773c603f585942410719337fe0ade0ef",
+      "sourceSize": 15999,
+      "publicSize": 15999,
+      "sourceSha256": "c690c2b9d588bc5c5c17cf83b30f5d7a384e1dd152b1a1afe7a9f2cf40cf2141",
+      "publicSha256": "c690c2b9d588bc5c5c17cf83b30f5d7a384e1dd152b1a1afe7a9f2cf40cf2141",
+      "semanticSha256": "0efa5ef4795bb8bb43af4871d77bde1b4591d469a1cc2939972f6ce3cc6192d5",
       "tableDimensions": [
         {
           "rows": 7,
@@ -1868,17 +2031,17 @@
           "columns": 3
         }
       ],
-      "numericTokenCount": 119
+      "numericTokenCount": 122
     },
     {
       "sourceRelativePath": "投资研究/产业专题/储能行业/储能行业周期、供需与投资节奏.md",
       "publicPath": "research/产业专题/储能行业/储能行业周期、供需与投资节奏.md",
       "kind": "markdown",
-      "sourceSize": 25144,
-      "publicSize": 25144,
-      "sourceSha256": "0a0cd097eeb0a97e55355f79c762a4d97b45e9e52d207d08e7df72b7d1cc502b",
-      "publicSha256": "0a0cd097eeb0a97e55355f79c762a4d97b45e9e52d207d08e7df72b7d1cc502b",
-      "semanticSha256": "ede26c1343d84cd8449f0b96626eb780d53ac24e9b47a5106c115ca021adf021",
+      "sourceSize": 25075,
+      "publicSize": 25075,
+      "sourceSha256": "b822333c3f9c28dd85c3af0a09c45bd14239605a6ffe703f5b7fdbee046fbb1c",
+      "publicSha256": "b822333c3f9c28dd85c3af0a09c45bd14239605a6ffe703f5b7fdbee046fbb1c",
+      "semanticSha256": "0e0f612f9615c9c9e0a73c62d5c8c3388a71237fff4c902640707defe447aaf8",
       "tableDimensions": [
         {
           "rows": 7,
@@ -1913,7 +2076,28 @@
           "columns": 6
         }
       ],
-      "numericTokenCount": 121
+      "numericTokenCount": 118
+    },
+    {
+      "sourceRelativePath": "投资研究/产业专题/储能行业/储能行业子产业链覆盖矩阵.md",
+      "publicPath": "research/产业专题/储能行业/储能行业子产业链覆盖矩阵.md",
+      "kind": "markdown",
+      "sourceSize": 9096,
+      "publicSize": 9096,
+      "sourceSha256": "bfcc683d1102025c296909530ca20d281acba940fac102164109e3f9fd2d776d",
+      "publicSha256": "bfcc683d1102025c296909530ca20d281acba940fac102164109e3f9fd2d776d",
+      "semanticSha256": "dd371e424c0adde8741276e9595d5e24d52cf4160edfe7833b49083197cd00b5",
+      "tableDimensions": [
+        {
+          "rows": 10,
+          "columns": 4
+        },
+        {
+          "rows": 11,
+          "columns": 9
+        }
+      ],
+      "numericTokenCount": 17
     },
     {
       "sourceRelativePath": "投资研究/产业专题/储能行业/储能行业小白审核结果.md",
@@ -1972,11 +2156,11 @@
       "sourceRelativePath": "投资研究/产业专题/储能行业/储能行业技术成熟度与发展趋势.md",
       "publicPath": "research/产业专题/储能行业/储能行业技术成熟度与发展趋势.md",
       "kind": "markdown",
-      "sourceSize": 22015,
-      "publicSize": 22015,
-      "sourceSha256": "4343efd9545fbeee8f4b1998375148abcb47d4f74f8f72aad8c87900d1d71553",
-      "publicSha256": "4343efd9545fbeee8f4b1998375148abcb47d4f74f8f72aad8c87900d1d71553",
-      "semanticSha256": "6a99462d495f2b28628089acc9b41b396b78c42f3fa1b22b7e85b3dde167fe1c",
+      "sourceSize": 22093,
+      "publicSize": 22093,
+      "sourceSha256": "b1c0964aa2129356bd2847224036ca934283091a4a16a2b40fb78ef24cc84c5e",
+      "publicSha256": "b1c0964aa2129356bd2847224036ca934283091a4a16a2b40fb78ef24cc84c5e",
+      "semanticSha256": "94373007b9dbcf2b15668556e5069fdcb015565e244e3717f3bcfffaeb9b917a",
       "tableDimensions": [
         {
           "rows": 8,
@@ -1999,17 +2183,17 @@
           "columns": 6
         }
       ],
-      "numericTokenCount": 99
+      "numericTokenCount": 102
     },
     {
       "sourceRelativePath": "投资研究/产业专题/储能行业/储能行业术语表.md",
       "publicPath": "research/产业专题/储能行业/储能行业术语表.md",
       "kind": "markdown",
-      "sourceSize": 13834,
-      "publicSize": 13834,
-      "sourceSha256": "cde59964b2d514cf3defe4fef92d67ec279e90162700048dedf6c4b8451b46a7",
-      "publicSha256": "cde59964b2d514cf3defe4fef92d67ec279e90162700048dedf6c4b8451b46a7",
-      "semanticSha256": "1f014e90d4a4dd7c90317c3932e00a6effa5240eaaaf625cbefcd68618e9a4f3",
+      "sourceSize": 14159,
+      "publicSize": 14159,
+      "sourceSha256": "dc3740a4d87e9559c0802843438ebbeb5d2ea037420e87a18d06c146382efb8a",
+      "publicSha256": "dc3740a4d87e9559c0802843438ebbeb5d2ea037420e87a18d06c146382efb8a",
+      "semanticSha256": "42f9453e8513fe2564b246d1e16505898ceb9e91e3070f8fd9c1a263f6be6220",
       "tableDimensions": [
         {
           "rows": 9,
@@ -2028,17 +2212,17 @@
           "columns": 4
         }
       ],
-      "numericTokenCount": 27
+      "numericTokenCount": 32
     },
     {
       "sourceRelativePath": "投资研究/产业专题/储能行业/储能行业深度调研 - 全球视角.md",
       "publicPath": "research/产业专题/储能行业/储能行业深度调研 - 全球视角.md",
       "kind": "markdown",
-      "sourceSize": 16470,
-      "publicSize": 16470,
-      "sourceSha256": "5f3621da23f4b054aedc412412b27041d13b063a16c6d7f005378e6cac8095fc",
-      "publicSha256": "5f3621da23f4b054aedc412412b27041d13b063a16c6d7f005378e6cac8095fc",
-      "semanticSha256": "b264020aba1d0b8b5684864e72206a4616ecccafb6a7ad3722b523f46fe77cf7",
+      "sourceSize": 16497,
+      "publicSize": 16497,
+      "sourceSha256": "03ac040c2f16002196afa45317ec40792c0eedac936fe77f96b92e083c6e38ca",
+      "publicSha256": "03ac040c2f16002196afa45317ec40792c0eedac936fe77f96b92e083c6e38ca",
+      "semanticSha256": "a070e4ce58cf2be8b71f76b780e422aff28a1d84905a9a2ceae3ba9de9b8941d",
       "tableDimensions": [
         {
           "rows": 6,
@@ -2073,17 +2257,17 @@
           "columns": 6
         }
       ],
-      "numericTokenCount": 89
+      "numericTokenCount": 92
     },
     {
       "sourceRelativePath": "投资研究/产业专题/储能行业/储能行业深度调研 - 国内视角.md",
       "publicPath": "research/产业专题/储能行业/储能行业深度调研 - 国内视角.md",
       "kind": "markdown",
-      "sourceSize": 16873,
-      "publicSize": 16873,
-      "sourceSha256": "5e05f86312a33d510b7c1442105fb80520bd8c7151164edfb781be0347eeb243",
-      "publicSha256": "5e05f86312a33d510b7c1442105fb80520bd8c7151164edfb781be0347eeb243",
-      "semanticSha256": "aa25a26831b3306832a39e92b7372844f90b8b998d1590bf501b7cc8335a6734",
+      "sourceSize": 17708,
+      "publicSize": 17708,
+      "sourceSha256": "9c7c43411983a1724591808e453ea2e757730d637f28f8406f140046b289ec38",
+      "publicSha256": "9c7c43411983a1724591808e453ea2e757730d637f28f8406f140046b289ec38",
+      "semanticSha256": "72f03c140b2575fc011b9768ccf8123153f800d0390c5ec5fd52b09ca65f1339",
       "tableDimensions": [
         {
           "rows": 6,
@@ -2118,17 +2302,17 @@
           "columns": 6
         }
       ],
-      "numericTokenCount": 134
+      "numericTokenCount": 138
     },
     {
       "sourceRelativePath": "投资研究/产业专题/储能行业/储能行业深度调研 - 总览.md",
       "publicPath": "research/产业专题/储能行业/储能行业深度调研 - 总览.md",
       "kind": "markdown",
-      "sourceSize": 48342,
-      "publicSize": 48342,
-      "sourceSha256": "85cf5775fd5e2e687ad0f4e17ef2d9333ac3c315c5be632834fd512d1ab4e06a",
-      "publicSha256": "85cf5775fd5e2e687ad0f4e17ef2d9333ac3c315c5be632834fd512d1ab4e06a",
-      "semanticSha256": "c458a7317f3a85000d204d2d83dcf21886153602aef63acd4e4fbf88babbd8fe",
+      "sourceSize": 51921,
+      "publicSize": 51921,
+      "sourceSha256": "d113eb442d50c58f484fef0f096fc52ac87cbe54b3a061c450a408ff47ba6ae1",
+      "publicSha256": "d113eb442d50c58f484fef0f096fc52ac87cbe54b3a061c450a408ff47ba6ae1",
+      "semanticSha256": "80ee92e3b2ad6092fb41490ebaad7b4b0e6d4e36a0c2974b8fc5698b4507d5df",
       "tableDimensions": [
         {
           "rows": 8,
@@ -2183,25 +2367,29 @@
           "columns": 5
         },
         {
+          "rows": 5,
+          "columns": 5
+        },
+        {
           "rows": 10,
           "columns": 4
         },
         {
-          "rows": 22,
+          "rows": 23,
           "columns": 6
         }
       ],
-      "numericTokenCount": 381
+      "numericTokenCount": 408
     },
     {
       "sourceRelativePath": "投资研究/产业专题/储能行业/储能行业深度调研.md",
       "publicPath": "research/产业专题/储能行业/储能行业深度调研.md",
       "kind": "markdown",
-      "sourceSize": 5497,
-      "publicSize": 5497,
-      "sourceSha256": "c2755a15634b968785b7bf569b245b2885086dd8635490a6984ee642e81767a5",
-      "publicSha256": "c2755a15634b968785b7bf569b245b2885086dd8635490a6984ee642e81767a5",
-      "semanticSha256": "0d1ca1bf006f4e14eef48dca28d1927fb8e6e48009876fe8c0e9566cc97d3b28",
+      "sourceSize": 6039,
+      "publicSize": 6039,
+      "sourceSha256": "532f6e701f444a1345ed8cb785966a1e413f55e27a52e810f6c34eb2c9a6803f",
+      "publicSha256": "532f6e701f444a1345ed8cb785966a1e413f55e27a52e810f6c34eb2c9a6803f",
+      "semanticSha256": "8e977228bc1c91bad510bd9466683e5bc7ef4f2dd2745cbf45b1c513a6bd91c2",
       "tableDimensions": [
         {
           "rows": 15,
@@ -2212,40 +2400,32 @@
           "columns": 2
         }
       ],
-      "numericTokenCount": 18
+      "numericTokenCount": 14
     },
     {
       "sourceRelativePath": "投资研究/产业专题/储能行业/储能行业相关基金与ETF估值入场.md",
       "publicPath": "research/产业专题/储能行业/储能行业相关基金与ETF估值入场.md",
       "kind": "markdown",
-      "sourceSize": 23567,
-      "publicSize": 23567,
-      "sourceSha256": "68f03b99cc43ac9cc15ff741b49b4115c3558b79cf8f00f495608e08a30df2cd",
-      "publicSha256": "68f03b99cc43ac9cc15ff741b49b4115c3558b79cf8f00f495608e08a30df2cd",
-      "semanticSha256": "05da8e981dedee3b4fa3dbe7498c016fe631f3934dfbace2d989f5cf7227e6e9",
+      "sourceSize": 11860,
+      "publicSize": 11860,
+      "sourceSha256": "d0e7fb092b9b741757ca814f35e2148f7db6fcb98abfcc48cb66ab92bba57aec",
+      "publicSha256": "d0e7fb092b9b741757ca814f35e2148f7db6fcb98abfcc48cb66ab92bba57aec",
+      "semanticSha256": "c29755fc100037d568c5c37aa5f8f2ff415cd97de0055b7dec2ea148643bca7a",
       "tableDimensions": [
         {
-          "rows": 3,
-          "columns": 8
-        },
-        {
-          "rows": 6,
-          "columns": 8
-        },
-        {
-          "rows": 6,
-          "columns": 5
-        },
-        {
-          "rows": 6,
-          "columns": 4
-        },
-        {
-          "rows": 10,
+          "rows": 4,
           "columns": 7
         },
         {
-          "rows": 7,
+          "rows": 4,
+          "columns": 5
+        },
+        {
+          "rows": 6,
+          "columns": 6
+        },
+        {
+          "rows": 5,
           "columns": 5
         },
         {
@@ -2253,19 +2433,90 @@
           "columns": 4
         },
         {
-          "rows": 4,
+          "rows": 5,
           "columns": 6
         },
         {
-          "rows": 9,
-          "columns": 6
-        },
-        {
-          "rows": 8,
+          "rows": 5,
           "columns": 4
         }
       ],
-      "numericTokenCount": 424
+      "numericTokenCount": 237
+    },
+    {
+      "sourceRelativePath": "投资研究/产业专题/储能行业/工商业与户用分布式储能.md",
+      "publicPath": "research/产业专题/储能行业/工商业与户用分布式储能.md",
+      "kind": "markdown",
+      "sourceSize": 6657,
+      "publicSize": 6657,
+      "sourceSha256": "808fe8396e13379562756391e8caaf1335aefe9c29fe253fcae2e9c1c088fcb2",
+      "publicSha256": "808fe8396e13379562756391e8caaf1335aefe9c29fe253fcae2e9c1c088fcb2",
+      "semanticSha256": "4d2fd2237cb6fa2c8c00c930f14b13a289144e1f99b68913d8c29d6fe9bdea45",
+      "tableDimensions": [
+        {
+          "rows": 4,
+          "columns": 10
+        },
+        {
+          "rows": 3,
+          "columns": 10
+        },
+        {
+          "rows": 3,
+          "columns": 8
+        }
+      ],
+      "numericTokenCount": 93
+    },
+    {
+      "sourceRelativePath": "投资研究/产业专题/储能行业/电源侧与电网侧储能资产.md",
+      "publicPath": "research/产业专题/储能行业/电源侧与电网侧储能资产.md",
+      "kind": "markdown",
+      "sourceSize": 8028,
+      "publicSize": 8028,
+      "sourceSha256": "3d5c5a8ff177964fc17f1850fc8353fc4ea3573b184a7e235cd7f6ea50f9e42f",
+      "publicSha256": "3d5c5a8ff177964fc17f1850fc8353fc4ea3573b184a7e235cd7f6ea50f9e42f",
+      "semanticSha256": "939f1ff985b68ed635370fa6fc139a4da2ed129e932fff6653db5b27162a133b",
+      "tableDimensions": [
+        {
+          "rows": 4,
+          "columns": 10
+        },
+        {
+          "rows": 3,
+          "columns": 10
+        },
+        {
+          "rows": 6,
+          "columns": 8
+        }
+      ],
+      "numericTokenCount": 102
+    },
+    {
+      "sourceRelativePath": "投资研究/产业专题/储能行业/长时储能装备与项目.md",
+      "publicPath": "research/产业专题/储能行业/长时储能装备与项目.md",
+      "kind": "markdown",
+      "sourceSize": 9425,
+      "publicSize": 9425,
+      "sourceSha256": "20d6b8d77b325d14b561c54bf159309c3af0a3f809a3ca39906ce72e69e2c74f",
+      "publicSha256": "20d6b8d77b325d14b561c54bf159309c3af0a3f809a3ca39906ce72e69e2c74f",
+      "semanticSha256": "4f5bce67cefda4194c4d2655321cfbc7d5fd0ba42a98c933cd5f0982c91ddef8",
+      "tableDimensions": [
+        {
+          "rows": 5,
+          "columns": 10
+        },
+        {
+          "rows": 4,
+          "columns": 10
+        },
+        {
+          "rows": 12,
+          "columns": 8
+        }
+      ],
+      "numericTokenCount": 144
     },
     {
       "sourceRelativePath": "投资研究/产业专题/光伏产业/assets/光伏八条子产业链利润状态地图.png",
@@ -4946,76 +5197,103 @@
       "numericTokenCount": 668
     },
     {
+      "sourceRelativePath": "投资研究/公司研究/阳光电源（300274.SZ）调研/csv/产品代际路线图.csv",
+      "publicPath": "research/公司研究/阳光电源（300274.SZ）调研/csv/产品代际路线图.csv",
+      "kind": "csv",
+      "sourceSize": 2604,
+      "publicSize": 2604,
+      "sourceSha256": "e20617e5c3d0a2d50a50923a7bb0ad56b9077af04896eae75171a9fbc973777e",
+      "publicSha256": "e20617e5c3d0a2d50a50923a7bb0ad56b9077af04896eae75171a9fbc973777e"
+    },
+    {
       "sourceRelativePath": "投资研究/公司研究/阳光电源（300274.SZ）调研/csv/季度利润表.csv",
       "publicPath": "research/公司研究/阳光电源（300274.SZ）调研/csv/季度利润表.csv",
       "kind": "csv",
-      "sourceSize": 1442,
-      "publicSize": 1442,
-      "sourceSha256": "f57f3074c7d25f4c4433a4ba7a2b6d80a920e64154bbf751b9b93ce6339b899a",
-      "publicSha256": "f57f3074c7d25f4c4433a4ba7a2b6d80a920e64154bbf751b9b93ce6339b899a"
+      "sourceSize": 1880,
+      "publicSize": 1880,
+      "sourceSha256": "79e1994330affea2055080f6d5dfd7b801f7d40c9885f93fb60562cac5028579",
+      "publicSha256": "79e1994330affea2055080f6d5dfd7b801f7d40c9885f93fb60562cac5028579"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/阳光电源（300274.SZ）调研/csv/季度现金流量表.csv",
       "publicPath": "research/公司研究/阳光电源（300274.SZ）调研/csv/季度现金流量表.csv",
       "kind": "csv",
-      "sourceSize": 1332,
-      "publicSize": 1332,
-      "sourceSha256": "439037d2dbd31395d4f495f19c572c524ffbf98215a001813761166688b4502e",
-      "publicSha256": "439037d2dbd31395d4f495f19c572c524ffbf98215a001813761166688b4502e"
+      "sourceSize": 1491,
+      "publicSize": 1491,
+      "sourceSha256": "ceb2ba4145a198a5b6d191ec8180b887ce33270465a0f7597873ae041625c4d0",
+      "publicSha256": "ceb2ba4145a198a5b6d191ec8180b887ce33270465a0f7597873ae041625c4d0"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/阳光电源（300274.SZ）调研/csv/季度资产负债表.csv",
       "publicPath": "research/公司研究/阳光电源（300274.SZ）调研/csv/季度资产负债表.csv",
       "kind": "csv",
-      "sourceSize": 1402,
-      "publicSize": 1402,
-      "sourceSha256": "55a48e9156bff5d52377dc3f73b55cae0ce8e1372078d73dfc88dea3ee7507ad",
-      "publicSha256": "55a48e9156bff5d52377dc3f73b55cae0ce8e1372078d73dfc88dea3ee7507ad"
+      "sourceSize": 1713,
+      "publicSize": 1713,
+      "sourceSha256": "203ba319f443c2ed1109929dc65d8be20b91f78ecc3d3cd43f2b92de70fc22a0",
+      "publicSha256": "203ba319f443c2ed1109929dc65d8be20b91f78ecc3d3cd43f2b92de70fc22a0"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/阳光电源（300274.SZ）调研/csv/市值隐含预期.csv",
       "publicPath": "research/公司研究/阳光电源（300274.SZ）调研/csv/市值隐含预期.csv",
       "kind": "csv",
-      "sourceSize": 1591,
-      "publicSize": 1591,
-      "sourceSha256": "93956f494f7c73f8f1d28acdd1b1d23b0001e5c3577a79da4875ff311c08dcc1",
-      "publicSha256": "93956f494f7c73f8f1d28acdd1b1d23b0001e5c3577a79da4875ff311c08dcc1"
+      "sourceSize": 1643,
+      "publicSize": 1643,
+      "sourceSha256": "ed311845959ad16f8115d2a450b884b2351d4e8dc59b22f2b8ed4d39df23f4d2",
+      "publicSha256": "ed311845959ad16f8115d2a450b884b2351d4e8dc59b22f2b8ed4d39df23f4d2"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/阳光电源（300274.SZ）调研/csv/年度利润表.csv",
       "publicPath": "research/公司研究/阳光电源（300274.SZ）调研/csv/年度利润表.csv",
       "kind": "csv",
-      "sourceSize": 1006,
-      "publicSize": 1006,
-      "sourceSha256": "8efbdd2937a03c3e12d41f5cfe16507f22930e3380223c0a9af4ba52fec27f5d",
-      "publicSha256": "8efbdd2937a03c3e12d41f5cfe16507f22930e3380223c0a9af4ba52fec27f5d"
+      "sourceSize": 1052,
+      "publicSize": 1052,
+      "sourceSha256": "f9edc5583962864fbb6ff926923f96ed07f16452e19471106c756bc5480d39d5",
+      "publicSha256": "f9edc5583962864fbb6ff926923f96ed07f16452e19471106c756bc5480d39d5"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/阳光电源（300274.SZ）调研/csv/年度现金流量表.csv",
       "publicPath": "research/公司研究/阳光电源（300274.SZ）调研/csv/年度现金流量表.csv",
       "kind": "csv",
-      "sourceSize": 789,
-      "publicSize": 789,
-      "sourceSha256": "1242e497b55815aa5c995f5c1156d5a3940190b4d39d6d442da3feaf8b058d99",
-      "publicSha256": "1242e497b55815aa5c995f5c1156d5a3940190b4d39d6d442da3feaf8b058d99"
+      "sourceSize": 1259,
+      "publicSize": 1259,
+      "sourceSha256": "c3254c51356cbdef9810cb0fd57564ecf19814f18d7a04d8b581f127827da163",
+      "publicSha256": "c3254c51356cbdef9810cb0fd57564ecf19814f18d7a04d8b581f127827da163"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/阳光电源（300274.SZ）调研/csv/年度资产负债表.csv",
       "publicPath": "research/公司研究/阳光电源（300274.SZ）调研/csv/年度资产负债表.csv",
       "kind": "csv",
-      "sourceSize": 965,
-      "publicSize": 965,
-      "sourceSha256": "bedcd6679d41fb316179c7fae21fcbfca62f4a0459d910e467fe2548dcbf3e9e",
-      "publicSha256": "bedcd6679d41fb316179c7fae21fcbfca62f4a0459d910e467fe2548dcbf3e9e"
+      "sourceSize": 992,
+      "publicSize": 992,
+      "sourceSha256": "85e49610e4121d04f96094340de6525b54be91f40b393cb0d53972ae89211e95",
+      "publicSha256": "85e49610e4121d04f96094340de6525b54be91f40b393cb0d53972ae89211e95"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/阳光电源（300274.SZ）调研/csv/情景敏感性.csv",
       "publicPath": "research/公司研究/阳光电源（300274.SZ）调研/csv/情景敏感性.csv",
       "kind": "csv",
-      "sourceSize": 1241,
-      "publicSize": 1241,
-      "sourceSha256": "10f28155b4879308e4713ec8073edd4c22a0cadabe87f8814732539eb034a4a0",
-      "publicSha256": "10f28155b4879308e4713ec8073edd4c22a0cadabe87f8814732539eb034a4a0"
+      "sourceSize": 893,
+      "publicSize": 893,
+      "sourceSha256": "0cf49e3abc9695979ada7c11916dfbec1c4a1790f1a2c80199f47b509ff24ace",
+      "publicSha256": "0cf49e3abc9695979ada7c11916dfbec1c4a1790f1a2c80199f47b509ff24ace"
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/阳光电源（300274.SZ）调研/csv/技术壁垒证据.csv",
+      "publicPath": "research/公司研究/阳光电源（300274.SZ）调研/csv/技术壁垒证据.csv",
+      "kind": "csv",
+      "sourceSize": 4539,
+      "publicSize": 4539,
+      "sourceSha256": "c88e27ecc2d55389cbed74bd82338fadefacd5701154ea1cc8f739109225e0ad",
+      "publicSha256": "c88e27ecc2d55389cbed74bd82338fadefacd5701154ea1cc8f739109225e0ad"
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/阳光电源（300274.SZ）调研/csv/技术水位矩阵.csv",
+      "publicPath": "research/公司研究/阳光电源（300274.SZ）调研/csv/技术水位矩阵.csv",
+      "kind": "csv",
+      "sourceSize": 4127,
+      "publicSize": 4127,
+      "sourceSha256": "d6c3bf2b849eea76499d3fdf44fc164e0d66961333e9f78d5dd6416da89fa867",
+      "publicSha256": "d6c3bf2b849eea76499d3fdf44fc164e0d66961333e9f78d5dd6416da89fa867"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/阳光电源（300274.SZ）调研/csv/核心假设验证仪表盘.csv",
@@ -5030,10 +5308,10 @@
       "sourceRelativePath": "投资研究/公司研究/阳光电源（300274.SZ）调研/csv/盈利预测桥.csv",
       "publicPath": "research/公司研究/阳光电源（300274.SZ）调研/csv/盈利预测桥.csv",
       "kind": "csv",
-      "sourceSize": 1445,
-      "publicSize": 1445,
-      "sourceSha256": "89c5f08d7eae9e25b72b1fe8f9f93fe8d90c92a26b27d5dde65c255fe377f776",
-      "publicSha256": "89c5f08d7eae9e25b72b1fe8f9f93fe8d90c92a26b27d5dde65c255fe377f776"
+      "sourceSize": 1004,
+      "publicSize": 1004,
+      "sourceSha256": "9a84acece93c6da3a60706cdcae7448c52723a9cf99f3cb602df1406c319e3fe",
+      "publicSha256": "9a84acece93c6da3a60706cdcae7448c52723a9cf99f3cb602df1406c319e3fe"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/阳光电源（300274.SZ）调研/csv/竞对全景.csv",
@@ -5048,10 +5326,10 @@
       "sourceRelativePath": "投资研究/公司研究/阳光电源（300274.SZ）调研/csv/股价估值快照.csv",
       "publicPath": "research/公司研究/阳光电源（300274.SZ）调研/csv/股价估值快照.csv",
       "kind": "csv",
-      "sourceSize": 578,
-      "publicSize": 578,
-      "sourceSha256": "97cda3e3e24152e3b488d5f2cc9be2dad3712ef808b8e9f0564c3f071a77b9d7",
-      "publicSha256": "97cda3e3e24152e3b488d5f2cc9be2dad3712ef808b8e9f0564c3f071a77b9d7"
+      "sourceSize": 773,
+      "publicSize": 773,
+      "sourceSha256": "4eed58ca837a55e17be02302bcbff20067640181a1402c36df181b0001586775",
+      "publicSha256": "4eed58ca837a55e17be02302bcbff20067640181a1402c36df181b0001586775"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/阳光电源（300274.SZ）调研/csv/股本与交易结构.csv",
@@ -5061,6 +5339,15 @@
       "publicSize": 3830,
       "sourceSha256": "d84757e7d83c3f4665f59dccf1eb97e5be80d8cd4ba38d65922aff908e03675c",
       "publicSha256": "d84757e7d83c3f4665f59dccf1eb97e5be80d8cd4ba38d65922aff908e03675c"
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/阳光电源（300274.SZ）调研/csv/行业技术评价框架.csv",
+      "publicPath": "research/公司研究/阳光电源（300274.SZ）调研/csv/行业技术评价框架.csv",
+      "kind": "csv",
+      "sourceSize": 3466,
+      "publicSize": 3466,
+      "sourceSha256": "95a9547791d10f283082f47cd9fb62223f72dddb635273a385ea25ccc491c349",
+      "publicSha256": "95a9547791d10f283082f47cd9fb62223f72dddb635273a385ea25ccc491c349"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/阳光电源（300274.SZ）调研/csv/预期差与催化剂.csv",
@@ -5075,11 +5362,11 @@
       "sourceRelativePath": "投资研究/公司研究/阳光电源（300274.SZ）调研/公司调研 - 阳光电源.md",
       "publicPath": "research/公司研究/阳光电源（300274.SZ）调研/公司调研 - 阳光电源.md",
       "kind": "markdown",
-      "sourceSize": 61069,
-      "publicSize": 61069,
-      "sourceSha256": "4027d01a6d256496c39091814e88374aeedfb8513f7e4dd7b79c0228829917ad",
-      "publicSha256": "4027d01a6d256496c39091814e88374aeedfb8513f7e4dd7b79c0228829917ad",
-      "semanticSha256": "e02f612d1413a1e6fce951a1d80e16394cb88cff6246ca6b185499a43ee01e46",
+      "sourceSize": 61989,
+      "publicSize": 61989,
+      "sourceSha256": "584819034ec2bc56731e6816ea6fb07e6343346792f785a7e7488324101499bb",
+      "publicSha256": "584819034ec2bc56731e6816ea6fb07e6343346792f785a7e7488324101499bb",
+      "semanticSha256": "e23a7269c58bb73829e282d0c6be62e9e6b2beef2a8902702d2d3d7d70f45b19",
       "tableDimensions": [
         {
           "rows": 9,
@@ -5106,6 +5393,10 @@
           "columns": 5
         },
         {
+          "rows": 5,
+          "columns": 14
+        },
+        {
           "rows": 6,
           "columns": 6
         },
@@ -5130,20 +5421,12 @@
           "columns": 4
         },
         {
-          "rows": 4,
-          "columns": 7
-        },
-        {
-          "rows": 7,
-          "columns": 7
-        },
-        {
           "rows": 7,
           "columns": 8
         },
         {
-          "rows": 6,
-          "columns": 2
+          "rows": 3,
+          "columns": 5
         },
         {
           "rows": 9,
@@ -5158,7 +5441,7 @@
           "columns": 2
         }
       ],
-      "numericTokenCount": 691
+      "numericTokenCount": 635
     },
     {
       "sourceRelativePath": "投资研究/公司研究/阳光电源（300274.SZ）调研/小白审核记录 - 阳光电源.md",
@@ -5194,14 +5477,91 @@
       "numericTokenCount": 45
     },
     {
+      "sourceRelativePath": "投资研究/公司研究/阳光电源（300274.SZ）调研/技术与壁垒 - 阳光电源.md",
+      "publicPath": "research/公司研究/阳光电源（300274.SZ）调研/技术与壁垒 - 阳光电源.md",
+      "kind": "markdown",
+      "sourceSize": 35128,
+      "publicSize": 35128,
+      "sourceSha256": "6d5193a344be7b60fea63526ab98266fde860ef737a73618decc3f8c8d487aa9",
+      "publicSha256": "6d5193a344be7b60fea63526ab98266fde860ef737a73618decc3f8c8d487aa9",
+      "semanticSha256": "1333d62ab669a6ccb2c8e378f17d6e0b8b05706eaaa0a44020385a410e857c91",
+      "tableDimensions": [
+        {
+          "rows": 8,
+          "columns": 2
+        },
+        {
+          "rows": 8,
+          "columns": 6
+        },
+        {
+          "rows": 6,
+          "columns": 16
+        },
+        {
+          "rows": 5,
+          "columns": 8
+        },
+        {
+          "rows": 10,
+          "columns": 14
+        },
+        {
+          "rows": 6,
+          "columns": 10
+        },
+        {
+          "rows": 6,
+          "columns": 8
+        },
+        {
+          "rows": 8,
+          "columns": 21
+        },
+        {
+          "rows": 6,
+          "columns": 8
+        },
+        {
+          "rows": 5,
+          "columns": 8
+        },
+        {
+          "rows": 5,
+          "columns": 10
+        },
+        {
+          "rows": 5,
+          "columns": 36
+        },
+        {
+          "rows": 4,
+          "columns": 11
+        },
+        {
+          "rows": 6,
+          "columns": 7
+        },
+        {
+          "rows": 6,
+          "columns": 7
+        },
+        {
+          "rows": 8,
+          "columns": 6
+        }
+      ],
+      "numericTokenCount": 171
+    },
+    {
       "sourceRelativePath": "投资研究/公司研究/阳光电源（300274.SZ）调研/竞对对比 - 阳光电源.md",
       "publicPath": "research/公司研究/阳光电源（300274.SZ）调研/竞对对比 - 阳光电源.md",
       "kind": "markdown",
-      "sourceSize": 28256,
-      "publicSize": 28256,
-      "sourceSha256": "7ee0878691b53867cb7e622436378bf059207aae04d15d76c19b235f94c8e1b2",
-      "publicSha256": "7ee0878691b53867cb7e622436378bf059207aae04d15d76c19b235f94c8e1b2",
-      "semanticSha256": "a9ebda9e58970bd91983ab7d17c9baa496616c7ca0d15850a0b8c6844483bba5",
+      "sourceSize": 29754,
+      "publicSize": 29754,
+      "sourceSha256": "23614991627512fdc4f93cffd945d5d13bec4e87204532e5cee7e327e006c4b5",
+      "publicSha256": "23614991627512fdc4f93cffd945d5d13bec4e87204532e5cee7e327e006c4b5",
+      "semanticSha256": "b700f6526bfc9f02c71a9d67e56095157757463fd23b5731770eebc94269c0c9",
       "tableDimensions": [
         {
           "rows": 15,
@@ -5226,72 +5586,80 @@
       "sourceRelativePath": "投资研究/公司研究/阳光电源（300274.SZ）调研/股价预期 - 阳光电源.md",
       "publicPath": "research/公司研究/阳光电源（300274.SZ）调研/股价预期 - 阳光电源.md",
       "kind": "markdown",
-      "sourceSize": 26743,
-      "publicSize": 26743,
-      "sourceSha256": "96990feac6938e6b5fca7b4550ad1664e1f255151afe11bd7a0c57138994eb7f",
-      "publicSha256": "96990feac6938e6b5fca7b4550ad1664e1f255151afe11bd7a0c57138994eb7f",
-      "semanticSha256": "9b17f2c6a9f7ee797d060fef169420e135d63f4a7fdddbc708983e916e454522",
+      "sourceSize": 22260,
+      "publicSize": 22260,
+      "sourceSha256": "0138c60a2f0d4bc85182154eb8e7dc21f42ce7f4a7b9ece2e0884e956be50be7",
+      "publicSha256": "0138c60a2f0d4bc85182154eb8e7dc21f42ce7f4a7b9ece2e0884e956be50be7",
+      "semanticSha256": "4810e5c116a1d8482110009a99bbf8de510b6cf6c017d547b933113443aeff73",
       "tableDimensions": [
         {
-          "rows": 11,
+          "rows": 10,
           "columns": 3
         },
         {
-          "rows": 5,
-          "columns": 5
-        },
-        {
           "rows": 2,
-          "columns": 15
+          "columns": 17
         },
         {
-          "rows": 7,
+          "rows": 5,
+          "columns": 7
+        },
+        {
+          "rows": 5,
+          "columns": 6
+        },
+        {
+          "rows": 4,
+          "columns": 16
+        },
+        {
+          "rows": 4,
           "columns": 4
         },
         {
-          "rows": 5,
-          "columns": 9
+          "rows": 7,
+          "columns": 7
         },
         {
-          "rows": 7,
+          "rows": 8,
           "columns": 5
         },
         {
+          "rows": 7,
+          "columns": 6
+        },
+        {
           "rows": 6,
-          "columns": 13
+          "columns": 6
+        },
+        {
+          "rows": 4,
+          "columns": 6
         },
         {
           "rows": 4,
           "columns": 11
-        },
-        {
-          "rows": 7,
-          "columns": 9
-        },
-        {
-          "rows": 11,
-          "columns": 10
-        },
-        {
-          "rows": 7,
-          "columns": 5
         }
       ],
-      "numericTokenCount": 440
+      "numericTokenCount": 227
     },
     {
       "sourceRelativePath": "投资研究/公司研究/阳光电源（300274.SZ）调研/财务报表 - 阳光电源.md",
       "publicPath": "research/公司研究/阳光电源（300274.SZ）调研/财务报表 - 阳光电源.md",
       "kind": "markdown",
-      "sourceSize": 33506,
-      "publicSize": 33506,
-      "sourceSha256": "ad3e03d3f0de5c0437332edbd73e451e70f617073b1d12a3996afb359871be28",
-      "publicSha256": "ad3e03d3f0de5c0437332edbd73e451e70f617073b1d12a3996afb359871be28",
-      "semanticSha256": "0d4eab9cf86c1f6d9f1b3e423656f6223769f24a5c02d701bfa272351e94c7e9",
+      "sourceSize": 34482,
+      "publicSize": 34482,
+      "sourceSha256": "a95f324dbb7c593c5972b9187559ca3c25f34976028f7f736dc727c5c6273ef3",
+      "publicSha256": "a95f324dbb7c593c5972b9187559ca3c25f34976028f7f736dc727c5c6273ef3",
+      "semanticSha256": "4ae42bde851544cf687fcea3a866ce337cca45dab37b22da0aa0ce0a4924c137",
       "tableDimensions": [
         {
           "rows": 7,
           "columns": 2
+        },
+        {
+          "rows": 5,
+          "columns": 4
         },
         {
           "rows": 13,
@@ -5323,7 +5691,7 @@
         },
         {
           "rows": 10,
-          "columns": 11
+          "columns": 12
         },
         {
           "rows": 10,
@@ -5334,7 +5702,7 @@
           "columns": 6
         }
       ],
-      "numericTokenCount": 1016
+      "numericTokenCount": 1041
     }
   ]
 }
