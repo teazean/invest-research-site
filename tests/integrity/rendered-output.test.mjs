@@ -20,15 +20,21 @@ async function createRenderedSiteFixture() {
   const csvBytes = Buffer.from('year,revenue\n2025,100\n')
   const csvPublicPath = 'research/公司研究/A/financials.csv'
   const csvPath = path.join(distRoot, csvPublicPath)
+  const privateHref = 'https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/A/assets/chart.png'
   await mkdir(path.join(siteRoot, 'research/公司研究/A'), { recursive: true })
   await mkdir(path.join(distRoot, 'research/公司研究/A'), { recursive: true })
   await mkdir(path.join(distRoot, 'assets'), { recursive: true })
   await mkdir(path.join(siteRoot, 'public'), { recursive: true })
   await writeFile(path.join(siteRoot, 'research/公司研究/A/研究.md'), '# 研究\n\n完整正文 100 亿元。')
-  await writeFile(path.join(distRoot, 'research/公司研究/A/研究.html'), '<main class="vp-doc"><h1>研究</h1><p>完整正文 100 亿元。</p><a class="research-image-link" href="/invest-research-site/assets/chart.HASH.png"><img src="/invest-research-site/assets/chart.HASH.png"></a></main>')
+  await writeFile(path.join(distRoot, 'research/公司研究/A/研究.html'), `<main class="vp-doc"><h1>研究</h1><p>完整正文 100 亿元。</p><a class="research-image-link" href="${privateHref}"><img src="/invest-research-site/assets/chart.HASH.png"></a></main>`)
   await writeFile(imagePath, Buffer.from('image'))
   await writeFile(csvPath, csvBytes)
   await writeFile(path.join(siteRoot, 'public/research-manifest.json'), JSON.stringify({
+    privateRepository: {
+      repository: 'teazean/obsidian-vault-invest',
+      ref: 'master',
+      serverUrl: 'https://github.com'
+    },
     files: [
       { publicPath: 'research/公司研究/A/研究.md', kind: 'markdown' },
       {
@@ -92,7 +98,9 @@ describe('rendered document integrity', () => {
 
     await expect(verifyRenderedSite(fixture)).resolves.toEqual({
       documents: 1,
+      htmlFiles: 1,
       imageLinks: 1,
+      clientImageLinks: 0,
       csvFiles: 1
     })
   })
@@ -104,11 +112,11 @@ describe('rendered document integrity', () => {
     await expect(verifyRenderedSite(fixture)).rejects.toThrow(/image target/)
   })
 
-  it('fails when an image href differs from its built img src', async () => {
+  it('fails when an image click target is relative', async () => {
     const fixture = await createRenderedSiteFixture()
     await writeFile(fixture.htmlPath, '<main class="vp-doc"><h1>研究</h1><p>完整正文 100 亿元。</p><a class="research-image-link" href="./assets/chart.png"><img src="/invest-research-site/assets/chart.HASH.png"></a></main>')
 
-    await expect(verifyRenderedSite(fixture)).rejects.toThrow(/href differs from img src/)
+    await expect(verifyRenderedSite(fixture)).rejects.toThrow(/private GitHub blob URL/)
   })
 
   it('fails when a manifest CSV is missing from the build', async () => {

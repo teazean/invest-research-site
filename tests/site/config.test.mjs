@@ -36,11 +36,23 @@ describe('VitePress site configuration', () => {
     expect(html).toContain('完整表格，可左右滑动')
   })
 
-  it('links images to their original asset for full-size inspection', () => {
+  it('decorates an existing private image link without changing its target', () => {
+    const md = new MarkdownIt()
+    installMarkdownRenderers(md)
+    const target = 'https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/assets/trend.png'
+    const html = md.render(`[![趋势图](assets/trend.png)](${target})`)
+    expect(html).toContain(`href="${target}"`)
+    expect(html).toContain('class="research-image-link"')
+    expect(html).toContain('target="_blank"')
+    expect(html).toContain('rel="noreferrer"')
+    expect(html).toContain('<img src="assets/trend.png" alt="趋势图">')
+  })
+
+  it('does not synthesize a click target for a bare image', () => {
     const md = new MarkdownIt()
     installMarkdownRenderers(md)
     const html = md.render('![趋势图](assets/trend.png)')
-    expect(html).toContain('<a class="research-image-link" href="assets/trend.png" target="_blank" rel="noreferrer">')
-    expect(html).toContain('<img src="assets/trend.png" alt="趋势图">')
+    expect(html).not.toContain('research-image-link')
+    expect(html).not.toContain('<a ')
   })
 })

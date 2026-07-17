@@ -77,30 +77,35 @@ async function assertRegularFile(filePath, label) {
   return fileStat
 }
 
-export async function finalizeHtmlTree({ distRoot, siteBase }) {
-  const htmlPaths = await walkFiles(distRoot, filePath => filePath.endsWith('.html'))
-  let htmlFiles = 0
-  let imageLinkCount = 0
-  for (const htmlPath of htmlPaths) {
-    const html = await readFile(htmlPath, 'utf8')
-    const $ = load(html)
-    const links = imageLinks($, path.relative(distRoot, htmlPath))
-    if (links.length === 0) continue
-    for (const { anchor, src, index } of links) {
-      const target = resolveSiteAssetPath({
-        distRoot,
-        siteBase,
-        assetUrl: src,
-        label: `${path.relative(distRoot, htmlPath)}: research image link ${index + 1}`
-      })
-      await assertRegularFile(target, `${path.relative(distRoot, htmlPath)}: image target`)
-      $(anchor).attr('href', src)
-    }
-    await writeFile(htmlPath, $.html())
-    htmlFiles += 1
-    imageLinkCount += links.length
+function privateBlobPrefix(manifest) {
+  const { repository, ref, serverUrl = 'https://github.com' } = manifest.privateRepository ?? {}
+  if (!/^[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+$/.test(repository ?? '') || !ref?.trim() || !/^https?:\/\//i.test(serverUrl)) {
+    throw new Error('research manifest has invalid private repository context')
   }
-  return { htmlFiles, imageLinks: imageLinkCount }
+  return `${serverUrl.replace(/\/$/, '')}/${repository}/blob/${encodeURIComponent(ref.trim())}/`
+}
+
+function assertPrivateBlobUrl(href, prefix, label) {
+  if (typeof href !== 'string' || !href.startsWith(prefix)) {
+    throw new Error(`${label}: image link must use private GitHub blob URL`)
+  }
+}
+
+function clientImageLinks(source, documentPath) {
+  const markers = [...source.matchAll(/research-image-link/g)]
+  return markers.map((marker, index) => {
+    const start = Math.max(0, marker.index - 500)
+    const end = Math.min(source.length, marker.index + marker[0].length + 500)
+    const before = source.slice(start, marker.index)
+    const after = source.slice(marker.index + marker[0].length, end)
+    const afterHref = after.match(/href\s*:\s*["']([^"']+)["']/)
+    const beforeHrefs = [...before.matchAll(/href\s*:\s*["']([^"']+)["']/g)]
+    const href = afterHref?.[1] ?? beforeHrefs.at(-1)?.[1]
+    if (!href) {
+      throw new Error(`${documentPath}: client image link ${index + 1} has no href`)
+    }
+    return { href, index }
+  })
 }
 
 async function verifyBytes(filePath, entry, label) {
@@ -130,6 +135,8 @@ export async function publishManifestCsv({ siteRoot, distRoot, manifest }) {
 
 export async function verifyBuiltResearchAssets({ distRoot, manifest, siteBase }) {
   const htmlPaths = await walkFiles(distRoot, filePath => filePath.endsWith('.html'))
+  const prefix = privateBlobPrefix(manifest)
+  let htmlFiles = 0
   let imageLinkCount = 0
   for (const htmlPath of htmlPaths) {
     const html = await readFile(htmlPath, 'utf8')
@@ -138,18 +145,31 @@ export async function verifyBuiltResearchAssets({ distRoot, manifest, siteBase }
     const links = imageLinks($, documentPath)
     for (const { anchor, src, index } of links) {
       const href = $(anchor).attr('href')
-      if (href !== src) {
-        throw new Error(`${documentPath}: research image link ${index + 1} href differs from img src`)
-      }
+      assertPrivateBlobUrl(href, prefix, `${documentPath}: research image link ${index + 1}`)
       const target = resolveSiteAssetPath({
         distRoot,
         siteBase,
-        assetUrl: href,
+        assetUrl: src,
         label: `${documentPath}: research image link ${index + 1}`
       })
       await assertRegularFile(target, `${documentPath}: image target`)
     }
+    if (links.length > 0) htmlFiles += 1
     imageLinkCount += links.length
+  }
+
+  const clientPaths = await walkFiles(distRoot, filePath => filePath.endsWith('.js'))
+  let clientImageLinkCount = 0
+  for (const clientPath of clientPaths) {
+    const documentPath = path.relative(distRoot, clientPath)
+    const source = await readFile(clientPath, 'utf8')
+    const links = clientImageLinks(source, documentPath)
+    for (const { href, index } of links) {
+      if (!href.startsWith(prefix)) {
+        throw new Error(`${documentPath}: client image link ${index + 1}: client image link must use private GitHub blob URL`)
+      }
+    }
+    clientImageLinkCount += links.length
   }
 
   const csvEntries = manifest.files.filter(entry => entry.kind === 'csv')
@@ -157,16 +177,20 @@ export async function verifyBuiltResearchAssets({ distRoot, manifest, siteBase }
     const targetPath = resolvePublicPath(distRoot, entry.publicPath, entry.publicPath)
     await verifyBytes(targetPath, entry, `${entry.publicPath}: built CSV`)
   }
-  return { imageLinks: imageLinkCount, csvFiles: csvEntries.length }
+  return {
+    htmlFiles,
+    imageLinks: imageLinkCount,
+    clientImageLinks: clientImageLinkCount,
+    csvFiles: csvEntries.length
+  }
 }
 
 export async function finalizeBuiltSite({ siteRoot, distRoot, siteBase }) {
   const manifest = JSON.parse(await readFile(path.join(siteRoot, 'public/research-manifest.json'), 'utf8'))
-  const htmlResult = await finalizeHtmlTree({ distRoot, siteBase })
   const csvFiles = await publishManifestCsv({ siteRoot, distRoot, manifest })
   const verified = await verifyBuiltResearchAssets({ distRoot, manifest, siteBase })
-  if (verified.imageLinks !== htmlResult.imageLinks || verified.csvFiles !== csvFiles) {
+  if (verified.csvFiles !== csvFiles) {
     throw new Error('built asset counts changed during verification')
   }
-  return { ...htmlResult, csvFiles }
+  return verified
 }

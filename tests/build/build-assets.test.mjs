@@ -20,6 +20,8 @@ async function createFixture() {
   const distRoot = path.join(root, 'dist')
   const htmlPath = path.join(distRoot, 'research/产业专题/储能/研究.html')
   const imagePath = path.join(distRoot, 'assets/chart.ABC123.png')
+  const clientPath = path.join(distRoot, 'assets/research.CLIENT.js')
+  const privateHref = 'https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%82%A8%E8%83%BD/assets/chart.png'
   const csvPublicPath = 'research/公司研究/示例公司/csv/financials.csv'
   const csvSourcePath = path.join(siteRoot, csvPublicPath)
   const csvDistPath = path.join(distRoot, csvPublicPath)
@@ -31,10 +33,16 @@ async function createFixture() {
     mkdir(path.dirname(csvSourcePath), { recursive: true }),
     mkdir(path.join(siteRoot, 'public'), { recursive: true })
   ])
-  await writeFile(htmlPath, '<main><a class="research-image-link" href="./assets/chart.png" target="_blank" rel="noreferrer"><img src="/invest-research-site/assets/chart.ABC123.png" alt="图表"></a></main>')
+  await writeFile(htmlPath, `<main><a class="research-image-link" href="${privateHref}" target="_blank" rel="noreferrer"><img src="/invest-research-site/assets/chart.ABC123.png" alt="图表"></a></main>`)
   await writeFile(imagePath, Buffer.from('unchanged-image-bytes'))
+  await writeFile(clientPath, `h("a",{class:"research-image-link",href:"${privateHref}"},[h("img",{src:"/invest-research-site/assets/chart.ABC123.png"})])`)
   await writeFile(csvSourcePath, csvBytes)
   await writeFile(path.join(siteRoot, 'public/research-manifest.json'), JSON.stringify({
+    privateRepository: {
+      repository: 'teazean/obsidian-vault-invest',
+      ref: 'master',
+      serverUrl: 'https://github.com'
+    },
     files: [{
       publicPath: csvPublicPath,
       kind: 'csv',
@@ -43,7 +51,7 @@ async function createFixture() {
     }]
   }))
 
-  return { siteRoot, distRoot, htmlPath, csvSourcePath, csvDistPath, csvBytes, csvPublicPath }
+  return { siteRoot, distRoot, htmlPath, clientPath, privateHref, csvSourcePath, csvDistPath, csvBytes, csvPublicPath }
 }
 
 function runFinalizer(siteRoot, distRoot) {
@@ -68,24 +76,25 @@ describe('built research assets', () => {
     )
   })
 
-  it('links images to their hashed build asset and copies manifest CSV bytes', async () => {
+  it('preserves private image targets, validates client links and copies manifest CSV bytes', async () => {
     const fixture = await createFixture()
+    const originalHtml = await readFile(fixture.htmlPath, 'utf8')
 
     const result = runFinalizer(fixture.siteRoot, fixture.distRoot)
 
     expect(result.status, result.stderr).toBe(0)
-    expect(await readFile(fixture.htmlPath, 'utf8')).toContain(
-      'href="/invest-research-site/assets/chart.ABC123.png"'
-    )
+    expect(await readFile(fixture.htmlPath, 'utf8')).toBe(originalHtml)
+    expect(originalHtml).toContain(`href="${fixture.privateHref}"`)
     expect(await readFile(fixture.csvDistPath)).toEqual(fixture.csvBytes)
-    expect(JSON.parse(result.stdout)).toEqual({ htmlFiles: 1, imageLinks: 1, csvFiles: 1 })
+    expect(JSON.parse(result.stdout)).toEqual({ htmlFiles: 1, imageLinks: 1, clientImageLinks: 1, csvFiles: 1 })
   })
 
   it.each([
     ['missing image', '<a class="research-image-link"></a>'],
     ['multiple images', '<a class="research-image-link"><img src="/invest-research-site/assets/chart.ABC123.png"><img src="/invest-research-site/assets/chart.ABC123.png"></a>'],
     ['path traversal', '<a class="research-image-link"><img src="/invest-research-site/%2e%2e/secret.png"></a>'],
-    ['external origin', '<a class="research-image-link"><img src="https://example.com/invest-research-site/assets/chart.ABC123.png"></a>']
+    ['external origin', '<a class="research-image-link"><img src="https://example.com/invest-research-site/assets/chart.ABC123.png"></a>'],
+    ['relative click target', '<a class="research-image-link" href="./assets/chart.png"><img src="/invest-research-site/assets/chart.ABC123.png"></a>']
   ])('fails closed for %s', async (_name, fragment) => {
     const fixture = await createFixture()
     await writeFile(fixture.htmlPath, `<main>${fragment}</main>`)
@@ -94,6 +103,16 @@ describe('built research assets', () => {
 
     expect(result.status).toBe(1)
     expect(result.stderr).toMatch(/research image link|asset URL/)
+  })
+
+  it('fails when an SPA client chunk contains a relative image click target', async () => {
+    const fixture = await createFixture()
+    await writeFile(fixture.clientPath, 'h("a",{class:"research-image-link",href:"./assets/chart.png"},[])')
+
+    const result = runFinalizer(fixture.siteRoot, fixture.distRoot)
+
+    expect(result.status).toBe(1)
+    expect(result.stderr).toContain('client image link must use private GitHub blob URL')
   })
 
   it('fails when a manifest CSV source is missing', async () => {

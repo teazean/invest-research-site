@@ -7,14 +7,16 @@ export function installMarkdownRenderers(md) {
   )
   md.renderer.rules.table_close = (...args) => `${originalTableClose(...args)}</div>`
 
-  const originalImage = md.renderer.rules.image ?? ((tokens, index, options, environment, renderer) => (
+  const originalLinkOpen = md.renderer.rules.link_open ?? ((tokens, index, options, environment, renderer) => (
     renderer.renderToken(tokens, index, options)
   ))
-  md.renderer.rules.image = (tokens, index, options, environment, renderer) => {
-    const image = originalImage(tokens, index, options, environment, renderer)
-    if (tokens[index - 1]?.type === 'link_open') return image
-    const source = md.utils.escapeHtml(tokens[index].attrGet('src') ?? '')
-    return `<a class="research-image-link" href="${source}" target="_blank" rel="noreferrer">${image}</a>`
+  md.renderer.rules.link_open = (tokens, index, options, environment, renderer) => {
+    if (tokens[index + 1]?.type === 'image' && tokens[index + 2]?.type === 'link_close') {
+      tokens[index].attrSet('class', 'research-image-link')
+      tokens[index].attrSet('target', '_blank')
+      tokens[index].attrSet('rel', 'noreferrer')
+    }
+    return originalLinkOpen(tokens, index, options, environment, renderer)
   }
 }
 
