@@ -94,8 +94,16 @@ function assertPrivateBlobUrl(href, prefix, label) {
 function clientImageLinks(source, documentPath) {
   const markers = [...source.matchAll(/research-image-link/g)]
   return markers.map((marker, index) => {
-    const start = Math.max(0, marker.index - 500)
-    const end = Math.min(source.length, marker.index + marker[0].length + 500)
+    const anchorStart = source.lastIndexOf('<a', marker.index)
+    const anchorEnd = source.indexOf('>', marker.index)
+    const anchor = anchorStart !== -1 && anchorEnd !== -1 && !source.slice(anchorStart, marker.index).includes('>')
+      ? source.slice(anchorStart, anchorEnd + 1)
+      : ''
+    const htmlHref = anchor.match(/href=\\?["']([^"']+)\\?["']/)
+    if (htmlHref) return { href: htmlHref[1], index }
+
+    const start = Math.max(0, marker.index - 4096)
+    const end = Math.min(source.length, marker.index + marker[0].length + 4096)
     const before = source.slice(start, marker.index)
     const after = source.slice(marker.index + marker[0].length, end)
     const afterHref = after.match(/href\s*:\s*["']([^"']+)["']/)

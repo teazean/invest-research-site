@@ -35,7 +35,7 @@ async function createFixture() {
   ])
   await writeFile(htmlPath, `<main><a class="research-image-link" href="${privateHref}" target="_blank" rel="noreferrer"><img src="/invest-research-site/assets/chart.ABC123.png" alt="图表"></a></main>`)
   await writeFile(imagePath, Buffer.from('unchanged-image-bytes'))
-  await writeFile(clientPath, `h("a",{class:"research-image-link",href:"${privateHref}"},[h("img",{src:"/invest-research-site/assets/chart.ABC123.png"})])`)
+  await writeFile(clientPath, `const page='<p><a href="${privateHref}" class="research-image-link" target="_blank"><img src="'+image+'"></a></p>'`)
   await writeFile(csvSourcePath, csvBytes)
   await writeFile(path.join(siteRoot, 'public/research-manifest.json'), JSON.stringify({
     privateRepository: {
