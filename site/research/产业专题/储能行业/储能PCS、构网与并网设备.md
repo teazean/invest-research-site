@@ -26,7 +26,7 @@ status: reviewed
 
 ## 1. 产业链路图
 
-![储能PCS、构网与并网设备产业链路图](assets/储能PCS、构网与并网设备产业链路图.png)
+[![储能PCS、构网与并网设备产业链路图](assets/储能PCS、构网与并网设备产业链路图.png)](https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%82%A8%E8%83%BD%E8%A1%8C%E4%B8%9A/assets/%E5%82%A8%E8%83%BDPCS%E3%80%81%E6%9E%84%E7%BD%91%E4%B8%8E%E5%B9%B6%E7%BD%91%E8%AE%BE%E5%A4%87%E4%BA%A7%E4%B8%9A%E9%93%BE%E8%B7%AF%E5%9B%BE.png)
 
 这张图怎么读：产品从功率器件走向 PCS、构网控制、系统集成和电网；资金反向回流。构网算法只有经过并网测试和运行验证才形成壁垒，产品发布会上的参数不能直接当利润证据。
 

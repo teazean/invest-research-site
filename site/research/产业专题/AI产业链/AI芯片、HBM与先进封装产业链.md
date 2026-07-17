@@ -16,7 +16,7 @@
 
 ## 1. 产业链路图
 
-![AI芯片、HBM与先进封装产业链路图](assets/AI芯片HBM先进封装产业链路图.png)
+[![AI芯片、HBM与先进封装产业链路图](assets/AI芯片HBM先进封装产业链路图.png)](https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/AI%E4%BA%A7%E4%B8%9A%E9%93%BE/assets/AI%E8%8A%AF%E7%89%87HBM%E5%85%88%E8%BF%9B%E5%B0%81%E8%A3%85%E4%BA%A7%E4%B8%9A%E9%93%BE%E8%B7%AF%E5%9B%BE.png)
 
 蓝线是产品流：设计公司定义芯片，晶圆厂制造逻辑芯片，内存厂提供 HBM，封装测试把它们组装成交付品。橙线是资金流：服务器厂或云厂的采购款沿合同回到各供应商。最容易误读的是把所有公司的收入相加，因为晶圆、HBM 和封装本来就是加速卡成本的一部分。
 

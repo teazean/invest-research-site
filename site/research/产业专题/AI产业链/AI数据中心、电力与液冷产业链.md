@@ -14,7 +14,7 @@
 
 ## 1. 产业链路图
 
-![AI数据中心、电力与液冷产业链路图](assets/AI数据中心电力液冷产业链路图.png)
+[![AI数据中心、电力与液冷产业链路图](assets/AI数据中心电力液冷产业链路图.png)](https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/AI%E4%BA%A7%E4%B8%9A%E9%93%BE/assets/AI%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%E7%94%B5%E5%8A%9B%E6%B6%B2%E5%86%B7%E4%BA%A7%E4%B8%9A%E9%93%BE%E8%B7%AF%E5%9B%BE.png)
 
 原来的瓶颈仪表盘仍有用，但它回答的是“哪里卡住”，不是“谁向谁买东西”。这张链路图补上交易关系：客户先获得土地和电力，采购供配电设备并建设机房，再用液冷和运维保证服务器持续运行。资金从云厂商或 IDC 预算，流向电网接入、设备、工程和运维公司。
 

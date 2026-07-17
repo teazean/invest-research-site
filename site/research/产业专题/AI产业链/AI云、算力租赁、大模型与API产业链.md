@@ -14,7 +14,7 @@
 
 ## 1. 产业链路图
 
-![AI云、算力租赁、大模型与API产业链路图](assets/AI云算力租赁大模型API产业链路图.png)
+[![AI云、算力租赁、大模型与API产业链路图](assets/AI云算力租赁大模型API产业链路图.png)](https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/AI%E4%BA%A7%E4%B8%9A%E9%93%BE/assets/AI%E4%BA%91%E7%AE%97%E5%8A%9B%E7%A7%9F%E8%B5%81%E5%A4%A7%E6%A8%A1%E5%9E%8BAPI%E4%BA%A7%E4%B8%9A%E9%93%BE%E8%B7%AF%E5%9B%BE.png)
 
 这条链把硬件资本开支变成可购买的服务。云厂先买芯片、机房和电力，再把算力按小时卖给模型公司和企业；模型公司消耗算力训练和推理，再把能力按 token、订阅或许可卖给应用开发者。每一层的收入，往往同时是下一层的成本。
 

@@ -14,7 +14,7 @@
 
 ## 1. 产业链路图
 
-![AI服务器、网络与光模块产业链路图](assets/AI服务器网络光模块产业链路图.png)
+[![AI服务器、网络与光模块产业链路图](assets/AI服务器网络光模块产业链路图.png)](https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/AI%E4%BA%A7%E4%B8%9A%E9%93%BE/assets/AI%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%BD%91%E7%BB%9C%E5%85%89%E6%A8%A1%E5%9D%97%E4%BA%A7%E4%B8%9A%E9%93%BE%E8%B7%AF%E5%9B%BE.png)
 
 服务器把芯片变成可交付设备，网络和光模块再把成千上万台服务器连成一个集群。模型训练时，任何一台机器等待数据，昂贵 GPU 就会闲置，因此高速网络不是装饰件，而是决定整个集群利用率的关键部件。
 

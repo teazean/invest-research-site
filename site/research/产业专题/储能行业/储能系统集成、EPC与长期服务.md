@@ -26,7 +26,7 @@ status: reviewed
 
 ## 1. 产业链路图
 
-![储能系统集成、EPC与长期服务产业链路图](assets/储能系统集成、EPC与长期服务产业链路图.png)
+[![储能系统集成、EPC与长期服务产业链路图](assets/储能系统集成、EPC与长期服务产业链路图.png)](https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%82%A8%E8%83%BD%E8%A1%8C%E4%B8%9A/assets/%E5%82%A8%E8%83%BD%E7%B3%BB%E7%BB%9F%E9%9B%86%E6%88%90%E3%80%81EPC%E4%B8%8E%E9%95%BF%E6%9C%9F%E6%9C%8D%E5%8A%A1%E4%BA%A7%E4%B8%9A%E9%93%BE%E8%B7%AF%E5%9B%BE.png)
 
 这张图怎么读：集成商先向上游付钱采购，再把完整系统交给业主，常常会出现“现金先出去、收入后确认”。因此 backlog 是未来收入线索，不是利润，也不是现金。
 

@@ -14,7 +14,7 @@
 
 ## 1. 行业周期仪表盘
 
-![AI行业周期与估值入场仪表盘](assets/AI行业周期与估值入场仪表盘.png)
+[![AI行业周期与估值入场仪表盘](assets/AI行业周期与估值入场仪表盘.png)](https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/AI%E4%BA%A7%E4%B8%9A%E9%93%BE/assets/AI%E8%A1%8C%E4%B8%9A%E5%91%A8%E6%9C%9F%E4%B8%8E%E4%BC%B0%E5%80%BC%E5%85%A5%E5%9C%BA%E4%BB%AA%E8%A1%A8%E7%9B%98.png)
 
 这张图的读法很简单：越靠上，基本面兑现越强；越靠右，估值和交易拥挤越高。最舒服的投资区间通常是“基本面向上、估值还没完全打满”。现在 AI 很多硬件环节的问题是：基本面确实强，但估值和涨幅也已经很高。
 

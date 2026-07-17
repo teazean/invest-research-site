@@ -14,7 +14,7 @@
 
 ## 1. 产业链路图
 
-![AI应用与Agent产业链路图](assets/AI应用Agent产业链路图.png)
+[![AI应用与Agent产业链路图](assets/AI应用Agent产业链路图.png)](https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/AI%E4%BA%A7%E4%B8%9A%E9%93%BE/assets/AI%E5%BA%94%E7%94%A8Agent%E4%BA%A7%E4%B8%9A%E9%93%BE%E8%B7%AF%E5%9B%BE.png)
 
 Agent 不只是聊天框。它读取业务数据、调用工具、执行任务并返回结果。客户付费的终点不是“模型回答得像人”，而是客服工单更快、销售转化更高、开发周期更短或人力成本下降。链路图把模型与数据成本、应用平台、垂直 Agent 和实施运维分开，避免把基础模型热度当作应用利润。
 

@@ -1,450 +1,1168 @@
 {
-  "version": 1,
+  "version": 2,
+  "privateRepository": {
+    "repository": "teazean/obsidian-vault-invest",
+    "ref": "master",
+    "serverUrl": "https://github.com"
+  },
   "rewrites": [
     {
-      "document": "投资研究/公司研究/中际旭创（300308.SZ）调研/公司调研 - 中际旭创.md",
-      "from": "reports/2025_annual.pdf",
-      "to": "https://www.zj-innolight.com/public/static/ajaxuplode/uploadfile/financial/1776659833994705.pdf"
+      "document": "投资研究/产业专题/AI产业链/AI云、算力租赁、大模型与API产业链.md",
+      "from": "assets/AI云算力租赁大模型API产业链路图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/AI%E4%BA%A7%E4%B8%9A%E9%93%BE/assets/AI%E4%BA%91%E7%AE%97%E5%8A%9B%E7%A7%9F%E8%B5%81%E5%A4%A7%E6%A8%A1%E5%9E%8BAPI%E4%BA%A7%E4%B8%9A%E9%93%BE%E8%B7%AF%E5%9B%BE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/AI产业链/AI产业链深度调研 - 总览.md",
+      "from": "assets/AI产业链总地图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/AI%E4%BA%A7%E4%B8%9A%E9%93%BE/assets/AI%E4%BA%A7%E4%B8%9A%E9%93%BE%E6%80%BB%E5%9C%B0%E5%9B%BE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/AI产业链/AI国内视角、公司映射与对比.md",
+      "from": "assets/AI国内产业链映射图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/AI%E4%BA%A7%E4%B8%9A%E9%93%BE/assets/AI%E5%9B%BD%E5%86%85%E4%BA%A7%E4%B8%9A%E9%93%BE%E6%98%A0%E5%B0%84%E5%9B%BE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/AI产业链/AI应用与Agent产业链.md",
+      "from": "assets/AI应用Agent产业链路图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/AI%E4%BA%A7%E4%B8%9A%E9%93%BE/assets/AI%E5%BA%94%E7%94%A8Agent%E4%BA%A7%E4%B8%9A%E9%93%BE%E8%B7%AF%E5%9B%BE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/AI产业链/AI手机、AI PC与可穿戴产业链.md",
+      "from": "assets/AI手机AIPC可穿戴产业链路图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/AI%E4%BA%A7%E4%B8%9A%E9%93%BE/assets/AI%E6%89%8B%E6%9C%BAAIPC%E5%8F%AF%E7%A9%BF%E6%88%B4%E4%BA%A7%E4%B8%9A%E9%93%BE%E8%B7%AF%E5%9B%BE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/AI产业链/AI技术成熟度与发展趋势.md",
+      "from": "assets/AI九条子产业链技术成熟度地图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/AI%E4%BA%A7%E4%B8%9A%E9%93%BE/assets/AI%E4%B9%9D%E6%9D%A1%E5%AD%90%E4%BA%A7%E4%B8%9A%E9%93%BE%E6%8A%80%E6%9C%AF%E6%88%90%E7%86%9F%E5%BA%A6%E5%9C%B0%E5%9B%BE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/AI产业链/AI数据中心、电力与液冷产业链.md",
+      "from": "assets/AI数据中心电力液冷产业链路图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/AI%E4%BA%A7%E4%B8%9A%E9%93%BE/assets/AI%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%E7%94%B5%E5%8A%9B%E6%B6%B2%E5%86%B7%E4%BA%A7%E4%B8%9A%E9%93%BE%E8%B7%AF%E5%9B%BE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/AI产业链/AI数据工具、MLOps与安全产业链.md",
+      "from": "assets/AI数据工具MLOps安全产业链路图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/AI%E4%BA%A7%E4%B8%9A%E9%93%BE/assets/AI%E6%95%B0%E6%8D%AE%E5%B7%A5%E5%85%B7MLOps%E5%AE%89%E5%85%A8%E4%BA%A7%E4%B8%9A%E9%93%BE%E8%B7%AF%E5%9B%BE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/AI产业链/AI服务器、网络与光模块产业链.md",
+      "from": "assets/AI服务器网络光模块产业链路图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/AI%E4%BA%A7%E4%B8%9A%E9%93%BE/assets/AI%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%BD%91%E7%BB%9C%E5%85%89%E6%A8%A1%E5%9D%97%E4%BA%A7%E4%B8%9A%E9%93%BE%E8%B7%AF%E5%9B%BE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/AI产业链/AI芯片、HBM与先进封装产业链.md",
+      "from": "assets/AI芯片HBM先进封装产业链路图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/AI%E4%BA%A7%E4%B8%9A%E9%93%BE/assets/AI%E8%8A%AF%E7%89%87HBM%E5%85%88%E8%BF%9B%E5%B0%81%E8%A3%85%E4%BA%A7%E4%B8%9A%E9%93%BE%E8%B7%AF%E5%9B%BE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/AI产业链/AI行业周期、估值与入场节奏.md",
+      "from": "assets/AI行业周期与估值入场仪表盘.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/AI%E4%BA%A7%E4%B8%9A%E9%93%BE/assets/AI%E8%A1%8C%E4%B8%9A%E5%91%A8%E6%9C%9F%E4%B8%8E%E4%BC%B0%E5%80%BC%E5%85%A5%E5%9C%BA%E4%BB%AA%E8%A1%A8%E7%9B%98.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/AI产业链/工业机器人、人形机器人与具身智能产业链.md",
+      "from": "assets/工业人形机器人具身智能产业链路图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/AI%E4%BA%A7%E4%B8%9A%E9%93%BE/assets/%E5%B7%A5%E4%B8%9A%E4%BA%BA%E5%BD%A2%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%E4%BA%A7%E4%B8%9A%E9%93%BE%E8%B7%AF%E5%9B%BE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/AI产业链/车端智能与自动驾驶产业链.md",
+      "from": "assets/车端智能自动驾驶产业链路图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/AI%E4%BA%A7%E4%B8%9A%E9%93%BE/assets/%E8%BD%A6%E7%AB%AF%E6%99%BA%E8%83%BD%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6%E4%BA%A7%E4%B8%9A%E9%93%BE%E8%B7%AF%E5%9B%BE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/储能行业/储能EMS、交易优化与聚合.md",
+      "from": "assets/储能EMS、交易优化与聚合产业链路图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%82%A8%E8%83%BD%E8%A1%8C%E4%B8%9A/assets/%E5%82%A8%E8%83%BDEMS%E3%80%81%E4%BA%A4%E6%98%93%E4%BC%98%E5%8C%96%E4%B8%8E%E8%81%9A%E5%90%88%E4%BA%A7%E4%B8%9A%E9%93%BE%E8%B7%AF%E5%9B%BE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/储能行业/储能PCS、构网与并网设备.md",
+      "from": "assets/储能PCS、构网与并网设备产业链路图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%82%A8%E8%83%BD%E8%A1%8C%E4%B8%9A/assets/%E5%82%A8%E8%83%BDPCS%E3%80%81%E6%9E%84%E7%BD%91%E4%B8%8E%E5%B9%B6%E7%BD%91%E8%AE%BE%E5%A4%87%E4%BA%A7%E4%B8%9A%E9%93%BE%E8%B7%AF%E5%9B%BE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/储能行业/储能电芯、电池舱与热安全.md",
+      "from": "assets/储能电芯、电池舱与热安全产业链路图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%82%A8%E8%83%BD%E8%A1%8C%E4%B8%9A/assets/%E5%82%A8%E8%83%BD%E7%94%B5%E8%8A%AF%E3%80%81%E7%94%B5%E6%B1%A0%E8%88%B1%E4%B8%8E%E7%83%AD%E5%AE%89%E5%85%A8%E4%BA%A7%E4%B8%9A%E9%93%BE%E8%B7%AF%E5%9B%BE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/储能行业/储能系统集成、EPC与长期服务.md",
+      "from": "assets/储能系统集成、EPC与长期服务产业链路图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%82%A8%E8%83%BD%E8%A1%8C%E4%B8%9A/assets/%E5%82%A8%E8%83%BD%E7%B3%BB%E7%BB%9F%E9%9B%86%E6%88%90%E3%80%81EPC%E4%B8%8E%E9%95%BF%E6%9C%9F%E6%9C%8D%E5%8A%A1%E4%BA%A7%E4%B8%9A%E9%93%BE%E8%B7%AF%E5%9B%BE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/储能行业/储能行业产业链节点规模与利润池.md",
+      "from": "assets/储能产业链节点规模热力图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%82%A8%E8%83%BD%E8%A1%8C%E4%B8%9A/assets/%E5%82%A8%E8%83%BD%E4%BA%A7%E4%B8%9A%E9%93%BE%E8%8A%82%E7%82%B9%E8%A7%84%E6%A8%A1%E7%83%AD%E5%8A%9B%E5%9B%BE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/储能行业/储能行业产业链节点规模与利润池.md",
+      "from": "assets/储能节点利润池气泡图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%82%A8%E8%83%BD%E8%A1%8C%E4%B8%9A/assets/%E5%82%A8%E8%83%BD%E8%8A%82%E7%82%B9%E5%88%A9%E6%B6%A6%E6%B1%A0%E6%B0%94%E6%B3%A1%E5%9B%BE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/储能行业/储能行业周期、供需与投资节奏.md",
+      "from": "assets/储能周期与供需仪表盘.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%82%A8%E8%83%BD%E8%A1%8C%E4%B8%9A/assets/%E5%82%A8%E8%83%BD%E5%91%A8%E6%9C%9F%E4%B8%8E%E4%BE%9B%E9%9C%80%E4%BB%AA%E8%A1%A8%E7%9B%98.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/储能行业/储能行业周期、供需与投资节奏.md",
+      "from": "assets/储能情景推演路径图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%82%A8%E8%83%BD%E8%A1%8C%E4%B8%9A/assets/%E5%82%A8%E8%83%BD%E6%83%85%E6%99%AF%E6%8E%A8%E6%BC%94%E8%B7%AF%E5%BE%84%E5%9B%BE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/储能行业/储能行业术语表.md",
+      "from": "assets/储能技术路线与应用时长.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%82%A8%E8%83%BD%E8%A1%8C%E4%B8%9A/assets/%E5%82%A8%E8%83%BD%E6%8A%80%E6%9C%AF%E8%B7%AF%E7%BA%BF%E4%B8%8E%E5%BA%94%E7%94%A8%E6%97%B6%E9%95%BF.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/储能行业/储能行业深度调研 - 国内视角.md",
+      "from": "assets/储能应用场景地图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%82%A8%E8%83%BD%E8%A1%8C%E4%B8%9A/assets/%E5%82%A8%E8%83%BD%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF%E5%9C%B0%E5%9B%BE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/储能行业/储能行业深度调研 - 总览.md",
+      "from": "assets/储能在电力系统中的位置.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%82%A8%E8%83%BD%E8%A1%8C%E4%B8%9A/assets/%E5%82%A8%E8%83%BD%E5%9C%A8%E7%94%B5%E5%8A%9B%E7%B3%BB%E7%BB%9F%E4%B8%AD%E7%9A%84%E4%BD%8D%E7%BD%AE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/储能行业/储能行业深度调研 - 总览.md",
+      "from": "assets/储能产业链节点规模热力图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%82%A8%E8%83%BD%E8%A1%8C%E4%B8%9A/assets/%E5%82%A8%E8%83%BD%E4%BA%A7%E4%B8%9A%E9%93%BE%E8%8A%82%E7%82%B9%E8%A7%84%E6%A8%A1%E7%83%AD%E5%8A%9B%E5%9B%BE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/储能行业/储能行业深度调研 - 总览.md",
+      "from": "assets/储能节点利润池气泡图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%82%A8%E8%83%BD%E8%A1%8C%E4%B8%9A/assets/%E5%82%A8%E8%83%BD%E8%8A%82%E7%82%B9%E5%88%A9%E6%B6%A6%E6%B1%A0%E6%B0%94%E6%B3%A1%E5%9B%BE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/储能行业/储能行业深度调研 - 总览.md",
+      "from": "assets/储能周期与供需仪表盘.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%82%A8%E8%83%BD%E8%A1%8C%E4%B8%9A/assets/%E5%82%A8%E8%83%BD%E5%91%A8%E6%9C%9F%E4%B8%8E%E4%BE%9B%E9%9C%80%E4%BB%AA%E8%A1%A8%E7%9B%98.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/储能行业/储能行业深度调研 - 总览.md",
+      "from": "assets/储能情景推演路径图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%82%A8%E8%83%BD%E8%A1%8C%E4%B8%9A/assets/%E5%82%A8%E8%83%BD%E6%83%85%E6%99%AF%E6%8E%A8%E6%BC%94%E8%B7%AF%E5%BE%84%E5%9B%BE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/储能行业/储能行业深度调研 - 总览.md",
+      "from": "assets/储能产业链地图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%82%A8%E8%83%BD%E8%A1%8C%E4%B8%9A/assets/%E5%82%A8%E8%83%BD%E4%BA%A7%E4%B8%9A%E9%93%BE%E5%9C%B0%E5%9B%BE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/储能行业/储能行业深度调研 - 总览.md",
+      "from": "assets/储能价值链利润池.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%82%A8%E8%83%BD%E8%A1%8C%E4%B8%9A/assets/%E5%82%A8%E8%83%BD%E4%BB%B7%E5%80%BC%E9%93%BE%E5%88%A9%E6%B6%A6%E6%B1%A0.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/储能行业/储能行业深度调研 - 总览.md",
+      "from": "assets/储能价值流与收益栈.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%82%A8%E8%83%BD%E8%A1%8C%E4%B8%9A/assets/%E5%82%A8%E8%83%BD%E4%BB%B7%E5%80%BC%E6%B5%81%E4%B8%8E%E6%94%B6%E7%9B%8A%E6%A0%88.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/储能行业/储能行业深度调研 - 总览.md",
+      "from": "assets/储能国内全球差异图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%82%A8%E8%83%BD%E8%A1%8C%E4%B8%9A/assets/%E5%82%A8%E8%83%BD%E5%9B%BD%E5%86%85%E5%85%A8%E7%90%83%E5%B7%AE%E5%BC%82%E5%9B%BE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/储能行业/储能行业深度调研 - 总览.md",
+      "from": "assets/储能技术成熟度矩阵.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%82%A8%E8%83%BD%E8%A1%8C%E4%B8%9A/assets/%E5%82%A8%E8%83%BD%E6%8A%80%E6%9C%AF%E6%88%90%E7%86%9F%E5%BA%A6%E7%9F%A9%E9%98%B5.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/储能行业/储能行业深度调研 - 总览.md",
+      "from": "assets/储能公司业务质量矩阵.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%82%A8%E8%83%BD%E8%A1%8C%E4%B8%9A/assets/%E5%82%A8%E8%83%BD%E5%85%AC%E5%8F%B8%E4%B8%9A%E5%8A%A1%E8%B4%A8%E9%87%8F%E7%9F%A9%E9%98%B5.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/储能行业/储能行业深度调研 - 总览.md",
+      "from": "assets/储能ETF估值位置仪表盘.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%82%A8%E8%83%BD%E8%A1%8C%E4%B8%9A/assets/%E5%82%A8%E8%83%BDETF%E4%BC%B0%E5%80%BC%E4%BD%8D%E7%BD%AE%E4%BB%AA%E8%A1%A8%E7%9B%98.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/储能行业/储能行业深度调研 - 总览.md",
+      "from": "assets/储能ETF入场信号灯.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%82%A8%E8%83%BD%E8%A1%8C%E4%B8%9A/assets/%E5%82%A8%E8%83%BDETF%E5%85%A5%E5%9C%BA%E4%BF%A1%E5%8F%B7%E7%81%AF.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/储能行业/储能行业深度调研 - 总览.md",
+      "from": "assets/储能反证跟踪仪表盘.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%82%A8%E8%83%BD%E8%A1%8C%E4%B8%9A/assets/%E5%82%A8%E8%83%BD%E5%8F%8D%E8%AF%81%E8%B7%9F%E8%B8%AA%E4%BB%AA%E8%A1%A8%E7%9B%98.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/储能行业/储能行业深度调研.md",
+      "from": "assets/储能小白总入口图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%82%A8%E8%83%BD%E8%A1%8C%E4%B8%9A/assets/%E5%82%A8%E8%83%BD%E5%B0%8F%E7%99%BD%E6%80%BB%E5%85%A5%E5%8F%A3%E5%9B%BE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/储能行业/储能行业深度调研.md",
+      "from": "assets/储能投研总览仪表盘.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%82%A8%E8%83%BD%E8%A1%8C%E4%B8%9A/assets/%E5%82%A8%E8%83%BD%E6%8A%95%E7%A0%94%E6%80%BB%E8%A7%88%E4%BB%AA%E8%A1%A8%E7%9B%98.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/储能行业/储能行业深度调研.md",
+      "from": "assets/储能产业链节点规模热力图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%82%A8%E8%83%BD%E8%A1%8C%E4%B8%9A/assets/%E5%82%A8%E8%83%BD%E4%BA%A7%E4%B8%9A%E9%93%BE%E8%8A%82%E7%82%B9%E8%A7%84%E6%A8%A1%E7%83%AD%E5%8A%9B%E5%9B%BE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/储能行业/储能行业深度调研.md",
+      "from": "assets/储能周期与供需仪表盘.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%82%A8%E8%83%BD%E8%A1%8C%E4%B8%9A/assets/%E5%82%A8%E8%83%BD%E5%91%A8%E6%9C%9F%E4%B8%8E%E4%BE%9B%E9%9C%80%E4%BB%AA%E8%A1%A8%E7%9B%98.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/储能行业/储能行业深度调研.md",
+      "from": "assets/储能ETF估值位置仪表盘.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%82%A8%E8%83%BD%E8%A1%8C%E4%B8%9A/assets/%E5%82%A8%E8%83%BDETF%E4%BC%B0%E5%80%BC%E4%BD%8D%E7%BD%AE%E4%BB%AA%E8%A1%A8%E7%9B%98.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/储能行业/储能行业深度调研.md",
+      "from": "assets/储能小白总入口图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%82%A8%E8%83%BD%E8%A1%8C%E4%B8%9A/assets/%E5%82%A8%E8%83%BD%E5%B0%8F%E7%99%BD%E6%80%BB%E5%85%A5%E5%8F%A3%E5%9B%BE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/储能行业/储能行业深度调研.md",
+      "from": "assets/储能投研总览仪表盘.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%82%A8%E8%83%BD%E8%A1%8C%E4%B8%9A/assets/%E5%82%A8%E8%83%BD%E6%8A%95%E7%A0%94%E6%80%BB%E8%A7%88%E4%BB%AA%E8%A1%A8%E7%9B%98.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/储能行业/储能行业深度调研.md",
+      "from": "assets/储能产业链节点规模热力图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%82%A8%E8%83%BD%E8%A1%8C%E4%B8%9A/assets/%E5%82%A8%E8%83%BD%E4%BA%A7%E4%B8%9A%E9%93%BE%E8%8A%82%E7%82%B9%E8%A7%84%E6%A8%A1%E7%83%AD%E5%8A%9B%E5%9B%BE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/储能行业/储能行业深度调研.md",
+      "from": "assets/储能节点利润池气泡图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%82%A8%E8%83%BD%E8%A1%8C%E4%B8%9A/assets/%E5%82%A8%E8%83%BD%E8%8A%82%E7%82%B9%E5%88%A9%E6%B6%A6%E6%B1%A0%E6%B0%94%E6%B3%A1%E5%9B%BE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/储能行业/储能行业深度调研.md",
+      "from": "assets/储能周期与供需仪表盘.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%82%A8%E8%83%BD%E8%A1%8C%E4%B8%9A/assets/%E5%82%A8%E8%83%BD%E5%91%A8%E6%9C%9F%E4%B8%8E%E4%BE%9B%E9%9C%80%E4%BB%AA%E8%A1%A8%E7%9B%98.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/储能行业/储能行业深度调研.md",
+      "from": "assets/储能情景推演路径图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%82%A8%E8%83%BD%E8%A1%8C%E4%B8%9A/assets/%E5%82%A8%E8%83%BD%E6%83%85%E6%99%AF%E6%8E%A8%E6%BC%94%E8%B7%AF%E5%BE%84%E5%9B%BE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/储能行业/储能行业深度调研.md",
+      "from": "assets/储能ETF估值位置仪表盘.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%82%A8%E8%83%BD%E8%A1%8C%E4%B8%9A/assets/%E5%82%A8%E8%83%BDETF%E4%BC%B0%E5%80%BC%E4%BD%8D%E7%BD%AE%E4%BB%AA%E8%A1%A8%E7%9B%98.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/储能行业/储能行业深度调研.md",
+      "from": "assets/储能ETF入场信号灯.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%82%A8%E8%83%BD%E8%A1%8C%E4%B8%9A/assets/%E5%82%A8%E8%83%BDETF%E5%85%A5%E5%9C%BA%E4%BF%A1%E5%8F%B7%E7%81%AF.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/储能行业/储能行业深度调研.md",
+      "from": "assets/储能价值链利润池.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%82%A8%E8%83%BD%E8%A1%8C%E4%B8%9A/assets/%E5%82%A8%E8%83%BD%E4%BB%B7%E5%80%BC%E9%93%BE%E5%88%A9%E6%B6%A6%E6%B1%A0.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/储能行业/储能行业深度调研.md",
+      "from": "assets/储能国内全球差异图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%82%A8%E8%83%BD%E8%A1%8C%E4%B8%9A/assets/%E5%82%A8%E8%83%BD%E5%9B%BD%E5%86%85%E5%85%A8%E7%90%83%E5%B7%AE%E5%BC%82%E5%9B%BE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/储能行业/储能行业深度调研.md",
+      "from": "assets/储能技术成熟度矩阵.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%82%A8%E8%83%BD%E8%A1%8C%E4%B8%9A/assets/%E5%82%A8%E8%83%BD%E6%8A%80%E6%9C%AF%E6%88%90%E7%86%9F%E5%BA%A6%E7%9F%A9%E9%98%B5.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/储能行业/储能行业深度调研.md",
+      "from": "assets/储能公司业务质量矩阵.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%82%A8%E8%83%BD%E8%A1%8C%E4%B8%9A/assets/%E5%82%A8%E8%83%BD%E5%85%AC%E5%8F%B8%E4%B8%9A%E5%8A%A1%E8%B4%A8%E9%87%8F%E7%9F%A9%E9%98%B5.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/储能行业/储能行业深度调研.md",
+      "from": "assets/储能反证跟踪仪表盘.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%82%A8%E8%83%BD%E8%A1%8C%E4%B8%9A/assets/%E5%82%A8%E8%83%BD%E5%8F%8D%E8%AF%81%E8%B7%9F%E8%B8%AA%E4%BB%AA%E8%A1%A8%E7%9B%98.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/储能行业/储能行业深度调研.md",
+      "from": "assets/储能技术路线与应用时长.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%82%A8%E8%83%BD%E8%A1%8C%E4%B8%9A/assets/%E5%82%A8%E8%83%BD%E6%8A%80%E6%9C%AF%E8%B7%AF%E7%BA%BF%E4%B8%8E%E5%BA%94%E7%94%A8%E6%97%B6%E9%95%BF.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/储能行业/工商业与户用分布式储能.md",
+      "from": "assets/工商业与户用分布式储能产业链路图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%82%A8%E8%83%BD%E8%A1%8C%E4%B8%9A/assets/%E5%B7%A5%E5%95%86%E4%B8%9A%E4%B8%8E%E6%88%B7%E7%94%A8%E5%88%86%E5%B8%83%E5%BC%8F%E5%82%A8%E8%83%BD%E4%BA%A7%E4%B8%9A%E9%93%BE%E8%B7%AF%E5%9B%BE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/储能行业/电源侧与电网侧储能资产.md",
+      "from": "assets/电源侧与电网侧储能资产产业链路图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%82%A8%E8%83%BD%E8%A1%8C%E4%B8%9A/assets/%E7%94%B5%E6%BA%90%E4%BE%A7%E4%B8%8E%E7%94%B5%E7%BD%91%E4%BE%A7%E5%82%A8%E8%83%BD%E8%B5%84%E4%BA%A7%E4%BA%A7%E4%B8%9A%E9%93%BE%E8%B7%AF%E5%9B%BE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/储能行业/长时储能装备与项目.md",
+      "from": "assets/长时储能装备与项目产业链路图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%82%A8%E8%83%BD%E8%A1%8C%E4%B8%9A/assets/%E9%95%BF%E6%97%B6%E5%82%A8%E8%83%BD%E8%A3%85%E5%A4%87%E4%B8%8E%E9%A1%B9%E7%9B%AE%E4%BA%A7%E4%B8%9A%E9%93%BE%E8%B7%AF%E5%9B%BE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/光伏产业/光伏产业产业链节点规模与利润池.md",
+      "from": "assets/光伏八条子链节点规模地图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%85%89%E4%BC%8F%E4%BA%A7%E4%B8%9A/assets/%E5%85%89%E4%BC%8F%E5%85%AB%E6%9D%A1%E5%AD%90%E9%93%BE%E8%8A%82%E7%82%B9%E8%A7%84%E6%A8%A1%E5%9C%B0%E5%9B%BE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/光伏产业/光伏产业周期、供需与投资节奏.md",
+      "from": "assets/光伏周期利润现金估值桥.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%85%89%E4%BC%8F%E4%BA%A7%E4%B8%9A/assets/%E5%85%89%E4%BC%8F%E5%91%A8%E6%9C%9F%E5%88%A9%E6%B6%A6%E7%8E%B0%E9%87%91%E4%BC%B0%E5%80%BC%E6%A1%A5.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/光伏产业/光伏产业子产业链覆盖矩阵.md",
+      "from": "assets/工业硅与多晶硅产业链产业链路图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%85%89%E4%BC%8F%E4%BA%A7%E4%B8%9A/assets/%E5%B7%A5%E4%B8%9A%E7%A1%85%E4%B8%8E%E5%A4%9A%E6%99%B6%E7%A1%85%E4%BA%A7%E4%B8%9A%E9%93%BE%E4%BA%A7%E4%B8%9A%E9%93%BE%E8%B7%AF%E5%9B%BE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/光伏产业/光伏产业子产业链覆盖矩阵.md",
+      "from": "assets/硅片与切片耗材产业链产业链路图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%85%89%E4%BC%8F%E4%BA%A7%E4%B8%9A/assets/%E7%A1%85%E7%89%87%E4%B8%8E%E5%88%87%E7%89%87%E8%80%97%E6%9D%90%E4%BA%A7%E4%B8%9A%E9%93%BE%E4%BA%A7%E4%B8%9A%E9%93%BE%E8%B7%AF%E5%9B%BE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/光伏产业/光伏产业子产业链覆盖矩阵.md",
+      "from": "assets/光伏电池片产业链产业链路图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%85%89%E4%BC%8F%E4%BA%A7%E4%B8%9A/assets/%E5%85%89%E4%BC%8F%E7%94%B5%E6%B1%A0%E7%89%87%E4%BA%A7%E4%B8%9A%E9%93%BE%E4%BA%A7%E4%B8%9A%E9%93%BE%E8%B7%AF%E5%9B%BE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/光伏产业/光伏产业子产业链覆盖矩阵.md",
+      "from": "assets/光伏组件与关键辅材产业链产业链路图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%85%89%E4%BC%8F%E4%BA%A7%E4%B8%9A/assets/%E5%85%89%E4%BC%8F%E7%BB%84%E4%BB%B6%E4%B8%8E%E5%85%B3%E9%94%AE%E8%BE%85%E6%9D%90%E4%BA%A7%E4%B8%9A%E9%93%BE%E4%BA%A7%E4%B8%9A%E9%93%BE%E8%B7%AF%E5%9B%BE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/光伏产业/光伏产业子产业链覆盖矩阵.md",
+      "from": "assets/光伏制造设备产业链产业链路图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%85%89%E4%BC%8F%E4%BA%A7%E4%B8%9A/assets/%E5%85%89%E4%BC%8F%E5%88%B6%E9%80%A0%E8%AE%BE%E5%A4%87%E4%BA%A7%E4%B8%9A%E9%93%BE%E4%BA%A7%E4%B8%9A%E9%93%BE%E8%B7%AF%E5%9B%BE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/光伏产业/光伏产业子产业链覆盖矩阵.md",
+      "from": "assets/逆变器与电力电子产业链产业链路图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%85%89%E4%BC%8F%E4%BA%A7%E4%B8%9A/assets/%E9%80%86%E5%8F%98%E5%99%A8%E4%B8%8E%E7%94%B5%E5%8A%9B%E7%94%B5%E5%AD%90%E4%BA%A7%E4%B8%9A%E9%93%BE%E4%BA%A7%E4%B8%9A%E9%93%BE%E8%B7%AF%E5%9B%BE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/光伏产业/光伏产业子产业链覆盖矩阵.md",
+      "from": "assets/支架BOS与EPC产业链产业链路图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%85%89%E4%BC%8F%E4%BA%A7%E4%B8%9A/assets/%E6%94%AF%E6%9E%B6BOS%E4%B8%8EEPC%E4%BA%A7%E4%B8%9A%E9%93%BE%E4%BA%A7%E4%B8%9A%E9%93%BE%E8%B7%AF%E5%9B%BE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/光伏产业/光伏产业子产业链覆盖矩阵.md",
+      "from": "assets/光伏项目开发运营与运维产业链产业链路图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%85%89%E4%BC%8F%E4%BA%A7%E4%B8%9A/assets/%E5%85%89%E4%BC%8F%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91%E8%BF%90%E8%90%A5%E4%B8%8E%E8%BF%90%E7%BB%B4%E4%BA%A7%E4%B8%9A%E9%93%BE%E4%BA%A7%E4%B8%9A%E9%93%BE%E8%B7%AF%E5%9B%BE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/光伏产业/光伏产业技术成熟度与发展趋势.md",
+      "from": "assets/光伏八条子产业链技术成熟度地图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%85%89%E4%BC%8F%E4%BA%A7%E4%B8%9A/assets/%E5%85%89%E4%BC%8F%E5%85%AB%E6%9D%A1%E5%AD%90%E4%BA%A7%E4%B8%9A%E9%93%BE%E6%8A%80%E6%9C%AF%E6%88%90%E7%86%9F%E5%BA%A6%E5%9C%B0%E5%9B%BE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/光伏产业/光伏产业深度调研 - 总览.md",
+      "from": "assets/光伏八条子产业链利润状态地图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%85%89%E4%BC%8F%E4%BA%A7%E4%B8%9A/assets/%E5%85%89%E4%BC%8F%E5%85%AB%E6%9D%A1%E5%AD%90%E4%BA%A7%E4%B8%9A%E9%93%BE%E5%88%A9%E6%B6%A6%E7%8A%B6%E6%80%81%E5%9C%B0%E5%9B%BE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/光伏产业/光伏产业深度调研 - 总览.md",
+      "from": "assets/光伏八条子产业链技术成熟度地图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%85%89%E4%BC%8F%E4%BA%A7%E4%B8%9A/assets/%E5%85%89%E4%BC%8F%E5%85%AB%E6%9D%A1%E5%AD%90%E4%BA%A7%E4%B8%9A%E9%93%BE%E6%8A%80%E6%9C%AF%E6%88%90%E7%86%9F%E5%BA%A6%E5%9C%B0%E5%9B%BE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/光伏产业/光伏产业深度调研.md",
+      "from": "assets/光伏八条子产业链利润状态地图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%85%89%E4%BC%8F%E4%BA%A7%E4%B8%9A/assets/%E5%85%89%E4%BC%8F%E5%85%AB%E6%9D%A1%E5%AD%90%E4%BA%A7%E4%B8%9A%E9%93%BE%E5%88%A9%E6%B6%A6%E7%8A%B6%E6%80%81%E5%9C%B0%E5%9B%BE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/光伏产业/光伏产业深度调研.md",
+      "from": "assets/光伏八条子产业链技术成熟度地图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%85%89%E4%BC%8F%E4%BA%A7%E4%B8%9A/assets/%E5%85%89%E4%BC%8F%E5%85%AB%E6%9D%A1%E5%AD%90%E4%BA%A7%E4%B8%9A%E9%93%BE%E6%8A%80%E6%9C%AF%E6%88%90%E7%86%9F%E5%BA%A6%E5%9C%B0%E5%9B%BE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/光伏产业/光伏产业深度调研.md",
+      "from": "assets/光伏周期利润现金估值桥.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%85%89%E4%BC%8F%E4%BA%A7%E4%B8%9A/assets/%E5%85%89%E4%BC%8F%E5%91%A8%E6%9C%9F%E5%88%A9%E6%B6%A6%E7%8E%B0%E9%87%91%E4%BC%B0%E5%80%BC%E6%A1%A5.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/光伏产业/光伏产业深度调研.md",
+      "from": "assets/光伏八条子链节点规模地图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%85%89%E4%BC%8F%E4%BA%A7%E4%B8%9A/assets/%E5%85%89%E4%BC%8F%E5%85%AB%E6%9D%A1%E5%AD%90%E9%93%BE%E8%8A%82%E7%82%B9%E8%A7%84%E6%A8%A1%E5%9C%B0%E5%9B%BE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/光伏产业/光伏制造设备产业链.md",
+      "from": "assets/光伏制造设备产业链产业链路图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%85%89%E4%BC%8F%E4%BA%A7%E4%B8%9A/assets/%E5%85%89%E4%BC%8F%E5%88%B6%E9%80%A0%E8%AE%BE%E5%A4%87%E4%BA%A7%E4%B8%9A%E9%93%BE%E4%BA%A7%E4%B8%9A%E9%93%BE%E8%B7%AF%E5%9B%BE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/光伏产业/光伏电池片产业链.md",
+      "from": "assets/光伏电池片产业链产业链路图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%85%89%E4%BC%8F%E4%BA%A7%E4%B8%9A/assets/%E5%85%89%E4%BC%8F%E7%94%B5%E6%B1%A0%E7%89%87%E4%BA%A7%E4%B8%9A%E9%93%BE%E4%BA%A7%E4%B8%9A%E9%93%BE%E8%B7%AF%E5%9B%BE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/光伏产业/光伏组件与关键辅材产业链.md",
+      "from": "assets/光伏组件与关键辅材产业链产业链路图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%85%89%E4%BC%8F%E4%BA%A7%E4%B8%9A/assets/%E5%85%89%E4%BC%8F%E7%BB%84%E4%BB%B6%E4%B8%8E%E5%85%B3%E9%94%AE%E8%BE%85%E6%9D%90%E4%BA%A7%E4%B8%9A%E9%93%BE%E4%BA%A7%E4%B8%9A%E9%93%BE%E8%B7%AF%E5%9B%BE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/光伏产业/光伏项目开发运营与运维产业链.md",
+      "from": "assets/光伏项目开发运营与运维产业链产业链路图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%85%89%E4%BC%8F%E4%BA%A7%E4%B8%9A/assets/%E5%85%89%E4%BC%8F%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91%E8%BF%90%E8%90%A5%E4%B8%8E%E8%BF%90%E7%BB%B4%E4%BA%A7%E4%B8%9A%E9%93%BE%E4%BA%A7%E4%B8%9A%E9%93%BE%E8%B7%AF%E5%9B%BE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/光伏产业/工业硅与多晶硅产业链.md",
+      "from": "assets/工业硅与多晶硅产业链产业链路图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%85%89%E4%BC%8F%E4%BA%A7%E4%B8%9A/assets/%E5%B7%A5%E4%B8%9A%E7%A1%85%E4%B8%8E%E5%A4%9A%E6%99%B6%E7%A1%85%E4%BA%A7%E4%B8%9A%E9%93%BE%E4%BA%A7%E4%B8%9A%E9%93%BE%E8%B7%AF%E5%9B%BE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/光伏产业/支架BOS与EPC产业链.md",
+      "from": "assets/支架BOS与EPC产业链产业链路图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%85%89%E4%BC%8F%E4%BA%A7%E4%B8%9A/assets/%E6%94%AF%E6%9E%B6BOS%E4%B8%8EEPC%E4%BA%A7%E4%B8%9A%E9%93%BE%E4%BA%A7%E4%B8%9A%E9%93%BE%E8%B7%AF%E5%9B%BE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/光伏产业/硅片与切片耗材产业链.md",
+      "from": "assets/硅片与切片耗材产业链产业链路图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%85%89%E4%BC%8F%E4%BA%A7%E4%B8%9A/assets/%E7%A1%85%E7%89%87%E4%B8%8E%E5%88%87%E7%89%87%E8%80%97%E6%9D%90%E4%BA%A7%E4%B8%9A%E9%93%BE%E4%BA%A7%E4%B8%9A%E9%93%BE%E8%B7%AF%E5%9B%BE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/光伏产业/逆变器与电力电子产业链.md",
+      "from": "assets/逆变器与电力电子产业链产业链路图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%85%89%E4%BC%8F%E4%BA%A7%E4%B8%9A/assets/%E9%80%86%E5%8F%98%E5%99%A8%E4%B8%8E%E7%94%B5%E5%8A%9B%E7%94%B5%E5%AD%90%E4%BA%A7%E4%B8%9A%E9%93%BE%E4%BA%A7%E4%B8%9A%E9%93%BE%E8%B7%AF%E5%9B%BE.png",
+      "kind": "asset"
     },
     {
       "document": "投资研究/公司研究/中际旭创（300308.SZ）调研/公司调研 - 中际旭创.md",
       "from": "reports/2025_annual.pdf",
-      "to": "https://www.zj-innolight.com/public/static/ajaxuplode/uploadfile/financial/1776659833994705.pdf"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E4%B8%AD%E9%99%85%E6%97%AD%E5%88%9B%EF%BC%88300308.SZ%EF%BC%89%E8%B0%83%E7%A0%94/reports/2025_annual.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/中际旭创（300308.SZ）调研/公司调研 - 中际旭创.md",
       "from": "reports/2026Q1.pdf",
-      "to": "https://static.cninfo.com.cn/finalpage/2026-04-17/1225111941.PDF"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E4%B8%AD%E9%99%85%E6%97%AD%E5%88%9B%EF%BC%88300308.SZ%EF%BC%89%E8%B0%83%E7%A0%94/reports/2026Q1.pdf",
+      "kind": "report"
+    },
+    {
+      "document": "投资研究/公司研究/中际旭创（300308.SZ）调研/公司调研 - 中际旭创.md",
+      "from": "reports/2025_annual.pdf",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E4%B8%AD%E9%99%85%E6%97%AD%E5%88%9B%EF%BC%88300308.SZ%EF%BC%89%E8%B0%83%E7%A0%94/reports/2025_annual.pdf",
+      "kind": "report"
+    },
+    {
+      "document": "投资研究/公司研究/中际旭创（300308.SZ）调研/公司调研 - 中际旭创.md",
+      "from": "reports/2026Q1.pdf",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E4%B8%AD%E9%99%85%E6%97%AD%E5%88%9B%EF%BC%88300308.SZ%EF%BC%89%E8%B0%83%E7%A0%94/reports/2026Q1.pdf",
+      "kind": "report"
+    },
+    {
+      "document": "投资研究/公司研究/中际旭创（300308.SZ）调研/技术与壁垒 - 中际旭创.md",
+      "from": "reports/2025_annual.pdf",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E4%B8%AD%E9%99%85%E6%97%AD%E5%88%9B%EF%BC%88300308.SZ%EF%BC%89%E8%B0%83%E7%A0%94/reports/2025_annual.pdf",
+      "kind": "report"
+    },
+    {
+      "document": "投资研究/公司研究/中际旭创（300308.SZ）调研/技术与壁垒 - 中际旭创.md",
+      "from": "reports/2026Q1.pdf",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E4%B8%AD%E9%99%85%E6%97%AD%E5%88%9B%EF%BC%88300308.SZ%EF%BC%89%E8%B0%83%E7%A0%94/reports/2026Q1.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/中际旭创（300308.SZ）调研/竞对对比 - 中际旭创.md",
       "from": "reports/2025_annual.pdf",
-      "to": "https://www.zj-innolight.com/public/static/ajaxuplode/uploadfile/financial/1776659833994705.pdf"
-    },
-    {
-      "document": "投资研究/公司研究/中际旭创（300308.SZ）调研/股价预期 - 中际旭创.md",
-      "from": "reports/2026Q1.pdf",
-      "to": "https://static.cninfo.com.cn/finalpage/2026-04-17/1225111941.PDF"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E4%B8%AD%E9%99%85%E6%97%AD%E5%88%9B%EF%BC%88300308.SZ%EF%BC%89%E8%B0%83%E7%A0%94/reports/2025_annual.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/中际旭创（300308.SZ）调研/股价预期 - 中际旭创.md",
       "from": "reports/2025_annual.pdf",
-      "to": "https://www.zj-innolight.com/public/static/ajaxuplode/uploadfile/financial/1776659833994705.pdf"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E4%B8%AD%E9%99%85%E6%97%AD%E5%88%9B%EF%BC%88300308.SZ%EF%BC%89%E8%B0%83%E7%A0%94/reports/2025_annual.pdf",
+      "kind": "report"
+    },
+    {
+      "document": "投资研究/公司研究/中际旭创（300308.SZ）调研/股价预期 - 中际旭创.md",
+      "from": "reports/2026Q1.pdf",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E4%B8%AD%E9%99%85%E6%97%AD%E5%88%9B%EF%BC%88300308.SZ%EF%BC%89%E8%B0%83%E7%A0%94/reports/2026Q1.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/中际旭创（300308.SZ）调研/财务报表 - 中际旭创.md",
       "from": "reports/2021_annual.pdf",
-      "to": "https://static.cninfo.com.cn/finalpage/2022-04-25/1213057723.PDF"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E4%B8%AD%E9%99%85%E6%97%AD%E5%88%9B%EF%BC%88300308.SZ%EF%BC%89%E8%B0%83%E7%A0%94/reports/2021_annual.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/中际旭创（300308.SZ）调研/财务报表 - 中际旭创.md",
       "from": "reports/2022_annual.pdf",
-      "to": "https://static.cninfo.com.cn/finalpage/2023-04-24/1216523562.PDF"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E4%B8%AD%E9%99%85%E6%97%AD%E5%88%9B%EF%BC%88300308.SZ%EF%BC%89%E8%B0%83%E7%A0%94/reports/2022_annual.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/中际旭创（300308.SZ）调研/财务报表 - 中际旭创.md",
       "from": "reports/2023_annual.pdf",
-      "to": "https://static.cninfo.com.cn/finalpage/2024-04-22/1219703026.PDF"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E4%B8%AD%E9%99%85%E6%97%AD%E5%88%9B%EF%BC%88300308.SZ%EF%BC%89%E8%B0%83%E7%A0%94/reports/2023_annual.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/中际旭创（300308.SZ）调研/财务报表 - 中际旭创.md",
       "from": "reports/2024_annual.pdf",
-      "to": "https://static.cninfo.com.cn/finalpage/2025-04-21/1223155483.PDF"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E4%B8%AD%E9%99%85%E6%97%AD%E5%88%9B%EF%BC%88300308.SZ%EF%BC%89%E8%B0%83%E7%A0%94/reports/2024_annual.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/中际旭创（300308.SZ）调研/财务报表 - 中际旭创.md",
       "from": "reports/2025_annual.pdf",
-      "to": "https://www.zj-innolight.com/public/static/ajaxuplode/uploadfile/financial/1776659833994705.pdf"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E4%B8%AD%E9%99%85%E6%97%AD%E5%88%9B%EF%BC%88300308.SZ%EF%BC%89%E8%B0%83%E7%A0%94/reports/2025_annual.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/中际旭创（300308.SZ）调研/财务报表 - 中际旭创.md",
       "from": "reports/2024Q1.pdf",
-      "to": "https://www.zj-innolight.com/public/static/ajaxuplode/uploadfile/financial/1715408750271719.pdf"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E4%B8%AD%E9%99%85%E6%97%AD%E5%88%9B%EF%BC%88300308.SZ%EF%BC%89%E8%B0%83%E7%A0%94/reports/2024Q1.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/中际旭创（300308.SZ）调研/财务报表 - 中际旭创.md",
       "from": "reports/2024H1.pdf",
-      "to": "https://static.cninfo.com.cn/finalpage/2024-08-26/1220965278.PDF"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E4%B8%AD%E9%99%85%E6%97%AD%E5%88%9B%EF%BC%88300308.SZ%EF%BC%89%E8%B0%83%E7%A0%94/reports/2024H1.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/中际旭创（300308.SZ）调研/财务报表 - 中际旭创.md",
       "from": "reports/2024Q3.pdf",
-      "to": "https://static.cninfo.com.cn/finalpage/2024-10-23/1221474464.PDF"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E4%B8%AD%E9%99%85%E6%97%AD%E5%88%9B%EF%BC%88300308.SZ%EF%BC%89%E8%B0%83%E7%A0%94/reports/2024Q3.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/中际旭创（300308.SZ）调研/财务报表 - 中际旭创.md",
       "from": "reports/2025Q1.pdf",
-      "to": "https://static.cninfo.com.cn/finalpage/2025-04-21/1223155474.PDF"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E4%B8%AD%E9%99%85%E6%97%AD%E5%88%9B%EF%BC%88300308.SZ%EF%BC%89%E8%B0%83%E7%A0%94/reports/2025Q1.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/中际旭创（300308.SZ）调研/财务报表 - 中际旭创.md",
       "from": "reports/2025H1.pdf",
-      "to": "https://static.cninfo.com.cn/finalpage/2025-08-27/1224585964.PDF"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E4%B8%AD%E9%99%85%E6%97%AD%E5%88%9B%EF%BC%88300308.SZ%EF%BC%89%E8%B0%83%E7%A0%94/reports/2025H1.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/中际旭创（300308.SZ）调研/财务报表 - 中际旭创.md",
       "from": "reports/2025Q3.pdf",
-      "to": "https://disc.static.szse.cn/disc/disk03/finalpage/2025-10-31/6984f225-22a3-4c3d-9950-24055bdf6ce3.PDF"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E4%B8%AD%E9%99%85%E6%97%AD%E5%88%9B%EF%BC%88300308.SZ%EF%BC%89%E8%B0%83%E7%A0%94/reports/2025Q3.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/中际旭创（300308.SZ）调研/财务报表 - 中际旭创.md",
       "from": "reports/2026Q1.pdf",
-      "to": "https://static.cninfo.com.cn/finalpage/2026-04-17/1225111941.PDF"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E4%B8%AD%E9%99%85%E6%97%AD%E5%88%9B%EF%BC%88300308.SZ%EF%BC%89%E8%B0%83%E7%A0%94/reports/2026Q1.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/寒武纪（688256.SH）调研/公司调研 - 寒武纪.md",
       "from": "reports/2025_annual.pdf",
-      "to": "https://static.cninfo.com.cn/finalpage/2026-03-13/1225007336.PDF"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E5%AF%92%E6%AD%A6%E7%BA%AA%EF%BC%88688256.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2025_annual.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/寒武纪（688256.SH）调研/公司调研 - 寒武纪.md",
       "from": "reports/2026Q1.pdf",
-      "to": "https://static.cninfo.com.cn/finalpage/2026-04-30/1225264337.PDF"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E5%AF%92%E6%AD%A6%E7%BA%AA%EF%BC%88688256.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2026Q1.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/寒武纪（688256.SH）调研/公司调研 - 寒武纪.md",
       "from": "reports/2026Q1_impairment.pdf",
-      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E5%AF%92%E6%AD%A6%E7%BA%AA%EF%BC%88688256.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2026Q1_impairment.pdf"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E5%AF%92%E6%AD%A6%E7%BA%AA%EF%BC%88688256.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2026Q1_impairment.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/寒武纪（688256.SH）调研/公司调研 - 寒武纪.md",
       "from": "reports/2026-07-01_risk_warning.pdf",
-      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E5%AF%92%E6%AD%A6%E7%BA%AA%EF%BC%88688256.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2026-07-01_risk_warning.pdf"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E5%AF%92%E6%AD%A6%E7%BA%AA%EF%BC%88688256.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2026-07-01_risk_warning.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/寒武纪（688256.SH）调研/公司调研 - 寒武纪.md",
       "from": "reports/2025_dividend_implementation.pdf",
-      "to": "https://quote.cfi.cn/quote108367_688256.html"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E5%AF%92%E6%AD%A6%E7%BA%AA%EF%BC%88688256.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2025_dividend_implementation.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/寒武纪（688256.SH）调研/公司调研 - 寒武纪.md",
       "from": "reports/2025_labor_litigation.pdf",
-      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E5%AF%92%E6%AD%A6%E7%BA%AA%EF%BC%88688256.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2025_labor_litigation.pdf"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E5%AF%92%E6%AD%A6%E7%BA%AA%EF%BC%88688256.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2025_labor_litigation.pdf",
+      "kind": "report"
+    },
+    {
+      "document": "投资研究/公司研究/寒武纪（688256.SH）调研/技术与壁垒 - 寒武纪.md",
+      "from": "csv/行业技术评价框架.csv",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E5%AF%92%E6%AD%A6%E7%BA%AA%EF%BC%88688256.SH%EF%BC%89%E8%B0%83%E7%A0%94/csv/%E8%A1%8C%E4%B8%9A%E6%8A%80%E6%9C%AF%E8%AF%84%E4%BB%B7%E6%A1%86%E6%9E%B6.csv",
+      "kind": "csv"
+    },
+    {
+      "document": "投资研究/公司研究/寒武纪（688256.SH）调研/技术与壁垒 - 寒武纪.md",
+      "from": "csv/产品代际路线图.csv",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E5%AF%92%E6%AD%A6%E7%BA%AA%EF%BC%88688256.SH%EF%BC%89%E8%B0%83%E7%A0%94/csv/%E4%BA%A7%E5%93%81%E4%BB%A3%E9%99%85%E8%B7%AF%E7%BA%BF%E5%9B%BE.csv",
+      "kind": "csv"
+    },
+    {
+      "document": "投资研究/公司研究/寒武纪（688256.SH）调研/技术与壁垒 - 寒武纪.md",
+      "from": "csv/技术水位矩阵.csv",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E5%AF%92%E6%AD%A6%E7%BA%AA%EF%BC%88688256.SH%EF%BC%89%E8%B0%83%E7%A0%94/csv/%E6%8A%80%E6%9C%AF%E6%B0%B4%E4%BD%8D%E7%9F%A9%E9%98%B5.csv",
+      "kind": "csv"
+    },
+    {
+      "document": "投资研究/公司研究/寒武纪（688256.SH）调研/技术与壁垒 - 寒武纪.md",
+      "from": "csv/技术壁垒证据.csv",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E5%AF%92%E6%AD%A6%E7%BA%AA%EF%BC%88688256.SH%EF%BC%89%E8%B0%83%E7%A0%94/csv/%E6%8A%80%E6%9C%AF%E5%A3%81%E5%9E%92%E8%AF%81%E6%8D%AE.csv",
+      "kind": "csv"
     },
     {
       "document": "投资研究/公司研究/寒武纪（688256.SH）调研/技术与壁垒 - 寒武纪.md",
       "from": "reports/2025_annual.pdf",
-      "to": "https://static.cninfo.com.cn/finalpage/2026-03-13/1225007336.PDF"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E5%AF%92%E6%AD%A6%E7%BA%AA%EF%BC%88688256.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2025_annual.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/寒武纪（688256.SH）调研/技术与壁垒 - 寒武纪.md",
       "from": "reports/2026Q1.pdf",
-      "to": "https://static.cninfo.com.cn/finalpage/2026-04-30/1225264337.PDF"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E5%AF%92%E6%AD%A6%E7%BA%AA%EF%BC%88688256.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2026Q1.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/寒武纪（688256.SH）调研/技术与壁垒 - 寒武纪.md",
       "from": "reports/2026Q1_impairment.pdf",
-      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E5%AF%92%E6%AD%A6%E7%BA%AA%EF%BC%88688256.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2026Q1_impairment.pdf"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E5%AF%92%E6%AD%A6%E7%BA%AA%EF%BC%88688256.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2026Q1_impairment.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/寒武纪（688256.SH）调研/竞对对比 - 寒武纪.md",
       "from": "reports/2025_annual.pdf",
-      "to": "https://static.cninfo.com.cn/finalpage/2026-03-13/1225007336.PDF"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E5%AF%92%E6%AD%A6%E7%BA%AA%EF%BC%88688256.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2025_annual.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/寒武纪（688256.SH）调研/股价预期 - 寒武纪.md",
-      "from": "reports/2025_dividend_implementation.pdf",
-      "to": "https://quote.cfi.cn/quote108367_688256.html"
+      "from": "reports/2025_annual.pdf",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E5%AF%92%E6%AD%A6%E7%BA%AA%EF%BC%88688256.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2025_annual.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/寒武纪（688256.SH）调研/股价预期 - 寒武纪.md",
-      "from": "reports/2025_private_placement_unlock.pdf",
-      "to": "https://quote.cfi.cn/quote108367_688256.html"
+      "from": "reports/2026Q1.pdf",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E5%AF%92%E6%AD%A6%E7%BA%AA%EF%BC%88688256.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2026Q1.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/寒武纪（688256.SH）调研/股价预期 - 寒武纪.md",
       "from": "reports/2026-07-01_risk_warning.pdf",
-      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E5%AF%92%E6%AD%A6%E7%BA%AA%EF%BC%88688256.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2026-07-01_risk_warning.pdf"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E5%AF%92%E6%AD%A6%E7%BA%AA%EF%BC%88688256.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2026-07-01_risk_warning.pdf",
+      "kind": "report"
+    },
+    {
+      "document": "投资研究/公司研究/寒武纪（688256.SH）调研/股价预期 - 寒武纪.md",
+      "from": "reports/2025_dividend_implementation.pdf",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E5%AF%92%E6%AD%A6%E7%BA%AA%EF%BC%88688256.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2025_dividend_implementation.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/寒武纪（688256.SH）调研/财务报表 - 寒武纪.md",
       "from": "reports/2021_annual.pdf",
-      "to": "https://static.cninfo.com.cn/finalpage/2022-05-26/1213501911.PDF"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E5%AF%92%E6%AD%A6%E7%BA%AA%EF%BC%88688256.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2021_annual.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/寒武纪（688256.SH）调研/财务报表 - 寒武纪.md",
       "from": "reports/2022_annual.pdf",
-      "to": "https://static.cninfo.com.cn/finalpage/2023-04-29/1216711776.PDF"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E5%AF%92%E6%AD%A6%E7%BA%AA%EF%BC%88688256.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2022_annual.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/寒武纪（688256.SH）调研/财务报表 - 寒武纪.md",
       "from": "reports/2023_annual.pdf",
-      "to": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219923837.PDF"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E5%AF%92%E6%AD%A6%E7%BA%AA%EF%BC%88688256.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2023_annual.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/寒武纪（688256.SH）调研/财务报表 - 寒武纪.md",
       "from": "reports/2024Q1.pdf",
-      "to": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219923834.PDF"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E5%AF%92%E6%AD%A6%E7%BA%AA%EF%BC%88688256.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2024Q1.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/寒武纪（688256.SH）调研/财务报表 - 寒武纪.md",
       "from": "reports/2024H1.pdf",
-      "to": "https://static.cninfo.com.cn/finalpage/2024-08-31/1221086221.PDF"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E5%AF%92%E6%AD%A6%E7%BA%AA%EF%BC%88688256.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2024H1.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/寒武纪（688256.SH）调研/财务报表 - 寒武纪.md",
       "from": "reports/2024Q3.pdf",
-      "to": "https://static.cninfo.com.cn/finalpage/2024-10-31/1221574137.PDF"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E5%AF%92%E6%AD%A6%E7%BA%AA%EF%BC%88688256.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2024Q3.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/寒武纪（688256.SH）调研/财务报表 - 寒武纪.md",
       "from": "reports/2024_annual.pdf",
-      "to": "https://static.cninfo.com.cn/finalpage/2025-04-19/1223155683.PDF"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E5%AF%92%E6%AD%A6%E7%BA%AA%EF%BC%88688256.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2024_annual.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/寒武纪（688256.SH）调研/财务报表 - 寒武纪.md",
       "from": "reports/2025Q1.pdf",
-      "to": "https://static.cninfo.com.cn/finalpage/2025-04-19/1223155692.PDF"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E5%AF%92%E6%AD%A6%E7%BA%AA%EF%BC%88688256.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2025Q1.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/寒武纪（688256.SH）调研/财务报表 - 寒武纪.md",
       "from": "reports/2025H1.pdf",
-      "to": "https://static.cninfo.com.cn/finalpage/2025-08-27/1224586025.PDF"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E5%AF%92%E6%AD%A6%E7%BA%AA%EF%BC%88688256.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2025H1.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/寒武纪（688256.SH）调研/财务报表 - 寒武纪.md",
       "from": "reports/2025Q3.pdf",
-      "to": "https://static.cninfo.com.cn/finalpage/2025-10-18/1224719401.PDF"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E5%AF%92%E6%AD%A6%E7%BA%AA%EF%BC%88688256.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2025Q3.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/寒武纪（688256.SH）调研/财务报表 - 寒武纪.md",
       "from": "reports/2025_annual.pdf",
-      "to": "https://static.cninfo.com.cn/finalpage/2026-03-13/1225007336.PDF"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E5%AF%92%E6%AD%A6%E7%BA%AA%EF%BC%88688256.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2025_annual.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/寒武纪（688256.SH）调研/财务报表 - 寒武纪.md",
       "from": "reports/2026Q1.pdf",
-      "to": "https://static.cninfo.com.cn/finalpage/2026-04-30/1225264337.PDF"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E5%AF%92%E6%AD%A6%E7%BA%AA%EF%BC%88688256.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2026Q1.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/摩尔线程（688795.SH）调研/公司调研 - 摩尔线程.md",
       "from": "reports/2025_annual.pdf",
-      "to": "https://www.mthreads.com/investor"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E6%91%A9%E5%B0%94%E7%BA%BF%E7%A8%8B%EF%BC%88688795.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2025_annual.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/摩尔线程（688795.SH）调研/公司调研 - 摩尔线程.md",
       "from": "reports/2026Q1.pdf",
-      "to": "https://www.mthreads.com/investor"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E6%91%A9%E5%B0%94%E7%BA%BF%E7%A8%8B%EF%BC%88688795.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2026Q1.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/摩尔线程（688795.SH）调研/公司调研 - 摩尔线程.md",
       "from": "reports/prospectus_final.pdf",
-      "to": "https://www.mthreads.com/investor"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E6%91%A9%E5%B0%94%E7%BA%BF%E7%A8%8B%EF%BC%88688795.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/prospectus_final.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/摩尔线程（688795.SH）调研/公司调研 - 摩尔线程.md",
       "from": "reports/listing_announcement.pdf",
-      "to": "https://mt-website-prod.mthreads.com/uploaded/investor/%E9%A6%96%E6%AC%A1%E5%85%AC%E5%BC%80%E5%8F%91%E8%A1%8C%E7%BD%91%E4%B8%8B%E9%85%8D%E5%94%AE%E9%99%90%E5%94%AE%E8%82%A1%E4%B8%8A%E5%B8%82%E6%B5%81%E9%80%9A%E5%85%AC%E5%91%8A.pdf"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E6%91%A9%E5%B0%94%E7%BA%BF%E7%A8%8B%EF%BC%88688795.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/listing_announcement.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/摩尔线程（688795.SH）调研/公司调研 - 摩尔线程.md",
       "from": "reports/funds_2025.pdf",
-      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E6%91%A9%E5%B0%94%E7%BA%BF%E7%A8%8B%EF%BC%88688795.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/funds_2025.pdf"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E6%91%A9%E5%B0%94%E7%BA%BF%E7%A8%8B%EF%BC%88688795.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/funds_2025.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/摩尔线程（688795.SH）调研/公司调研 - 摩尔线程.md",
       "from": "reports/incentive_plan_2026.pdf",
-      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E6%91%A9%E5%B0%94%E7%BA%BF%E7%A8%8B%EF%BC%88688795.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/incentive_plan_2026.pdf"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E6%91%A9%E5%B0%94%E7%BA%BF%E7%A8%8B%EF%BC%88688795.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/incentive_plan_2026.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/摩尔线程（688795.SH）调研/公司调研 - 摩尔线程.md",
       "from": "reports/incentive_grant_2026-05-20.pdf",
-      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E6%91%A9%E5%B0%94%E7%BA%BF%E7%A8%8B%EF%BC%88688795.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/incentive_grant_2026-05-20.pdf"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E6%91%A9%E5%B0%94%E7%BA%BF%E7%A8%8B%EF%BC%88688795.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/incentive_grant_2026-05-20.pdf",
+      "kind": "report"
+    },
+    {
+      "document": "投资研究/公司研究/摩尔线程（688795.SH）调研/技术与壁垒 - 摩尔线程.md",
+      "from": "csv/行业技术评价框架.csv",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E6%91%A9%E5%B0%94%E7%BA%BF%E7%A8%8B%EF%BC%88688795.SH%EF%BC%89%E8%B0%83%E7%A0%94/csv/%E8%A1%8C%E4%B8%9A%E6%8A%80%E6%9C%AF%E8%AF%84%E4%BB%B7%E6%A1%86%E6%9E%B6.csv",
+      "kind": "csv"
+    },
+    {
+      "document": "投资研究/公司研究/摩尔线程（688795.SH）调研/技术与壁垒 - 摩尔线程.md",
+      "from": "csv/%E6%8A%80%E6%9C%AF%E6%B0%B4%E4%BD%8D%E7%9F%A9%E9%98%B5.csv",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E6%91%A9%E5%B0%94%E7%BA%BF%E7%A8%8B%EF%BC%88688795.SH%EF%BC%89%E8%B0%83%E7%A0%94/csv/%E6%8A%80%E6%9C%AF%E6%B0%B4%E4%BD%8D%E7%9F%A9%E9%98%B5.csv",
+      "kind": "csv"
     },
     {
       "document": "投资研究/公司研究/摩尔线程（688795.SH）调研/技术与壁垒 - 摩尔线程.md",
       "from": "reports/2025_annual.pdf",
-      "to": "https://www.mthreads.com/investor"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E6%91%A9%E5%B0%94%E7%BA%BF%E7%A8%8B%EF%BC%88688795.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2025_annual.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/摩尔线程（688795.SH）调研/技术与壁垒 - 摩尔线程.md",
       "from": "reports/2026Q1.pdf",
-      "to": "https://www.mthreads.com/investor"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E6%91%A9%E5%B0%94%E7%BA%BF%E7%A8%8B%EF%BC%88688795.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2026Q1.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/摩尔线程（688795.SH）调研/技术与壁垒 - 摩尔线程.md",
       "from": "reports/prospectus_final.pdf",
-      "to": "https://www.mthreads.com/investor"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E6%91%A9%E5%B0%94%E7%BA%BF%E7%A8%8B%EF%BC%88688795.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/prospectus_final.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/摩尔线程（688795.SH）调研/竞对对比 - 摩尔线程.md",
       "from": "reports/2025_annual.pdf",
-      "to": "https://www.mthreads.com/investor"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E6%91%A9%E5%B0%94%E7%BA%BF%E7%A8%8B%EF%BC%88688795.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2025_annual.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/摩尔线程（688795.SH）调研/股价预期 - 摩尔线程.md",
       "from": "reports/incentive_plan_2026.pdf",
-      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E6%91%A9%E5%B0%94%E7%BA%BF%E7%A8%8B%EF%BC%88688795.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/incentive_plan_2026.pdf"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E6%91%A9%E5%B0%94%E7%BA%BF%E7%A8%8B%EF%BC%88688795.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/incentive_plan_2026.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/摩尔线程（688795.SH）调研/股价预期 - 摩尔线程.md",
       "from": "reports/incentive_grant_2026-05-20.pdf",
-      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E6%91%A9%E5%B0%94%E7%BA%BF%E7%A8%8B%EF%BC%88688795.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/incentive_grant_2026-05-20.pdf"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E6%91%A9%E5%B0%94%E7%BA%BF%E7%A8%8B%EF%BC%88688795.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/incentive_grant_2026-05-20.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/摩尔线程（688795.SH）调研/股价预期 - 摩尔线程.md",
       "from": "reports/2026Q1.pdf",
-      "to": "https://www.mthreads.com/investor"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E6%91%A9%E5%B0%94%E7%BA%BF%E7%A8%8B%EF%BC%88688795.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2026Q1.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/摩尔线程（688795.SH）调研/股价预期 - 摩尔线程.md",
       "from": "reports/listing_announcement.pdf",
-      "to": "https://mt-website-prod.mthreads.com/uploaded/investor/%E9%A6%96%E6%AC%A1%E5%85%AC%E5%BC%80%E5%8F%91%E8%A1%8C%E7%BD%91%E4%B8%8B%E9%85%8D%E5%94%AE%E9%99%90%E5%94%AE%E8%82%A1%E4%B8%8A%E5%B8%82%E6%B5%81%E9%80%9A%E5%85%AC%E5%91%8A.pdf"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E6%91%A9%E5%B0%94%E7%BA%BF%E7%A8%8B%EF%BC%88688795.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/listing_announcement.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/摩尔线程（688795.SH）调研/财务报表 - 摩尔线程.md",
       "from": "reports/prospectus_final.pdf",
-      "to": "https://www.mthreads.com/investor"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E6%91%A9%E5%B0%94%E7%BA%BF%E7%A8%8B%EF%BC%88688795.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/prospectus_final.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/摩尔线程（688795.SH）调研/财务报表 - 摩尔线程.md",
       "from": "reports/2025_annual.pdf",
-      "to": "https://www.mthreads.com/investor"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E6%91%A9%E5%B0%94%E7%BA%BF%E7%A8%8B%EF%BC%88688795.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2025_annual.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/摩尔线程（688795.SH）调研/财务报表 - 摩尔线程.md",
       "from": "reports/2026Q1.pdf",
-      "to": "https://www.mthreads.com/investor"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E6%91%A9%E5%B0%94%E7%BA%BF%E7%A8%8B%EF%BC%88688795.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2026Q1.pdf",
+      "kind": "report"
+    },
+    {
+      "document": "投资研究/公司研究/摩尔线程（688795.SH）调研/财务报表 - 摩尔线程.md",
+      "from": "csv/annual_financials.csv",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E6%91%A9%E5%B0%94%E7%BA%BF%E7%A8%8B%EF%BC%88688795.SH%EF%BC%89%E8%B0%83%E7%A0%94/csv/annual_financials.csv",
+      "kind": "csv"
+    },
+    {
+      "document": "投资研究/公司研究/摩尔线程（688795.SH）调研/财务报表 - 摩尔线程.md",
+      "from": "csv/quarterly_cumulative_financials.csv",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E6%91%A9%E5%B0%94%E7%BA%BF%E7%A8%8B%EF%BC%88688795.SH%EF%BC%89%E8%B0%83%E7%A0%94/csv/quarterly_cumulative_financials.csv",
+      "kind": "csv"
+    },
+    {
+      "document": "投资研究/公司研究/摩尔线程（688795.SH）调研/财务报表 - 摩尔线程.md",
+      "from": "csv/quarterly_single_financials.csv",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E6%91%A9%E5%B0%94%E7%BA%BF%E7%A8%8B%EF%BC%88688795.SH%EF%BC%89%E8%B0%83%E7%A0%94/csv/quarterly_single_financials.csv",
+      "kind": "csv"
+    },
+    {
+      "document": "投资研究/公司研究/摩尔线程（688795.SH）调研/财务报表 - 摩尔线程.md",
+      "from": "csv/现金债务桥.csv",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E6%91%A9%E5%B0%94%E7%BA%BF%E7%A8%8B%EF%BC%88688795.SH%EF%BC%89%E8%B0%83%E7%A0%94/csv/%E7%8E%B0%E9%87%91%E5%80%BA%E5%8A%A1%E6%A1%A5.csv",
+      "kind": "csv"
     },
     {
       "document": "投资研究/公司研究/摩尔线程（688795.SH）调研/财务报表 - 摩尔线程.md",
       "from": "reports/2025_annual.pdf",
-      "to": "https://www.mthreads.com/investor"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E6%91%A9%E5%B0%94%E7%BA%BF%E7%A8%8B%EF%BC%88688795.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2025_annual.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/摩尔线程（688795.SH）调研/财务报表 - 摩尔线程.md",
       "from": "reports/2026Q1.pdf",
-      "to": "https://www.mthreads.com/investor"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E6%91%A9%E5%B0%94%E7%BA%BF%E7%A8%8B%EF%BC%88688795.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2026Q1.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/摩尔线程（688795.SH）调研/财务报表 - 摩尔线程.md",
       "from": "reports/prospectus_final.pdf",
-      "to": "https://www.mthreads.com/investor"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E6%91%A9%E5%B0%94%E7%BA%BF%E7%A8%8B%EF%BC%88688795.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/prospectus_final.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/紫金矿业（601899.SH）调研/事件快评 - 紫金矿业 - 2026H1业绩预告与股价回撤.md",
       "from": "reports/2026H1_earnings_preannouncement.pdf",
-      "to": "https://cn.investing.com/equities/zijin-mining-historical-data"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E7%B4%AB%E9%87%91%E7%9F%BF%E4%B8%9A%EF%BC%88601899.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2026H1_earnings_preannouncement.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/紫金矿业（601899.SH）调研/事件快评 - 紫金矿业 - 2026H1业绩预告与股价回撤.md",
       "from": "reports/2026Q1.pdf",
-      "to": "https://cn.investing.com/equities/zijin-mining-historical-data"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E7%B4%AB%E9%87%91%E7%9F%BF%E4%B8%9A%EF%BC%88601899.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2026Q1.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/紫金矿业（601899.SH）调研/公司调研 - 紫金矿业.md",
       "from": "reports/2025_annual.pdf",
-      "to": "https://cn.investing.com/equities/zijin-mining-historical-data"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E7%B4%AB%E9%87%91%E7%9F%BF%E4%B8%9A%EF%BC%88601899.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2025_annual.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/紫金矿业（601899.SH）调研/公司调研 - 紫金矿业.md",
       "from": "reports/2026Q1.pdf",
-      "to": "https://cn.investing.com/equities/zijin-mining-historical-data"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E7%B4%AB%E9%87%91%E7%9F%BF%E4%B8%9A%EF%BC%88601899.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2026Q1.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/紫金矿业（601899.SH）调研/公司调研 - 紫金矿业.md",
       "from": "reports/2026H1_earnings_preannouncement.pdf",
-      "to": "https://cn.investing.com/equities/zijin-mining-historical-data"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E7%B4%AB%E9%87%91%E7%9F%BF%E4%B8%9A%EF%BC%88601899.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2026H1_earnings_preannouncement.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/紫金矿业（601899.SH）调研/公司调研 - 紫金矿业.md",
       "from": "reports/2025_annual.pdf",
-      "to": "https://cn.investing.com/equities/zijin-mining-historical-data"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E7%B4%AB%E9%87%91%E7%9F%BF%E4%B8%9A%EF%BC%88601899.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2025_annual.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/紫金矿业（601899.SH）调研/竞对对比 - 紫金矿业.md",
       "from": "reports/2025_annual.pdf",
-      "to": "https://cn.investing.com/equities/zijin-mining-historical-data"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E7%B4%AB%E9%87%91%E7%9F%BF%E4%B8%9A%EF%BC%88601899.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2025_annual.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/紫金矿业（601899.SH）调研/股价预期 - 紫金矿业.md",
       "from": "reports/2025_annual.pdf",
-      "to": "https://cn.investing.com/equities/zijin-mining-historical-data"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E7%B4%AB%E9%87%91%E7%9F%BF%E4%B8%9A%EF%BC%88601899.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2025_annual.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/紫金矿业（601899.SH）调研/股价预期 - 紫金矿业.md",
       "from": "reports/2026Q1.pdf",
-      "to": "https://cn.investing.com/equities/zijin-mining-historical-data"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E7%B4%AB%E9%87%91%E7%9F%BF%E4%B8%9A%EF%BC%88601899.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2026Q1.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/紫金矿业（601899.SH）调研/股价预期 - 紫金矿业.md",
       "from": "reports/2026H1_earnings_preannouncement.pdf",
-      "to": "https://cn.investing.com/equities/zijin-mining-historical-data"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E7%B4%AB%E9%87%91%E7%9F%BF%E4%B8%9A%EF%BC%88601899.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2026H1_earnings_preannouncement.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/紫金矿业（601899.SH）调研/财务报表 - 紫金矿业.md",
       "from": "reports/2021_annual.pdf",
-      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E7%B4%AB%E9%87%91%E7%9F%BF%E4%B8%9A%EF%BC%88601899.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2021_annual.pdf"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E7%B4%AB%E9%87%91%E7%9F%BF%E4%B8%9A%EF%BC%88601899.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2021_annual.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/紫金矿业（601899.SH）调研/财务报表 - 紫金矿业.md",
       "from": "reports/2022_annual.pdf",
-      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E7%B4%AB%E9%87%91%E7%9F%BF%E4%B8%9A%EF%BC%88601899.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2022_annual.pdf"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E7%B4%AB%E9%87%91%E7%9F%BF%E4%B8%9A%EF%BC%88601899.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2022_annual.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/紫金矿业（601899.SH）调研/财务报表 - 紫金矿业.md",
       "from": "reports/2023_annual.pdf",
-      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E7%B4%AB%E9%87%91%E7%9F%BF%E4%B8%9A%EF%BC%88601899.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2023_annual.pdf"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E7%B4%AB%E9%87%91%E7%9F%BF%E4%B8%9A%EF%BC%88601899.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2023_annual.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/紫金矿业（601899.SH）调研/财务报表 - 紫金矿业.md",
       "from": "reports/2024Q1.pdf",
-      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E7%B4%AB%E9%87%91%E7%9F%BF%E4%B8%9A%EF%BC%88601899.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2024Q1.pdf"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E7%B4%AB%E9%87%91%E7%9F%BF%E4%B8%9A%EF%BC%88601899.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2024Q1.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/紫金矿业（601899.SH）调研/财务报表 - 紫金矿业.md",
       "from": "reports/2024H1.pdf",
-      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E7%B4%AB%E9%87%91%E7%9F%BF%E4%B8%9A%EF%BC%88601899.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2024H1.pdf"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E7%B4%AB%E9%87%91%E7%9F%BF%E4%B8%9A%EF%BC%88601899.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2024H1.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/紫金矿业（601899.SH）调研/财务报表 - 紫金矿业.md",
       "from": "reports/2024Q3.pdf",
-      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E7%B4%AB%E9%87%91%E7%9F%BF%E4%B8%9A%EF%BC%88601899.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2024Q3.pdf"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E7%B4%AB%E9%87%91%E7%9F%BF%E4%B8%9A%EF%BC%88601899.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2024Q3.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/紫金矿业（601899.SH）调研/财务报表 - 紫金矿业.md",
       "from": "reports/2024_annual.pdf",
-      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E7%B4%AB%E9%87%91%E7%9F%BF%E4%B8%9A%EF%BC%88601899.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2024_annual.pdf"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E7%B4%AB%E9%87%91%E7%9F%BF%E4%B8%9A%EF%BC%88601899.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2024_annual.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/紫金矿业（601899.SH）调研/财务报表 - 紫金矿业.md",
       "from": "reports/2025Q1.pdf",
-      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E7%B4%AB%E9%87%91%E7%9F%BF%E4%B8%9A%EF%BC%88601899.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2025Q1.pdf"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E7%B4%AB%E9%87%91%E7%9F%BF%E4%B8%9A%EF%BC%88601899.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2025Q1.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/紫金矿业（601899.SH）调研/财务报表 - 紫金矿业.md",
       "from": "reports/2025H1.pdf",
-      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E7%B4%AB%E9%87%91%E7%9F%BF%E4%B8%9A%EF%BC%88601899.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2025H1.pdf"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E7%B4%AB%E9%87%91%E7%9F%BF%E4%B8%9A%EF%BC%88601899.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2025H1.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/紫金矿业（601899.SH）调研/财务报表 - 紫金矿业.md",
       "from": "reports/2025Q3.pdf",
-      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E7%B4%AB%E9%87%91%E7%9F%BF%E4%B8%9A%EF%BC%88601899.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2025Q3.pdf"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E7%B4%AB%E9%87%91%E7%9F%BF%E4%B8%9A%EF%BC%88601899.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2025Q3.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/紫金矿业（601899.SH）调研/财务报表 - 紫金矿业.md",
       "from": "reports/2025_annual.pdf",
-      "to": "https://cn.investing.com/equities/zijin-mining-historical-data"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E7%B4%AB%E9%87%91%E7%9F%BF%E4%B8%9A%EF%BC%88601899.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2025_annual.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/紫金矿业（601899.SH）调研/财务报表 - 紫金矿业.md",
       "from": "reports/2026Q1.pdf",
-      "to": "https://cn.investing.com/equities/zijin-mining-historical-data"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E7%B4%AB%E9%87%91%E7%9F%BF%E4%B8%9A%EF%BC%88601899.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2026Q1.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/紫金矿业（601899.SH）调研/财务报表 - 紫金矿业.md",
       "from": "reports/2026H1_earnings_preannouncement.pdf",
-      "to": "https://cn.investing.com/equities/zijin-mining-historical-data"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E7%B4%AB%E9%87%91%E7%9F%BF%E4%B8%9A%EF%BC%88601899.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2026H1_earnings_preannouncement.pdf",
+      "kind": "report"
     },
     {
       "document": "投资研究/公司研究/紫金矿业（601899.SH）调研/财务报表 - 紫金矿业.md",
       "from": "reports/2026_interim_dividend.pdf",
-      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E7%B4%AB%E9%87%91%E7%9F%BF%E4%B8%9A%EF%BC%88601899.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2026_interim_dividend.pdf"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E7%B4%AB%E9%87%91%E7%9F%BF%E4%B8%9A%EF%BC%88601899.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2026_interim_dividend.pdf",
+      "kind": "report"
+    },
+    {
+      "document": "投资研究/公司研究/紫金矿业（601899.SH）调研/财务报表 - 紫金矿业.md",
+      "from": "csv/%E5%B9%B4%E5%BA%A6%E5%88%A9%E6%B6%A6%E8%A1%A8.csv",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E7%B4%AB%E9%87%91%E7%9F%BF%E4%B8%9A%EF%BC%88601899.SH%EF%BC%89%E8%B0%83%E7%A0%94/csv/%E5%B9%B4%E5%BA%A6%E5%88%A9%E6%B6%A6%E8%A1%A8.csv",
+      "kind": "csv"
+    },
+    {
+      "document": "投资研究/公司研究/紫金矿业（601899.SH）调研/财务报表 - 紫金矿业.md",
+      "from": "csv/%E5%B9%B4%E5%BA%A6%E8%B5%84%E4%BA%A7%E8%B4%9F%E5%80%BA%E8%A1%A8.csv",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E7%B4%AB%E9%87%91%E7%9F%BF%E4%B8%9A%EF%BC%88601899.SH%EF%BC%89%E8%B0%83%E7%A0%94/csv/%E5%B9%B4%E5%BA%A6%E8%B5%84%E4%BA%A7%E8%B4%9F%E5%80%BA%E8%A1%A8.csv",
+      "kind": "csv"
+    },
+    {
+      "document": "投资研究/公司研究/紫金矿业（601899.SH）调研/财务报表 - 紫金矿业.md",
+      "from": "csv/%E5%B9%B4%E5%BA%A6%E7%8E%B0%E9%87%91%E6%B5%81%E9%87%8F%E8%A1%A8.csv",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E7%B4%AB%E9%87%91%E7%9F%BF%E4%B8%9A%EF%BC%88601899.SH%EF%BC%89%E8%B0%83%E7%A0%94/csv/%E5%B9%B4%E5%BA%A6%E7%8E%B0%E9%87%91%E6%B5%81%E9%87%8F%E8%A1%A8.csv",
+      "kind": "csv"
+    },
+    {
+      "document": "投资研究/公司研究/紫金矿业（601899.SH）调研/财务报表 - 紫金矿业.md",
+      "from": "csv/%E5%AD%A3%E5%BA%A6%E5%88%A9%E6%B6%A6%E8%A1%A8.csv",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E7%B4%AB%E9%87%91%E7%9F%BF%E4%B8%9A%EF%BC%88601899.SH%EF%BC%89%E8%B0%83%E7%A0%94/csv/%E5%AD%A3%E5%BA%A6%E5%88%A9%E6%B6%A6%E8%A1%A8.csv",
+      "kind": "csv"
+    },
+    {
+      "document": "投资研究/公司研究/紫金矿业（601899.SH）调研/财务报表 - 紫金矿业.md",
+      "from": "csv/%E5%AD%A3%E5%BA%A6%E8%B5%84%E4%BA%A7%E8%B4%9F%E5%80%BA%E8%A1%A8.csv",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E7%B4%AB%E9%87%91%E7%9F%BF%E4%B8%9A%EF%BC%88601899.SH%EF%BC%89%E8%B0%83%E7%A0%94/csv/%E5%AD%A3%E5%BA%A6%E8%B5%84%E4%BA%A7%E8%B4%9F%E5%80%BA%E8%A1%A8.csv",
+      "kind": "csv"
+    },
+    {
+      "document": "投资研究/公司研究/紫金矿业（601899.SH）调研/财务报表 - 紫金矿业.md",
+      "from": "csv/%E5%AD%A3%E5%BA%A6%E7%8E%B0%E9%87%91%E6%B5%81%E9%87%8F%E8%A1%A8.csv",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E7%B4%AB%E9%87%91%E7%9F%BF%E4%B8%9A%EF%BC%88601899.SH%EF%BC%89%E8%B0%83%E7%A0%94/csv/%E5%AD%A3%E5%BA%A6%E7%8E%B0%E9%87%91%E6%B5%81%E9%87%8F%E8%A1%A8.csv",
+      "kind": "csv"
     },
     {
       "document": "投资研究/公司研究/紫金矿业（601899.SH）调研/财务报表 - 紫金矿业.md",
       "from": "reports/2026Q1.pdf",
-      "to": "https://cn.investing.com/equities/zijin-mining-historical-data"
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E7%B4%AB%E9%87%91%E7%9F%BF%E4%B8%9A%EF%BC%88601899.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2026Q1.pdf",
+      "kind": "report"
     }
   ],
   "files": [
@@ -465,9 +1183,9 @@
       "publicPath": "research/产业专题/AI产业链/AI云、算力租赁、大模型与API产业链.md",
       "kind": "markdown",
       "sourceSize": 10786,
-      "publicSize": 10786,
+      "publicSize": 11088,
       "sourceSha256": "52290b09a0c2a9347b6f4b3e28eab6cabec7acfc7ce6c4b8dd5e86345ffc9cef",
-      "publicSha256": "52290b09a0c2a9347b6f4b3e28eab6cabec7acfc7ce6c4b8dd5e86345ffc9cef",
+      "publicSha256": "bdc5948d270fb68b17c862788ec8f3352c213c69a3c351e08d568e65d48e5adf",
       "semanticSha256": "06040af5b90f2de0e8940eb623550b440a24be2a1deecab22ff49635fc50234a",
       "tableDimensions": [
         {
@@ -585,9 +1303,9 @@
       "publicPath": "research/产业专题/AI产业链/AI产业链深度调研 - 总览.md",
       "kind": "markdown",
       "sourceSize": 11721,
-      "publicSize": 11721,
+      "publicSize": 11957,
       "sourceSha256": "7122759e6f5359a6e0f971deee243d30a7a0afb74579350108aeba1fbe2a4645",
-      "publicSha256": "7122759e6f5359a6e0f971deee243d30a7a0afb74579350108aeba1fbe2a4645",
+      "publicSha256": "eaf55a0aac92a4e0189be0626a1c148957d1e930906a8d09abdc7f7f46349898",
       "semanticSha256": "4e955d04d858325b84d49e86964e632b81c9d760b12780f2a31744603b807441",
       "tableDimensions": [
         {
@@ -668,9 +1386,9 @@
       "publicPath": "research/产业专题/AI产业链/AI国内视角、公司映射与对比.md",
       "kind": "markdown",
       "sourceSize": 26855,
-      "publicSize": 26855,
+      "publicSize": 27109,
       "sourceSha256": "ece5085a4bde19f7141f3bba137c7ce2a592ad35c3c62c5c657e308728e70f88",
-      "publicSha256": "ece5085a4bde19f7141f3bba137c7ce2a592ad35c3c62c5c657e308728e70f88",
+      "publicSha256": "d7e183e691160e8e49b2229892e7524e31fbcb7b93f73107c3d05e3e51dd50d1",
       "semanticSha256": "226152fe6591f1f94613fea4cadfc8df8f0a6099cac6033e7c7759825672c455",
       "tableDimensions": [
         {
@@ -717,9 +1435,9 @@
       "publicPath": "research/产业专题/AI产业链/AI应用与Agent产业链.md",
       "kind": "markdown",
       "sourceSize": 9445,
-      "publicSize": 9445,
+      "publicSize": 9695,
       "sourceSha256": "7b807884bcf7c70a2b2fa31e9bfa11e0e41cbf7b54258c91de130b274eb32511",
-      "publicSha256": "7b807884bcf7c70a2b2fa31e9bfa11e0e41cbf7b54258c91de130b274eb32511",
+      "publicSha256": "c07cf57823d2dc3dc1b79f324d654ee4e67b420c76b7fa4ea9a32fe1ed893ae0",
       "semanticSha256": "e8ea7d972f8f9971f9ecb5b610850cfd9dc797cde155f63d4cc4140235792261",
       "tableDimensions": [
         {
@@ -742,9 +1460,9 @@
       "publicPath": "research/产业专题/AI产业链/AI手机、AI PC与可穿戴产业链.md",
       "kind": "markdown",
       "sourceSize": 9274,
-      "publicSize": 9274,
+      "publicSize": 9550,
       "sourceSha256": "66cdd0420f92b4d0d856ad4ad4edccc1354810786b3c9370dfa58a686c68787e",
-      "publicSha256": "66cdd0420f92b4d0d856ad4ad4edccc1354810786b3c9370dfa58a686c68787e",
+      "publicSha256": "514bc6b0de6641d6f6aaf0e0183cf5d6107b68d2ee20f2c97e782c3597347ce8",
       "semanticSha256": "fe89163202b8fe1c5799e00de42244196e769360e5285216d9469363d580023d",
       "tableDimensions": [
         {
@@ -767,9 +1485,9 @@
       "publicPath": "research/产业专题/AI产业链/AI技术成熟度与发展趋势.md",
       "kind": "markdown",
       "sourceSize": 19272,
-      "publicSize": 19272,
+      "publicSize": 19571,
       "sourceSha256": "ee06f95937a84056ca898d5935da0a45678d7c9f788144709e99c1da313f801f",
-      "publicSha256": "ee06f95937a84056ca898d5935da0a45678d7c9f788144709e99c1da313f801f",
+      "publicSha256": "7d5caab2826803b7b92279fd199973e3dcdbe87647ea3a63b8dfbd3306b23434",
       "semanticSha256": "655848f01cbff7a8d8a500e2fef189cb150d2bfd97130c1d9b9e185713f77f18",
       "tableDimensions": [
         {
@@ -796,9 +1514,9 @@
       "publicPath": "research/产业专题/AI产业链/AI数据中心、电力与液冷产业链.md",
       "kind": "markdown",
       "sourceSize": 10892,
-      "publicSize": 10892,
+      "publicSize": 11191,
       "sourceSha256": "d263261b1bd397062e40578e7fd35ba15ee533f85e46469ffe1e24b11a9a8218",
-      "publicSha256": "d263261b1bd397062e40578e7fd35ba15ee533f85e46469ffe1e24b11a9a8218",
+      "publicSha256": "c2e2d2d87ae0da1c330e6d8c09a7dfb470942c1dd20aba41a55b58daac8130cb",
       "semanticSha256": "63b0737c8f67db45f0ef1049e30fd4367a6649b9b6dc210b0392c6f109a87be5",
       "tableDimensions": [
         {
@@ -821,9 +1539,9 @@
       "publicPath": "research/产业专题/AI产业链/AI数据工具、MLOps与安全产业链.md",
       "kind": "markdown",
       "sourceSize": 8531,
-      "publicSize": 8531,
+      "publicSize": 8817,
       "sourceSha256": "87f0716c3cf4d541948355ce619893821497b1d070b07f5af31acd054888854f",
-      "publicSha256": "87f0716c3cf4d541948355ce619893821497b1d070b07f5af31acd054888854f",
+      "publicSha256": "c42a61dc6efb8b9d8beb13de2cd6f4c0b69f6abb4141673da1c9dc69ab1a70d8",
       "semanticSha256": "2d919cf53f14ebd1d35a6bfa2dcc3473052ee2d55e2868cd0bab16caf1e8f63c",
       "tableDimensions": [
         {
@@ -858,9 +1576,9 @@
       "publicPath": "research/产业专题/AI产业链/AI服务器、网络与光模块产业链.md",
       "kind": "markdown",
       "sourceSize": 8736,
-      "publicSize": 8736,
+      "publicSize": 9035,
       "sourceSha256": "426d5c9fe3ff5e0071488f45f4b2f41a637c4bd98eb488c6d9e560fb5737a459",
-      "publicSha256": "426d5c9fe3ff5e0071488f45f4b2f41a637c4bd98eb488c6d9e560fb5737a459",
+      "publicSha256": "6f5ad267fc302ffb750702942b468ebbaf1f821d746afaace520394f2537e40b",
       "semanticSha256": "8b2ce721edeb5b022fcfe7c438f82274abd6d782a151466f5c1562ac31811049",
       "tableDimensions": [
         {
@@ -907,9 +1625,9 @@
       "publicPath": "research/产业专题/AI产业链/AI芯片、HBM与先进封装产业链.md",
       "kind": "markdown",
       "sourceSize": 8598,
-      "publicSize": 8598,
+      "publicSize": 8882,
       "sourceSha256": "6cebc2c87a8a31d3605a400f5402486f1d24823b14431d9b477f053b4f5c7a12",
-      "publicSha256": "6cebc2c87a8a31d3605a400f5402486f1d24823b14431d9b477f053b4f5c7a12",
+      "publicSha256": "f3a6c815181a4eac3f85bb0ae7da5bc5080ed65d78a11e6296cdbac689e0e9b3",
       "semanticSha256": "0c05cda34dc3520559a644daa4926e2f502988082806b58f013677d36e741dcf",
       "tableDimensions": [
         {
@@ -928,9 +1646,9 @@
       "publicPath": "research/产业专题/AI产业链/AI行业周期、估值与入场节奏.md",
       "kind": "markdown",
       "sourceSize": 20328,
-      "publicSize": 20328,
+      "publicSize": 20618,
       "sourceSha256": "3d71b6c3bc5a103c2e75af5c4150a9894369b95a75c76dbe77455b49ff768ad8",
-      "publicSha256": "3d71b6c3bc5a103c2e75af5c4150a9894369b95a75c76dbe77455b49ff768ad8",
+      "publicSha256": "d431f2acca9f4479314384db6b9793afeae2da4b218604f24057d9f5d14ddfa9",
       "semanticSha256": "c963d54ab4d8a7a609f4bed760509ad9733fcf7942ad6427bc12cd5aa14aa4b7",
       "tableDimensions": [
         {
@@ -1339,9 +2057,9 @@
       "publicPath": "research/产业专题/AI产业链/工业机器人、人形机器人与具身智能产业链.md",
       "kind": "markdown",
       "sourceSize": 10998,
-      "publicSize": 10998,
+      "publicSize": 11322,
       "sourceSha256": "5d4b55e5c9df9971155c4bb14094eaae3a275bee88549908f1b3a9663aa5bc67",
-      "publicSha256": "5d4b55e5c9df9971155c4bb14094eaae3a275bee88549908f1b3a9663aa5bc67",
+      "publicSha256": "7da95bf4c7b3b2ad6a340e810b006babf1756ab3e5f74243545e66361b51411d",
       "semanticSha256": "77d223a508cef334b4eb2c4359c2ffd3cd42f74c51b80ad8ffb9a2251701e6af",
       "tableDimensions": [
         {
@@ -1364,9 +2082,9 @@
       "publicPath": "research/产业专题/AI产业链/车端智能与自动驾驶产业链.md",
       "kind": "markdown",
       "sourceSize": 8979,
-      "publicSize": 8979,
+      "publicSize": 9276,
       "sourceSha256": "4fe026a804065f52d8247ef60b0539eba209d686bd4c4cbef3f695c2570961eb",
-      "publicSha256": "4fe026a804065f52d8247ef60b0539eba209d686bd4c4cbef3f695c2570961eb",
+      "publicSha256": "9796590f47a4534ace85dd39dcbc7d4cd2b9fe42de32c9d7ca390dd4401d4bee",
       "semanticSha256": "773a508db32d3fab26ba217cf611cc7d479158431ea0fea7fe5986510e7d5443",
       "tableDimensions": [
         {
@@ -1848,9 +2566,9 @@
       "publicPath": "research/产业专题/储能行业/储能EMS、交易优化与聚合.md",
       "kind": "markdown",
       "sourceSize": 8030,
-      "publicSize": 8030,
+      "publicSize": 8355,
       "sourceSha256": "9a8e058fee93d934c3b49d5f353944a60099166d76c62c21169318a841cc1ae3",
-      "publicSha256": "9a8e058fee93d934c3b49d5f353944a60099166d76c62c21169318a841cc1ae3",
+      "publicSha256": "1859637cb42188244954b47e7b31ec77b8c18f878609fdad90c9e911f7a85349",
       "semanticSha256": "2135ae9f23055c3e7442b727bdf18c943b88e19f6b8ab99d7dc4f6dac994e8ba",
       "tableDimensions": [
         {
@@ -1873,9 +2591,9 @@
       "publicPath": "research/产业专题/储能行业/储能PCS、构网与并网设备.md",
       "kind": "markdown",
       "sourceSize": 9348,
-      "publicSize": 9348,
+      "publicSize": 9673,
       "sourceSha256": "02c56b61c85a414b1b7edb20372915dd5bbb952b67d159dab0b29e5bbf8e4764",
-      "publicSha256": "02c56b61c85a414b1b7edb20372915dd5bbb952b67d159dab0b29e5bbf8e4764",
+      "publicSha256": "bbb0564c6e4b65301cfe212b88bd678c317ff4fb644ee5490ed5226526f05f48",
       "semanticSha256": "07b06adb4d030be8530233e935823c15bb5e74cdfffb6e9c43d2dccdee60ef8d",
       "tableDimensions": [
         {
@@ -1898,9 +2616,9 @@
       "publicPath": "research/产业专题/储能行业/储能电芯、电池舱与热安全.md",
       "kind": "markdown",
       "sourceSize": 9024,
-      "publicSize": 9024,
+      "publicSize": 9364,
       "sourceSha256": "b3c3681cc90e9141f73c03dd72d97e1c0979f36ccb129062896a5378226d840c",
-      "publicSha256": "b3c3681cc90e9141f73c03dd72d97e1c0979f36ccb129062896a5378226d840c",
+      "publicSha256": "24bab5119ea04bb59ccec738cdba3fbc2433fb6d9ee6a49494e0200c4e3c2455",
       "semanticSha256": "c211c7bed39f0f0985c2c8267d59cc2c13bc8cb5b34d9eb9e5d75c71a8b6dd57",
       "tableDimensions": [
         {
@@ -1923,9 +2641,9 @@
       "publicPath": "research/产业专题/储能行业/储能系统集成、EPC与长期服务.md",
       "kind": "markdown",
       "sourceSize": 7099,
-      "publicSize": 7099,
+      "publicSize": 7442,
       "sourceSha256": "cd2a197cb1492a6eec92d09982a30da41bef0382557de953078c89be113c9d94",
-      "publicSha256": "cd2a197cb1492a6eec92d09982a30da41bef0382557de953078c89be113c9d94",
+      "publicSha256": "a16dadfde17111d3c70d53522dd02e75bf957dc0ad0cafd5ab66ac3f9fb64a9a",
       "semanticSha256": "bc9004003a629c3e993449754eebd461f0e427acc8e39fcf7a40ad3bc4abacc6",
       "tableDimensions": [
         {
@@ -1948,9 +2666,9 @@
       "publicPath": "research/产业专题/储能行业/储能行业产业链节点规模与利润池.md",
       "kind": "markdown",
       "sourceSize": 21177,
-      "publicSize": 21177,
+      "publicSize": 21749,
       "sourceSha256": "92f2eeb76e07ae0936595653b389dc6ae3d84c403680c53117afb3e3795fb4d4",
-      "publicSha256": "92f2eeb76e07ae0936595653b389dc6ae3d84c403680c53117afb3e3795fb4d4",
+      "publicSha256": "fb722ba09edccd74f87911b673650bd7a788cabdbb38473d40854261c908c15b",
       "semanticSha256": "152076d64cd06dbf65dec0b383dd01794d6ff7b91f8451e3622316e42e797184",
       "tableDimensions": [
         {
@@ -1980,11 +2698,11 @@
       "sourceRelativePath": "投资研究/产业专题/储能行业/储能行业公司财务与业务对比表.md",
       "publicPath": "research/产业专题/储能行业/储能行业公司财务与业务对比表.md",
       "kind": "markdown",
-      "sourceSize": 15999,
-      "publicSize": 15999,
-      "sourceSha256": "c690c2b9d588bc5c5c17cf83b30f5d7a384e1dd152b1a1afe7a9f2cf40cf2141",
-      "publicSha256": "c690c2b9d588bc5c5c17cf83b30f5d7a384e1dd152b1a1afe7a9f2cf40cf2141",
-      "semanticSha256": "0efa5ef4795bb8bb43af4871d77bde1b4591d469a1cc2939972f6ce3cc6192d5",
+      "sourceSize": 18575,
+      "publicSize": 18575,
+      "sourceSha256": "488da4ca6c1a787e067254ee9992892b539cc829aff22282c2fef272c471a1be",
+      "publicSha256": "488da4ca6c1a787e067254ee9992892b539cc829aff22282c2fef272c471a1be",
+      "semanticSha256": "ee91d02c2c7a1519283d1add3ed9f613cd1a830910aa62546e10807e3da0d1ef",
       "tableDimensions": [
         {
           "rows": 7,
@@ -1993,6 +2711,10 @@
         {
           "rows": 8,
           "columns": 10
+        },
+        {
+          "rows": 5,
+          "columns": 5
         },
         {
           "rows": 6,
@@ -2031,17 +2753,17 @@
           "columns": 3
         }
       ],
-      "numericTokenCount": 122
+      "numericTokenCount": 157
     },
     {
       "sourceRelativePath": "投资研究/产业专题/储能行业/储能行业周期、供需与投资节奏.md",
       "publicPath": "research/产业专题/储能行业/储能行业周期、供需与投资节奏.md",
       "kind": "markdown",
-      "sourceSize": 25075,
-      "publicSize": 25075,
-      "sourceSha256": "b822333c3f9c28dd85c3af0a09c45bd14239605a6ffe703f5b7fdbee046fbb1c",
-      "publicSha256": "b822333c3f9c28dd85c3af0a09c45bd14239605a6ffe703f5b7fdbee046fbb1c",
-      "semanticSha256": "0e0f612f9615c9c9e0a73c62d5c8c3388a71237fff4c902640707defe447aaf8",
+      "sourceSize": 25079,
+      "publicSize": 25624,
+      "sourceSha256": "d7876bde654588a4d18bf97d9979affd318c0196ec0f984c157f84b25a2084cd",
+      "publicSha256": "4145a80508d5d5e5bba21917be6d135eb03e05e70b66bc3ea285e773731972bc",
+      "semanticSha256": "119bf3e86ebaabcf4c60a6060e540c70b9739fe0c868067c480c8dfab66baba6",
       "tableDimensions": [
         {
           "rows": 7,
@@ -2156,11 +2878,11 @@
       "sourceRelativePath": "投资研究/产业专题/储能行业/储能行业技术成熟度与发展趋势.md",
       "publicPath": "research/产业专题/储能行业/储能行业技术成熟度与发展趋势.md",
       "kind": "markdown",
-      "sourceSize": 22093,
-      "publicSize": 22093,
-      "sourceSha256": "b1c0964aa2129356bd2847224036ca934283091a4a16a2b40fb78ef24cc84c5e",
-      "publicSha256": "b1c0964aa2129356bd2847224036ca934283091a4a16a2b40fb78ef24cc84c5e",
-      "semanticSha256": "94373007b9dbcf2b15668556e5069fdcb015565e244e3717f3bcfffaeb9b917a",
+      "sourceSize": 23293,
+      "publicSize": 23293,
+      "sourceSha256": "319dabe273f4036805aa8b2b0d1f067de32676a43ca726c8457a7d3dd23fd74d",
+      "publicSha256": "319dabe273f4036805aa8b2b0d1f067de32676a43ca726c8457a7d3dd23fd74d",
+      "semanticSha256": "3b2f7eca7dcab41a826123332436a720fa5f4d0b18b9fffb9dbda60d3273d1b2",
       "tableDimensions": [
         {
           "rows": 8,
@@ -2183,16 +2905,16 @@
           "columns": 6
         }
       ],
-      "numericTokenCount": 102
+      "numericTokenCount": 125
     },
     {
       "sourceRelativePath": "投资研究/产业专题/储能行业/储能行业术语表.md",
       "publicPath": "research/产业专题/储能行业/储能行业术语表.md",
       "kind": "markdown",
       "sourceSize": 14159,
-      "publicSize": 14159,
+      "publicSize": 14445,
       "sourceSha256": "dc3740a4d87e9559c0802843438ebbeb5d2ea037420e87a18d06c146382efb8a",
-      "publicSha256": "dc3740a4d87e9559c0802843438ebbeb5d2ea037420e87a18d06c146382efb8a",
+      "publicSha256": "0b36478298950d7169d171174704a32c69594bfbab195671c24b1e6135ade73d",
       "semanticSha256": "42f9453e8513fe2564b246d1e16505898ceb9e91e3070f8fd9c1a263f6be6220",
       "tableDimensions": [
         {
@@ -2218,11 +2940,11 @@
       "sourceRelativePath": "投资研究/产业专题/储能行业/储能行业深度调研 - 全球视角.md",
       "publicPath": "research/产业专题/储能行业/储能行业深度调研 - 全球视角.md",
       "kind": "markdown",
-      "sourceSize": 16497,
-      "publicSize": 16497,
-      "sourceSha256": "03ac040c2f16002196afa45317ec40792c0eedac936fe77f96b92e083c6e38ca",
-      "publicSha256": "03ac040c2f16002196afa45317ec40792c0eedac936fe77f96b92e083c6e38ca",
-      "semanticSha256": "a070e4ce58cf2be8b71f76b780e422aff28a1d84905a9a2ceae3ba9de9b8941d",
+      "sourceSize": 18047,
+      "publicSize": 18047,
+      "sourceSha256": "7a31c051bbca30e30b0f302c81b1aea2b5c69129e6e0d4a02d97ce8ce697e8a8",
+      "publicSha256": "7a31c051bbca30e30b0f302c81b1aea2b5c69129e6e0d4a02d97ce8ce697e8a8",
+      "semanticSha256": "da52afcfadfdb68f3422d8a78979e3c9fc25cac03cb41886589a4b08555e4377",
       "tableDimensions": [
         {
           "rows": 6,
@@ -2253,20 +2975,20 @@
           "columns": 3
         },
         {
-          "rows": 9,
+          "rows": 11,
           "columns": 6
         }
       ],
-      "numericTokenCount": 92
+      "numericTokenCount": 120
     },
     {
       "sourceRelativePath": "投资研究/产业专题/储能行业/储能行业深度调研 - 国内视角.md",
       "publicPath": "research/产业专题/储能行业/储能行业深度调研 - 国内视角.md",
       "kind": "markdown",
       "sourceSize": 17708,
-      "publicSize": 17708,
+      "publicSize": 17967,
       "sourceSha256": "9c7c43411983a1724591808e453ea2e757730d637f28f8406f140046b289ec38",
-      "publicSha256": "9c7c43411983a1724591808e453ea2e757730d637f28f8406f140046b289ec38",
+      "publicSha256": "47ef3f06ece8100db1519ed4997ed900a3c6d6908ed35128811ccee6c1be220b",
       "semanticSha256": "72f03c140b2575fc011b9768ccf8123153f800d0390c5ec5fd52b09ca65f1339",
       "tableDimensions": [
         {
@@ -2309,9 +3031,9 @@
       "publicPath": "research/产业专题/储能行业/储能行业深度调研 - 总览.md",
       "kind": "markdown",
       "sourceSize": 51921,
-      "publicSize": 51921,
+      "publicSize": 55706,
       "sourceSha256": "d113eb442d50c58f484fef0f096fc52ac87cbe54b3a061c450a408ff47ba6ae1",
-      "publicSha256": "d113eb442d50c58f484fef0f096fc52ac87cbe54b3a061c450a408ff47ba6ae1",
+      "publicSha256": "23956d4d8f2526dd3f7bca8798202ba72d12d9312216d13d4778709dc56207c9",
       "semanticSha256": "80ee92e3b2ad6092fb41490ebaad7b4b0e6d4e36a0c2974b8fc5698b4507d5df",
       "tableDimensions": [
         {
@@ -2386,9 +3108,9 @@
       "publicPath": "research/产业专题/储能行业/储能行业深度调研.md",
       "kind": "markdown",
       "sourceSize": 6039,
-      "publicSize": 6039,
+      "publicSize": 11203,
       "sourceSha256": "532f6e701f444a1345ed8cb785966a1e413f55e27a52e810f6c34eb2c9a6803f",
-      "publicSha256": "532f6e701f444a1345ed8cb785966a1e413f55e27a52e810f6c34eb2c9a6803f",
+      "publicSha256": "4c7ba5b2a1621ee277424cfcc103afb651b13c24a61a81a35ab7ce2906f3e243",
       "semanticSha256": "8e977228bc1c91bad510bd9466683e5bc7ef4f2dd2745cbf45b1c513a6bd91c2",
       "tableDimensions": [
         {
@@ -2448,9 +3170,9 @@
       "publicPath": "research/产业专题/储能行业/工商业与户用分布式储能.md",
       "kind": "markdown",
       "sourceSize": 6657,
-      "publicSize": 6657,
+      "publicSize": 6988,
       "sourceSha256": "808fe8396e13379562756391e8caaf1335aefe9c29fe253fcae2e9c1c088fcb2",
-      "publicSha256": "808fe8396e13379562756391e8caaf1335aefe9c29fe253fcae2e9c1c088fcb2",
+      "publicSha256": "3b2077dd13f2a09815f55702b530ca3e8ad7c45b03339c1023098206dc9d2529",
       "semanticSha256": "4d2fd2237cb6fa2c8c00c930f14b13a289144e1f99b68913d8c29d6fe9bdea45",
       "tableDimensions": [
         {
@@ -2473,9 +3195,9 @@
       "publicPath": "research/产业专题/储能行业/电源侧与电网侧储能资产.md",
       "kind": "markdown",
       "sourceSize": 8028,
-      "publicSize": 8028,
+      "publicSize": 8359,
       "sourceSha256": "3d5c5a8ff177964fc17f1850fc8353fc4ea3573b184a7e235cd7f6ea50f9e42f",
-      "publicSha256": "3d5c5a8ff177964fc17f1850fc8353fc4ea3573b184a7e235cd7f6ea50f9e42f",
+      "publicSha256": "ca7467430a5ff36676504fdcda3f9940953b3a1d8cf55559e5c0c5556bada029",
       "semanticSha256": "939f1ff985b68ed635370fa6fc139a4da2ed129e932fff6653db5b27162a133b",
       "tableDimensions": [
         {
@@ -2498,9 +3220,9 @@
       "publicPath": "research/产业专题/储能行业/长时储能装备与项目.md",
       "kind": "markdown",
       "sourceSize": 9425,
-      "publicSize": 9425,
+      "publicSize": 9738,
       "sourceSha256": "20d6b8d77b325d14b561c54bf159309c3af0a3f809a3ca39906ce72e69e2c74f",
-      "publicSha256": "20d6b8d77b325d14b561c54bf159309c3af0a3f809a3ca39906ce72e69e2c74f",
+      "publicSha256": "215fe7ec19d16d97df760c84c5de7d4d3cd2e64e75cb7dc6d259de2360b07839",
       "semanticSha256": "4f5bce67cefda4194c4d2655321cfbc7d5fd0ba42a98c933cd5f0982c91ddef8",
       "tableDimensions": [
         {
@@ -2739,9 +3461,9 @@
       "publicPath": "research/产业专题/光伏产业/光伏产业产业链节点规模与利润池.md",
       "kind": "markdown",
       "sourceSize": 12681,
-      "publicSize": 12681,
+      "publicSize": 12976,
       "sourceSha256": "7b7dd243a7b305e1e00ddf4573c4eaec917ca37504539a2772a904d48c046d8f",
-      "publicSha256": "7b7dd243a7b305e1e00ddf4573c4eaec917ca37504539a2772a904d48c046d8f",
+      "publicSha256": "7a1914d37050646ad01e5666b824213fcc881c30ecb585ee87a7a89039ea3c87",
       "semanticSha256": "fa687549348ca4563bb63d2b3dbdf15ccbec406b1d93ce4dc6652380a261bb88",
       "tableDimensions": [
         {
@@ -2797,9 +3519,9 @@
       "publicPath": "research/产业专题/光伏产业/光伏产业周期、供需与投资节奏.md",
       "kind": "markdown",
       "sourceSize": 13281,
-      "publicSize": 13281,
+      "publicSize": 13567,
       "sourceSha256": "90567d2b3c2541c5899855e25625241a7df463b62fc92124e6a930ecaa1b7bb6",
-      "publicSha256": "90567d2b3c2541c5899855e25625241a7df463b62fc92124e6a930ecaa1b7bb6",
+      "publicSha256": "db95882e65c3e86c1023153cd0ff0cc1b05024c89ab7d5f806621ee2a302d4b7",
       "semanticSha256": "a9c55a5adbd734cefb2a86702214cb9300e5fb6ca89a6655edaf9db6ef9cee19",
       "tableDimensions": [
         {
@@ -2822,9 +3544,9 @@
       "publicPath": "research/产业专题/光伏产业/光伏产业子产业链覆盖矩阵.md",
       "kind": "markdown",
       "sourceSize": 6269,
-      "publicSize": 6269,
+      "publicSize": 8365,
       "sourceSha256": "60269cf5a8d9fe88ec5a1e6799bbe4c813433834b55f9fb7e771c9a18fd43b5b",
-      "publicSha256": "60269cf5a8d9fe88ec5a1e6799bbe4c813433834b55f9fb7e771c9a18fd43b5b",
+      "publicSha256": "9a783e8822ea50f1d053b9dfc94badcde628969a9d9d7eb0f439da74baeb5974",
       "semanticSha256": "74b29c53e068748bee9bcc4113931aec0e63fc4adc170858135f087562944a95",
       "tableDimensions": [
         {
@@ -2896,9 +3618,9 @@
       "publicPath": "research/产业专题/光伏产业/光伏产业技术成熟度与发展趋势.md",
       "kind": "markdown",
       "sourceSize": 13806,
-      "publicSize": 13806,
+      "publicSize": 14128,
       "sourceSha256": "e0ebf6d419e5c487419e02c135fe18f7523bbde7fde7259af47a2aa9ff4fa4e0",
-      "publicSha256": "e0ebf6d419e5c487419e02c135fe18f7523bbde7fde7259af47a2aa9ff4fa4e0",
+      "publicSha256": "eef375bfc06d63ecfbb4af52e98c8c00cebda88af39fcb1d69a03bae1bedb9ef",
       "semanticSha256": "a483530b105341d6bd08307c2ea8b8ae01cc4d9d351d2c789b0919487373024b",
       "tableDimensions": [
         {
@@ -2992,9 +3714,9 @@
       "publicPath": "research/产业专题/光伏产业/光伏产业深度调研 - 总览.md",
       "kind": "markdown",
       "sourceSize": 26324,
-      "publicSize": 26324,
+      "publicSize": 26959,
       "sourceSha256": "c8df93baa9932805312c823f9236d020f9aae702a7c1e09d1cf5ab18716b1da6",
-      "publicSha256": "c8df93baa9932805312c823f9236d020f9aae702a7c1e09d1cf5ab18716b1da6",
+      "publicSha256": "13c0f542d7553e6a8f58d2cdd38cfe8ba171263c3d20bb67b3101c11c63ff022",
       "semanticSha256": "1cc0f9bc5c232eaafe53106eec08d2c9931f2dc7fa795cb1657eb21f66f3f7d6",
       "tableDimensions": [
         {
@@ -3045,9 +3767,9 @@
       "publicPath": "research/产业专题/光伏产业/光伏产业深度调研.md",
       "kind": "markdown",
       "sourceSize": 3990,
-      "publicSize": 3990,
+      "publicSize": 5206,
       "sourceSha256": "4ff60272295980e41b39fa66f9211a43733b87b6e6f580aff390639df495000d",
-      "publicSha256": "4ff60272295980e41b39fa66f9211a43733b87b6e6f580aff390639df495000d",
+      "publicSha256": "cd80b5c03df9ab5533eeef11f217f0e1d158bbb6b96849393adb35d4456905cf",
       "semanticSha256": "5fe0bcc5da807623fb27ee5ff18503efa954433f8b53652d57a8ee160d743b8b",
       "tableDimensions": [],
       "numericTokenCount": 24
@@ -3086,9 +3808,9 @@
       "publicPath": "research/产业专题/光伏产业/光伏制造设备产业链.md",
       "kind": "markdown",
       "sourceSize": 8722,
-      "publicSize": 8722,
+      "publicSize": 9035,
       "sourceSha256": "ba106cd002de11449294f6208d2657c336fec56e78d2376c342586116bb634b3",
-      "publicSha256": "ba106cd002de11449294f6208d2657c336fec56e78d2376c342586116bb634b3",
+      "publicSha256": "7f964eb9ad6f8853f88c55b6a74e981bddcfccb7532eccdc04fd3aa9f287daa4",
       "semanticSha256": "d4021a50a6fb9ba443d18afa0d0fb2dda2ebccaaadd07419a6afc82189c28029",
       "tableDimensions": [
         {
@@ -3111,9 +3833,9 @@
       "publicPath": "research/产业专题/光伏产业/光伏电池片产业链.md",
       "kind": "markdown",
       "sourceSize": 8891,
-      "publicSize": 8891,
+      "publicSize": 9195,
       "sourceSha256": "491ec2422431a990e554b36a66669f74aa9bcc1cbf169470d8e315c15467e6b0",
-      "publicSha256": "491ec2422431a990e554b36a66669f74aa9bcc1cbf169470d8e315c15467e6b0",
+      "publicSha256": "97566839bb4e61dbf2cfb395ae2fc48072beae3ca9a410ffbca1ad6123b346bc",
       "semanticSha256": "15a1cf60b41704edbc07061210682ddc19c7b9d90798c0f3aa66bcee2b1d5b85",
       "tableDimensions": [
         {
@@ -3136,9 +3858,9 @@
       "publicPath": "research/产业专题/光伏产业/光伏组件与关键辅材产业链.md",
       "kind": "markdown",
       "sourceSize": 9493,
-      "publicSize": 9493,
+      "publicSize": 9833,
       "sourceSha256": "68609ffab98c832b46f098fe338495c52027358f919657dcc9c249b9525ce227",
-      "publicSha256": "68609ffab98c832b46f098fe338495c52027358f919657dcc9c249b9525ce227",
+      "publicSha256": "1f7a21b9cda0e9558f94be579784c56083cd4afce1dc7cc28d52e4975aa266d7",
       "semanticSha256": "c3eef18d7287844c7612a5be2bc1da7191af3b272e7cdb2f11496dfed41068b9",
       "tableDimensions": [
         {
@@ -3161,9 +3883,9 @@
       "publicPath": "research/产业专题/光伏产业/光伏项目开发运营与运维产业链.md",
       "kind": "markdown",
       "sourceSize": 11040,
-      "publicSize": 11040,
+      "publicSize": 11398,
       "sourceSha256": "79da5e373271291cb665b305f167eba6707fcba351ed7c2d413f184c61453420",
-      "publicSha256": "79da5e373271291cb665b305f167eba6707fcba351ed7c2d413f184c61453420",
+      "publicSha256": "6d59ea14371df1656cbd0661a5be2766d4fcfef6749f87eaab4aba42ee01ec1f",
       "semanticSha256": "dde3759e1de77b934f96157e39e440eb747cfab3b195c66b304d3405fa1958d0",
       "tableDimensions": [
         {
@@ -3190,9 +3912,9 @@
       "publicPath": "research/产业专题/光伏产业/工业硅与多晶硅产业链.md",
       "kind": "markdown",
       "sourceSize": 8856,
-      "publicSize": 8856,
+      "publicSize": 9178,
       "sourceSha256": "44ca0820b5cbc2b0409a9e308c6a4699be194f1998f0c8237abc30cd9bccab4e",
-      "publicSha256": "44ca0820b5cbc2b0409a9e308c6a4699be194f1998f0c8237abc30cd9bccab4e",
+      "publicSha256": "8faa8df246aff20019e9a704830e58c7dc17b25d771c2a9814fb844c2c0384c0",
       "semanticSha256": "ac1fa50b15fee70c995e7ecd749ce095299642e4fd8d3d90105011ab7083bb56",
       "tableDimensions": [
         {
@@ -3215,9 +3937,9 @@
       "publicPath": "research/产业专题/光伏产业/支架BOS与EPC产业链.md",
       "kind": "markdown",
       "sourceSize": 8068,
-      "publicSize": 8068,
+      "publicSize": 8360,
       "sourceSha256": "6941944efcfa1c27e32bc1532149f1fe43a8af3a0e4c6ce2dd405a65149fc059",
-      "publicSha256": "6941944efcfa1c27e32bc1532149f1fe43a8af3a0e4c6ce2dd405a65149fc059",
+      "publicSha256": "bee4a0ecde409f6d413be5d9ee3d22881d4fd474b924a94198a97399fbbfc5a2",
       "semanticSha256": "35aebecb69fe74a31f179dcb8528178bc16f6bf92e8c1fa9be843b93ccb2e645",
       "tableDimensions": [
         {
@@ -3240,9 +3962,9 @@
       "publicPath": "research/产业专题/光伏产业/硅片与切片耗材产业链.md",
       "kind": "markdown",
       "sourceSize": 8377,
-      "publicSize": 8377,
+      "publicSize": 8699,
       "sourceSha256": "355191b90ce21a55810484ba147de2cb67a154520fab136fa97257eae8e6b522",
-      "publicSha256": "355191b90ce21a55810484ba147de2cb67a154520fab136fa97257eae8e6b522",
+      "publicSha256": "6b004b89eb381a59d22de1819548a977126e1b6f65b2676d866d2e71d86fd4aa",
       "semanticSha256": "bf9bf7964b202f4e0cc22a7ce7ca07c3aae27269ab161346cbf72059fb4ad84a",
       "tableDimensions": [
         {
@@ -3265,9 +3987,9 @@
       "publicPath": "research/产业专题/光伏产业/逆变器与电力电子产业链.md",
       "kind": "markdown",
       "sourceSize": 8229,
-      "publicSize": 8229,
+      "publicSize": 8560,
       "sourceSha256": "717742c679951ed83a4597fc1ee17f842017ba88834c2562b1a88d7bee202a30",
-      "publicSha256": "717742c679951ed83a4597fc1ee17f842017ba88834c2562b1a88d7bee202a30",
+      "publicSha256": "02fd3d273e0de6fdc644fda45e966fe462e07e85234a3118e951050e1a12264f",
       "semanticSha256": "0f968d45db8724c543ff63c638b9c99df4ad2df3eb826a1c006c28282704f82c",
       "tableDimensions": [
         {
@@ -3289,65 +4011,332 @@
       "sourceRelativePath": "投资研究/公司研究/中际旭创（300308.SZ）调研/csv/annual_financials.csv",
       "publicPath": "research/公司研究/中际旭创（300308.SZ）调研/csv/annual_financials.csv",
       "kind": "csv",
-      "sourceSize": 2410,
-      "publicSize": 2410,
-      "sourceSha256": "875dee38d076f42b7db72112d6c0f1a64388066900e67ed3e65b249b2a97c58f",
-      "publicSha256": "875dee38d076f42b7db72112d6c0f1a64388066900e67ed3e65b249b2a97c58f"
+      "sourceSize": 2421,
+      "publicSize": 2421,
+      "sourceSha256": "d8d5db4b5364d18f45285dce1393cfe74e860207e502e33cd673108c895e28be",
+      "publicSha256": "d8d5db4b5364d18f45285dce1393cfe74e860207e502e33cd673108c895e28be"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/中际旭创（300308.SZ）调研/csv/quarterly_cumulative_financials.csv",
       "publicPath": "research/公司研究/中际旭创（300308.SZ）调研/csv/quarterly_cumulative_financials.csv",
       "kind": "csv",
-      "sourceSize": 4060,
-      "publicSize": 4060,
-      "sourceSha256": "250aa936b8fd9f9019839022049d72e4de8a4f79775f0aba73b840f08b480ca7",
-      "publicSha256": "250aa936b8fd9f9019839022049d72e4de8a4f79775f0aba73b840f08b480ca7"
+      "sourceSize": 4052,
+      "publicSize": 4052,
+      "sourceSha256": "5525b3c77afb0d1957144f66e7a91e4fe39654f6711e108a1fb99d312cb764dc",
+      "publicSha256": "5525b3c77afb0d1957144f66e7a91e4fe39654f6711e108a1fb99d312cb764dc"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/中际旭创（300308.SZ）调研/csv/quarterly_single_financials.csv",
       "publicPath": "research/公司研究/中际旭创（300308.SZ）调研/csv/quarterly_single_financials.csv",
       "kind": "csv",
-      "sourceSize": 4216,
-      "publicSize": 4216,
-      "sourceSha256": "5fa7892fd07a59657af8e0e3070e1d1297c3bde5720f668933c2d20c4fd4176c",
-      "publicSha256": "5fa7892fd07a59657af8e0e3070e1d1297c3bde5720f668933c2d20c4fd4176c"
+      "sourceSize": 4152,
+      "publicSize": 4152,
+      "sourceSha256": "6198a72f4a03d0cef64e4fd086f6a23613690fc3f18fb6adb426143fdea7a314",
+      "publicSha256": "6198a72f4a03d0cef64e4fd086f6a23613690fc3f18fb6adb426143fdea7a314"
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/中际旭创（300308.SZ）调研/csv/产品代际路线图.csv",
+      "publicPath": "research/公司研究/中际旭创（300308.SZ）调研/csv/产品代际路线图.csv",
+      "kind": "csv",
+      "sourceSize": 4743,
+      "publicSize": 4743,
+      "sourceSha256": "a7968125edd8f6b572ce678b600fce69a75b532184db61b4f39b85cd31c4fc0e",
+      "publicSha256": "a7968125edd8f6b572ce678b600fce69a75b532184db61b4f39b85cd31c4fc0e"
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/中际旭创（300308.SZ）调研/csv/季度利润表.csv",
+      "publicPath": "research/公司研究/中际旭创（300308.SZ）调研/csv/季度利润表.csv",
+      "kind": "csv",
+      "sourceSize": 2088,
+      "publicSize": 2088,
+      "sourceSha256": "ed5c3846b513d233139f8c688a159ed5f0a7c0434f6f1e4b63f10de109332ce9",
+      "publicSha256": "ed5c3846b513d233139f8c688a159ed5f0a7c0434f6f1e4b63f10de109332ce9"
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/中际旭创（300308.SZ）调研/csv/季度现金流量表.csv",
+      "publicPath": "research/公司研究/中际旭创（300308.SZ）调研/csv/季度现金流量表.csv",
+      "kind": "csv",
+      "sourceSize": 1580,
+      "publicSize": 1580,
+      "sourceSha256": "5dda1620c52dbd88ff8dcd1b82c674afd9274e7c74bc0628e58bd1e4f173fa46",
+      "publicSha256": "5dda1620c52dbd88ff8dcd1b82c674afd9274e7c74bc0628e58bd1e4f173fa46"
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/中际旭创（300308.SZ）调研/csv/季度资产负债表.csv",
+      "publicPath": "research/公司研究/中际旭创（300308.SZ）调研/csv/季度资产负债表.csv",
+      "kind": "csv",
+      "sourceSize": 1683,
+      "publicSize": 1683,
+      "sourceSha256": "c0c16467642c03b5fd5c0f9cddac12556efc2b4959d77e3172fb3595b09df074",
+      "publicSha256": "c0c16467642c03b5fd5c0f9cddac12556efc2b4959d77e3172fb3595b09df074"
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/中际旭创（300308.SZ）调研/csv/市值隐含预期.csv",
+      "publicPath": "research/公司研究/中际旭创（300308.SZ）调研/csv/市值隐含预期.csv",
+      "kind": "csv",
+      "sourceSize": 2144,
+      "publicSize": 2144,
+      "sourceSha256": "bb47e0a3a41f0aabf7c0a0d76181069e7799095665b151d2904f9c9f97371ba8",
+      "publicSha256": "bb47e0a3a41f0aabf7c0a0d76181069e7799095665b151d2904f9c9f97371ba8"
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/中际旭创（300308.SZ）调研/csv/年度利润表.csv",
+      "publicPath": "research/公司研究/中际旭创（300308.SZ）调研/csv/年度利润表.csv",
+      "kind": "csv",
+      "sourceSize": 1168,
+      "publicSize": 1168,
+      "sourceSha256": "4a30bbc678d6a198601b4dc4e4b259282fc5a97bb70cd1ac23497f2b1b9af6d2",
+      "publicSha256": "4a30bbc678d6a198601b4dc4e4b259282fc5a97bb70cd1ac23497f2b1b9af6d2"
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/中际旭创（300308.SZ）调研/csv/年度现金流量表.csv",
+      "publicPath": "research/公司研究/中际旭创（300308.SZ）调研/csv/年度现金流量表.csv",
+      "kind": "csv",
+      "sourceSize": 1207,
+      "publicSize": 1207,
+      "sourceSha256": "bb7ebcac6ec2df153e0917a353843f4050cd5d1c0b43f8c5b02025ad30d59574",
+      "publicSha256": "bb7ebcac6ec2df153e0917a353843f4050cd5d1c0b43f8c5b02025ad30d59574"
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/中际旭创（300308.SZ）调研/csv/年度资产负债表.csv",
+      "publicPath": "research/公司研究/中际旭创（300308.SZ）调研/csv/年度资产负债表.csv",
+      "kind": "csv",
+      "sourceSize": 906,
+      "publicSize": 906,
+      "sourceSha256": "94689b7cdd90d1b22640a2f50f51e4d0023c31fee6fd80a88fe7c10ea9d4ad6d",
+      "publicSha256": "94689b7cdd90d1b22640a2f50f51e4d0023c31fee6fd80a88fe7c10ea9d4ad6d"
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/中际旭创（300308.SZ）调研/csv/情景敏感性.csv",
+      "publicPath": "research/公司研究/中际旭创（300308.SZ）调研/csv/情景敏感性.csv",
+      "kind": "csv",
+      "sourceSize": 1628,
+      "publicSize": 1628,
+      "sourceSha256": "74512a8c43586b6a5269355f48af8af4b60423a65607ff3d4d24d6293289f5a5",
+      "publicSha256": "74512a8c43586b6a5269355f48af8af4b60423a65607ff3d4d24d6293289f5a5"
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/中际旭创（300308.SZ）调研/csv/技术壁垒证据.csv",
+      "publicPath": "research/公司研究/中际旭创（300308.SZ）调研/csv/技术壁垒证据.csv",
+      "kind": "csv",
+      "sourceSize": 9684,
+      "publicSize": 9684,
+      "sourceSha256": "6b564e80665c583273b68735981bbbb215a3ea1b8343b7d4c75cdc45e58d89af",
+      "publicSha256": "6b564e80665c583273b68735981bbbb215a3ea1b8343b7d4c75cdc45e58d89af"
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/中际旭创（300308.SZ）调研/csv/技术水位矩阵.csv",
+      "publicPath": "research/公司研究/中际旭创（300308.SZ）调研/csv/技术水位矩阵.csv",
+      "kind": "csv",
+      "sourceSize": 18133,
+      "publicSize": 18133,
+      "sourceSha256": "c771319330248db97106b983b47c3b90c0cd3622f87b8c6b89c7c8a17e143f5d",
+      "publicSha256": "c771319330248db97106b983b47c3b90c0cd3622f87b8c6b89c7c8a17e143f5d"
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/中际旭创（300308.SZ）调研/csv/盈利预测桥.csv",
+      "publicPath": "research/公司研究/中际旭创（300308.SZ）调研/csv/盈利预测桥.csv",
+      "kind": "csv",
+      "sourceSize": 3022,
+      "publicSize": 3022,
+      "sourceSha256": "1b55813cce8e51a33333f5e2025cefea487447a41f01a25b0e16455575729fc9",
+      "publicSha256": "1b55813cce8e51a33333f5e2025cefea487447a41f01a25b0e16455575729fc9"
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/中际旭创（300308.SZ）调研/csv/竞对全景.csv",
+      "publicPath": "research/公司研究/中际旭创（300308.SZ）调研/csv/竞对全景.csv",
+      "kind": "csv",
+      "sourceSize": 3018,
+      "publicSize": 3018,
+      "sourceSha256": "a7b8eb631a59925bb797d2777b08e65369fa3ef0a483e49b3911234c093bbdcf",
+      "publicSha256": "a7b8eb631a59925bb797d2777b08e65369fa3ef0a483e49b3911234c093bbdcf"
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/中际旭创（300308.SZ）调研/csv/股价估值快照.csv",
+      "publicPath": "research/公司研究/中际旭创（300308.SZ）调研/csv/股价估值快照.csv",
+      "kind": "csv",
+      "sourceSize": 995,
+      "publicSize": 995,
+      "sourceSha256": "bd2d32f5dc6928885b3276a6d48564d0af90bc7b9deaee80b68a6756f78cb937",
+      "publicSha256": "bd2d32f5dc6928885b3276a6d48564d0af90bc7b9deaee80b68a6756f78cb937"
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/中际旭创（300308.SZ）调研/csv/股本与交易结构.csv",
+      "publicPath": "research/公司研究/中际旭创（300308.SZ）调研/csv/股本与交易结构.csv",
+      "kind": "csv",
+      "sourceSize": 1460,
+      "publicSize": 1460,
+      "sourceSha256": "0aa8a1914248ff605679875f249382b93e920b1932da1751f87377ed4debb791",
+      "publicSha256": "0aa8a1914248ff605679875f249382b93e920b1932da1751f87377ed4debb791"
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/中际旭创（300308.SZ）调研/csv/行业技术评价框架.csv",
+      "publicPath": "research/公司研究/中际旭创（300308.SZ）调研/csv/行业技术评价框架.csv",
+      "kind": "csv",
+      "sourceSize": 15981,
+      "publicSize": 15981,
+      "sourceSha256": "e722dd555b53f239b41dc8a15de46dbcced7714c10fee60eebf8167521cd04d6",
+      "publicSha256": "e722dd555b53f239b41dc8a15de46dbcced7714c10fee60eebf8167521cd04d6"
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/中际旭创（300308.SZ）调研/csv/预期差与催化剂.csv",
+      "publicPath": "research/公司研究/中际旭创（300308.SZ）调研/csv/预期差与催化剂.csv",
+      "kind": "csv",
+      "sourceSize": 1287,
+      "publicSize": 1287,
+      "sourceSha256": "395636f7d418b4cf831b2a7b7d98087f3f8074498ef7235ac53620a964c5ada7",
+      "publicSha256": "395636f7d418b4cf831b2a7b7d98087f3f8074498ef7235ac53620a964c5ada7"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/中际旭创（300308.SZ）调研/公司调研 - 中际旭创.md",
       "publicPath": "research/公司研究/中际旭创（300308.SZ）调研/公司调研 - 中际旭创.md",
       "kind": "markdown",
-      "sourceSize": 24121,
-      "publicSize": 24311,
-      "sourceSha256": "18daee1ae1c5f648dcd8605f449cd86589b2d3765c73a168c1c19cd64d66f496",
-      "publicSha256": "313c8cfb10797b7df214786a9f936596ab0a4b559d4e8841a817b5b24bb6ba19",
-      "semanticSha256": "4429cc58c1b23c742fb4715ceb5f191971beaf0f7d287373b5c42c03e8dbfd3c",
+      "sourceSize": 34613,
+      "publicSize": 35481,
+      "sourceSha256": "59aacf423d3117b529a211dc1676af25e67d618c678c9e90df4224652ecd1152",
+      "publicSha256": "f88537a19553719f303051edaae2e2df4795af9be295bbef484f1904892c4ca4",
+      "semanticSha256": "e72a7faaf563f57ce8b0ad4e5ade39a9c7aa4fbe1d1f10f2dcd915ae396884c8",
       "tableDimensions": [
+        {
+          "rows": 5,
+          "columns": 3
+        },
+        {
+          "rows": 7,
+          "columns": 7
+        },
+        {
+          "rows": 10,
+          "columns": 5
+        },
+        {
+          "rows": 6,
+          "columns": 5
+        },
+        {
+          "rows": 6,
+          "columns": 5
+        },
+        {
+          "rows": 7,
+          "columns": 13
+        },
+        {
+          "rows": 7,
+          "columns": 7
+        },
+        {
+          "rows": 5,
+          "columns": 5
+        },
+        {
+          "rows": 7,
+          "columns": 5
+        },
+        {
+          "rows": 11,
+          "columns": 5
+        },
+        {
+          "rows": 5,
+          "columns": 4
+        },
+        {
+          "rows": 5,
+          "columns": 4
+        },
         {
           "rows": 6,
           "columns": 7
+        },
+        {
+          "rows": 3,
+          "columns": 4
+        },
+        {
+          "rows": 5,
+          "columns": 4
+        },
+        {
+          "rows": 9,
+          "columns": 7
+        },
+        {
+          "rows": 9,
+          "columns": 5
+        },
+        {
+          "rows": 8,
+          "columns": 2
+        }
+      ],
+      "numericTokenCount": 385
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/中际旭创（300308.SZ）调研/小白审核记录 - 中际旭创.md",
+      "publicPath": "research/公司研究/中际旭创（300308.SZ）调研/小白审核记录 - 中际旭创.md",
+      "kind": "markdown",
+      "sourceSize": 8195,
+      "publicSize": 8195,
+      "sourceSha256": "75074e97008185bb3bd9a984d46e25fc4e8c252e22e9e4880be6a5e90507a83c",
+      "publicSha256": "75074e97008185bb3bd9a984d46e25fc4e8c252e22e9e4880be6a5e90507a83c",
+      "semanticSha256": "ddb2aff52e012f5cbae204e2ece3df05358167340304eb3af6b4c19430d37740",
+      "tableDimensions": [
+        {
+          "rows": 8,
+          "columns": 2
+        },
+        {
+          "rows": 13,
+          "columns": 3
+        },
+        {
+          "rows": 5,
+          "columns": 2
+        },
+        {
+          "rows": 5,
+          "columns": 3
+        }
+      ],
+      "numericTokenCount": 73
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/中际旭创（300308.SZ）调研/技术与壁垒 - 中际旭创.md",
+      "publicPath": "research/公司研究/中际旭创（300308.SZ）调研/技术与壁垒 - 中际旭创.md",
+      "kind": "markdown",
+      "sourceSize": 55639,
+      "publicSize": 56073,
+      "sourceSha256": "7f57eb26743d3948a9b338bdba8d4ebcefc5fb2d969138f375442933eea261db",
+      "publicSha256": "ba8d7416f45a977ed4c34623823b9d1e8f45765d98e630ebca3ad900bf06fdc8",
+      "semanticSha256": "0d2e6f7f8f830e8e0b8590cde749204596a0e7b3b4812170c88d5f32aadbe8b0",
+      "tableDimensions": [
+        {
+          "rows": 7,
+          "columns": 2
+        },
+        {
+          "rows": 4,
+          "columns": 6
+        },
+        {
+          "rows": 30,
+          "columns": 9
+        },
+        {
+          "rows": 6,
+          "columns": 6
+        },
+        {
+          "rows": 14,
+          "columns": 9
         },
         {
           "rows": 10,
           "columns": 6
         },
         {
-          "rows": 6,
-          "columns": 7
-        },
-        {
-          "rows": 6,
-          "columns": 6
-        },
-        {
-          "rows": 9,
-          "columns": 6
-        },
-        {
-          "rows": 6,
-          "columns": 7
-        },
-        {
-          "rows": 5,
+          "rows": 7,
           "columns": 4
         },
         {
@@ -3355,58 +4344,86 @@
           "columns": 7
         },
         {
-          "rows": 13,
-          "columns": 2
+          "rows": 30,
+          "columns": 9
+        },
+        {
+          "rows": 7,
+          "columns": 6
+        },
+        {
+          "rows": 5,
+          "columns": 6
+        },
+        {
+          "rows": 6,
+          "columns": 6
+        },
+        {
+          "rows": 7,
+          "columns": 9
+        },
+        {
+          "rows": 4,
+          "columns": 3
+        },
+        {
+          "rows": 5,
+          "columns": 7
+        },
+        {
+          "rows": 6,
+          "columns": 6
+        },
+        {
+          "rows": 5,
+          "columns": 5
+        },
+        {
+          "rows": 5,
+          "columns": 5
         }
       ],
-      "numericTokenCount": 224
+      "numericTokenCount": 465
     },
     {
-      "sourceRelativePath": "投资研究/公司研究/中际旭创（300308.SZ）调研/小白审核记录 - 中际旭创.md",
-      "publicPath": "research/公司研究/中际旭创（300308.SZ）调研/小白审核记录 - 中际旭创.md",
+      "sourceRelativePath": "投资研究/公司研究/中际旭创（300308.SZ）调研/技术红队审核记录 - 中际旭创.md",
+      "publicPath": "research/公司研究/中际旭创（300308.SZ）调研/技术红队审核记录 - 中际旭创.md",
       "kind": "markdown",
-      "sourceSize": 5753,
-      "publicSize": 5753,
-      "sourceSha256": "bfc5cec2d89ff63642c91ff56733c49bab22edd1214df3be1a7c5d56bc1ad50a",
-      "publicSha256": "bfc5cec2d89ff63642c91ff56733c49bab22edd1214df3be1a7c5d56bc1ad50a",
-      "semanticSha256": "01d42fdd2a53b94e3c3a176854a1bf392b439ae755783fb8655b0b717d795dff",
+      "sourceSize": 4994,
+      "publicSize": 4994,
+      "sourceSha256": "01557b4174b6ab12dfdeddb132f45c1f486772e1cfd9dc6f3f0bc20698ba5383",
+      "publicSha256": "01557b4174b6ab12dfdeddb132f45c1f486772e1cfd9dc6f3f0bc20698ba5383",
+      "semanticSha256": "3248aa807971a8259bc9777518577198fa5b7862e153474e8996b9c7a5282195",
       "tableDimensions": [
         {
           "rows": 7,
           "columns": 2
         },
         {
+          "rows": 13,
+          "columns": 3
+        },
+        {
           "rows": 6,
-          "columns": 2
+          "columns": 4
         },
         {
-          "rows": 11,
-          "columns": 3
-        },
-        {
-          "rows": 3,
-          "columns": 3
-        },
-        {
-          "rows": 11,
-          "columns": 3
-        },
-        {
-          "rows": 8,
-          "columns": 2
+          "rows": 5,
+          "columns": 4
         }
       ],
-      "numericTokenCount": 69
+      "numericTokenCount": 56
     },
     {
       "sourceRelativePath": "投资研究/公司研究/中际旭创（300308.SZ）调研/竞对对比 - 中际旭创.md",
       "publicPath": "research/公司研究/中际旭创（300308.SZ）调研/竞对对比 - 中际旭创.md",
       "kind": "markdown",
-      "sourceSize": 12208,
-      "publicSize": 12280,
-      "sourceSha256": "8bbe3d79c20a22ba6b597bea2f2a6c7d2c0be5d84b5b774cfca6ab24b06a71b5",
-      "publicSha256": "c8987cf267375461b3245249818558d9df73025c99527dbd460aaa6e70415266",
-      "semanticSha256": "8ffa7bd89da2a85224d054e3f5a21fa7b023cb2496a5459af163414fbe14197d",
+      "sourceSize": 12776,
+      "publicSize": 12993,
+      "sourceSha256": "86458babe8cb3dd6fe37664426cfd10ffd7673d479db4ba8d735da048bb91e3d",
+      "publicSha256": "fc165676624cff58bf07d9b0f19c0f585ad7220d00e7039486629b5cd5e660c6",
+      "semanticSha256": "06b454cf53a2df87cd6b72d7f0701ab4fd0adcd45541beb66d0da8a57705e38a",
       "tableDimensions": [
         {
           "rows": 10,
@@ -3421,78 +4438,106 @@
           "columns": 7
         }
       ],
-      "numericTokenCount": 72
+      "numericTokenCount": 73
     },
     {
       "sourceRelativePath": "投资研究/公司研究/中际旭创（300308.SZ）调研/股价预期 - 中际旭创.md",
       "publicPath": "research/公司研究/中际旭创（300308.SZ）调研/股价预期 - 中际旭创.md",
       "kind": "markdown",
-      "sourceSize": 12051,
-      "publicSize": 12169,
-      "sourceSha256": "7ba1f26da778316310649830e3595e3f5462301e0c339baa0a000e82d040affc",
-      "publicSha256": "b946bb2949bb73eae3ab10c399415b9187aeccde79a5e76e923b5dbd38f0e0ee",
-      "semanticSha256": "00267cfb1f90df47356a53db862710f6529cf3c1d84f708374cf7bffbaf02820",
+      "sourceSize": 23143,
+      "publicSize": 23577,
+      "sourceSha256": "719a3f6c979686fe7c301164678b59e0c625ba2dcc0e8211f59cc49667ad0321",
+      "publicSha256": "0980b124e4cf9a1041cd7af9cdac6d4e7cc941dcb49f4f1eacff216cf4e22012",
+      "semanticSha256": "9c7a74aba86e517812a8cbf128d9580e0137aa1f9e16d3132756d67803609177",
       "tableDimensions": [
         {
-          "rows": 8,
-          "columns": 6
+          "rows": 2,
+          "columns": 11
         },
         {
-          "rows": 5,
-          "columns": 7
-        },
-        {
-          "rows": 7,
-          "columns": 6
-        },
-        {
-          "rows": 5,
-          "columns": 6
-        },
-        {
-          "rows": 7,
-          "columns": 6
-        },
-        {
-          "rows": 5,
-          "columns": 7
-        },
-        {
-          "rows": 7,
-          "columns": 2
+          "rows": 6,
+          "columns": 5
         },
         {
           "rows": 10,
+          "columns": 6
+        },
+        {
+          "rows": 5,
+          "columns": 4
+        },
+        {
+          "rows": 5,
+          "columns": 16
+        },
+        {
+          "rows": 7,
+          "columns": 5
+        },
+        {
+          "rows": 9,
+          "columns": 6
+        },
+        {
+          "rows": 6,
+          "columns": 5
+        },
+        {
+          "rows": 7,
+          "columns": 4
+        },
+        {
+          "rows": 5,
+          "columns": 12
+        },
+        {
+          "rows": 5,
+          "columns": 8
+        },
+        {
+          "rows": 5,
+          "columns": 2
+        },
+        {
+          "rows": 11,
           "columns": 2
         }
       ],
-      "numericTokenCount": 168
+      "numericTokenCount": 385
     },
     {
       "sourceRelativePath": "投资研究/公司研究/中际旭创（300308.SZ）调研/财务报表 - 中际旭创.md",
       "publicPath": "research/公司研究/中际旭创（300308.SZ）调研/财务报表 - 中际旭创.md",
       "kind": "markdown",
-      "sourceSize": 14396,
-      "publicSize": 15022,
-      "sourceSha256": "67f1915b8611bfb389e9d5b894dbd90242d5ef2d010222e61f95d88399f8bf80",
-      "publicSha256": "cebafc28e582b73adbe1b25dfb4440efdfabe83d4ff551b8cd88a859ae013f5c",
-      "semanticSha256": "344ed51241b7fb93bf679776f6f5a83c048f518fc8b69e13252456d9e31666fe",
+      "sourceSize": 21101,
+      "publicSize": 23705,
+      "sourceSha256": "a0142a25bec582d50c0f96ba204eba00a041d18b79b85c6cb32fb1d4dfce64ab",
+      "publicSha256": "fbe54d5321c1c12706bc97263b785f166595c2f8f67f3578ef675301e9ac3766",
+      "semanticSha256": "dbcb41d5b2ec7b3194cf2fd2be49be2069a635793b561c39b1fa12e3fb4f6809",
       "tableDimensions": [
         {
+          "rows": 6,
+          "columns": 2
+        },
+        {
           "rows": 13,
-          "columns": 7
-        },
-        {
-          "rows": 6,
-          "columns": 12
-        },
-        {
-          "rows": 6,
           "columns": 11
         },
         {
+          "rows": 5,
+          "columns": 5
+        },
+        {
           "rows": 6,
-          "columns": 7
+          "columns": 18
+        },
+        {
+          "rows": 6,
+          "columns": 17
+        },
+        {
+          "rows": 6,
+          "columns": 13
         },
         {
           "rows": 6,
@@ -3500,15 +4545,15 @@
         },
         {
           "rows": 10,
-          "columns": 9
+          "columns": 15
         },
         {
           "rows": 10,
-          "columns": 9
+          "columns": 15
         },
         {
           "rows": 10,
-          "columns": 7
+          "columns": 12
         },
         {
           "rows": 10,
@@ -3516,10 +4561,10 @@
         },
         {
           "rows": 6,
-          "columns": 4
+          "columns": 5
         }
       ],
-      "numericTokenCount": 551
+      "numericTokenCount": 830
     },
     {
       "sourceRelativePath": "投资研究/公司研究/寒武纪（688256.SH）调研/csv/annual_financials.csv",
@@ -3552,10 +4597,10 @@
       "sourceRelativePath": "投资研究/公司研究/寒武纪（688256.SH）调研/csv/产品代际路线图.csv",
       "publicPath": "research/公司研究/寒武纪（688256.SH）调研/csv/产品代际路线图.csv",
       "kind": "csv",
-      "sourceSize": 10991,
-      "publicSize": 10991,
-      "sourceSha256": "1b870ea049c7ba62f99c11d094c5e12c18a090976987804aff5c28072223a9cf",
-      "publicSha256": "1b870ea049c7ba62f99c11d094c5e12c18a090976987804aff5c28072223a9cf"
+      "sourceSize": 12274,
+      "publicSize": 12274,
+      "sourceSha256": "0b6a322617900ee241b5d40aff8cf33d4f8f77518cb7a4d9d39d652f7a5c7bc5",
+      "publicSha256": "0b6a322617900ee241b5d40aff8cf33d4f8f77518cb7a4d9d39d652f7a5c7bc5"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/寒武纪（688256.SH）调研/csv/原始财务数据口径.csv",
@@ -3570,100 +4615,100 @@
       "sourceRelativePath": "投资研究/公司研究/寒武纪（688256.SH）调研/csv/季度利润表.csv",
       "publicPath": "research/公司研究/寒武纪（688256.SH）调研/csv/季度利润表.csv",
       "kind": "csv",
-      "sourceSize": 1077,
-      "publicSize": 1077,
-      "sourceSha256": "fdc1d2084db7644ed6047cbdc7f9ca51ea41ea8e2b9f3c24cf072a413f64ee80",
-      "publicSha256": "fdc1d2084db7644ed6047cbdc7f9ca51ea41ea8e2b9f3c24cf072a413f64ee80"
+      "sourceSize": 1877,
+      "publicSize": 1877,
+      "sourceSha256": "a6059411efb8de496aaf6da0eb0f8a35731f37562ab7bd7da4586c807ba21658",
+      "publicSha256": "a6059411efb8de496aaf6da0eb0f8a35731f37562ab7bd7da4586c807ba21658"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/寒武纪（688256.SH）调研/csv/季度现金流量表.csv",
       "publicPath": "research/公司研究/寒武纪（688256.SH）调研/csv/季度现金流量表.csv",
       "kind": "csv",
-      "sourceSize": 958,
-      "publicSize": 958,
-      "sourceSha256": "c4cc229c75bb1666a7ba915434544844cd272f51d1a674a2f68d6ed520d9013d",
-      "publicSha256": "c4cc229c75bb1666a7ba915434544844cd272f51d1a674a2f68d6ed520d9013d"
+      "sourceSize": 1806,
+      "publicSize": 1806,
+      "sourceSha256": "f06bdf6e552627604682e23dff7f5b461d570bb1de91f148925e48aa9823d562",
+      "publicSha256": "f06bdf6e552627604682e23dff7f5b461d570bb1de91f148925e48aa9823d562"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/寒武纪（688256.SH）调研/csv/季度资产负债表.csv",
       "publicPath": "research/公司研究/寒武纪（688256.SH）调研/csv/季度资产负债表.csv",
       "kind": "csv",
-      "sourceSize": 1152,
-      "publicSize": 1152,
-      "sourceSha256": "e57629c6d9c60dd556ce0ac356af094cf819d7bf8680ae44c465e63d6235d96a",
-      "publicSha256": "e57629c6d9c60dd556ce0ac356af094cf819d7bf8680ae44c465e63d6235d96a"
+      "sourceSize": 1623,
+      "publicSize": 1623,
+      "sourceSha256": "90ff4c9b6d930586f1c2922ae5e6fd907fad36e829b5c0bd33f2d7a12d5ba9cc",
+      "publicSha256": "90ff4c9b6d930586f1c2922ae5e6fd907fad36e829b5c0bd33f2d7a12d5ba9cc"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/寒武纪（688256.SH）调研/csv/市值隐含预期.csv",
       "publicPath": "research/公司研究/寒武纪（688256.SH）调研/csv/市值隐含预期.csv",
       "kind": "csv",
-      "sourceSize": 976,
-      "publicSize": 976,
-      "sourceSha256": "2342982293595a2976cbdd9e142aa0d578e5ccb444dcd6dc837a3fa49e547a2e",
-      "publicSha256": "2342982293595a2976cbdd9e142aa0d578e5ccb444dcd6dc837a3fa49e547a2e"
+      "sourceSize": 2454,
+      "publicSize": 2454,
+      "sourceSha256": "13aad71d776006c5f95c82f09b236927a1b1df4c841d9e9317ac4d4a961f3a07",
+      "publicSha256": "13aad71d776006c5f95c82f09b236927a1b1df4c841d9e9317ac4d4a961f3a07"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/寒武纪（688256.SH）调研/csv/年度利润表.csv",
       "publicPath": "research/公司研究/寒武纪（688256.SH）调研/csv/年度利润表.csv",
       "kind": "csv",
-      "sourceSize": 860,
-      "publicSize": 860,
-      "sourceSha256": "18c408cf43b95cfe1f4d45a6b79452e9682b75cba75583575ba11055d995c52f",
-      "publicSha256": "18c408cf43b95cfe1f4d45a6b79452e9682b75cba75583575ba11055d995c52f"
+      "sourceSize": 951,
+      "publicSize": 951,
+      "sourceSha256": "3abb9291c88dca578a403d4dd9155dc818c764fa12eb37871ff9fe2cd6af6231",
+      "publicSha256": "3abb9291c88dca578a403d4dd9155dc818c764fa12eb37871ff9fe2cd6af6231"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/寒武纪（688256.SH）调研/csv/年度现金流量表.csv",
       "publicPath": "research/公司研究/寒武纪（688256.SH）调研/csv/年度现金流量表.csv",
       "kind": "csv",
-      "sourceSize": 649,
-      "publicSize": 649,
-      "sourceSha256": "c329a4ab661c538ab35d518adf6eb60f86f9c1df9433261f8aa138f59449b430",
-      "publicSha256": "c329a4ab661c538ab35d518adf6eb60f86f9c1df9433261f8aa138f59449b430"
+      "sourceSize": 1049,
+      "publicSize": 1049,
+      "sourceSha256": "08cff3d7ee9b1b9f10465ef834ce34ee22a802be846e83d3d4a6b4053606b57d",
+      "publicSha256": "08cff3d7ee9b1b9f10465ef834ce34ee22a802be846e83d3d4a6b4053606b57d"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/寒武纪（688256.SH）调研/csv/年度资产负债表.csv",
       "publicPath": "research/公司研究/寒武纪（688256.SH）调研/csv/年度资产负债表.csv",
       "kind": "csv",
-      "sourceSize": 851,
-      "publicSize": 851,
-      "sourceSha256": "e5e652db8397b0935135001fa0ac62cf590eed3ce0b0b58d947f19db9b2950a9",
-      "publicSha256": "e5e652db8397b0935135001fa0ac62cf590eed3ce0b0b58d947f19db9b2950a9"
+      "sourceSize": 892,
+      "publicSize": 892,
+      "sourceSha256": "694a890095125e68c669e807b5ec7a86c9d911e08f2be812a053949d016e0fff",
+      "publicSha256": "694a890095125e68c669e807b5ec7a86c9d911e08f2be812a053949d016e0fff"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/寒武纪（688256.SH）调研/csv/情景敏感性.csv",
       "publicPath": "research/公司研究/寒武纪（688256.SH）调研/csv/情景敏感性.csv",
       "kind": "csv",
-      "sourceSize": 1146,
-      "publicSize": 1146,
-      "sourceSha256": "3223d0278287b205d6a94a728d8b484f0b36e03fe3d92b346738a1c5c1d9b522",
-      "publicSha256": "3223d0278287b205d6a94a728d8b484f0b36e03fe3d92b346738a1c5c1d9b522"
+      "sourceSize": 1116,
+      "publicSize": 1116,
+      "sourceSha256": "c9d023628c2d38a6dd17ef205c4553f4148f525e5c2fcf9eb3f33791e772040f",
+      "publicSha256": "c9d023628c2d38a6dd17ef205c4553f4148f525e5c2fcf9eb3f33791e772040f"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/寒武纪（688256.SH）调研/csv/技术壁垒证据.csv",
       "publicPath": "research/公司研究/寒武纪（688256.SH）调研/csv/技术壁垒证据.csv",
       "kind": "csv",
-      "sourceSize": 14237,
-      "publicSize": 14237,
-      "sourceSha256": "155dcdf85d7558688e42ada7fc758c800116e7e80b116935af5d501276dc004d",
-      "publicSha256": "155dcdf85d7558688e42ada7fc758c800116e7e80b116935af5d501276dc004d"
+      "sourceSize": 14201,
+      "publicSize": 14201,
+      "sourceSha256": "e3dbee471e4a2563c5be5a231ea1fcb35db75992402822b84bbac6268d101ad1",
+      "publicSha256": "e3dbee471e4a2563c5be5a231ea1fcb35db75992402822b84bbac6268d101ad1"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/寒武纪（688256.SH）调研/csv/技术水位矩阵.csv",
       "publicPath": "research/公司研究/寒武纪（688256.SH）调研/csv/技术水位矩阵.csv",
       "kind": "csv",
-      "sourceSize": 18669,
-      "publicSize": 18669,
-      "sourceSha256": "5e3fbad972646a3ff04a336c82071df355247512ebb619aa6ccc7f2581ef849f",
-      "publicSha256": "5e3fbad972646a3ff04a336c82071df355247512ebb619aa6ccc7f2581ef849f"
+      "sourceSize": 18719,
+      "publicSize": 18719,
+      "sourceSha256": "33fd62b631ed6b7c625dce3d5177b767ea0ab0d08bb258431c74835fef5bafac",
+      "publicSha256": "33fd62b631ed6b7c625dce3d5177b767ea0ab0d08bb258431c74835fef5bafac"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/寒武纪（688256.SH）调研/csv/盈利预测桥.csv",
       "publicPath": "research/公司研究/寒武纪（688256.SH）调研/csv/盈利预测桥.csv",
       "kind": "csv",
-      "sourceSize": 583,
-      "publicSize": 583,
-      "sourceSha256": "33660296d7bc98776cbe1e12402499435701ee7fa47794f4aecfdfcbf82c6d27",
-      "publicSha256": "33660296d7bc98776cbe1e12402499435701ee7fa47794f4aecfdfcbf82c6d27"
+      "sourceSize": 2242,
+      "publicSize": 2242,
+      "sourceSha256": "97377e12a1a3ade5be20c9e576b1642717cb7b4edadc876efec14bcba06809ee",
+      "publicSha256": "97377e12a1a3ade5be20c9e576b1642717cb7b4edadc876efec14bcba06809ee"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/寒武纪（688256.SH）调研/csv/竞对全景.csv",
@@ -3678,19 +4723,19 @@
       "sourceRelativePath": "投资研究/公司研究/寒武纪（688256.SH）调研/csv/股价估值快照.csv",
       "publicPath": "research/公司研究/寒武纪（688256.SH）调研/csv/股价估值快照.csv",
       "kind": "csv",
-      "sourceSize": 327,
-      "publicSize": 327,
-      "sourceSha256": "079607e0a85b395a0a63489a7d013695e874c82dab03f8508c9d906bffde7384",
-      "publicSha256": "079607e0a85b395a0a63489a7d013695e874c82dab03f8508c9d906bffde7384"
+      "sourceSize": 1178,
+      "publicSize": 1178,
+      "sourceSha256": "8f8d9c0b50a019dae6155632f3802d71aa3a32f37b475ea173a705b236953b45",
+      "publicSha256": "8f8d9c0b50a019dae6155632f3802d71aa3a32f37b475ea173a705b236953b45"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/寒武纪（688256.SH）调研/csv/股本与交易结构.csv",
       "publicPath": "research/公司研究/寒武纪（688256.SH）调研/csv/股本与交易结构.csv",
       "kind": "csv",
-      "sourceSize": 1126,
-      "publicSize": 1126,
-      "sourceSha256": "cdf487509d8382ba8b296e1945f36b3008aff12cb557043003585ba93df12ab6",
-      "publicSha256": "cdf487509d8382ba8b296e1945f36b3008aff12cb557043003585ba93df12ab6"
+      "sourceSize": 1331,
+      "publicSize": 1331,
+      "sourceSha256": "328f285ae5f111e6d834d7e84e25df19778984c0f80fbae6464c29dcf63086ed",
+      "publicSha256": "328f285ae5f111e6d834d7e84e25df19778984c0f80fbae6464c29dcf63086ed"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/寒武纪（688256.SH）调研/csv/行业技术评价框架.csv",
@@ -3714,11 +4759,11 @@
       "sourceRelativePath": "投资研究/公司研究/寒武纪（688256.SH）调研/公司调研 - 寒武纪.md",
       "publicPath": "research/公司研究/寒武纪（688256.SH）调研/公司调研 - 寒武纪.md",
       "kind": "markdown",
-      "sourceSize": 42833,
-      "publicSize": 43548,
-      "sourceSha256": "0eba8dbcb70b3556e2bcfff2936e960dfb338da2216ba602b295b76190b11ce6",
-      "publicSha256": "d645d2eef35bba2bfdf78872f3b63a2242511cab5a6ca988042052ace0079099",
-      "semanticSha256": "f15a1629ba58882798adca9304811be303e8e706e73efc3b5bd2470c429c0f48",
+      "sourceSize": 45343,
+      "publicSize": 46591,
+      "sourceSha256": "a1a4692f5348bc8c6d0723f261a4fd901692007c52e11fc5fb7fec9fd91ac636",
+      "publicSha256": "e40391dea1310ef73ee193d5d2172a0610706baa56d1d5db479227869030947e",
+      "semanticSha256": "c499aeff47f934caffda26a3fdd294e6f7d5e9003ea6f116534b29c52cd420b3",
       "tableDimensions": [
         {
           "rows": 9,
@@ -3773,7 +4818,7 @@
           "columns": 5
         },
         {
-          "rows": 7,
+          "rows": 10,
           "columns": 3
         },
         {
@@ -3801,42 +4846,38 @@
           "columns": 5
         }
       ],
-      "numericTokenCount": 314
+      "numericTokenCount": 361
     },
     {
       "sourceRelativePath": "投资研究/公司研究/寒武纪（688256.SH）调研/小白审核记录 - 寒武纪.md",
       "publicPath": "research/公司研究/寒武纪（688256.SH）调研/小白审核记录 - 寒武纪.md",
       "kind": "markdown",
-      "sourceSize": 4932,
-      "publicSize": 4932,
-      "sourceSha256": "9eabf14d95cc20a55828f17fe0d05964dbe94b33630f2896a92e40195c6e57d3",
-      "publicSha256": "9eabf14d95cc20a55828f17fe0d05964dbe94b33630f2896a92e40195c6e57d3",
-      "semanticSha256": "ff00745c3f56d325a734afb05ec7451355b3b0b78fa630c6577a92a3b30944a6",
+      "sourceSize": 5605,
+      "publicSize": 5605,
+      "sourceSha256": "91a7fa334a8822f869212a7539f42e8d36c218eb410af23489e3340dc5b49a13",
+      "publicSha256": "91a7fa334a8822f869212a7539f42e8d36c218eb410af23489e3340dc5b49a13",
+      "semanticSha256": "e82206709737087dda460bc2c682aa78e14e0dcf2f274fd5fb59268d10124f99",
       "tableDimensions": [
         {
-          "rows": 10,
+          "rows": 7,
           "columns": 2
         },
         {
           "rows": 13,
           "columns": 3
-        },
-        {
-          "rows": 5,
-          "columns": 3
         }
       ],
-      "numericTokenCount": 58
+      "numericTokenCount": 53
     },
     {
       "sourceRelativePath": "投资研究/公司研究/寒武纪（688256.SH）调研/技术与壁垒 - 寒武纪.md",
       "publicPath": "research/公司研究/寒武纪（688256.SH）调研/技术与壁垒 - 寒武纪.md",
       "kind": "markdown",
-      "sourceSize": 58852,
-      "publicSize": 59147,
-      "sourceSha256": "f41900af8ac10d0bbbfef82a3ddfddc7a1c2e6f3419b3b276f45101e2a775a3e",
-      "publicSha256": "41194813a0a0f4d4d5d1c54927b7d1b6c626c52fd6b50c6e84e5c7c600fd42c1",
-      "semanticSha256": "3b91a87af76d03a65e743d774cd9cc1029403c634c6b7215b65ea558308a6d06",
+      "sourceSize": 65210,
+      "publicSize": 66828,
+      "sourceSha256": "061b272b3ac31a803c6fb53a80387d0cee4f967699ce6b53a231f357c6c5f31b",
+      "publicSha256": "4235a98ab053ae3d053e8a22142ebcbb9e9ee155104b3f93c310f85b4893d228",
+      "semanticSha256": "cb5f71fb6027a87acb0463c95837e7288d14586e4e9e2728ff2e77874fa273d3",
       "tableDimensions": [
         {
           "rows": 8,
@@ -3849,6 +4890,10 @@
         {
           "rows": 5,
           "columns": 6
+        },
+        {
+          "rows": 5,
+          "columns": 5
         },
         {
           "rows": 12,
@@ -3863,7 +4908,7 @@
           "columns": 6
         },
         {
-          "rows": 12,
+          "rows": 14,
           "columns": 6
         },
         {
@@ -3872,6 +4917,10 @@
         },
         {
           "rows": 6,
+          "columns": 5
+        },
+        {
+          "rows": 4,
           "columns": 5
         },
         {
@@ -3919,45 +4968,37 @@
           "columns": 5
         }
       ],
-      "numericTokenCount": 328
+      "numericTokenCount": 363
     },
     {
       "sourceRelativePath": "投资研究/公司研究/寒武纪（688256.SH）调研/技术红队审核记录 - 寒武纪.md",
       "publicPath": "research/公司研究/寒武纪（688256.SH）调研/技术红队审核记录 - 寒武纪.md",
       "kind": "markdown",
-      "sourceSize": 5057,
-      "publicSize": 5057,
-      "sourceSha256": "e7e0617aff70e436af7fdd27ec3dcf4fab79918409cbdca7d5e6c4a7248a2a13",
-      "publicSha256": "e7e0617aff70e436af7fdd27ec3dcf4fab79918409cbdca7d5e6c4a7248a2a13",
-      "semanticSha256": "7804a7d7a17dd51d40ec7030189f6b505ff22c35d5d648cb518d0bf0f72bb37e",
+      "sourceSize": 4429,
+      "publicSize": 4429,
+      "sourceSha256": "38f31c6d5b12fcc3a932ebe4ee923b5880c6bd86694e4cf8cbf7d65bdb870c13",
+      "publicSha256": "38f31c6d5b12fcc3a932ebe4ee923b5880c6bd86694e4cf8cbf7d65bdb870c13",
+      "semanticSha256": "c5d7cf37b58047c5180dd52608887deaae61f71f9336a09a903867c67c19f701",
       "tableDimensions": [
         {
-          "rows": 9,
+          "rows": 8,
           "columns": 2
         },
         {
           "rows": 13,
           "columns": 3
-        },
-        {
-          "rows": 5,
-          "columns": 4
-        },
-        {
-          "rows": 4,
-          "columns": 4
         }
       ],
-      "numericTokenCount": 51
+      "numericTokenCount": 45
     },
     {
       "sourceRelativePath": "投资研究/公司研究/寒武纪（688256.SH）调研/竞对对比 - 寒武纪.md",
       "publicPath": "research/公司研究/寒武纪（688256.SH）调研/竞对对比 - 寒武纪.md",
       "kind": "markdown",
       "sourceSize": 16227,
-      "publicSize": 16268,
+      "publicSize": 16435,
       "sourceSha256": "2e6d35b8042452e488fefd6c0c2567b255b5a38d466e687a6a956f951e7b38a2",
-      "publicSha256": "5c41d55b66417fb11c62c22fd6cc8363db42888cf3dc99381ee373568158a903",
+      "publicSha256": "01202d407e4d70b1ad422b9be0401f76c30b66a0b9925a006e0fb149010d57b6",
       "semanticSha256": "b5d29b011a5e628bd3e4fc669882aad7ae4689aea8ddb920f6af7e061d4ffc3d",
       "tableDimensions": [
         {
@@ -3999,100 +5040,108 @@
       "sourceRelativePath": "投资研究/公司研究/寒武纪（688256.SH）调研/股价预期 - 寒武纪.md",
       "publicPath": "research/公司研究/寒武纪（688256.SH）调研/股价预期 - 寒武纪.md",
       "kind": "markdown",
-      "sourceSize": 19718,
-      "publicSize": 19933,
-      "sourceSha256": "0b8183704e5817bed6f5d52ba29540942e73ac02b1f67031d8e21250f906d0de",
-      "publicSha256": "c03a3ffa2309e098032e935d68fe86e802411413ab49b58a96e14e7d2f34c8c3",
-      "semanticSha256": "f9bbf95dfd8107958648984e27345cd45cdf52a96bf5ff2837ef811b01917afa",
+      "sourceSize": 20120,
+      "publicSize": 20952,
+      "sourceSha256": "332c93ffc4b2de5041264e8a1ad7d067cce8628ae73c32c76e08ff03a34365d7",
+      "publicSha256": "b51d9b9bf169d9fd20e7533dda668701cfd595d7022e0a266a8706d8efaa7122",
+      "semanticSha256": "92004ee05ee6d1e3f4fd3632ec9ba3d2e3ba2c619e6e9df4f7cbb9f28fe7abbc",
       "tableDimensions": [
         {
-          "rows": 7,
-          "columns": 2
+          "rows": 2,
+          "columns": 10
         },
         {
-          "rows": 13,
+          "rows": 5,
+          "columns": 5
+        },
+        {
+          "rows": 3,
+          "columns": 10
+        },
+        {
+          "rows": 5,
           "columns": 4
+        },
+        {
+          "rows": 5,
+          "columns": 16
+        },
+        {
+          "rows": 7,
+          "columns": 5
+        },
+        {
+          "rows": 10,
+          "columns": 6
         },
         {
           "rows": 6,
+          "columns": 5
+        },
+        {
+          "rows": 4,
           "columns": 4
+        },
+        {
+          "rows": 4,
+          "columns": 12
         },
         {
           "rows": 5,
           "columns": 6
         },
         {
-          "rows": 9,
-          "columns": 5
-        },
-        {
-          "rows": 4,
-          "columns": 11
-        },
-        {
-          "rows": 4,
-          "columns": 5
-        },
-        {
-          "rows": 12,
-          "columns": 5
+          "rows": 5,
+          "columns": 2
         },
         {
           "rows": 10,
-          "columns": 5
-        },
-        {
-          "rows": 5,
-          "columns": 4
-        },
-        {
-          "rows": 6,
-          "columns": 4
-        },
-        {
-          "rows": 4,
-          "columns": 3
+          "columns": 2
         }
       ],
-      "numericTokenCount": 324
+      "numericTokenCount": 265
     },
     {
       "sourceRelativePath": "投资研究/公司研究/寒武纪（688256.SH）调研/财务报表 - 寒武纪.md",
       "publicPath": "research/公司研究/寒武纪（688256.SH）调研/财务报表 - 寒武纪.md",
       "kind": "markdown",
-      "sourceSize": 22714,
-      "publicSize": 23241,
-      "sourceSha256": "9c9b369200371e1f03678cba5f913a1983528b31f568ea6441c68079dd68913e",
-      "publicSha256": "2925b128501db210677a5ca1c44cbbd02d5b297a8ca3df8d70fe6ef8d2ef1ad0",
-      "semanticSha256": "10df234ac817b855104f184a8b2b214b2ecb7095bf6a2ecb074dc20405ce4375",
+      "sourceSize": 15953,
+      "publicSize": 18449,
+      "sourceSha256": "7eafecd5869e54c3fbfbe1ecbb77b36a195d563a54304de7f86c4475eba46334",
+      "publicSha256": "270c1f59a2edcd77b6cd0768f0d4aca0317955f42e2fe3764f0e012b3048dff4",
+      "semanticSha256": "8b5b1f9764b534ff3d2c1c81151c308fd34a36ccab181a89466af03f10963545",
       "tableDimensions": [
         {
-          "rows": 8,
-          "columns": 2
-        },
-        {
           "rows": 13,
-          "columns": 6
+          "columns": 7
         },
         {
-          "rows": 5,
+          "rows": 4,
+          "columns": 4
+        },
+        {
+          "rows": 6,
+          "columns": 7
+        },
+        {
+          "rows": 6,
           "columns": 8
         },
         {
           "rows": 6,
-          "columns": 12
+          "columns": 5
+        },
+        {
+          "rows": 7,
+          "columns": 4
         },
         {
           "rows": 6,
-          "columns": 6
+          "columns": 5
         },
         {
-          "rows": 6,
-          "columns": 13
-        },
-        {
-          "rows": 6,
-          "columns": 6
+          "rows": 10,
+          "columns": 8
         },
         {
           "rows": 10,
@@ -4100,10 +5149,6 @@
         },
         {
           "rows": 10,
-          "columns": 11
-        },
-        {
-          "rows": 10,
           "columns": 6
         },
         {
@@ -4111,15 +5156,11 @@
           "columns": 5
         },
         {
-          "rows": 8,
-          "columns": 4
-        },
-        {
           "rows": 5,
-          "columns": 6
+          "columns": 5
         }
       ],
-      "numericTokenCount": 699
+      "numericTokenCount": 468
     },
     {
       "sourceRelativePath": "投资研究/公司研究/摩尔线程（688795.SH）调研/csv/annual_financials.csv",
@@ -4152,118 +5193,118 @@
       "sourceRelativePath": "投资研究/公司研究/摩尔线程（688795.SH）调研/csv/产品代际路线图.csv",
       "publicPath": "research/公司研究/摩尔线程（688795.SH）调研/csv/产品代际路线图.csv",
       "kind": "csv",
-      "sourceSize": 17182,
-      "publicSize": 17182,
-      "sourceSha256": "6ec69d70e56cf6e890dc9f6b5643e4b113bb5dd78018c5afd607840a3fb3e8d2",
-      "publicSha256": "6ec69d70e56cf6e890dc9f6b5643e4b113bb5dd78018c5afd607840a3fb3e8d2"
+      "sourceSize": 17404,
+      "publicSize": 17404,
+      "sourceSha256": "4dd130cb173d6aa5fc7d4e8d8c7abaaea5521d843880c2db440c742852ae6166",
+      "publicSha256": "4dd130cb173d6aa5fc7d4e8d8c7abaaea5521d843880c2db440c742852ae6166"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/摩尔线程（688795.SH）调研/csv/季度利润表.csv",
       "publicPath": "research/公司研究/摩尔线程（688795.SH）调研/csv/季度利润表.csv",
       "kind": "csv",
-      "sourceSize": 1034,
-      "publicSize": 1034,
-      "sourceSha256": "d303a2e3e7989cf970a4e58c99b3fce909aa5965bbc3f201952420f4f0e79304",
-      "publicSha256": "d303a2e3e7989cf970a4e58c99b3fce909aa5965bbc3f201952420f4f0e79304"
+      "sourceSize": 1279,
+      "publicSize": 1279,
+      "sourceSha256": "ea50e77efdecc4e1082d426c67ec8e2e5ac94a8125d0a913099f032b004692cd",
+      "publicSha256": "ea50e77efdecc4e1082d426c67ec8e2e5ac94a8125d0a913099f032b004692cd"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/摩尔线程（688795.SH）调研/csv/季度现金流量表.csv",
       "publicPath": "research/公司研究/摩尔线程（688795.SH）调研/csv/季度现金流量表.csv",
       "kind": "csv",
-      "sourceSize": 653,
-      "publicSize": 653,
-      "sourceSha256": "5c4865cfb788cd8253fef6ef70f31553b0717a1e9a3a6ac7d92348c57ea0c9b7",
-      "publicSha256": "5c4865cfb788cd8253fef6ef70f31553b0717a1e9a3a6ac7d92348c57ea0c9b7"
+      "sourceSize": 1043,
+      "publicSize": 1043,
+      "sourceSha256": "331d70cd48c3be54932388ff77c6542634e0ac3fd5373afcb6ab9a6ac85a3b0a",
+      "publicSha256": "331d70cd48c3be54932388ff77c6542634e0ac3fd5373afcb6ab9a6ac85a3b0a"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/摩尔线程（688795.SH）调研/csv/季度资产负债表.csv",
       "publicPath": "research/公司研究/摩尔线程（688795.SH）调研/csv/季度资产负债表.csv",
       "kind": "csv",
-      "sourceSize": 925,
-      "publicSize": 925,
-      "sourceSha256": "c1d6f7aa4d3ccfb275526de215f30b27cebb39976e8ac06bc7b1130265d8c9eb",
-      "publicSha256": "c1d6f7aa4d3ccfb275526de215f30b27cebb39976e8ac06bc7b1130265d8c9eb"
+      "sourceSize": 1243,
+      "publicSize": 1243,
+      "sourceSha256": "8dbeeecff93160a01de137c055e5362da94fc49dbbd8fc01c7af8380a5a2dea0",
+      "publicSha256": "8dbeeecff93160a01de137c055e5362da94fc49dbbd8fc01c7af8380a5a2dea0"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/摩尔线程（688795.SH）调研/csv/市值隐含预期.csv",
       "publicPath": "research/公司研究/摩尔线程（688795.SH）调研/csv/市值隐含预期.csv",
       "kind": "csv",
-      "sourceSize": 660,
-      "publicSize": 660,
-      "sourceSha256": "d5aac06d99ea720c034da76d7d291d5af43da18e7421b5a73d011ae18d7f386f",
-      "publicSha256": "d5aac06d99ea720c034da76d7d291d5af43da18e7421b5a73d011ae18d7f386f"
+      "sourceSize": 1794,
+      "publicSize": 1794,
+      "sourceSha256": "b3b20572158f3de74d853fbe38233d4703263ce5e666b3d4e617e1e8cffdef05",
+      "publicSha256": "b3b20572158f3de74d853fbe38233d4703263ce5e666b3d4e617e1e8cffdef05"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/摩尔线程（688795.SH）调研/csv/年度利润表.csv",
       "publicPath": "research/公司研究/摩尔线程（688795.SH）调研/csv/年度利润表.csv",
       "kind": "csv",
-      "sourceSize": 690,
-      "publicSize": 690,
-      "sourceSha256": "5f281046dd4e14ecdbd3ad59405c4317cca70be9374c2ac2d696561c9229964a",
-      "publicSha256": "5f281046dd4e14ecdbd3ad59405c4317cca70be9374c2ac2d696561c9229964a"
+      "sourceSize": 790,
+      "publicSize": 790,
+      "sourceSha256": "487bd2081cfaa87702ac2a822985c99ad61d324d4c4b8359d0fb424cab6a144b",
+      "publicSha256": "487bd2081cfaa87702ac2a822985c99ad61d324d4c4b8359d0fb424cab6a144b"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/摩尔线程（688795.SH）调研/csv/年度现金流量表.csv",
       "publicPath": "research/公司研究/摩尔线程（688795.SH）调研/csv/年度现金流量表.csv",
       "kind": "csv",
-      "sourceSize": 408,
-      "publicSize": 408,
-      "sourceSha256": "17d220c39859c64dda1e115cd8c8f0e103cdf406fd90a61ed84ef2d73ba81cc0",
-      "publicSha256": "17d220c39859c64dda1e115cd8c8f0e103cdf406fd90a61ed84ef2d73ba81cc0"
+      "sourceSize": 778,
+      "publicSize": 778,
+      "sourceSha256": "a18c27ad74f7e8e1dfa8f8c69f6050ef4d56b8ca96427749b52819a4f049d0ae",
+      "publicSha256": "a18c27ad74f7e8e1dfa8f8c69f6050ef4d56b8ca96427749b52819a4f049d0ae"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/摩尔线程（688795.SH）调研/csv/年度资产负债表.csv",
       "publicPath": "research/公司研究/摩尔线程（688795.SH）调研/csv/年度资产负债表.csv",
       "kind": "csv",
-      "sourceSize": 622,
-      "publicSize": 622,
-      "sourceSha256": "7d3958606547f469d5cc2aa663d97c1b62604aea9e5ae7fba6188ef7aef2c71c",
-      "publicSha256": "7d3958606547f469d5cc2aa663d97c1b62604aea9e5ae7fba6188ef7aef2c71c"
+      "sourceSize": 786,
+      "publicSize": 786,
+      "sourceSha256": "1520de21e0b79b95ea7c16b242247296c3206ddd61eb4a5c855fad620c24bbaf",
+      "publicSha256": "1520de21e0b79b95ea7c16b242247296c3206ddd61eb4a5c855fad620c24bbaf"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/摩尔线程（688795.SH）调研/csv/情景敏感性.csv",
       "publicPath": "research/公司研究/摩尔线程（688795.SH）调研/csv/情景敏感性.csv",
       "kind": "csv",
-      "sourceSize": 399,
-      "publicSize": 399,
-      "sourceSha256": "725f27f86e0c6a31525157ef3f15d0b7f0b3cfd8f0ce2deb3d1aa760e803ddd0",
-      "publicSha256": "725f27f86e0c6a31525157ef3f15d0b7f0b3cfd8f0ce2deb3d1aa760e803ddd0"
+      "sourceSize": 1098,
+      "publicSize": 1098,
+      "sourceSha256": "7785d201fb509eb744eda1c2c50d437f681cc2871ed1403be6ab6f39ab997c61",
+      "publicSha256": "7785d201fb509eb744eda1c2c50d437f681cc2871ed1403be6ab6f39ab997c61"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/摩尔线程（688795.SH）调研/csv/技术壁垒证据.csv",
       "publicPath": "research/公司研究/摩尔线程（688795.SH）调研/csv/技术壁垒证据.csv",
       "kind": "csv",
-      "sourceSize": 16354,
-      "publicSize": 16354,
-      "sourceSha256": "03e248660cba403b608e08247fb5da7e6f32e617838ac72bb33dd158326570b0",
-      "publicSha256": "03e248660cba403b608e08247fb5da7e6f32e617838ac72bb33dd158326570b0"
+      "sourceSize": 16324,
+      "publicSize": 16324,
+      "sourceSha256": "2b43cfe2d7e7be1282b97f79bd4b3d2577db7a8257d4f245ca3c3be51c111557",
+      "publicSha256": "2b43cfe2d7e7be1282b97f79bd4b3d2577db7a8257d4f245ca3c3be51c111557"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/摩尔线程（688795.SH）调研/csv/技术水位矩阵.csv",
       "publicPath": "research/公司研究/摩尔线程（688795.SH）调研/csv/技术水位矩阵.csv",
       "kind": "csv",
-      "sourceSize": 20474,
-      "publicSize": 20474,
-      "sourceSha256": "b0589a80cc3ade978cc5cb026685493ec284db4691c66a6a3b8cbb3e3412d14f",
-      "publicSha256": "b0589a80cc3ade978cc5cb026685493ec284db4691c66a6a3b8cbb3e3412d14f"
+      "sourceSize": 20605,
+      "publicSize": 20605,
+      "sourceSha256": "e227a49a13e38e5b3a4ed6164554dd91dabd38d9c0498fdb8e3ef93b255c15dd",
+      "publicSha256": "e227a49a13e38e5b3a4ed6164554dd91dabd38d9c0498fdb8e3ef93b255c15dd"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/摩尔线程（688795.SH）调研/csv/现金债务桥.csv",
       "publicPath": "research/公司研究/摩尔线程（688795.SH）调研/csv/现金债务桥.csv",
       "kind": "csv",
-      "sourceSize": 1901,
-      "publicSize": 1901,
-      "sourceSha256": "bc8b03605036753067338990c5c29cf02133f3e6b3e56b881a0e48981faec7c5",
-      "publicSha256": "bc8b03605036753067338990c5c29cf02133f3e6b3e56b881a0e48981faec7c5"
+      "sourceSize": 1945,
+      "publicSize": 1945,
+      "sourceSha256": "1f631763544e3c74e20c43f24344dbaf7a76c007c657e0a0bf1142cc55368457",
+      "publicSha256": "1f631763544e3c74e20c43f24344dbaf7a76c007c657e0a0bf1142cc55368457"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/摩尔线程（688795.SH）调研/csv/盈利预测桥.csv",
       "publicPath": "research/公司研究/摩尔线程（688795.SH）调研/csv/盈利预测桥.csv",
       "kind": "csv",
-      "sourceSize": 491,
-      "publicSize": 491,
-      "sourceSha256": "8d69207f0357c3fb5b076bcc833bf37183b1e4f1d9a80a90676587202d35fe3d",
-      "publicSha256": "8d69207f0357c3fb5b076bcc833bf37183b1e4f1d9a80a90676587202d35fe3d"
+      "sourceSize": 1508,
+      "publicSize": 1508,
+      "sourceSha256": "62dd15024dc81855ed286c64701b401aa8c96cfcf6fe954342f43f74d4840847",
+      "publicSha256": "62dd15024dc81855ed286c64701b401aa8c96cfcf6fe954342f43f74d4840847"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/摩尔线程（688795.SH）调研/csv/竞对全景.csv",
@@ -4278,47 +5319,47 @@
       "sourceRelativePath": "投资研究/公司研究/摩尔线程（688795.SH）调研/csv/股价估值快照.csv",
       "publicPath": "research/公司研究/摩尔线程（688795.SH）调研/csv/股价估值快照.csv",
       "kind": "csv",
-      "sourceSize": 362,
-      "publicSize": 362,
-      "sourceSha256": "6580121da9707294c6c39b6f45b4a306e4bc74cbfa03c303577e18fab6cd05dd",
-      "publicSha256": "6580121da9707294c6c39b6f45b4a306e4bc74cbfa03c303577e18fab6cd05dd"
+      "sourceSize": 803,
+      "publicSize": 803,
+      "sourceSha256": "21931f7afcb2b52d88b6bd3c65c6d126ec4c73e29585686379afe40ed3ebb0ae",
+      "publicSha256": "21931f7afcb2b52d88b6bd3c65c6d126ec4c73e29585686379afe40ed3ebb0ae"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/摩尔线程（688795.SH）调研/csv/股本与交易结构.csv",
       "publicPath": "research/公司研究/摩尔线程（688795.SH）调研/csv/股本与交易结构.csv",
       "kind": "csv",
-      "sourceSize": 1777,
-      "publicSize": 1777,
-      "sourceSha256": "615cdf354ff9ae68e725ac4746ef39189dd2658289ade27651e06183f998220a",
-      "publicSha256": "615cdf354ff9ae68e725ac4746ef39189dd2658289ade27651e06183f998220a"
+      "sourceSize": 2533,
+      "publicSize": 2533,
+      "sourceSha256": "3ace8962c0049158136531745c5bd142860162292bbb5d925189778fa7197d73",
+      "publicSha256": "3ace8962c0049158136531745c5bd142860162292bbb5d925189778fa7197d73"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/摩尔线程（688795.SH）调研/csv/行业技术评价框架.csv",
       "publicPath": "research/公司研究/摩尔线程（688795.SH）调研/csv/行业技术评价框架.csv",
       "kind": "csv",
-      "sourceSize": 15838,
-      "publicSize": 15838,
-      "sourceSha256": "842b91ba78d1e10e1cff02289cc416445af66aaf663b704b473445148438932b",
-      "publicSha256": "842b91ba78d1e10e1cff02289cc416445af66aaf663b704b473445148438932b"
+      "sourceSize": 16044,
+      "publicSize": 16044,
+      "sourceSha256": "e2d76a9aad08c54ebd130c88ca250e988eddcfcea866d96f9c9cb2ceeaaa0f18",
+      "publicSha256": "e2d76a9aad08c54ebd130c88ca250e988eddcfcea866d96f9c9cb2ceeaaa0f18"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/摩尔线程（688795.SH）调研/csv/预期差与催化剂.csv",
       "publicPath": "research/公司研究/摩尔线程（688795.SH）调研/csv/预期差与催化剂.csv",
       "kind": "csv",
-      "sourceSize": 734,
-      "publicSize": 734,
-      "sourceSha256": "f31c4ef005932b6073e06f26136f4ff0aeeb88337ddf4b3c534f75495e79e600",
-      "publicSha256": "f31c4ef005932b6073e06f26136f4ff0aeeb88337ddf4b3c534f75495e79e600"
+      "sourceSize": 1328,
+      "publicSize": 1328,
+      "sourceSha256": "d08254d3de2d39cb05a3f839e80d85c5bdc68fbf8af3c43b904e6f23d5a7c192",
+      "publicSha256": "d08254d3de2d39cb05a3f839e80d85c5bdc68fbf8af3c43b904e6f23d5a7c192"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/摩尔线程（688795.SH）调研/公司调研 - 摩尔线程.md",
       "publicPath": "research/公司研究/摩尔线程（688795.SH）调研/公司调研 - 摩尔线程.md",
       "kind": "markdown",
-      "sourceSize": 46992,
-      "publicSize": 47871,
-      "sourceSha256": "8f7f292096cbe085a615da539853fd54859ffaebd89e6ef8268f6c291001a820",
-      "publicSha256": "769e8b84659903e9a7e6c5a16bdeaef2800417dd4779e59a284615ed179c9c1d",
-      "semanticSha256": "53f7aa567b0678f29e0236204f7c38c4c5555c19ef72315c53a2fc69040f714a",
+      "sourceSize": 47641,
+      "publicSize": 49160,
+      "sourceSha256": "1c9533293bea11ab384025f4d741f0ffb9b614218cfb3dc171dddbd5f2bb9554",
+      "publicSha256": "1bd4173b35d53d093e74fd80ea3a258d7d9dd636ed979ec20240adee884f0708",
+      "semanticSha256": "678580d02861e3a1d792e3785db0d1dc00d82afde1203563347f01f42a78ee71",
       "tableDimensions": [
         {
           "rows": 8,
@@ -4369,7 +5410,7 @@
           "columns": 5
         },
         {
-          "rows": 7,
+          "rows": 8,
           "columns": 2
         },
         {
@@ -4393,42 +5434,38 @@
           "columns": 5
         }
       ],
-      "numericTokenCount": 459
+      "numericTokenCount": 463
     },
     {
       "sourceRelativePath": "投资研究/公司研究/摩尔线程（688795.SH）调研/小白审核记录 - 摩尔线程.md",
       "publicPath": "research/公司研究/摩尔线程（688795.SH）调研/小白审核记录 - 摩尔线程.md",
       "kind": "markdown",
-      "sourceSize": 4788,
-      "publicSize": 4788,
-      "sourceSha256": "1952383ec996378871d2a06ffc45b6a65b69a90888fa43956662b7975464c55c",
-      "publicSha256": "1952383ec996378871d2a06ffc45b6a65b69a90888fa43956662b7975464c55c",
-      "semanticSha256": "5ce3be6a2461804a812901ba06232e6984e38cdf8233241ef467d215ff784823",
+      "sourceSize": 6851,
+      "publicSize": 6851,
+      "sourceSha256": "a02456f73dfdf50bb8129ed79407c9c96e160abceba0d17812b60b352e63dc94",
+      "publicSha256": "a02456f73dfdf50bb8129ed79407c9c96e160abceba0d17812b60b352e63dc94",
+      "semanticSha256": "4294f36e8e8818a51c01a8f67d0292f39a10b70b30c809e89db7d46afe575775",
       "tableDimensions": [
         {
-          "rows": 10,
+          "rows": 9,
           "columns": 2
         },
         {
           "rows": 13,
           "columns": 3
-        },
-        {
-          "rows": 5,
-          "columns": 3
         }
       ],
-      "numericTokenCount": 54
+      "numericTokenCount": 75
     },
     {
       "sourceRelativePath": "投资研究/公司研究/摩尔线程（688795.SH）调研/技术与壁垒 - 摩尔线程.md",
       "publicPath": "research/公司研究/摩尔线程（688795.SH）调研/技术与壁垒 - 摩尔线程.md",
       "kind": "markdown",
-      "sourceSize": 71872,
-      "publicSize": 71902,
-      "sourceSha256": "12231f29c851c127c6087184243a5b88635ab14f7c20291925a22561c519790f",
-      "publicSha256": "07c315dc827fca7054550b17da1fc354aa6e9b03f2bbbe627d2ecf5ade7a1378",
-      "semanticSha256": "d188b291a462f9a57fe27bb0827e63a9a5c5c69488a5927cdda2d6f8295c345b",
+      "sourceSize": 75757,
+      "publicSize": 76890,
+      "sourceSha256": "f892b76383677deeb045996a381e5fae695de7edbdb7630fb8937329e60c4410",
+      "publicSha256": "5548846369339663e054d1be630c26a66a6328d3537b87d3a605771728b708b0",
+      "semanticSha256": "256ea867f1b0e3379a91242445cfadc28d3fa83d309715023e647715092c2b1e",
       "tableDimensions": [
         {
           "rows": 8,
@@ -4441,6 +5478,10 @@
         {
           "rows": 6,
           "columns": 6
+        },
+        {
+          "rows": 5,
+          "columns": 4
         },
         {
           "rows": 17,
@@ -4469,6 +5510,10 @@
         {
           "rows": 18,
           "columns": 7
+        },
+        {
+          "rows": 3,
+          "columns": 4
         },
         {
           "rows": 7,
@@ -4507,17 +5552,17 @@
           "columns": 5
         }
       ],
-      "numericTokenCount": 422
+      "numericTokenCount": 450
     },
     {
       "sourceRelativePath": "投资研究/公司研究/摩尔线程（688795.SH）调研/技术红队审核记录 - 摩尔线程.md",
       "publicPath": "research/公司研究/摩尔线程（688795.SH）调研/技术红队审核记录 - 摩尔线程.md",
       "kind": "markdown",
-      "sourceSize": 4991,
-      "publicSize": 4991,
-      "sourceSha256": "cf230396ac3c1d9e5686d8caa7d18fe1a5bb9c857ebf87f549315e275ead9f65",
-      "publicSha256": "cf230396ac3c1d9e5686d8caa7d18fe1a5bb9c857ebf87f549315e275ead9f65",
-      "semanticSha256": "d6deaf189ce468a0cc7b50fc0c19f27e8735ed6ece2631aed036653a4931e449",
+      "sourceSize": 5969,
+      "publicSize": 5969,
+      "sourceSha256": "41fb166f24d12ad21f8e8d72148b2afa91bcdbe7c94ed0e84787db4d19c7c4fc",
+      "publicSha256": "41fb166f24d12ad21f8e8d72148b2afa91bcdbe7c94ed0e84787db4d19c7c4fc",
+      "semanticSha256": "f88fe13b3bbb82e6eb2350e54c16ec98e378895b4415f462d239c5f8352b333b",
       "tableDimensions": [
         {
           "rows": 9,
@@ -4532,20 +5577,20 @@
           "columns": 4
         },
         {
-          "rows": 4,
+          "rows": 5,
           "columns": 4
         }
       ],
-      "numericTokenCount": 58
+      "numericTokenCount": 74
     },
     {
       "sourceRelativePath": "投资研究/公司研究/摩尔线程（688795.SH）调研/竞对对比 - 摩尔线程.md",
       "publicPath": "research/公司研究/摩尔线程（688795.SH）调研/竞对对比 - 摩尔线程.md",
       "kind": "markdown",
       "sourceSize": 19758,
-      "publicSize": 19768,
+      "publicSize": 19975,
       "sourceSha256": "4e9dd5185f707207224326e9133a3998d0a1defa44a3e78c00cdfb15aa100531",
-      "publicSha256": "e76fba8d6d635d47e41bd44cc3f254c83dd7f7677c5a8bf3a4e8bc7cbdd9be84",
+      "publicSha256": "14a6d883adae34dc7b168bb872a136b19df39b117b240f54c58b15418af6eee5",
       "semanticSha256": "452026a6ed52339e9af1e919a368e858a2a8362356f8b4bc85ff725208404f8e",
       "tableDimensions": [
         {
@@ -4603,27 +5648,39 @@
       "sourceRelativePath": "投资研究/公司研究/摩尔线程（688795.SH）调研/股价预期 - 摩尔线程.md",
       "publicPath": "research/公司研究/摩尔线程（688795.SH）调研/股价预期 - 摩尔线程.md",
       "kind": "markdown",
-      "sourceSize": 21655,
-      "publicSize": 22302,
-      "sourceSha256": "c4180d58e6f2f2e03aab98f5be24a012015dac08fcd20428e09872141cc304ce",
-      "publicSha256": "02bf4eb3ded7df36fffb4ff44d897bad07b82686c38bea691d78f79bf73b91e1",
-      "semanticSha256": "a8eee7503cd775dacdd83e3bdf00b0412a4304bd45324c54e82172ede8251bf1",
+      "sourceSize": 27931,
+      "publicSize": 28799,
+      "sourceSha256": "56085018b989a79549f818d067dcfbed0e93abec3e742a76b24e99e19b7c7c16",
+      "publicSha256": "9bd6b67e616b383d096c3cedd1fdca0b6c5710ebc88c2ad27fd51d20396d4f0b",
+      "semanticSha256": "ac3fa2e4da465254b687a697e6fe265d9fd0f5dbb34d28861a702c1a82a7a074",
       "tableDimensions": [
         {
           "rows": 7,
           "columns": 2
         },
         {
-          "rows": 7,
+          "rows": 2,
+          "columns": 7
+        },
+        {
+          "rows": 6,
           "columns": 4
+        },
+        {
+          "rows": 6,
+          "columns": 5
         },
         {
           "rows": 5,
           "columns": 3
         },
         {
-          "rows": 10,
-          "columns": 5
+          "rows": 7,
+          "columns": 4
+        },
+        {
+          "rows": 4,
+          "columns": 6
         },
         {
           "rows": 5,
@@ -4634,7 +5691,7 @@
           "columns": 7
         },
         {
-          "rows": 10,
+          "rows": 9,
           "columns": 5
         },
         {
@@ -4642,8 +5699,16 @@
           "columns": 4
         },
         {
+          "rows": 6,
+          "columns": 4
+        },
+        {
+          "rows": 4,
+          "columns": 4
+        },
+        {
           "rows": 5,
-          "columns": 9
+          "columns": 10
         },
         {
           "rows": 5,
@@ -4662,21 +5727,25 @@
           "columns": 5
         },
         {
-          "rows": 7,
+          "rows": 8,
           "columns": 2
+        },
+        {
+          "rows": 9,
+          "columns": 3
         }
       ],
-      "numericTokenCount": 361
+      "numericTokenCount": 425
     },
     {
       "sourceRelativePath": "投资研究/公司研究/摩尔线程（688795.SH）调研/财务报表 - 摩尔线程.md",
       "publicPath": "research/公司研究/摩尔线程（688795.SH）调研/财务报表 - 摩尔线程.md",
       "kind": "markdown",
-      "sourceSize": 25041,
-      "publicSize": 25101,
-      "sourceSha256": "7642ade077769a8880a6ba264970f6b34d8c1794eaf28090be2a9e8b76561892",
-      "publicSha256": "a377bb5cb384f2ae18d07d721f633ca77b05b141e7fc161a1ac950f7715804b9",
-      "semanticSha256": "6da0e1eb468bbb69f8b936e9fe7ee24fde82e9aa76ce3359b20d77b6165ae971",
+      "sourceSize": 25186,
+      "publicSize": 27386,
+      "sourceSha256": "36b048bf94a09e3a36f0fd52fed19a2aa03621412d28bab3879befb8ab46a5d7",
+      "publicSha256": "fb08e3cdd7c454e819a8f320a7ddd00490f1c865d475056e9bc3250bfcaa241d",
+      "semanticSha256": "c1c1434776edcfc1af0577a26cd79c7ada12d898fe679d2ad8364768170e365e",
       "tableDimensions": [
         {
           "rows": 6,
@@ -4720,7 +5789,7 @@
         },
         {
           "rows": 7,
-          "columns": 6
+          "columns": 7
         },
         {
           "rows": 6,
@@ -4743,7 +5812,7 @@
           "columns": 5
         }
       ],
-      "numericTokenCount": 634
+      "numericTokenCount": 637
     },
     {
       "sourceRelativePath": "投资研究/公司研究/紫金矿业（601899.SH）调研/csv/季度利润表.csv",
@@ -4867,9 +5936,9 @@
       "publicPath": "research/公司研究/紫金矿业（601899.SH）调研/事件快评 - 紫金矿业 - 2026H1业绩预告与股价回撤.md",
       "kind": "markdown",
       "sourceSize": 10239,
-      "publicSize": 10302,
+      "publicSize": 10673,
       "sourceSha256": "e2c9ce7086393bcbaa6bf34a79965aef76aba6d77e1e3240bfa598e529a1a394",
-      "publicSha256": "3d93ce06e37b79e256df6b5bae4ecc2ca10a7c045fa265ed2d68c5b432ed2c8e",
+      "publicSha256": "b3aa86d9733ae5bed432aea690ef470580b6757aaa6cb33ce9d85b09fb5cd679",
       "semanticSha256": "428abc3513dc79e5b998abd2442430c6b87e1d9249fdfb1c4c588c2a47401c87",
       "tableDimensions": [
         {
@@ -4904,9 +5973,9 @@
       "publicPath": "research/公司研究/紫金矿业（601899.SH）调研/公司调研 - 紫金矿业.md",
       "kind": "markdown",
       "sourceSize": 39365,
-      "publicSize": 39506,
+      "publicSize": 40233,
       "sourceSha256": "908076d91335e89cd3f9d792079e2170b4de4cad9291414b7a4254a7dfa107bf",
-      "publicSha256": "803226674ba5f87dc86dcd6bbea0ee18127681356025f7086fa0bff6dd13fdf7",
+      "publicSha256": "03b54ec09a1bf61631c170f1c97fe6bdaf05ea3368de00f26a3c8ffdeeb17858",
       "semanticSha256": "284fb068687122922404933e71f1ef243d9dd9a06334baa2c575b8a8d74b17f6",
       "tableDimensions": [
         {
@@ -5018,9 +6087,9 @@
       "publicPath": "research/公司研究/紫金矿业（601899.SH）调研/竞对对比 - 紫金矿业.md",
       "kind": "markdown",
       "sourceSize": 14342,
-      "publicSize": 14381,
+      "publicSize": 14559,
       "sourceSha256": "50e2e18cb04a82eaf3b00d24ac28629320a5a0e3a1225a23472422cfa1432e07",
-      "publicSha256": "9b9028dad09d18a20a1ab625692f026afc9307c3f584206dca5b14eac998786d",
+      "publicSha256": "9118ae7ed5e0480ca45a47904088b7a7d3d3d3e1b4b4b5edd5cd8ad7b59b5033",
       "semanticSha256": "883c6a9780e88e13875c227db4d1018e798c80a55fc218baed008fc9cd6878ac",
       "tableDimensions": [
         {
@@ -5047,9 +6116,9 @@
       "publicPath": "research/公司研究/紫金矿业（601899.SH）调研/股价预期 - 紫金矿业.md",
       "kind": "markdown",
       "sourceSize": 34798,
-      "publicSize": 34900,
+      "publicSize": 35449,
       "sourceSha256": "4affbf0ea8116ae3f2b0358806f22ca3fc309a40f9df6b98049bd8f95f0b6680",
-      "publicSha256": "b782e2929023e5742cfa2603e26cce02668a9ae9dc2fc5ccf2e54ff8574bb32c",
+      "publicSha256": "d9e57c0f78f79f7f44072dbfc340fb6ca51b0772eae47340a4025b26d3414fe1",
       "semanticSha256": "87d1a1a707a5249a310a218de780111c3695419054c20e258c3eb999f74e3d95",
       "tableDimensions": [
         {
@@ -5136,9 +6205,9 @@
       "publicPath": "research/公司研究/紫金矿业（601899.SH）调研/财务报表 - 紫金矿业.md",
       "kind": "markdown",
       "sourceSize": 23286,
-      "publicSize": 25819,
+      "publicSize": 27843,
       "sourceSha256": "ca6db94a7b8cc79778f1b612bfba6c08cd0c52723bbe2dbbd5cbe961e55e7d5a",
-      "publicSha256": "59398261feca165c9541ddc1dfd24dbf0af54a4a932c44824b6554faa0e36109",
+      "publicSha256": "8de237d9765828ea37cd1f33f59f73f4dfc6abf41fc52a4a214f037ff33b5578",
       "semanticSha256": "e07842bb42c5f2d8eae025a125cdf6cfd9527eabf8a0a6b61f561e5006152311",
       "tableDimensions": [
         {
@@ -5200,10 +6269,10 @@
       "sourceRelativePath": "投资研究/公司研究/阳光电源（300274.SZ）调研/csv/产品代际路线图.csv",
       "publicPath": "research/公司研究/阳光电源（300274.SZ）调研/csv/产品代际路线图.csv",
       "kind": "csv",
-      "sourceSize": 2604,
-      "publicSize": 2604,
-      "sourceSha256": "e20617e5c3d0a2d50a50923a7bb0ad56b9077af04896eae75171a9fbc973777e",
-      "publicSha256": "e20617e5c3d0a2d50a50923a7bb0ad56b9077af04896eae75171a9fbc973777e"
+      "sourceSize": 10047,
+      "publicSize": 10047,
+      "sourceSha256": "b9cb2a67b0a1004e17a01572009fc6c65e64b3476ee72b1787f06aaa654dd3ce",
+      "publicSha256": "b9cb2a67b0a1004e17a01572009fc6c65e64b3476ee72b1787f06aaa654dd3ce"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/阳光电源（300274.SZ）调研/csv/季度利润表.csv",
@@ -5281,28 +6350,28 @@
       "sourceRelativePath": "投资研究/公司研究/阳光电源（300274.SZ）调研/csv/技术壁垒证据.csv",
       "publicPath": "research/公司研究/阳光电源（300274.SZ）调研/csv/技术壁垒证据.csv",
       "kind": "csv",
-      "sourceSize": 4539,
-      "publicSize": 4539,
-      "sourceSha256": "c88e27ecc2d55389cbed74bd82338fadefacd5701154ea1cc8f739109225e0ad",
-      "publicSha256": "c88e27ecc2d55389cbed74bd82338fadefacd5701154ea1cc8f739109225e0ad"
+      "sourceSize": 8937,
+      "publicSize": 8937,
+      "sourceSha256": "4e11f24a83de3a883cd195b24f6d6682d1083263c2f1a0bf130343337a1ebe2b",
+      "publicSha256": "4e11f24a83de3a883cd195b24f6d6682d1083263c2f1a0bf130343337a1ebe2b"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/阳光电源（300274.SZ）调研/csv/技术水位矩阵.csv",
       "publicPath": "research/公司研究/阳光电源（300274.SZ）调研/csv/技术水位矩阵.csv",
       "kind": "csv",
-      "sourceSize": 4127,
-      "publicSize": 4127,
-      "sourceSha256": "d6c3bf2b849eea76499d3fdf44fc164e0d66961333e9f78d5dd6416da89fa867",
-      "publicSha256": "d6c3bf2b849eea76499d3fdf44fc164e0d66961333e9f78d5dd6416da89fa867"
+      "sourceSize": 20269,
+      "publicSize": 20269,
+      "sourceSha256": "30ba19a7b8f57bd99acb1cacc6a9b8e755aeedfb3c4a9541a41f607d42d9be08",
+      "publicSha256": "30ba19a7b8f57bd99acb1cacc6a9b8e755aeedfb3c4a9541a41f607d42d9be08"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/阳光电源（300274.SZ）调研/csv/核心假设验证仪表盘.csv",
       "publicPath": "research/公司研究/阳光电源（300274.SZ）调研/csv/核心假设验证仪表盘.csv",
       "kind": "csv",
-      "sourceSize": 3120,
-      "publicSize": 3120,
-      "sourceSha256": "89099ba73531431370eeda9cfada38b99b77d04bd13312ae7ef05fa12721fe06",
-      "publicSha256": "89099ba73531431370eeda9cfada38b99b77d04bd13312ae7ef05fa12721fe06"
+      "sourceSize": 3376,
+      "publicSize": 3376,
+      "sourceSha256": "e845c2132c0a0979697f8cc6572fa660057b8dbe444b708e744736150c881025",
+      "publicSha256": "e845c2132c0a0979697f8cc6572fa660057b8dbe444b708e744736150c881025"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/阳光电源（300274.SZ）调研/csv/盈利预测桥.csv",
@@ -5335,19 +6404,19 @@
       "sourceRelativePath": "投资研究/公司研究/阳光电源（300274.SZ）调研/csv/股本与交易结构.csv",
       "publicPath": "research/公司研究/阳光电源（300274.SZ）调研/csv/股本与交易结构.csv",
       "kind": "csv",
-      "sourceSize": 3830,
-      "publicSize": 3830,
-      "sourceSha256": "d84757e7d83c3f4665f59dccf1eb97e5be80d8cd4ba38d65922aff908e03675c",
-      "publicSha256": "d84757e7d83c3f4665f59dccf1eb97e5be80d8cd4ba38d65922aff908e03675c"
+      "sourceSize": 4028,
+      "publicSize": 4028,
+      "sourceSha256": "e5d23f9a22c6f3f747250692446d9cd73fcf81a0a33abf37a39b95f74e5e37e3",
+      "publicSha256": "e5d23f9a22c6f3f747250692446d9cd73fcf81a0a33abf37a39b95f74e5e37e3"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/阳光电源（300274.SZ）调研/csv/行业技术评价框架.csv",
       "publicPath": "research/公司研究/阳光电源（300274.SZ）调研/csv/行业技术评价框架.csv",
       "kind": "csv",
-      "sourceSize": 3466,
-      "publicSize": 3466,
-      "sourceSha256": "95a9547791d10f283082f47cd9fb62223f72dddb635273a385ea25ccc491c349",
-      "publicSha256": "95a9547791d10f283082f47cd9fb62223f72dddb635273a385ea25ccc491c349"
+      "sourceSize": 14433,
+      "publicSize": 14433,
+      "sourceSha256": "95254826290a3349df7b4a39600759910a7a1482cb991c2be4554b013f5f032c",
+      "publicSha256": "95254826290a3349df7b4a39600759910a7a1482cb991c2be4554b013f5f032c"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/阳光电源（300274.SZ）调研/csv/预期差与催化剂.csv",
@@ -5362,11 +6431,11 @@
       "sourceRelativePath": "投资研究/公司研究/阳光电源（300274.SZ）调研/公司调研 - 阳光电源.md",
       "publicPath": "research/公司研究/阳光电源（300274.SZ）调研/公司调研 - 阳光电源.md",
       "kind": "markdown",
-      "sourceSize": 61989,
-      "publicSize": 61989,
-      "sourceSha256": "584819034ec2bc56731e6816ea6fb07e6343346792f785a7e7488324101499bb",
-      "publicSha256": "584819034ec2bc56731e6816ea6fb07e6343346792f785a7e7488324101499bb",
-      "semanticSha256": "e23a7269c58bb73829e282d0c6be62e9e6b2beef2a8902702d2d3d7d70f45b19",
+      "sourceSize": 62204,
+      "publicSize": 62204,
+      "sourceSha256": "77af2f85c793e558670417f3721083cdf02e40aaf7ca5133c82dc66a174b22f4",
+      "publicSha256": "77af2f85c793e558670417f3721083cdf02e40aaf7ca5133c82dc66a174b22f4",
+      "semanticSha256": "8cf08350b978beaccbe4da053eea0367bb40ca99bc6ce462005a8866b38a0990",
       "tableDimensions": [
         {
           "rows": 9,
@@ -5441,50 +6510,46 @@
           "columns": 2
         }
       ],
-      "numericTokenCount": 635
+      "numericTokenCount": 627
     },
     {
       "sourceRelativePath": "投资研究/公司研究/阳光电源（300274.SZ）调研/小白审核记录 - 阳光电源.md",
       "publicPath": "research/公司研究/阳光电源（300274.SZ）调研/小白审核记录 - 阳光电源.md",
       "kind": "markdown",
-      "sourceSize": 6629,
-      "publicSize": 6629,
-      "sourceSha256": "391899b713cb652c15d98b923b925a0a2a58d1bb976752a4c4dfd095fa19b227",
-      "publicSha256": "391899b713cb652c15d98b923b925a0a2a58d1bb976752a4c4dfd095fa19b227",
-      "semanticSha256": "64b4a87448e73b88eca457fbed495636e6a11469bde0584f84a3da98951e890b",
+      "sourceSize": 10244,
+      "publicSize": 10244,
+      "sourceSha256": "b1eb26948a71f951291f9f25ff3bb919e07e0952ef9cb98ca439cbe51961c3bf",
+      "publicSha256": "b1eb26948a71f951291f9f25ff3bb919e07e0952ef9cb98ca439cbe51961c3bf",
+      "semanticSha256": "510034ad333507e2c92a967347a3994e0728f4b4103816285110bb34d43bf629",
       "tableDimensions": [
         {
-          "rows": 11,
-          "columns": 3
-        },
-        {
-          "rows": 4,
-          "columns": 3
-        },
-        {
-          "rows": 5,
+          "rows": 13,
           "columns": 2
+        },
+        {
+          "rows": 13,
+          "columns": 3
         },
         {
           "rows": 6,
-          "columns": 3
+          "columns": 2
         },
         {
-          "rows": 3,
-          "columns": 2
+          "rows": 5,
+          "columns": 3
         }
       ],
-      "numericTokenCount": 45
+      "numericTokenCount": 86
     },
     {
       "sourceRelativePath": "投资研究/公司研究/阳光电源（300274.SZ）调研/技术与壁垒 - 阳光电源.md",
       "publicPath": "research/公司研究/阳光电源（300274.SZ）调研/技术与壁垒 - 阳光电源.md",
       "kind": "markdown",
-      "sourceSize": 35128,
-      "publicSize": 35128,
-      "sourceSha256": "6d5193a344be7b60fea63526ab98266fde860ef737a73618decc3f8c8d487aa9",
-      "publicSha256": "6d5193a344be7b60fea63526ab98266fde860ef737a73618decc3f8c8d487aa9",
-      "semanticSha256": "1333d62ab669a6ccb2c8e378f17d6e0b8b05706eaaa0a44020385a410e857c91",
+      "sourceSize": 67253,
+      "publicSize": 67253,
+      "sourceSha256": "0232ba05d402b94bc5f881735a89fcbaf42c48117bf16915ea08059d7a009258",
+      "publicSha256": "0232ba05d402b94bc5f881735a89fcbaf42c48117bf16915ea08059d7a009258",
+      "semanticSha256": "3209eea536c8fb357a63848fcf3b2a240a5e9c3480568f0bcaae903554d3cd30",
       "tableDimensions": [
         {
           "rows": 8,
@@ -5495,16 +6560,16 @@
           "columns": 6
         },
         {
-          "rows": 6,
-          "columns": 16
+          "rows": 29,
+          "columns": 9
         },
         {
           "rows": 5,
           "columns": 8
         },
         {
-          "rows": 10,
-          "columns": 14
+          "rows": 22,
+          "columns": 10
         },
         {
           "rows": 6,
@@ -5515,8 +6580,8 @@
           "columns": 8
         },
         {
-          "rows": 8,
-          "columns": 21
+          "rows": 29,
+          "columns": 9
         },
         {
           "rows": 6,
@@ -5532,15 +6597,19 @@
         },
         {
           "rows": 5,
-          "columns": 36
+          "columns": 9
+        },
+        {
+          "rows": 4,
+          "columns": 3
         },
         {
           "rows": 4,
           "columns": 11
         },
         {
-          "rows": 6,
-          "columns": 7
+          "rows": 8,
+          "columns": 6
         },
         {
           "rows": 6,
@@ -5551,7 +6620,36 @@
           "columns": 6
         }
       ],
-      "numericTokenCount": 171
+      "numericTokenCount": 496
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/阳光电源（300274.SZ）调研/技术红队审核记录 - 阳光电源.md",
+      "publicPath": "research/公司研究/阳光电源（300274.SZ）调研/技术红队审核记录 - 阳光电源.md",
+      "kind": "markdown",
+      "sourceSize": 4916,
+      "publicSize": 4916,
+      "sourceSha256": "30068399a021ebd435a984a210e8d786fa6b379013d8ee63f9f0c8292001f953",
+      "publicSha256": "30068399a021ebd435a984a210e8d786fa6b379013d8ee63f9f0c8292001f953",
+      "semanticSha256": "e2cd89976f5f2f147e52f21dda44c1a54cde0a9ba7cbc133d3ff79de46d5084b",
+      "tableDimensions": [
+        {
+          "rows": 8,
+          "columns": 2
+        },
+        {
+          "rows": 13,
+          "columns": 3
+        },
+        {
+          "rows": 6,
+          "columns": 4
+        },
+        {
+          "rows": 4,
+          "columns": 4
+        }
+      ],
+      "numericTokenCount": 39
     },
     {
       "sourceRelativePath": "投资研究/公司研究/阳光电源（300274.SZ）调研/竞对对比 - 阳光电源.md",
@@ -5586,11 +6684,11 @@
       "sourceRelativePath": "投资研究/公司研究/阳光电源（300274.SZ）调研/股价预期 - 阳光电源.md",
       "publicPath": "research/公司研究/阳光电源（300274.SZ）调研/股价预期 - 阳光电源.md",
       "kind": "markdown",
-      "sourceSize": 22260,
-      "publicSize": 22260,
-      "sourceSha256": "0138c60a2f0d4bc85182154eb8e7dc21f42ce7f4a7b9ece2e0884e956be50be7",
-      "publicSha256": "0138c60a2f0d4bc85182154eb8e7dc21f42ce7f4a7b9ece2e0884e956be50be7",
-      "semanticSha256": "4810e5c116a1d8482110009a99bbf8de510b6cf6c017d547b933113443aeff73",
+      "sourceSize": 22335,
+      "publicSize": 22335,
+      "sourceSha256": "028a97d1246d29557ada66f2f634a1f42406c16841785b2ee3edd1d2fbb585e6",
+      "publicSha256": "028a97d1246d29557ada66f2f634a1f42406c16841785b2ee3edd1d2fbb585e6",
+      "semanticSha256": "625e78082fc87259b17efda8ccc84f4979d50a1b9d40341ed5abce648ce2ce4e",
       "tableDimensions": [
         {
           "rows": 10,

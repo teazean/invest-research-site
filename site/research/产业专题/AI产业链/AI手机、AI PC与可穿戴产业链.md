@@ -14,7 +14,7 @@
 
 ## 1. 产业链路图
 
-![AI手机、AI PC与可穿戴产业链路图](assets/AI手机AIPC可穿戴产业链路图.png)
+[![AI手机、AI PC与可穿戴产业链路图](assets/AI手机AIPC可穿戴产业链路图.png)](https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/AI%E4%BA%A7%E4%B8%9A%E9%93%BE/assets/AI%E6%89%8B%E6%9C%BAAIPC%E5%8F%AF%E7%A9%BF%E6%88%B4%E4%BA%A7%E4%B8%9A%E9%93%BE%E8%B7%AF%E5%9B%BE.png)
 
 端侧 AI 把一部分推理放到用户设备上，优点是低延迟、隐私更好、离线可用，也能减少云端调用成本。但用户不会单独为“NPU 算力”付钱，只有体验改善能推动换机、提高 ASP、增加服务订阅或巩固生态，AI 才会转成利润。
 

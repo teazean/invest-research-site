@@ -14,7 +14,7 @@
 
 ## 1. 产业链路图
 
-![AI数据工具、MLOps与安全产业链路图](assets/AI数据工具MLOps安全产业链路图.png)
+[![AI数据工具、MLOps与安全产业链路图](assets/AI数据工具MLOps安全产业链路图.png)](https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/AI%E4%BA%A7%E4%B8%9A%E9%93%BE/assets/AI%E6%95%B0%E6%8D%AE%E5%B7%A5%E5%85%B7MLOps%E5%AE%89%E5%85%A8%E4%BA%A7%E4%B8%9A%E9%93%BE%E8%B7%AF%E5%9B%BE.png)
 
 原控制面图解释了技术层次，这张图补上商业链：企业先把数据治理到可用状态，再让模型检索和连接工具，通过 MLOps 部署、评测和观测，最后用权限、安全和审计限制 Agent 的行为。企业真正购买的是“AI 能稳定上线且出事可追责”。
 

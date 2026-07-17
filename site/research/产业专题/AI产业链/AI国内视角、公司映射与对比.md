@@ -24,7 +24,7 @@
 
 ## 2. 国内 AI 链条映射图
 
-![AI国内产业链映射图](assets/AI国内产业链映射图.png)
+[![AI国内产业链映射图](assets/AI国内产业链映射图.png)](https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/AI%E4%BA%A7%E4%B8%9A%E9%93%BE/assets/AI%E5%9B%BD%E5%86%85%E4%BA%A7%E4%B8%9A%E9%93%BE%E6%98%A0%E5%B0%84%E5%9B%BE.png)
 
 这张图要表达的是：国内 AI 投资不是只有大模型。真正能在资本市场持续跟踪的，是“政策和算力需求”怎样传导到硬件、基础设施、云模型、应用和端侧机器人。
 

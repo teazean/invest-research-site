@@ -16,7 +16,7 @@
 
 ## 1. 产业链路图
 
-![支架BOS与EPC产业链产业链路图](assets/支架BOS与EPC产业链产业链路图.png)
+[![支架BOS与EPC产业链产业链路图](assets/支架BOS与EPC产业链产业链路图.png)](https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%85%89%E4%BC%8F%E4%BA%A7%E4%B8%9A/assets/%E6%94%AF%E6%9E%B6BOS%E4%B8%8EEPC%E4%BA%A7%E4%B8%9A%E9%93%BE%E4%BA%A7%E4%B8%9A%E9%93%BE%E8%B7%AF%E5%9B%BE.png)
 
 BOS 是“除了组件之外，让电站真正站起来、连起来、送出电”的全部系统。固定支架把组件保持在一个角度；跟踪支架让组件随太阳转动，希望多发的电超过设备、维护和故障成本。EPC 则像总包工程队，负责设计、买设备、组织施工并把电站按期送到可并网状态。
 

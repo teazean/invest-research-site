@@ -26,7 +26,7 @@ status: reviewed
 
 ## 1. 产业链路图
 
-![储能EMS、交易优化与聚合产业链路图](assets/储能EMS、交易优化与聚合产业链路图.png)
+[![储能EMS、交易优化与聚合产业链路图](assets/储能EMS、交易优化与聚合产业链路图.png)](https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%82%A8%E8%83%BD%E8%A1%8C%E4%B8%9A/assets/%E5%82%A8%E8%83%BDEMS%E3%80%81%E4%BA%A4%E6%98%93%E4%BC%98%E5%8C%96%E4%B8%8E%E8%81%9A%E5%90%88%E4%BA%A7%E4%B8%9A%E9%93%BE%E8%B7%AF%E5%9B%BE.png)
 
 这张图怎么读：数据先进入 EMS 和预测算法，再进入交易优化或聚合平台，最后与市场和调度交互。资金来自被验证的增收或降本，反向支付订阅、服务费或分成。数据流量大不等于收入高，必须看到独立收费和续费。
 
