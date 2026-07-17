@@ -2,7 +2,7 @@ import { mkdtemp, mkdir, readFile, stat, writeFile } from 'node:fs/promises'
 import { tmpdir } from 'node:os'
 import path from 'node:path'
 import { afterEach, describe, expect, it } from 'vitest'
-import { discoverPublicationFiles } from '../../scripts/lib/files.mjs'
+import { discoverAttachmentPaths, discoverPublicationFiles } from '../../scripts/lib/files.mjs'
 import { syncResearch } from '../../scripts/lib/sync.mjs'
 
 const temporaryRoots = []
@@ -23,7 +23,13 @@ async function fixture() {
     '|---|---|---|',
     '| 2025 | [本地](reports/2025.pdf) | [巨潮资讯](https://static.cninfo.com.cn/2025.pdf) |'
   ].join('\n'))
-  await writeFile(path.join(company, '公司调研 - 示例公司.md'), '# 公司调研\n\n[2025年报](reports/2025.pdf)')
+  await writeFile(path.join(company, '公司调研 - 示例公司.md'), [
+    '# 公司调研',
+    '![图](assets/chart.png)',
+    '[CSV](csv/annual.csv)',
+    '[2025年报](reports/2025.pdf)',
+    '[官方来源](https://example.com/source)'
+  ].join('\n'))
   await writeFile(path.join(company, 'assets/chart.png'), Buffer.from([0, 1, 2, 3]))
   await writeFile(path.join(company, 'csv/annual.csv'), 'year,revenue\n2025,100\n')
   await writeFile(path.join(company, 'reports/2025.pdf'), 'not-public')
@@ -48,20 +54,39 @@ describe('research synchronization', () => {
       '投资研究/公司研究/示例公司（000001.SZ）调研/公司调研 - 示例公司.md',
       '投资研究/公司研究/示例公司（000001.SZ）调研/财务报表 - 示例公司.md'
     ])
+    expect([...await discoverAttachmentPaths(sourceRoot)]).toEqual([
+      '投资研究/公司研究/示例公司（000001.SZ）调研/assets/chart.png',
+      '投资研究/公司研究/示例公司（000001.SZ）调研/csv/annual.csv',
+      '投资研究/公司研究/示例公司（000001.SZ）调研/reports/2025.pdf'
+    ])
   })
 
-  it('copies allowed files, preserves bytes and rewrites report links', async () => {
+  it('copies public files and rewrites every local attachment click privately', async () => {
     const { sourceRoot, siteRoot } = await fixture()
-    const result = await syncResearch({ sourceRoot, siteRoot })
+    const privateRepository = {
+      repository: 'teazean/obsidian-vault-invest',
+      ref: 'master',
+      serverUrl: 'https://github.com'
+    }
+    const result = await syncResearch({ sourceRoot, siteRoot, privateRepository })
     const publicRoot = path.join(siteRoot, 'research/公司研究/示例公司（000001.SZ）调研')
 
     expect(await readFile(path.join(publicRoot, 'assets/chart.png'))).toEqual(Buffer.from([0, 1, 2, 3]))
     expect(await readFile(path.join(publicRoot, 'csv/annual.csv'), 'utf8')).toBe('year,revenue\n2025,100\n')
-    expect(await readFile(path.join(publicRoot, '公司调研 - 示例公司.md'), 'utf8'))
-      .toContain('[2025年报](https://static.cninfo.com.cn/2025.pdf)')
+    const publicMarkdown = await readFile(path.join(publicRoot, '公司调研 - 示例公司.md'), 'utf8')
+    expect(publicMarkdown).toContain(
+      '[![图](assets/chart.png)](https://github.com/teazean/obsidian-vault-invest/blob/master/'
+    )
+    expect(publicMarkdown).toContain('[CSV](https://github.com/teazean/obsidian-vault-invest/blob/master/')
+    expect(publicMarkdown).toContain('[2025年报](https://github.com/teazean/obsidian-vault-invest/blob/master/')
+    expect(publicMarkdown).toContain('[官方来源](https://example.com/source)')
+    expect(await readFile(path.join(publicRoot, '财务报表 - 示例公司.md'), 'utf8'))
+      .toContain('[巨潮资讯](https://static.cninfo.com.cn/2025.pdf)')
     await expect(stat(path.join(publicRoot, 'reports/2025.pdf'))).rejects.toMatchObject({ code: 'ENOENT' })
     expect(result.files).toHaveLength(4)
-    expect(result.rewrites).toHaveLength(2)
+    expect(result.rewrites).toHaveLength(4)
+    expect(new Set(result.rewrites.map(rewrite => rewrite.kind))).toEqual(new Set(['asset', 'csv', 'report']))
+    expect(result.privateRepository).toEqual(privateRepository)
   })
 
   it('uses a private GitHub link for an unmapped report without publishing the PDF', async () => {
@@ -72,7 +97,7 @@ describe('research synchronization', () => {
     const result = await syncResearch({
       sourceRoot,
       siteRoot,
-      privateReports: {
+      privateRepository: {
         repository: 'teazean/obsidian-vault-invest',
         ref: 'master',
         serverUrl: 'https://github.com'

@@ -9,7 +9,7 @@ try {
     markdown: result.files.filter(file => file.kind === 'markdown').length,
     assets: result.files.filter(file => file.kind === 'asset').length,
     csv: result.files.filter(file => file.kind === 'csv').length,
-    reportLinkRewrites: result.rewrites.length,
+    attachmentLinkRewrites: result.rewrites.length,
     companies: result.catalog.companies.length,
     industries: result.catalog.industries.length
   })}\n`)

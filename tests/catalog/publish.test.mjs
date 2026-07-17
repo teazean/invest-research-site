@@ -11,7 +11,7 @@ afterEach(async () => {
 })
 
 describe('publishResearchSite', () => {
-  it('passes private report context into research synchronization', async () => {
+  it('passes private repository context into research synchronization', async () => {
     const root = await mkdtemp(path.join(tmpdir(), 'publish-private-report-'))
     roots.push(root)
     const sourceRoot = path.join(root, 'vault')
@@ -24,7 +24,7 @@ describe('publishResearchSite', () => {
     await publishResearchSite({
       sourceRoot,
       siteRoot,
-      privateReports: {
+      privateRepository: {
         repository: 'teazean/obsidian-vault-invest',
         ref: 'master',
         serverUrl: 'https://github.com'

@@ -25,7 +25,17 @@ describe('integrity manifest', () => {
     const published = await readFile(path.join(siteRoot, 'research/公司研究/A/研究.md'))
     const syncResult = {
       sourceRoot,
-      rewrites: [{ document: '投资研究/公司研究/A/研究.md', from: 'reports/a.pdf', to: 'https://example.com/a.pdf' }],
+      privateRepository: {
+        repository: 'teazean/obsidian-vault-invest',
+        ref: 'master',
+        serverUrl: 'https://github.com'
+      },
+      rewrites: [{
+        document: '投资研究/公司研究/A/研究.md',
+        from: 'reports/a.pdf',
+        to: 'https://example.com/a.pdf',
+        kind: 'report'
+      }],
       files: [{
         sourcePath: path.join(sourceRoot, '投资研究/公司研究/A/研究.md'),
         relativePath: '投资研究/公司研究/A/研究.md',
@@ -40,6 +50,7 @@ describe('integrity manifest', () => {
 
     const manifest = await createIntegrityManifest({ syncResult, siteRoot })
     expect(JSON.stringify(manifest)).not.toContain(sourceRoot)
+    expect(manifest.privateRepository).toEqual(syncResult.privateRepository)
     expect(manifest.files[0].semanticSha256).toMatch(/^[a-f0-9]{64}$/)
   })
 

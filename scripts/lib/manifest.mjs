@@ -45,7 +45,8 @@ export async function createIntegrityManifest({ syncResult, siteRoot }) {
   }
 
   const manifest = {
-    version: 1,
+    version: 2,
+    privateRepository: syncResult.privateRepository ?? null,
     rewrites: syncResult.rewrites,
     files: files.sort((left, right) => left.publicPath.localeCompare(right.publicPath))
   }

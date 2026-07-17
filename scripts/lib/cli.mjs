@@ -13,7 +13,7 @@ export function parseSyncArguments(args, cwd = process.cwd(), env = process.env)
   const ref = optionValue(args, '--private-ref') ?? env.GITHUB_REF_NAME
   const result = { sourceRoot: path.resolve(sourceRoot), siteRoot: path.resolve(siteRoot) }
   if (repository && ref) {
-    result.privateReports = {
+    result.privateRepository = {
       repository,
       ref,
       serverUrl: env.GITHUB_SERVER_URL ?? 'https://github.com'

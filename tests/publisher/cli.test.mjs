@@ -10,7 +10,7 @@ describe('parseSyncArguments', () => {
     })).toEqual({
       sourceRoot: '/vault',
       siteRoot: '/repo/site',
-      privateReports: {
+      privateRepository: {
         repository: 'teazean/obsidian-vault-invest',
         ref: 'master',
         serverUrl: 'https://github.com'
@@ -26,7 +26,7 @@ describe('parseSyncArguments', () => {
     ], '/repo', {
       GITHUB_REPOSITORY: 'wrong/repository',
       GITHUB_REF_NAME: 'wrong-branch'
-    }).privateReports).toEqual({
+    }).privateRepository).toEqual({
       repository: 'owner/private-vault',
       ref: 'master',
       serverUrl: 'https://github.com'

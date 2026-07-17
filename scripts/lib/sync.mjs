@@ -1,12 +1,8 @@
 import { access, mkdir, readFile, rename, rm, writeFile } from 'node:fs/promises'
 import path from 'node:path'
-import { discoverPublicationFiles, sha256 } from './files.mjs'
-import { buildReportLinkMap, rewriteReportLinks } from './report-links.mjs'
+import { rewriteAttachmentLinks } from './attachment-links.mjs'
+import { discoverAttachmentPaths, discoverPublicationFiles, sha256 } from './files.mjs'
 import { validateMarkdownSecurity } from './security.mjs'
-
-function topicKey(relativePath) {
-  return relativePath.split('/').slice(0, 3).join('/')
-}
 
 function publicRelativePath(relativePath) {
   return relativePath.replace(/^投资研究\//, '')
@@ -35,22 +31,14 @@ async function replaceDirectoryAtomically(stagedRoot, liveRoot) {
   }
 }
 
-export async function syncResearch({ sourceRoot, siteRoot, privateReports }) {
+export async function syncResearch({ sourceRoot, siteRoot, privateRepository }) {
   const files = await discoverPublicationFiles(sourceRoot)
-  const markdownByTopic = new Map()
+  const attachmentPaths = await discoverAttachmentPaths(sourceRoot)
 
   for (const file of files.filter(file => file.kind === 'markdown')) {
     const content = await readFile(file.sourcePath, 'utf8')
     validateMarkdownSecurity(content, file.relativePath)
-    const key = topicKey(file.relativePath)
-    const topicFiles = markdownByTopic.get(key) ?? []
-    topicFiles.push({ path: file.relativePath, content })
-    markdownByTopic.set(key, topicFiles)
   }
-
-  const reportMaps = new Map(
-    [...markdownByTopic.entries()].map(([key, markdownFiles]) => [key, buildReportLinkMap(markdownFiles)])
-  )
   const stagedRoot = path.join(siteRoot, `.research-staged-${process.pid}-${Date.now()}`)
   const liveRoot = path.join(siteRoot, 'research')
   const rewrites = []
@@ -66,11 +54,13 @@ export async function syncResearch({ sourceRoot, siteRoot, privateReports }) {
       let publicBuffer = sourceBuffer
 
       if (file.kind === 'markdown') {
-        const rewritten = rewriteReportLinks(
+        const rewritten = rewriteAttachmentLinks(
           sourceBuffer.toString('utf8'),
-          reportMaps.get(topicKey(file.relativePath)) ?? new Map(),
-          file.relativePath,
-          privateReports
+          {
+            documentPath: file.relativePath,
+            attachmentPaths,
+            privateRepository
+          }
         )
         publicBuffer = Buffer.from(rewritten.markdown)
         rewrites.push(...rewritten.rewrites)
@@ -94,6 +84,7 @@ export async function syncResearch({ sourceRoot, siteRoot, privateReports }) {
     files: publishedFiles,
     rewrites,
     sourceRoot,
+    privateRepository: privateRepository ?? null,
     generatedAt: new Date().toISOString()
   }
 }
