@@ -60,6 +60,7 @@ export function createSiteConfig(catalog) {
     ],
     markdown: {
       externalLinks: { target: '_blank', rel: 'noreferrer' },
+      emoji: { shortcuts: {} },
       config: installMarkdownRenderers
     },
     themeConfig: {
