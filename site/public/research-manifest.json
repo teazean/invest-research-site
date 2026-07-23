@@ -6266,6 +6266,538 @@
       "numericTokenCount": 668
     },
     {
+      "sourceRelativePath": "投资研究/公司研究/腾讯控股（0700.HK）调研/csv/产品代际路线图.csv",
+      "publicPath": "research/公司研究/腾讯控股（0700.HK）调研/csv/产品代际路线图.csv",
+      "kind": "csv",
+      "sourceSize": 194,
+      "publicSize": 194,
+      "sourceSha256": "c4b38e39f74f91e5a69289c228e85ed6478671806b91b3bfc2d66da8fea592f4",
+      "publicSha256": "c4b38e39f74f91e5a69289c228e85ed6478671806b91b3bfc2d66da8fea592f4"
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/腾讯控股（0700.HK）调研/csv/季度利润表.csv",
+      "publicPath": "research/公司研究/腾讯控股（0700.HK）调研/csv/季度利润表.csv",
+      "kind": "csv",
+      "sourceSize": 205,
+      "publicSize": 205,
+      "sourceSha256": "db29576f7bf99a13f3e168b1a9903b1ab06b54712da15ebd3fdfa7f86ee4b29a",
+      "publicSha256": "db29576f7bf99a13f3e168b1a9903b1ab06b54712da15ebd3fdfa7f86ee4b29a"
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/腾讯控股（0700.HK）调研/csv/季度现金流量表.csv",
+      "publicPath": "research/公司研究/腾讯控股（0700.HK）调研/csv/季度现金流量表.csv",
+      "kind": "csv",
+      "sourceSize": 193,
+      "publicSize": 193,
+      "sourceSha256": "b2dd2b5cc90594042aa912c65ae712ff8c23eaf151830fb21fb4771fe90f9ab8",
+      "publicSha256": "b2dd2b5cc90594042aa912c65ae712ff8c23eaf151830fb21fb4771fe90f9ab8"
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/腾讯控股（0700.HK）调研/csv/季度资产负债表.csv",
+      "publicPath": "research/公司研究/腾讯控股（0700.HK）调研/csv/季度资产负债表.csv",
+      "kind": "csv",
+      "sourceSize": 194,
+      "publicSize": 194,
+      "sourceSha256": "e5a6610a166f44648e1323d4d76303b5d2cd56e6d36007f1b44cf711b570d7e8",
+      "publicSha256": "e5a6610a166f44648e1323d4d76303b5d2cd56e6d36007f1b44cf711b570d7e8"
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/腾讯控股（0700.HK）调研/csv/市值隐含预期.csv",
+      "publicPath": "research/公司研究/腾讯控股（0700.HK）调研/csv/市值隐含预期.csv",
+      "kind": "csv",
+      "sourceSize": 342,
+      "publicSize": 342,
+      "sourceSha256": "a2c98ad37c82d89839d728c0ed866e38ba99bc6f1b1f6d701b9d1b1e486426d5",
+      "publicSha256": "a2c98ad37c82d89839d728c0ed866e38ba99bc6f1b1f6d701b9d1b1e486426d5"
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/腾讯控股（0700.HK）调研/csv/年度利润表.csv",
+      "publicPath": "research/公司研究/腾讯控股（0700.HK）调研/csv/年度利润表.csv",
+      "kind": "csv",
+      "sourceSize": 208,
+      "publicSize": 208,
+      "sourceSha256": "16f09a558ba6058dfb1d54f27d50ab62adc308ef01a0f1fb13089c32755102b5",
+      "publicSha256": "16f09a558ba6058dfb1d54f27d50ab62adc308ef01a0f1fb13089c32755102b5"
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/腾讯控股（0700.HK）调研/csv/年度现金流量表.csv",
+      "publicPath": "research/公司研究/腾讯控股（0700.HK）调研/csv/年度现金流量表.csv",
+      "kind": "csv",
+      "sourceSize": 179,
+      "publicSize": 179,
+      "sourceSha256": "5f5ba1bcdfe612a5b4045447941af73539fed4b84d2c4f5f2fe240d93bef230f",
+      "publicSha256": "5f5ba1bcdfe612a5b4045447941af73539fed4b84d2c4f5f2fe240d93bef230f"
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/腾讯控股（0700.HK）调研/csv/年度资产负债表.csv",
+      "publicPath": "research/公司研究/腾讯控股（0700.HK）调研/csv/年度资产负债表.csv",
+      "kind": "csv",
+      "sourceSize": 189,
+      "publicSize": 189,
+      "sourceSha256": "ba64d68d87ecd1c6b069980a07854a7ec4988eb31258689c9b396467fb54d20e",
+      "publicSha256": "ba64d68d87ecd1c6b069980a07854a7ec4988eb31258689c9b396467fb54d20e"
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/腾讯控股（0700.HK）调研/csv/情景敏感性.csv",
+      "publicPath": "research/公司研究/腾讯控股（0700.HK）调研/csv/情景敏感性.csv",
+      "kind": "csv",
+      "sourceSize": 142,
+      "publicSize": 142,
+      "sourceSha256": "09b0e0ad4ff9f6a33b2359bba80be1eb92b741ed2cfd46ff14e3bc2cc81ecb6b",
+      "publicSha256": "09b0e0ad4ff9f6a33b2359bba80be1eb92b741ed2cfd46ff14e3bc2cc81ecb6b"
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/腾讯控股（0700.HK）调研/csv/技术壁垒证据.csv",
+      "publicPath": "research/公司研究/腾讯控股（0700.HK）调研/csv/技术壁垒证据.csv",
+      "kind": "csv",
+      "sourceSize": 640,
+      "publicSize": 640,
+      "sourceSha256": "5a5dd1032b9df45e9b2578fdd090af6433790245a7776725c6d34b8b573e9571",
+      "publicSha256": "5a5dd1032b9df45e9b2578fdd090af6433790245a7776725c6d34b8b573e9571"
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/腾讯控股（0700.HK）调研/csv/技术水位矩阵.csv",
+      "publicPath": "research/公司研究/腾讯控股（0700.HK）调研/csv/技术水位矩阵.csv",
+      "kind": "csv",
+      "sourceSize": 384,
+      "publicSize": 384,
+      "sourceSha256": "3c15b83c3f3e8d5a4f36ac46893f15a2c9f89c50e713283b4f65224ec4c5d0a1",
+      "publicSha256": "3c15b83c3f3e8d5a4f36ac46893f15a2c9f89c50e713283b4f65224ec4c5d0a1"
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/腾讯控股（0700.HK）调研/csv/盈利预测桥.csv",
+      "publicPath": "research/公司研究/腾讯控股（0700.HK）调研/csv/盈利预测桥.csv",
+      "kind": "csv",
+      "sourceSize": 176,
+      "publicSize": 176,
+      "sourceSha256": "983562f394c6bf64ecdc70a8f2619368af672925bcfc96c3ddb8d9fa406ab9b2",
+      "publicSha256": "983562f394c6bf64ecdc70a8f2619368af672925bcfc96c3ddb8d9fa406ab9b2"
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/腾讯控股（0700.HK）调研/csv/竞对全景.csv",
+      "publicPath": "research/公司研究/腾讯控股（0700.HK）调研/csv/竞对全景.csv",
+      "kind": "csv",
+      "sourceSize": 257,
+      "publicSize": 257,
+      "sourceSha256": "49fd8715c2da009c757b3eb011e74067e92751ccc2e935fae5cebdf9a3f418f3",
+      "publicSha256": "49fd8715c2da009c757b3eb011e74067e92751ccc2e935fae5cebdf9a3f418f3"
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/腾讯控股（0700.HK）调研/csv/股价估值快照.csv",
+      "publicPath": "research/公司研究/腾讯控股（0700.HK）调研/csv/股价估值快照.csv",
+      "kind": "csv",
+      "sourceSize": 233,
+      "publicSize": 233,
+      "sourceSha256": "a068b129c5cd46ea842b3e4024346de3cc8045d2e1b08176b6f8751fcf8996b0",
+      "publicSha256": "a068b129c5cd46ea842b3e4024346de3cc8045d2e1b08176b6f8751fcf8996b0"
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/腾讯控股（0700.HK）调研/csv/股本与交易结构.csv",
+      "publicPath": "research/公司研究/腾讯控股（0700.HK）调研/csv/股本与交易结构.csv",
+      "kind": "csv",
+      "sourceSize": 116,
+      "publicSize": 116,
+      "sourceSha256": "0e64a3626056dc06c4e844d213e15cf1e2fd79e0464e147ec7ffba7b1660d28d",
+      "publicSha256": "0e64a3626056dc06c4e844d213e15cf1e2fd79e0464e147ec7ffba7b1660d28d"
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/腾讯控股（0700.HK）调研/csv/行业技术评价框架.csv",
+      "publicPath": "research/公司研究/腾讯控股（0700.HK）调研/csv/行业技术评价框架.csv",
+      "kind": "csv",
+      "sourceSize": 272,
+      "publicSize": 272,
+      "sourceSha256": "25bf20abe5870b14e0a59e524101a38ab568b8acbae24feb0fdb18fdc61226e0",
+      "publicSha256": "25bf20abe5870b14e0a59e524101a38ab568b8acbae24feb0fdb18fdc61226e0"
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/腾讯控股（0700.HK）调研/csv/预期差与催化剂.csv",
+      "publicPath": "research/公司研究/腾讯控股（0700.HK）调研/csv/预期差与催化剂.csv",
+      "kind": "csv",
+      "sourceSize": 127,
+      "publicSize": 127,
+      "sourceSha256": "a4e8e39e9c787c650560c9bc70b4589a64ccbda0736231b2161eb9fa7e086e0f",
+      "publicSha256": "a4e8e39e9c787c650560c9bc70b4589a64ccbda0736231b2161eb9fa7e086e0f"
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/腾讯控股（0700.HK）调研/公司调研 - 腾讯控股.md",
+      "publicPath": "research/公司研究/腾讯控股（0700.HK）调研/公司调研 - 腾讯控股.md",
+      "kind": "markdown",
+      "sourceSize": 7288,
+      "publicSize": 7288,
+      "sourceSha256": "3e16d9ed5530ce18489a83b4ef44ad14a5f73b1c2664710e77aced9be4a1353f",
+      "publicSha256": "3e16d9ed5530ce18489a83b4ef44ad14a5f73b1c2664710e77aced9be4a1353f",
+      "semanticSha256": "c8fb059e7045acef597c5af5c44fc596847b8d76370c4858ba64e08b3a1b73a2",
+      "tableDimensions": [
+        {
+          "rows": 11,
+          "columns": 2
+        },
+        {
+          "rows": 6,
+          "columns": 7
+        },
+        {
+          "rows": 1,
+          "columns": 11
+        },
+        {
+          "rows": 4,
+          "columns": 6
+        },
+        {
+          "rows": 2,
+          "columns": 20
+        },
+        {
+          "rows": 6,
+          "columns": 5
+        },
+        {
+          "rows": 8,
+          "columns": 10
+        },
+        {
+          "rows": 12,
+          "columns": 2
+        },
+        {
+          "rows": 1,
+          "columns": 8
+        },
+        {
+          "rows": 3,
+          "columns": 9
+        },
+        {
+          "rows": 4,
+          "columns": 2
+        },
+        {
+          "rows": 7,
+          "columns": 6
+        },
+        {
+          "rows": 1,
+          "columns": 9
+        },
+        {
+          "rows": 7,
+          "columns": 2
+        },
+        {
+          "rows": 6,
+          "columns": 2
+        }
+      ],
+      "numericTokenCount": 28
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/腾讯控股（0700.HK）调研/小白审核记录 - 腾讯控股.md",
+      "publicPath": "research/公司研究/腾讯控股（0700.HK）调研/小白审核记录 - 腾讯控股.md",
+      "kind": "markdown",
+      "sourceSize": 2627,
+      "publicSize": 2627,
+      "sourceSha256": "c930597de43bbb6df423d715f11f9bf939fd0a717be5413444b51ca040776655",
+      "publicSha256": "c930597de43bbb6df423d715f11f9bf939fd0a717be5413444b51ca040776655",
+      "semanticSha256": "29ad8e138f8a83e3d7eb22b014f24e8560d422de1f45dd51a5cd46171e2d8d95",
+      "tableDimensions": [
+        {
+          "rows": 6,
+          "columns": 2
+        },
+        {
+          "rows": 13,
+          "columns": 3
+        },
+        {
+          "rows": 1,
+          "columns": 4
+        },
+        {
+          "rows": 1,
+          "columns": 3
+        }
+      ],
+      "numericTokenCount": 10
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/腾讯控股（0700.HK）调研/技术与壁垒 - 腾讯控股.md",
+      "publicPath": "research/公司研究/腾讯控股（0700.HK）调研/技术与壁垒 - 腾讯控股.md",
+      "kind": "markdown",
+      "sourceSize": 10684,
+      "publicSize": 10684,
+      "sourceSha256": "c3917bc0cfe0efa50ce17a5c7b884679b5097d81399bbfe147e5dba6c17c707f",
+      "publicSha256": "c3917bc0cfe0efa50ce17a5c7b884679b5097d81399bbfe147e5dba6c17c707f",
+      "semanticSha256": "fddedf513289e5c12a6fd2491b719269ddd26b71ae0fe786521de9dffd26240f",
+      "tableDimensions": [
+        {
+          "rows": 9,
+          "columns": 2
+        },
+        {
+          "rows": 8,
+          "columns": 6
+        },
+        {
+          "rows": 1,
+          "columns": 16
+        },
+        {
+          "rows": 1,
+          "columns": 8
+        },
+        {
+          "rows": 1,
+          "columns": 14
+        },
+        {
+          "rows": 1,
+          "columns": 10
+        },
+        {
+          "rows": 1,
+          "columns": 8
+        },
+        {
+          "rows": 1,
+          "columns": 21
+        },
+        {
+          "rows": 6,
+          "columns": 8
+        },
+        {
+          "rows": 5,
+          "columns": 8
+        },
+        {
+          "rows": 1,
+          "columns": 10
+        },
+        {
+          "rows": 1,
+          "columns": 36
+        },
+        {
+          "rows": 1,
+          "columns": 11
+        },
+        {
+          "rows": 1,
+          "columns": 7
+        },
+        {
+          "rows": 1,
+          "columns": 7
+        },
+        {
+          "rows": 11,
+          "columns": 6
+        }
+      ],
+      "numericTokenCount": 22
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/腾讯控股（0700.HK）调研/技术红队审核记录 - 腾讯控股.md",
+      "publicPath": "research/公司研究/腾讯控股（0700.HK）调研/技术红队审核记录 - 腾讯控股.md",
+      "kind": "markdown",
+      "sourceSize": 2173,
+      "publicSize": 2173,
+      "sourceSha256": "22be6f548410fc219516492da86c8e3af3e25ff33698bd84f492fa363d6bf83a",
+      "publicSha256": "22be6f548410fc219516492da86c8e3af3e25ff33698bd84f492fa363d6bf83a",
+      "semanticSha256": "6079a8e45128490a4473de40a55aa449d346635ff2bb1046c83ce93cfd1b83dd",
+      "tableDimensions": [
+        {
+          "rows": 6,
+          "columns": 2
+        },
+        {
+          "rows": 13,
+          "columns": 3
+        },
+        {
+          "rows": 1,
+          "columns": 5
+        },
+        {
+          "rows": 1,
+          "columns": 5
+        },
+        {
+          "rows": 1,
+          "columns": 5
+        },
+        {
+          "rows": 1,
+          "columns": 4
+        },
+        {
+          "rows": 1,
+          "columns": 4
+        },
+        {
+          "rows": 1,
+          "columns": 4
+        }
+      ],
+      "numericTokenCount": 8
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/腾讯控股（0700.HK）调研/竞对对比 - 腾讯控股.md",
+      "publicPath": "research/公司研究/腾讯控股（0700.HK）调研/竞对对比 - 腾讯控股.md",
+      "kind": "markdown",
+      "sourceSize": 1767,
+      "publicSize": 1767,
+      "sourceSha256": "128fc590e415e123fa40d35bcec77a8dfde12b63f4be619513784b05605a57a0",
+      "publicSha256": "128fc590e415e123fa40d35bcec77a8dfde12b63f4be619513784b05605a57a0",
+      "semanticSha256": "80190240dbdd6c72df7955a41adf5fb8e934c1888e4b4f342716c66cdcb2374b",
+      "tableDimensions": [
+        {
+          "rows": 1,
+          "columns": 16
+        },
+        {
+          "rows": 5,
+          "columns": 7
+        }
+      ],
+      "numericTokenCount": 8
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/腾讯控股（0700.HK）调研/股价预期 - 腾讯控股.md",
+      "publicPath": "research/公司研究/腾讯控股（0700.HK）调研/股价预期 - 腾讯控股.md",
+      "kind": "markdown",
+      "sourceSize": 7842,
+      "publicSize": 7842,
+      "sourceSha256": "88ed008d57f9a33549f305cdd69da5829168366d1e450453d42a110481061be2",
+      "publicSha256": "88ed008d57f9a33549f305cdd69da5829168366d1e450453d42a110481061be2",
+      "semanticSha256": "0dac2a52cca4e4dd2a0242ddd2165bb1e9998dd2683bf497bca69c58cde1fff0",
+      "tableDimensions": [
+        {
+          "rows": 9,
+          "columns": 3
+        },
+        {
+          "rows": 1,
+          "columns": 17
+        },
+        {
+          "rows": 5,
+          "columns": 7
+        },
+        {
+          "rows": 1,
+          "columns": 16
+        },
+        {
+          "rows": 7,
+          "columns": 7
+        },
+        {
+          "rows": 8,
+          "columns": 5
+        },
+        {
+          "rows": 1,
+          "columns": 13
+        },
+        {
+          "rows": 8,
+          "columns": 6
+        },
+        {
+          "rows": 6,
+          "columns": 6
+        },
+        {
+          "rows": 4,
+          "columns": 6
+        },
+        {
+          "rows": 4,
+          "columns": 11
+        },
+        {
+          "rows": 1,
+          "columns": 9
+        },
+        {
+          "rows": 7,
+          "columns": 10
+        },
+        {
+          "rows": 7,
+          "columns": 2
+        }
+      ],
+      "numericTokenCount": 18
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/腾讯控股（0700.HK）调研/财务报表 - 腾讯控股.md",
+      "publicPath": "research/公司研究/腾讯控股（0700.HK）调研/财务报表 - 腾讯控股.md",
+      "kind": "markdown",
+      "sourceSize": 5167,
+      "publicSize": 5167,
+      "sourceSha256": "89a9154ebb0d7d086d600bbef763ffd91cfd07f352357ea0925297677541dba7",
+      "publicSha256": "89a9154ebb0d7d086d600bbef763ffd91cfd07f352357ea0925297677541dba7",
+      "semanticSha256": "ab3993a251e4f3d3946ca40a7329fa5c08fec80e1e7e56423ac41f953a31e938",
+      "tableDimensions": [
+        {
+          "rows": 7,
+          "columns": 2
+        },
+        {
+          "rows": 1,
+          "columns": 11
+        },
+        {
+          "rows": 2,
+          "columns": 8
+        },
+        {
+          "rows": 1,
+          "columns": 18
+        },
+        {
+          "rows": 1,
+          "columns": 17
+        },
+        {
+          "rows": 1,
+          "columns": 13
+        },
+        {
+          "rows": 1,
+          "columns": 9
+        },
+        {
+          "rows": 1,
+          "columns": 15
+        },
+        {
+          "rows": 1,
+          "columns": 15
+        },
+        {
+          "rows": 1,
+          "columns": 12
+        },
+        {
+          "rows": 1,
+          "columns": 9
+        },
+        {
+          "rows": 1,
+          "columns": 17
+        },
+        {
+          "rows": 8,
+          "columns": 5
+        }
+      ],
+      "numericTokenCount": 24
+    },
+    {
       "sourceRelativePath": "投资研究/公司研究/阳光电源（300274.SZ）调研/csv/产品代际路线图.csv",
       "publicPath": "research/公司研究/阳光电源（300274.SZ）调研/csv/产品代际路线图.csv",
       "kind": "csv",
