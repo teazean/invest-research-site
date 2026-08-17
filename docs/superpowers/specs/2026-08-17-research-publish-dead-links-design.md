@@ -42,11 +42,12 @@ This restores the build fastest but hides genuine content-integrity regressions.
 
 ### Attachment classification
 
-`scripts/lib/attachment-links.mjs` remains the single boundary for deciding which local Markdown targets are private attachments. It will add one classification rule:
+Attachment handling has two explicit boundaries that must agree:
 
-- a target whose resolved path contains a `sources` segment and ends in `.html` or `.htm` has attachment kind `source`.
+- `scripts/lib/paths.mjs` classifies vault files for discovery. A path inside a research topic whose segments contain `sources` and whose extension is `.html` or `.htm` has attachment kind `source`. `discoverAttachmentPaths` includes it in the existence inventory, while `classifyPublicationPath` excludes it from the public file set just as it excludes private reports.
+- `scripts/lib/attachment-links.mjs` classifies Markdown destinations. A target whose path contains a `sources` segment and ends in `.html` or `.htm` has attachment kind `source` and is rewritten to a private blob URL.
 
-All existing path normalization, topic-boundary checks, existence checks, repository validation, URL encoding, code-fence exclusion, and Markdown-link preservation continue unchanged.
+This split preserves the existing architecture: filesystem discovery proves that a private target exists, while the Markdown transformer decides whether a link is eligible for rewriting. All existing path normalization, topic-boundary checks, repository validation, URL encoding, code-fence exclusion, and Markdown-link preservation continue unchanged.
 
 ### Content correction
 
@@ -55,7 +56,7 @@ The vault note `投资研究/公司研究/腾讯控股（0700.HK）调研/财务
 ### Data flow
 
 1. The vault workflow checks out the private vault and public-site publisher.
-2. `sync-content.mjs` discovers allowlisted Markdown and attachment paths.
+2. `sync-content.mjs` discovers allowlisted public files and a broader private attachment inventory; source HTML appears only in the latter.
 3. The attachment rewriter sees `sources/example.html`, validates that the file exists inside the same research topic, and emits a private GitHub blob URL.
 4. VitePress receives an external URL instead of a nonexistent local route.
 5. Strict content validation and site build pass.
