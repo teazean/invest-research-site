@@ -511,6 +511,48 @@
       "kind": "asset"
     },
     {
+      "document": "投资研究/产业专题/创新药行业/创新药授权与共同开发.md",
+      "from": "assets/创新药授权与共同开发产业链路图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%88%9B%E6%96%B0%E8%8D%AF%E8%A1%8C%E4%B8%9A/assets/%E5%88%9B%E6%96%B0%E8%8D%AF%E6%8E%88%E6%9D%83%E4%B8%8E%E5%85%B1%E5%90%8C%E5%BC%80%E5%8F%91%E4%BA%A7%E4%B8%9A%E9%93%BE%E8%B7%AF%E5%9B%BE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/创新药行业/创新药研发与生产外包.md",
+      "from": "assets/创新药研发与生产外包产业链路图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%88%9B%E6%96%B0%E8%8D%AF%E8%A1%8C%E4%B8%9A/assets/%E5%88%9B%E6%96%B0%E8%8D%AF%E7%A0%94%E5%8F%91%E4%B8%8E%E7%94%9F%E4%BA%A7%E5%A4%96%E5%8C%85%E4%BA%A7%E4%B8%9A%E9%93%BE%E8%B7%AF%E5%9B%BE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/创新药行业/创新药行业周期、供需与投资节奏.md",
+      "from": "assets/创新药周期与利润传导.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%88%9B%E6%96%B0%E8%8D%AF%E8%A1%8C%E4%B8%9A/assets/%E5%88%9B%E6%96%B0%E8%8D%AF%E5%91%A8%E6%9C%9F%E4%B8%8E%E5%88%A9%E6%B6%A6%E4%BC%A0%E5%AF%BC.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/创新药行业/创新药行业技术成熟度与发展趋势.md",
+      "from": "assets/创新药技术成熟度矩阵.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%88%9B%E6%96%B0%E8%8D%AF%E8%A1%8C%E4%B8%9A/assets/%E5%88%9B%E6%96%B0%E8%8D%AF%E6%8A%80%E6%9C%AF%E6%88%90%E7%86%9F%E5%BA%A6%E7%9F%A9%E9%98%B5.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/创新药行业/创新药行业深度调研 - 总览.md",
+      "from": "assets/创新药行业结构图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%88%9B%E6%96%B0%E8%8D%AF%E8%A1%8C%E4%B8%9A/assets/%E5%88%9B%E6%96%B0%E8%8D%AF%E8%A1%8C%E4%B8%9A%E7%BB%93%E6%9E%84%E5%9B%BE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/创新药行业/创新药行业相关基金与ETF估值入场.md",
+      "from": "assets/创新药ETF暴露与周期位置.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%88%9B%E6%96%B0%E8%8D%AF%E8%A1%8C%E4%B8%9A/assets/%E5%88%9B%E6%96%B0%E8%8D%AFETF%E6%9A%B4%E9%9C%B2%E4%B8%8E%E5%91%A8%E6%9C%9F%E4%BD%8D%E7%BD%AE.png",
+      "kind": "asset"
+    },
+    {
+      "document": "投资研究/产业专题/创新药行业/自研自销创新药.md",
+      "from": "assets/自研自销创新药产业链路图.png",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E4%BA%A7%E4%B8%9A%E4%B8%93%E9%A2%98/%E5%88%9B%E6%96%B0%E8%8D%AF%E8%A1%8C%E4%B8%9A/assets/%E8%87%AA%E7%A0%94%E8%87%AA%E9%94%80%E5%88%9B%E6%96%B0%E8%8D%AF%E4%BA%A7%E4%B8%9A%E9%93%BE%E8%B7%AF%E5%9B%BE.png",
+      "kind": "asset"
+    },
+    {
       "document": "投资研究/公司研究/中际旭创（300308.SZ）调研/公司调研 - 中际旭创.md",
       "from": "reports/2025_annual.pdf",
       "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E4%B8%AD%E9%99%85%E6%97%AD%E5%88%9B%EF%BC%88300308.SZ%EF%BC%89%E8%B0%83%E7%A0%94/reports/2025_annual.pdf",
@@ -1162,6 +1204,450 @@
       "document": "投资研究/公司研究/紫金矿业（601899.SH）调研/财务报表 - 紫金矿业.md",
       "from": "reports/2026Q1.pdf",
       "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E7%B4%AB%E9%87%91%E7%9F%BF%E4%B8%9A%EF%BC%88601899.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2026Q1.pdf",
+      "kind": "report"
+    },
+    {
+      "document": "投资研究/公司研究/腾讯控股（0700.HK）调研/公司调研 - 腾讯控股.md",
+      "from": "reports/2025_annual.pdf",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%85%BE%E8%AE%AF%E6%8E%A7%E8%82%A1%EF%BC%880700.HK%EF%BC%89%E8%B0%83%E7%A0%94/reports/2025_annual.pdf",
+      "kind": "report"
+    },
+    {
+      "document": "投资研究/公司研究/腾讯控股（0700.HK）调研/公司调研 - 腾讯控股.md",
+      "from": "reports/2026Q1_hkex.pdf",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%85%BE%E8%AE%AF%E6%8E%A7%E8%82%A1%EF%BC%880700.HK%EF%BC%89%E8%B0%83%E7%A0%94/reports/2026Q1_hkex.pdf",
+      "kind": "report"
+    },
+    {
+      "document": "投资研究/公司研究/腾讯控股（0700.HK）调研/公司调研 - 腾讯控股.md",
+      "from": "reports/2026Q1_results.pdf",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%85%BE%E8%AE%AF%E6%8E%A7%E8%82%A1%EF%BC%880700.HK%EF%BC%89%E8%B0%83%E7%A0%94/reports/2026Q1_results.pdf",
+      "kind": "report"
+    },
+    {
+      "document": "投资研究/公司研究/腾讯控股（0700.HK）调研/公司调研 - 腾讯控股.md",
+      "from": "reports/2026Q1_results.pdf",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%85%BE%E8%AE%AF%E6%8E%A7%E8%82%A1%EF%BC%880700.HK%EF%BC%89%E8%B0%83%E7%A0%94/reports/2026Q1_results.pdf",
+      "kind": "report"
+    },
+    {
+      "document": "投资研究/公司研究/腾讯控股（0700.HK）调研/公司调研 - 腾讯控股.md",
+      "from": "reports/2025_annual.pdf",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%85%BE%E8%AE%AF%E6%8E%A7%E8%82%A1%EF%BC%880700.HK%EF%BC%89%E8%B0%83%E7%A0%94/reports/2025_annual.pdf",
+      "kind": "report"
+    },
+    {
+      "document": "投资研究/公司研究/腾讯控股（0700.HK）调研/公司调研 - 腾讯控股.md",
+      "from": "reports/2026Q1_hkex.pdf",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%85%BE%E8%AE%AF%E6%8E%A7%E8%82%A1%EF%BC%880700.HK%EF%BC%89%E8%B0%83%E7%A0%94/reports/2026Q1_hkex.pdf",
+      "kind": "report"
+    },
+    {
+      "document": "投资研究/公司研究/腾讯控股（0700.HK）调研/技术与壁垒 - 腾讯控股.md",
+      "from": "csv/行业技术评价框架.csv",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%85%BE%E8%AE%AF%E6%8E%A7%E8%82%A1%EF%BC%880700.HK%EF%BC%89%E8%B0%83%E7%A0%94/csv/%E8%A1%8C%E4%B8%9A%E6%8A%80%E6%9C%AF%E8%AF%84%E4%BB%B7%E6%A1%86%E6%9E%B6.csv",
+      "kind": "csv"
+    },
+    {
+      "document": "投资研究/公司研究/腾讯控股（0700.HK）调研/技术与壁垒 - 腾讯控股.md",
+      "from": "csv/产品代际路线图.csv",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%85%BE%E8%AE%AF%E6%8E%A7%E8%82%A1%EF%BC%880700.HK%EF%BC%89%E8%B0%83%E7%A0%94/csv/%E4%BA%A7%E5%93%81%E4%BB%A3%E9%99%85%E8%B7%AF%E7%BA%BF%E5%9B%BE.csv",
+      "kind": "csv"
+    },
+    {
+      "document": "投资研究/公司研究/腾讯控股（0700.HK）调研/技术与壁垒 - 腾讯控股.md",
+      "from": "csv/技术水位矩阵.csv",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%85%BE%E8%AE%AF%E6%8E%A7%E8%82%A1%EF%BC%880700.HK%EF%BC%89%E8%B0%83%E7%A0%94/csv/%E6%8A%80%E6%9C%AF%E6%B0%B4%E4%BD%8D%E7%9F%A9%E9%98%B5.csv",
+      "kind": "csv"
+    },
+    {
+      "document": "投资研究/公司研究/腾讯控股（0700.HK）调研/技术与壁垒 - 腾讯控股.md",
+      "from": "csv/技术壁垒证据.csv",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%85%BE%E8%AE%AF%E6%8E%A7%E8%82%A1%EF%BC%880700.HK%EF%BC%89%E8%B0%83%E7%A0%94/csv/%E6%8A%80%E6%9C%AF%E5%A3%81%E5%9E%92%E8%AF%81%E6%8D%AE.csv",
+      "kind": "csv"
+    },
+    {
+      "document": "投资研究/公司研究/腾讯控股（0700.HK）调研/技术与壁垒 - 腾讯控股.md",
+      "from": "reports/2025_annual.pdf",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%85%BE%E8%AE%AF%E6%8E%A7%E8%82%A1%EF%BC%880700.HK%EF%BC%89%E8%B0%83%E7%A0%94/reports/2025_annual.pdf",
+      "kind": "report"
+    },
+    {
+      "document": "投资研究/公司研究/腾讯控股（0700.HK）调研/技术与壁垒 - 腾讯控股.md",
+      "from": "reports/2026Q1_hkex.pdf",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%85%BE%E8%AE%AF%E6%8E%A7%E8%82%A1%EF%BC%880700.HK%EF%BC%89%E8%B0%83%E7%A0%94/reports/2026Q1_hkex.pdf",
+      "kind": "report"
+    },
+    {
+      "document": "投资研究/公司研究/腾讯控股（0700.HK）调研/技术与壁垒 - 腾讯控股.md",
+      "from": "sources/Hy3_official.html",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%85%BE%E8%AE%AF%E6%8E%A7%E8%82%A1%EF%BC%880700.HK%EF%BC%89%E8%B0%83%E7%A0%94/sources/Hy3_official.html",
+      "kind": "source"
+    },
+    {
+      "document": "投资研究/公司研究/腾讯控股（0700.HK）调研/技术与壁垒 - 腾讯控股.md",
+      "from": "sources/Hy3_preview.html",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%85%BE%E8%AE%AF%E6%8E%A7%E8%82%A1%EF%BC%880700.HK%EF%BC%89%E8%B0%83%E7%A0%94/sources/Hy3_preview.html",
+      "kind": "source"
+    },
+    {
+      "document": "投资研究/公司研究/腾讯控股（0700.HK）调研/技术与壁垒 - 腾讯控股.md",
+      "from": "sources/AIM_ad_case.html",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%85%BE%E8%AE%AF%E6%8E%A7%E8%82%A1%EF%BC%880700.HK%EF%BC%89%E8%B0%83%E7%A0%94/sources/AIM_ad_case.html",
+      "kind": "source"
+    },
+    {
+      "document": "投资研究/公司研究/腾讯控股（0700.HK）调研/技术与壁垒 - 腾讯控股.md",
+      "from": "sources/Omdia_2025Q3_china_cloud_syndication.html",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%85%BE%E8%AE%AF%E6%8E%A7%E8%82%A1%EF%BC%880700.HK%EF%BC%89%E8%B0%83%E7%A0%94/sources/Omdia_2025Q3_china_cloud_syndication.html",
+      "kind": "source"
+    },
+    {
+      "document": "投资研究/公司研究/腾讯控股（0700.HK）调研/竞对对比 - 腾讯控股.md",
+      "from": "csv/竞对全景.csv",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%85%BE%E8%AE%AF%E6%8E%A7%E8%82%A1%EF%BC%880700.HK%EF%BC%89%E8%B0%83%E7%A0%94/csv/%E7%AB%9E%E5%AF%B9%E5%85%A8%E6%99%AF.csv",
+      "kind": "csv"
+    },
+    {
+      "document": "投资研究/公司研究/腾讯控股（0700.HK）调研/股价预期 - 腾讯控股.md",
+      "from": "csv/股价估值快照.csv",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%85%BE%E8%AE%AF%E6%8E%A7%E8%82%A1%EF%BC%880700.HK%EF%BC%89%E8%B0%83%E7%A0%94/csv/%E8%82%A1%E4%BB%B7%E4%BC%B0%E5%80%BC%E5%BF%AB%E7%85%A7.csv",
+      "kind": "csv"
+    },
+    {
+      "document": "投资研究/公司研究/腾讯控股（0700.HK）调研/股价预期 - 腾讯控股.md",
+      "from": "csv/市值隐含预期.csv",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%85%BE%E8%AE%AF%E6%8E%A7%E8%82%A1%EF%BC%880700.HK%EF%BC%89%E8%B0%83%E7%A0%94/csv/%E5%B8%82%E5%80%BC%E9%9A%90%E5%90%AB%E9%A2%84%E6%9C%9F.csv",
+      "kind": "csv"
+    },
+    {
+      "document": "投资研究/公司研究/腾讯控股（0700.HK）调研/股价预期 - 腾讯控股.md",
+      "from": "csv/盈利预测桥.csv",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%85%BE%E8%AE%AF%E6%8E%A7%E8%82%A1%EF%BC%880700.HK%EF%BC%89%E8%B0%83%E7%A0%94/csv/%E7%9B%88%E5%88%A9%E9%A2%84%E6%B5%8B%E6%A1%A5.csv",
+      "kind": "csv"
+    },
+    {
+      "document": "投资研究/公司研究/腾讯控股（0700.HK）调研/股价预期 - 腾讯控股.md",
+      "from": "csv/情景敏感性.csv",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%85%BE%E8%AE%AF%E6%8E%A7%E8%82%A1%EF%BC%880700.HK%EF%BC%89%E8%B0%83%E7%A0%94/csv/%E6%83%85%E6%99%AF%E6%95%8F%E6%84%9F%E6%80%A7.csv",
+      "kind": "csv"
+    },
+    {
+      "document": "投资研究/公司研究/腾讯控股（0700.HK）调研/股价预期 - 腾讯控股.md",
+      "from": "csv/预期差与催化剂.csv",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%85%BE%E8%AE%AF%E6%8E%A7%E8%82%A1%EF%BC%880700.HK%EF%BC%89%E8%B0%83%E7%A0%94/csv/%E9%A2%84%E6%9C%9F%E5%B7%AE%E4%B8%8E%E5%82%AC%E5%8C%96%E5%89%82.csv",
+      "kind": "csv"
+    },
+    {
+      "document": "投资研究/公司研究/腾讯控股（0700.HK）调研/股价预期 - 腾讯控股.md",
+      "from": "csv/股本与交易结构.csv",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%85%BE%E8%AE%AF%E6%8E%A7%E8%82%A1%EF%BC%880700.HK%EF%BC%89%E8%B0%83%E7%A0%94/csv/%E8%82%A1%E6%9C%AC%E4%B8%8E%E4%BA%A4%E6%98%93%E7%BB%93%E6%9E%84.csv",
+      "kind": "csv"
+    },
+    {
+      "document": "投资研究/公司研究/腾讯控股（0700.HK）调研/股价预期 - 腾讯控股.md",
+      "from": "reports/2025_annual.pdf",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%85%BE%E8%AE%AF%E6%8E%A7%E8%82%A1%EF%BC%880700.HK%EF%BC%89%E8%B0%83%E7%A0%94/reports/2025_annual.pdf",
+      "kind": "report"
+    },
+    {
+      "document": "投资研究/公司研究/腾讯控股（0700.HK）调研/股价预期 - 腾讯控股.md",
+      "from": "reports/2026Q1_hkex.pdf",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%85%BE%E8%AE%AF%E6%8E%A7%E8%82%A1%EF%BC%880700.HK%EF%BC%89%E8%B0%83%E7%A0%94/reports/2026Q1_hkex.pdf",
+      "kind": "report"
+    },
+    {
+      "document": "投资研究/公司研究/腾讯控股（0700.HK）调研/财务报表 - 腾讯控股.md",
+      "from": "reports/2021_annual.pdf",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%85%BE%E8%AE%AF%E6%8E%A7%E8%82%A1%EF%BC%880700.HK%EF%BC%89%E8%B0%83%E7%A0%94/reports/2021_annual.pdf",
+      "kind": "report"
+    },
+    {
+      "document": "投资研究/公司研究/腾讯控股（0700.HK）调研/财务报表 - 腾讯控股.md",
+      "from": "reports/2022_annual.pdf",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%85%BE%E8%AE%AF%E6%8E%A7%E8%82%A1%EF%BC%880700.HK%EF%BC%89%E8%B0%83%E7%A0%94/reports/2022_annual.pdf",
+      "kind": "report"
+    },
+    {
+      "document": "投资研究/公司研究/腾讯控股（0700.HK）调研/财务报表 - 腾讯控股.md",
+      "from": "reports/2023_annual.pdf",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%85%BE%E8%AE%AF%E6%8E%A7%E8%82%A1%EF%BC%880700.HK%EF%BC%89%E8%B0%83%E7%A0%94/reports/2023_annual.pdf",
+      "kind": "report"
+    },
+    {
+      "document": "投资研究/公司研究/腾讯控股（0700.HK）调研/财务报表 - 腾讯控股.md",
+      "from": "reports/2024_annual.pdf",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%85%BE%E8%AE%AF%E6%8E%A7%E8%82%A1%EF%BC%880700.HK%EF%BC%89%E8%B0%83%E7%A0%94/reports/2024_annual.pdf",
+      "kind": "report"
+    },
+    {
+      "document": "投资研究/公司研究/腾讯控股（0700.HK）调研/财务报表 - 腾讯控股.md",
+      "from": "reports/2025_annual.pdf",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%85%BE%E8%AE%AF%E6%8E%A7%E8%82%A1%EF%BC%880700.HK%EF%BC%89%E8%B0%83%E7%A0%94/reports/2025_annual.pdf",
+      "kind": "report"
+    },
+    {
+      "document": "投资研究/公司研究/腾讯控股（0700.HK）调研/财务报表 - 腾讯控股.md",
+      "from": "reports/2024Q1_hkex.pdf",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%85%BE%E8%AE%AF%E6%8E%A7%E8%82%A1%EF%BC%880700.HK%EF%BC%89%E8%B0%83%E7%A0%94/reports/2024Q1_hkex.pdf",
+      "kind": "report"
+    },
+    {
+      "document": "投资研究/公司研究/腾讯控股（0700.HK）调研/财务报表 - 腾讯控股.md",
+      "from": "reports/2024Q2_hkex.pdf",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%85%BE%E8%AE%AF%E6%8E%A7%E8%82%A1%EF%BC%880700.HK%EF%BC%89%E8%B0%83%E7%A0%94/reports/2024Q2_hkex.pdf",
+      "kind": "report"
+    },
+    {
+      "document": "投资研究/公司研究/腾讯控股（0700.HK）调研/财务报表 - 腾讯控股.md",
+      "from": "reports/2024Q3_hkex.pdf",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%85%BE%E8%AE%AF%E6%8E%A7%E8%82%A1%EF%BC%880700.HK%EF%BC%89%E8%B0%83%E7%A0%94/reports/2024Q3_hkex.pdf",
+      "kind": "report"
+    },
+    {
+      "document": "投资研究/公司研究/腾讯控股（0700.HK）调研/财务报表 - 腾讯控股.md",
+      "from": "reports/2024Q4_results.pdf",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%85%BE%E8%AE%AF%E6%8E%A7%E8%82%A1%EF%BC%880700.HK%EF%BC%89%E8%B0%83%E7%A0%94/reports/2024Q4_results.pdf",
+      "kind": "report"
+    },
+    {
+      "document": "投资研究/公司研究/腾讯控股（0700.HK）调研/财务报表 - 腾讯控股.md",
+      "from": "reports/2025Q1_hkex.pdf",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%85%BE%E8%AE%AF%E6%8E%A7%E8%82%A1%EF%BC%880700.HK%EF%BC%89%E8%B0%83%E7%A0%94/reports/2025Q1_hkex.pdf",
+      "kind": "report"
+    },
+    {
+      "document": "投资研究/公司研究/腾讯控股（0700.HK）调研/财务报表 - 腾讯控股.md",
+      "from": "reports/2025Q2_hkex.pdf",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%85%BE%E8%AE%AF%E6%8E%A7%E8%82%A1%EF%BC%880700.HK%EF%BC%89%E8%B0%83%E7%A0%94/reports/2025Q2_hkex.pdf",
+      "kind": "report"
+    },
+    {
+      "document": "投资研究/公司研究/腾讯控股（0700.HK）调研/财务报表 - 腾讯控股.md",
+      "from": "reports/2025Q3_hkex.pdf",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%85%BE%E8%AE%AF%E6%8E%A7%E8%82%A1%EF%BC%880700.HK%EF%BC%89%E8%B0%83%E7%A0%94/reports/2025Q3_hkex.pdf",
+      "kind": "report"
+    },
+    {
+      "document": "投资研究/公司研究/腾讯控股（0700.HK）调研/财务报表 - 腾讯控股.md",
+      "from": "reports/2025Q4_hkex.pdf",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%85%BE%E8%AE%AF%E6%8E%A7%E8%82%A1%EF%BC%880700.HK%EF%BC%89%E8%B0%83%E7%A0%94/reports/2025Q4_hkex.pdf",
+      "kind": "report"
+    },
+    {
+      "document": "投资研究/公司研究/腾讯控股（0700.HK）调研/财务报表 - 腾讯控股.md",
+      "from": "reports/2026Q1_hkex.pdf",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%85%BE%E8%AE%AF%E6%8E%A7%E8%82%A1%EF%BC%880700.HK%EF%BC%89%E8%B0%83%E7%A0%94/reports/2026Q1_hkex.pdf",
+      "kind": "report"
+    },
+    {
+      "document": "投资研究/公司研究/腾讯控股（0700.HK）调研/财务报表 - 腾讯控股.md",
+      "from": "csv/年度利润表.csv",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%85%BE%E8%AE%AF%E6%8E%A7%E8%82%A1%EF%BC%880700.HK%EF%BC%89%E8%B0%83%E7%A0%94/csv/%E5%B9%B4%E5%BA%A6%E5%88%A9%E6%B6%A6%E8%A1%A8.csv",
+      "kind": "csv"
+    },
+    {
+      "document": "投资研究/公司研究/腾讯控股（0700.HK）调研/财务报表 - 腾讯控股.md",
+      "from": "csv/年度资产负债表.csv",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%85%BE%E8%AE%AF%E6%8E%A7%E8%82%A1%EF%BC%880700.HK%EF%BC%89%E8%B0%83%E7%A0%94/csv/%E5%B9%B4%E5%BA%A6%E8%B5%84%E4%BA%A7%E8%B4%9F%E5%80%BA%E8%A1%A8.csv",
+      "kind": "csv"
+    },
+    {
+      "document": "投资研究/公司研究/腾讯控股（0700.HK）调研/财务报表 - 腾讯控股.md",
+      "from": "csv/年度现金流量表.csv",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%85%BE%E8%AE%AF%E6%8E%A7%E8%82%A1%EF%BC%880700.HK%EF%BC%89%E8%B0%83%E7%A0%94/csv/%E5%B9%B4%E5%BA%A6%E7%8E%B0%E9%87%91%E6%B5%81%E9%87%8F%E8%A1%A8.csv",
+      "kind": "csv"
+    },
+    {
+      "document": "投资研究/公司研究/腾讯控股（0700.HK）调研/财务报表 - 腾讯控股.md",
+      "from": "csv/季度利润表.csv",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%85%BE%E8%AE%AF%E6%8E%A7%E8%82%A1%EF%BC%880700.HK%EF%BC%89%E8%B0%83%E7%A0%94/csv/%E5%AD%A3%E5%BA%A6%E5%88%A9%E6%B6%A6%E8%A1%A8.csv",
+      "kind": "csv"
+    },
+    {
+      "document": "投资研究/公司研究/腾讯控股（0700.HK）调研/财务报表 - 腾讯控股.md",
+      "from": "csv/季度资产负债表.csv",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%85%BE%E8%AE%AF%E6%8E%A7%E8%82%A1%EF%BC%880700.HK%EF%BC%89%E8%B0%83%E7%A0%94/csv/%E5%AD%A3%E5%BA%A6%E8%B5%84%E4%BA%A7%E8%B4%9F%E5%80%BA%E8%A1%A8.csv",
+      "kind": "csv"
+    },
+    {
+      "document": "投资研究/公司研究/腾讯控股（0700.HK）调研/财务报表 - 腾讯控股.md",
+      "from": "csv/季度现金流量表.csv",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%85%BE%E8%AE%AF%E6%8E%A7%E8%82%A1%EF%BC%880700.HK%EF%BC%89%E8%B0%83%E7%A0%94/csv/%E5%AD%A3%E5%BA%A6%E7%8E%B0%E9%87%91%E6%B5%81%E9%87%8F%E8%A1%A8.csv",
+      "kind": "csv"
+    },
+    {
+      "document": "投资研究/公司研究/腾讯控股（0700.HK）调研/财务报表 - 腾讯控股.md",
+      "from": "csv/年度利润表.csv",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%85%BE%E8%AE%AF%E6%8E%A7%E8%82%A1%EF%BC%880700.HK%EF%BC%89%E8%B0%83%E7%A0%94/csv/%E5%B9%B4%E5%BA%A6%E5%88%A9%E6%B6%A6%E8%A1%A8.csv",
+      "kind": "csv"
+    },
+    {
+      "document": "投资研究/公司研究/腾讯控股（0700.HK）调研/财务报表 - 腾讯控股.md",
+      "from": "csv/年度资产负债表.csv",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%85%BE%E8%AE%AF%E6%8E%A7%E8%82%A1%EF%BC%880700.HK%EF%BC%89%E8%B0%83%E7%A0%94/csv/%E5%B9%B4%E5%BA%A6%E8%B5%84%E4%BA%A7%E8%B4%9F%E5%80%BA%E8%A1%A8.csv",
+      "kind": "csv"
+    },
+    {
+      "document": "投资研究/公司研究/腾讯控股（0700.HK）调研/财务报表 - 腾讯控股.md",
+      "from": "csv/年度现金流量表.csv",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%85%BE%E8%AE%AF%E6%8E%A7%E8%82%A1%EF%BC%880700.HK%EF%BC%89%E8%B0%83%E7%A0%94/csv/%E5%B9%B4%E5%BA%A6%E7%8E%B0%E9%87%91%E6%B5%81%E9%87%8F%E8%A1%A8.csv",
+      "kind": "csv"
+    },
+    {
+      "document": "投资研究/公司研究/腾讯控股（0700.HK）调研/财务报表 - 腾讯控股.md",
+      "from": "csv/季度利润表.csv",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%85%BE%E8%AE%AF%E6%8E%A7%E8%82%A1%EF%BC%880700.HK%EF%BC%89%E8%B0%83%E7%A0%94/csv/%E5%AD%A3%E5%BA%A6%E5%88%A9%E6%B6%A6%E8%A1%A8.csv",
+      "kind": "csv"
+    },
+    {
+      "document": "投资研究/公司研究/腾讯控股（0700.HK）调研/财务报表 - 腾讯控股.md",
+      "from": "csv/季度资产负债表.csv",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%85%BE%E8%AE%AF%E6%8E%A7%E8%82%A1%EF%BC%880700.HK%EF%BC%89%E8%B0%83%E7%A0%94/csv/%E5%AD%A3%E5%BA%A6%E8%B5%84%E4%BA%A7%E8%B4%9F%E5%80%BA%E8%A1%A8.csv",
+      "kind": "csv"
+    },
+    {
+      "document": "投资研究/公司研究/腾讯控股（0700.HK）调研/财务报表 - 腾讯控股.md",
+      "from": "csv/季度现金流量表.csv",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%85%BE%E8%AE%AF%E6%8E%A7%E8%82%A1%EF%BC%880700.HK%EF%BC%89%E8%B0%83%E7%A0%94/csv/%E5%AD%A3%E5%BA%A6%E7%8E%B0%E9%87%91%E6%B5%81%E9%87%8F%E8%A1%A8.csv",
+      "kind": "csv"
+    },
+    {
+      "document": "投资研究/公司研究/药明康德（603259.SH）调研/公司调研 - 药明康德.md",
+      "from": "reports/2026H1.pdf",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%8D%AF%E6%98%8E%E5%BA%B7%E5%BE%B7%EF%BC%88603259.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2026H1.pdf",
+      "kind": "report"
+    },
+    {
+      "document": "投资研究/公司研究/药明康德（603259.SH）调研/公司调研 - 药明康德.md",
+      "from": "reports/2026H1.pdf",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%8D%AF%E6%98%8E%E5%BA%B7%E5%BE%B7%EF%BC%88603259.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2026H1.pdf",
+      "kind": "report"
+    },
+    {
+      "document": "投资研究/公司研究/药明康德（603259.SH）调研/公司调研 - 药明康德.md",
+      "from": "reports/2025_annual.pdf",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%8D%AF%E6%98%8E%E5%BA%B7%E5%BE%B7%EF%BC%88603259.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2025_annual.pdf",
+      "kind": "report"
+    },
+    {
+      "document": "投资研究/公司研究/药明康德（603259.SH）调研/公司调研 - 药明康德.md",
+      "from": "reports/2026Q1.pdf",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%8D%AF%E6%98%8E%E5%BA%B7%E5%BE%B7%EF%BC%88603259.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2026Q1.pdf",
+      "kind": "report"
+    },
+    {
+      "document": "投资研究/公司研究/药明康德（603259.SH）调研/技术与壁垒 - 药明康德.md",
+      "from": "reports/2026H1.pdf",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%8D%AF%E6%98%8E%E5%BA%B7%E5%BE%B7%EF%BC%88603259.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2026H1.pdf",
+      "kind": "report"
+    },
+    {
+      "document": "投资研究/公司研究/药明康德（603259.SH）调研/技术与壁垒 - 药明康德.md",
+      "from": "reports/2025_annual.pdf",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%8D%AF%E6%98%8E%E5%BA%B7%E5%BE%B7%EF%BC%88603259.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2025_annual.pdf",
+      "kind": "report"
+    },
+    {
+      "document": "投资研究/公司研究/药明康德（603259.SH）调研/竞对对比 - 药明康德.md",
+      "from": "reports/2026H1.pdf",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%8D%AF%E6%98%8E%E5%BA%B7%E5%BE%B7%EF%BC%88603259.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2026H1.pdf",
+      "kind": "report"
+    },
+    {
+      "document": "投资研究/公司研究/药明康德（603259.SH）调研/竞对对比 - 药明康德.md",
+      "from": "reports/2025_annual.pdf",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%8D%AF%E6%98%8E%E5%BA%B7%E5%BE%B7%EF%BC%88603259.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2025_annual.pdf",
+      "kind": "report"
+    },
+    {
+      "document": "投资研究/公司研究/药明康德（603259.SH）调研/股价预期 - 药明康德.md",
+      "from": "reports/2026H1.pdf",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%8D%AF%E6%98%8E%E5%BA%B7%E5%BE%B7%EF%BC%88603259.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2026H1.pdf",
+      "kind": "report"
+    },
+    {
+      "document": "投资研究/公司研究/药明康德（603259.SH）调研/股价预期 - 药明康德.md",
+      "from": "reports/2025_annual.pdf",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%8D%AF%E6%98%8E%E5%BA%B7%E5%BE%B7%EF%BC%88603259.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2025_annual.pdf",
+      "kind": "report"
+    },
+    {
+      "document": "投资研究/公司研究/药明康德（603259.SH）调研/财务报表 - 药明康德.md",
+      "from": "reports/2021_annual.pdf",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%8D%AF%E6%98%8E%E5%BA%B7%E5%BE%B7%EF%BC%88603259.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2021_annual.pdf",
+      "kind": "report"
+    },
+    {
+      "document": "投资研究/公司研究/药明康德（603259.SH）调研/财务报表 - 药明康德.md",
+      "from": "reports/2022_annual.pdf",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%8D%AF%E6%98%8E%E5%BA%B7%E5%BE%B7%EF%BC%88603259.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2022_annual.pdf",
+      "kind": "report"
+    },
+    {
+      "document": "投资研究/公司研究/药明康德（603259.SH）调研/财务报表 - 药明康德.md",
+      "from": "reports/2023_annual.pdf",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%8D%AF%E6%98%8E%E5%BA%B7%E5%BE%B7%EF%BC%88603259.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2023_annual.pdf",
+      "kind": "report"
+    },
+    {
+      "document": "投资研究/公司研究/药明康德（603259.SH）调研/财务报表 - 药明康德.md",
+      "from": "reports/2024_annual.pdf",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%8D%AF%E6%98%8E%E5%BA%B7%E5%BE%B7%EF%BC%88603259.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2024_annual.pdf",
+      "kind": "report"
+    },
+    {
+      "document": "投资研究/公司研究/药明康德（603259.SH）调研/财务报表 - 药明康德.md",
+      "from": "reports/2025_annual.pdf",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%8D%AF%E6%98%8E%E5%BA%B7%E5%BE%B7%EF%BC%88603259.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2025_annual.pdf",
+      "kind": "report"
+    },
+    {
+      "document": "投资研究/公司研究/药明康德（603259.SH）调研/财务报表 - 药明康德.md",
+      "from": "reports/2024Q1.pdf",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%8D%AF%E6%98%8E%E5%BA%B7%E5%BE%B7%EF%BC%88603259.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2024Q1.pdf",
+      "kind": "report"
+    },
+    {
+      "document": "投资研究/公司研究/药明康德（603259.SH）调研/财务报表 - 药明康德.md",
+      "from": "reports/2024H1.pdf",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%8D%AF%E6%98%8E%E5%BA%B7%E5%BE%B7%EF%BC%88603259.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2024H1.pdf",
+      "kind": "report"
+    },
+    {
+      "document": "投资研究/公司研究/药明康德（603259.SH）调研/财务报表 - 药明康德.md",
+      "from": "reports/2024Q3.pdf",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%8D%AF%E6%98%8E%E5%BA%B7%E5%BE%B7%EF%BC%88603259.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2024Q3.pdf",
+      "kind": "report"
+    },
+    {
+      "document": "投资研究/公司研究/药明康德（603259.SH）调研/财务报表 - 药明康德.md",
+      "from": "reports/2025Q1.pdf",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%8D%AF%E6%98%8E%E5%BA%B7%E5%BE%B7%EF%BC%88603259.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2025Q1.pdf",
+      "kind": "report"
+    },
+    {
+      "document": "投资研究/公司研究/药明康德（603259.SH）调研/财务报表 - 药明康德.md",
+      "from": "reports/2025H1.pdf",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%8D%AF%E6%98%8E%E5%BA%B7%E5%BE%B7%EF%BC%88603259.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2025H1.pdf",
+      "kind": "report"
+    },
+    {
+      "document": "投资研究/公司研究/药明康德（603259.SH）调研/财务报表 - 药明康德.md",
+      "from": "reports/2025Q3.pdf",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%8D%AF%E6%98%8E%E5%BA%B7%E5%BE%B7%EF%BC%88603259.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2025Q3.pdf",
+      "kind": "report"
+    },
+    {
+      "document": "投资研究/公司研究/药明康德（603259.SH）调研/财务报表 - 药明康德.md",
+      "from": "reports/2026Q1.pdf",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%8D%AF%E6%98%8E%E5%BA%B7%E5%BE%B7%EF%BC%88603259.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2026Q1.pdf",
+      "kind": "report"
+    },
+    {
+      "document": "投资研究/公司研究/药明康德（603259.SH）调研/财务报表 - 药明康德.md",
+      "from": "reports/2026H1.pdf",
+      "to": "https://github.com/teazean/obsidian-vault-invest/blob/master/%E6%8A%95%E8%B5%84%E7%A0%94%E7%A9%B6/%E5%85%AC%E5%8F%B8%E7%A0%94%E7%A9%B6/%E8%8D%AF%E6%98%8E%E5%BA%B7%E5%BE%B7%EF%BC%88603259.SH%EF%BC%89%E8%B0%83%E7%A0%94/reports/2026H1.pdf",
       "kind": "report"
     }
   ],
@@ -4008,6 +4494,403 @@
       "numericTokenCount": 56
     },
     {
+      "sourceRelativePath": "投资研究/产业专题/创新药行业/assets/创新药ETF暴露与周期位置.png",
+      "publicPath": "research/产业专题/创新药行业/assets/创新药ETF暴露与周期位置.png",
+      "kind": "asset",
+      "sourceSize": 110375,
+      "publicSize": 110375,
+      "sourceSha256": "4f37035b5a36c8de688b064ef73d3fb312517a0819801c783367ff5656464917",
+      "publicSha256": "4f37035b5a36c8de688b064ef73d3fb312517a0819801c783367ff5656464917"
+    },
+    {
+      "sourceRelativePath": "投资研究/产业专题/创新药行业/assets/创新药周期与利润传导.png",
+      "publicPath": "research/产业专题/创新药行业/assets/创新药周期与利润传导.png",
+      "kind": "asset",
+      "sourceSize": 186804,
+      "publicSize": 186804,
+      "sourceSha256": "fde621245367860e67a30ecb482601cbc1bf262e396bee0fd2e579c05372386f",
+      "publicSha256": "fde621245367860e67a30ecb482601cbc1bf262e396bee0fd2e579c05372386f"
+    },
+    {
+      "sourceRelativePath": "投资研究/产业专题/创新药行业/assets/创新药技术成熟度矩阵.png",
+      "publicPath": "research/产业专题/创新药行业/assets/创新药技术成熟度矩阵.png",
+      "kind": "asset",
+      "sourceSize": 173721,
+      "publicSize": 173721,
+      "sourceSha256": "61e27cd97e90e18299f9669d127141a42b80d4a0f732f9ab740b61eb12f9ee42",
+      "publicSha256": "61e27cd97e90e18299f9669d127141a42b80d4a0f732f9ab740b61eb12f9ee42"
+    },
+    {
+      "sourceRelativePath": "投资研究/产业专题/创新药行业/assets/创新药授权与共同开发产业链路图.png",
+      "publicPath": "research/产业专题/创新药行业/assets/创新药授权与共同开发产业链路图.png",
+      "kind": "asset",
+      "sourceSize": 178511,
+      "publicSize": 178511,
+      "sourceSha256": "a2cac86ebc30a261c4e4b079c8ef216dca76963130131b6dcc6052d06bc901c1",
+      "publicSha256": "a2cac86ebc30a261c4e4b079c8ef216dca76963130131b6dcc6052d06bc901c1"
+    },
+    {
+      "sourceRelativePath": "投资研究/产业专题/创新药行业/assets/创新药研发与生产外包产业链路图.png",
+      "publicPath": "research/产业专题/创新药行业/assets/创新药研发与生产外包产业链路图.png",
+      "kind": "asset",
+      "sourceSize": 174752,
+      "publicSize": 174752,
+      "sourceSha256": "2d2717c0c0c896098846c9815ecf5b2895a7ecb213c62f2342ad691995147b4f",
+      "publicSha256": "2d2717c0c0c896098846c9815ecf5b2895a7ecb213c62f2342ad691995147b4f"
+    },
+    {
+      "sourceRelativePath": "投资研究/产业专题/创新药行业/assets/创新药行业结构图.png",
+      "publicPath": "research/产业专题/创新药行业/assets/创新药行业结构图.png",
+      "kind": "asset",
+      "sourceSize": 129577,
+      "publicSize": 129577,
+      "sourceSha256": "2e3ee6163cd0aa03cf3f6c914eb6077d42e841a162e821734633975d0c85cf25",
+      "publicSha256": "2e3ee6163cd0aa03cf3f6c914eb6077d42e841a162e821734633975d0c85cf25"
+    },
+    {
+      "sourceRelativePath": "投资研究/产业专题/创新药行业/assets/自研自销创新药产业链路图.png",
+      "publicPath": "research/产业专题/创新药行业/assets/自研自销创新药产业链路图.png",
+      "kind": "asset",
+      "sourceSize": 176122,
+      "publicSize": 176122,
+      "sourceSha256": "82b9da1c8683c40d2453e300735c7cfe34f6dd940b6b09d9d9d5bf85002f370c",
+      "publicSha256": "82b9da1c8683c40d2453e300735c7cfe34f6dd940b6b09d9d9d5bf85002f370c"
+    },
+    {
+      "sourceRelativePath": "投资研究/产业专题/创新药行业/创新药授权与共同开发.md",
+      "publicPath": "research/产业专题/创新药行业/创新药授权与共同开发.md",
+      "kind": "markdown",
+      "sourceSize": 6573,
+      "publicSize": 6904,
+      "sourceSha256": "54c156497791df212399679d03d978f425652a56c011b0d38fe5713379ec5b44",
+      "publicSha256": "60398a0d068c57dc61ee3faf676b902211bbf2aabfcce82a383814f518dd0bcd",
+      "semanticSha256": "796eed4bbcef31a7390ea7c5892c6cf5f673aa06d9e221664c29125ebe3b548e",
+      "tableDimensions": [
+        {
+          "rows": 6,
+          "columns": 3
+        },
+        {
+          "rows": 4,
+          "columns": 10
+        }
+      ],
+      "numericTokenCount": 81
+    },
+    {
+      "sourceRelativePath": "投资研究/产业专题/创新药行业/创新药研发与生产外包.md",
+      "publicPath": "research/产业专题/创新药行业/创新药研发与生产外包.md",
+      "kind": "markdown",
+      "sourceSize": 6104,
+      "publicSize": 6435,
+      "sourceSha256": "6cdcc98b1c08b3d0e0b4e220bb1864bbe6a147ecca5900b0e61b41c469319a44",
+      "publicSha256": "95c010980e09fa39e712dcf5cdfe2efba266fb0211bb28ba2ad42f060af3939b",
+      "semanticSha256": "d826575a0a675cdb2aeb1c9ebd222fc80e06e6fa17d55aa711a0f6b539627b0f",
+      "tableDimensions": [
+        {
+          "rows": 6,
+          "columns": 3
+        },
+        {
+          "rows": 4,
+          "columns": 10
+        }
+      ],
+      "numericTokenCount": 77
+    },
+    {
+      "sourceRelativePath": "投资研究/产业专题/创新药行业/创新药行业产业链节点规模与利润池.md",
+      "publicPath": "research/产业专题/创新药行业/创新药行业产业链节点规模与利润池.md",
+      "kind": "markdown",
+      "sourceSize": 5618,
+      "publicSize": 5618,
+      "sourceSha256": "7a288414a739bf6ebcbba90d04e425e09258eff6c91e23125719ecc2cb4e2a7d",
+      "publicSha256": "7a288414a739bf6ebcbba90d04e425e09258eff6c91e23125719ecc2cb4e2a7d",
+      "semanticSha256": "6e8792c5fa38a6e147057a697e4175d47befe82da69f243aac5067022a549574",
+      "tableDimensions": [
+        {
+          "rows": 8,
+          "columns": 4
+        },
+        {
+          "rows": 5,
+          "columns": 6
+        },
+        {
+          "rows": 4,
+          "columns": 5
+        }
+      ],
+      "numericTokenCount": 69
+    },
+    {
+      "sourceRelativePath": "投资研究/产业专题/创新药行业/创新药行业公司财务与业务对比表.md",
+      "publicPath": "research/产业专题/创新药行业/创新药行业公司财务与业务对比表.md",
+      "kind": "markdown",
+      "sourceSize": 7579,
+      "publicSize": 7579,
+      "sourceSha256": "138124f4a8a4c49766ed386b460eb2b90d2c5b206769499ee0feff98e6438c18",
+      "publicSha256": "138124f4a8a4c49766ed386b460eb2b90d2c5b206769499ee0feff98e6438c18",
+      "semanticSha256": "e9ed6aea43e4d961eb8903b274d391ce93c9e3a55ea396029d6d228728eb5e2d",
+      "tableDimensions": [
+        {
+          "rows": 6,
+          "columns": 6
+        },
+        {
+          "rows": 6,
+          "columns": 4
+        },
+        {
+          "rows": 4,
+          "columns": 4
+        },
+        {
+          "rows": 6,
+          "columns": 5
+        }
+      ],
+      "numericTokenCount": 110
+    },
+    {
+      "sourceRelativePath": "投资研究/产业专题/创新药行业/创新药行业周期、供需与投资节奏.md",
+      "publicPath": "research/产业专题/创新药行业/创新药行业周期、供需与投资节奏.md",
+      "kind": "markdown",
+      "sourceSize": 7038,
+      "publicSize": 7324,
+      "sourceSha256": "6c0ee4d9538854b19affa69ec1494a207aa92b8877e55e30187e512dab07339b",
+      "publicSha256": "6cecc0afe4af321b603d032f377dccff1963b2ccd4e8acbcd75c7c85a0aecc6e",
+      "semanticSha256": "40b6a91131355528f2f22a38187dc5a65a33e4e329730416165912e969c1c4f6",
+      "tableDimensions": [
+        {
+          "rows": 4,
+          "columns": 4
+        },
+        {
+          "rows": 4,
+          "columns": 5
+        }
+      ],
+      "numericTokenCount": 69
+    },
+    {
+      "sourceRelativePath": "投资研究/产业专题/创新药行业/创新药行业子产业链覆盖矩阵.md",
+      "publicPath": "research/产业专题/创新药行业/创新药行业子产业链覆盖矩阵.md",
+      "kind": "markdown",
+      "sourceSize": 3319,
+      "publicSize": 3319,
+      "sourceSha256": "4a1c792caeac393fa863f32b238ca22102a39ddffbfe19c96afddae5003c320c",
+      "publicSha256": "4a1c792caeac393fa863f32b238ca22102a39ddffbfe19c96afddae5003c320c",
+      "semanticSha256": "98e8fe8077be4118f0ab7d7d707633a1e0170a9a6cb961688423832ad72c7910",
+      "tableDimensions": [
+        {
+          "rows": 10,
+          "columns": 4
+        },
+        {
+          "rows": 4,
+          "columns": 9
+        }
+      ],
+      "numericTokenCount": 4
+    },
+    {
+      "sourceRelativePath": "投资研究/产业专题/创新药行业/创新药行业小白审核结果.md",
+      "publicPath": "research/产业专题/创新药行业/创新药行业小白审核结果.md",
+      "kind": "markdown",
+      "sourceSize": 9274,
+      "publicSize": 9274,
+      "sourceSha256": "7e77bf4d44095ee8e06e254c54b04d81d822611da47f90559b25117ae77fde46",
+      "publicSha256": "7e77bf4d44095ee8e06e254c54b04d81d822611da47f90559b25117ae77fde46",
+      "semanticSha256": "cad07ff77bd8d35bb34de4a2128568b55e53d69723506a7aa4b7d12bb87c376e",
+      "tableDimensions": [
+        {
+          "rows": 19,
+          "columns": 3
+        },
+        {
+          "rows": 7,
+          "columns": 4
+        },
+        {
+          "rows": 2,
+          "columns": 3
+        },
+        {
+          "rows": 2,
+          "columns": 3
+        },
+        {
+          "rows": 2,
+          "columns": 4
+        },
+        {
+          "rows": 2,
+          "columns": 4
+        },
+        {
+          "rows": 2,
+          "columns": 4
+        },
+        {
+          "rows": 2,
+          "columns": 5
+        },
+        {
+          "rows": 12,
+          "columns": 4
+        }
+      ],
+      "numericTokenCount": 91
+    },
+    {
+      "sourceRelativePath": "投资研究/产业专题/创新药行业/创新药行业技术成熟度与发展趋势.md",
+      "publicPath": "research/产业专题/创新药行业/创新药行业技术成熟度与发展趋势.md",
+      "kind": "markdown",
+      "sourceSize": 6527,
+      "publicSize": 6813,
+      "sourceSha256": "3d4637389e56511039b2b4339c7dc5672c49192d938ac06428748a1dc2f84670",
+      "publicSha256": "48eccecb35daa44381f2cd702c65be21a39fac3634876e2b553d4ac191c09f5a",
+      "semanticSha256": "6030466dd4598ef494245042c16de8b75d8bb1cb4193297bf02fe0ad398605eb",
+      "tableDimensions": [
+        {
+          "rows": 6,
+          "columns": 5
+        },
+        {
+          "rows": 6,
+          "columns": 4
+        }
+      ],
+      "numericTokenCount": 17
+    },
+    {
+      "sourceRelativePath": "投资研究/产业专题/创新药行业/创新药行业术语表.md",
+      "publicPath": "research/产业专题/创新药行业/创新药行业术语表.md",
+      "kind": "markdown",
+      "sourceSize": 3994,
+      "publicSize": 3994,
+      "sourceSha256": "7df970106c2ef2d4385cbc7216cf64de221a84b0448626d8e6f0c6d06b22feaf",
+      "publicSha256": "7df970106c2ef2d4385cbc7216cf64de221a84b0448626d8e6f0c6d06b22feaf",
+      "semanticSha256": "986faffcfa2705458ccdbf4cf135c86984c8cc8bcade9c3f0ab28a16bca5c9a7",
+      "tableDimensions": [
+        {
+          "rows": 28,
+          "columns": 3
+        }
+      ],
+      "numericTokenCount": 4
+    },
+    {
+      "sourceRelativePath": "投资研究/产业专题/创新药行业/创新药行业深度调研 - 全球视角.md",
+      "publicPath": "research/产业专题/创新药行业/创新药行业深度调研 - 全球视角.md",
+      "kind": "markdown",
+      "sourceSize": 4688,
+      "publicSize": 4688,
+      "sourceSha256": "0235375bfc6cc25abf8f88d3513274b078b0c14bdf78680d5a1ad5180ecf4159",
+      "publicSha256": "0235375bfc6cc25abf8f88d3513274b078b0c14bdf78680d5a1ad5180ecf4159",
+      "semanticSha256": "3b475c84b205d307a48a2b42eb08e9bbffcbb922115e9aecaa87b9e1b07a4c6c",
+      "tableDimensions": [
+        {
+          "rows": 5,
+          "columns": 4
+        }
+      ],
+      "numericTokenCount": 31
+    },
+    {
+      "sourceRelativePath": "投资研究/产业专题/创新药行业/创新药行业深度调研 - 国内视角.md",
+      "publicPath": "research/产业专题/创新药行业/创新药行业深度调研 - 国内视角.md",
+      "kind": "markdown",
+      "sourceSize": 5225,
+      "publicSize": 5225,
+      "sourceSha256": "5fa53952d98f305a9a1b4b812b5b0138cd6f939d21d4e0e54907b9feb45c9cb8",
+      "publicSha256": "5fa53952d98f305a9a1b4b812b5b0138cd6f939d21d4e0e54907b9feb45c9cb8",
+      "semanticSha256": "e63ebf06fa7cf76ae0a8c2e01db83b8091f4ddd8e741eca3d4abf2740297e815",
+      "tableDimensions": [
+        {
+          "rows": 8,
+          "columns": 3
+        },
+        {
+          "rows": 6,
+          "columns": 4
+        }
+      ],
+      "numericTokenCount": 69
+    },
+    {
+      "sourceRelativePath": "投资研究/产业专题/创新药行业/创新药行业深度调研 - 总览.md",
+      "publicPath": "research/产业专题/创新药行业/创新药行业深度调研 - 总览.md",
+      "kind": "markdown",
+      "sourceSize": 10660,
+      "publicSize": 10928,
+      "sourceSha256": "0f3593258ca81fc63fab850e690bbbd619ee78a6def5ffbbc329e16a8e84ca40",
+      "publicSha256": "9a2d1ed2c931311f157c8726258085d9c5a242b79b0538216eab087710daad77",
+      "semanticSha256": "2f606782c1590d7ea79408760a392e4326265da41786aecfebf58f14f0856679",
+      "tableDimensions": [
+        {
+          "rows": 4,
+          "columns": 5
+        },
+        {
+          "rows": 4,
+          "columns": 4
+        }
+      ],
+      "numericTokenCount": 86
+    },
+    {
+      "sourceRelativePath": "投资研究/产业专题/创新药行业/创新药行业相关基金与ETF估值入场.md",
+      "publicPath": "research/产业专题/创新药行业/创新药行业相关基金与ETF估值入场.md",
+      "kind": "markdown",
+      "sourceSize": 6335,
+      "publicSize": 6624,
+      "sourceSha256": "9d23dc9f16bd21ae1659650cda663ed8f10873a7b5fc37208b46d8f23314531f",
+      "publicSha256": "8a211a142748a35380e156d8fd218cc4a25a5507b75d9aac652e93f4c75081cc",
+      "semanticSha256": "62787823cf1703b01e8a675a3d4f7d67da37a9e37437410c82d6dff072b789f7",
+      "tableDimensions": [
+        {
+          "rows": 4,
+          "columns": 8
+        },
+        {
+          "rows": 4,
+          "columns": 3
+        },
+        {
+          "rows": 4,
+          "columns": 4
+        },
+        {
+          "rows": 4,
+          "columns": 5
+        }
+      ],
+      "numericTokenCount": 142
+    },
+    {
+      "sourceRelativePath": "投资研究/产业专题/创新药行业/自研自销创新药.md",
+      "publicPath": "research/产业专题/创新药行业/自研自销创新药.md",
+      "kind": "markdown",
+      "sourceSize": 7198,
+      "publicSize": 7502,
+      "sourceSha256": "3a4aeafd099168041fff622f4c5fc8271c679609735e79d95d459d33a3f6289c",
+      "publicSha256": "a336727467d59a2d95486a9641afc5288dd7858b145499c997d61731c6fd9366",
+      "semanticSha256": "6a91d35effb2b53aff360ee1e098a0ae8dfe98b92b3b0cad58a5cf0e07414187",
+      "tableDimensions": [
+        {
+          "rows": 7,
+          "columns": 3
+        },
+        {
+          "rows": 4,
+          "columns": 10
+        }
+      ],
+      "numericTokenCount": 100
+    },
+    {
       "sourceRelativePath": "投资研究/公司研究/中际旭创（300308.SZ）调研/csv/annual_financials.csv",
       "publicPath": "research/公司研究/中际旭创（300308.SZ）调研/csv/annual_financials.csv",
       "kind": "csv",
@@ -6269,164 +7152,164 @@
       "sourceRelativePath": "投资研究/公司研究/腾讯控股（0700.HK）调研/csv/产品代际路线图.csv",
       "publicPath": "research/公司研究/腾讯控股（0700.HK）调研/csv/产品代际路线图.csv",
       "kind": "csv",
-      "sourceSize": 194,
-      "publicSize": 194,
-      "sourceSha256": "c4b38e39f74f91e5a69289c228e85ed6478671806b91b3bfc2d66da8fea592f4",
-      "publicSha256": "c4b38e39f74f91e5a69289c228e85ed6478671806b91b3bfc2d66da8fea592f4"
+      "sourceSize": 9334,
+      "publicSize": 9334,
+      "sourceSha256": "9a172edf6f66b9bd2f76ded198ee9c36eaf7537ee413012575212cb5d16e5e22",
+      "publicSha256": "9a172edf6f66b9bd2f76ded198ee9c36eaf7537ee413012575212cb5d16e5e22"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/腾讯控股（0700.HK）调研/csv/季度利润表.csv",
       "publicPath": "research/公司研究/腾讯控股（0700.HK）调研/csv/季度利润表.csv",
       "kind": "csv",
-      "sourceSize": 205,
-      "publicSize": 205,
-      "sourceSha256": "db29576f7bf99a13f3e168b1a9903b1ab06b54712da15ebd3fdfa7f86ee4b29a",
-      "publicSha256": "db29576f7bf99a13f3e168b1a9903b1ab06b54712da15ebd3fdfa7f86ee4b29a"
+      "sourceSize": 3066,
+      "publicSize": 3066,
+      "sourceSha256": "2c1b84eee886738496176183fb5201d54e71e39947a2ea12aa5b0b631f8d3eeb",
+      "publicSha256": "2c1b84eee886738496176183fb5201d54e71e39947a2ea12aa5b0b631f8d3eeb"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/腾讯控股（0700.HK）调研/csv/季度现金流量表.csv",
       "publicPath": "research/公司研究/腾讯控股（0700.HK）调研/csv/季度现金流量表.csv",
       "kind": "csv",
-      "sourceSize": 193,
-      "publicSize": 193,
-      "sourceSha256": "b2dd2b5cc90594042aa912c65ae712ff8c23eaf151830fb21fb4771fe90f9ab8",
-      "publicSha256": "b2dd2b5cc90594042aa912c65ae712ff8c23eaf151830fb21fb4771fe90f9ab8"
+      "sourceSize": 2827,
+      "publicSize": 2827,
+      "sourceSha256": "9e74e1f302c4e21899bee72318cdb9714f836bb81602b7c7eacf76fce887e640",
+      "publicSha256": "9e74e1f302c4e21899bee72318cdb9714f836bb81602b7c7eacf76fce887e640"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/腾讯控股（0700.HK）调研/csv/季度资产负债表.csv",
       "publicPath": "research/公司研究/腾讯控股（0700.HK）调研/csv/季度资产负债表.csv",
       "kind": "csv",
-      "sourceSize": 194,
-      "publicSize": 194,
-      "sourceSha256": "e5a6610a166f44648e1323d4d76303b5d2cd56e6d36007f1b44cf711b570d7e8",
-      "publicSha256": "e5a6610a166f44648e1323d4d76303b5d2cd56e6d36007f1b44cf711b570d7e8"
+      "sourceSize": 2555,
+      "publicSize": 2555,
+      "sourceSha256": "0bffc00f838cd95641620d9ae3d1b1ef0f0f4941f5dd11706185830b80939f74",
+      "publicSha256": "0bffc00f838cd95641620d9ae3d1b1ef0f0f4941f5dd11706185830b80939f74"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/腾讯控股（0700.HK）调研/csv/市值隐含预期.csv",
       "publicPath": "research/公司研究/腾讯控股（0700.HK）调研/csv/市值隐含预期.csv",
       "kind": "csv",
-      "sourceSize": 342,
-      "publicSize": 342,
-      "sourceSha256": "a2c98ad37c82d89839d728c0ed866e38ba99bc6f1b1f6d701b9d1b1e486426d5",
-      "publicSha256": "a2c98ad37c82d89839d728c0ed866e38ba99bc6f1b1f6d701b9d1b1e486426d5"
+      "sourceSize": 2501,
+      "publicSize": 2501,
+      "sourceSha256": "fe02645c5e1834a0d67917254a507ca88d9efa7aa0dd53c41148181f6073832f",
+      "publicSha256": "fe02645c5e1834a0d67917254a507ca88d9efa7aa0dd53c41148181f6073832f"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/腾讯控股（0700.HK）调研/csv/年度利润表.csv",
       "publicPath": "research/公司研究/腾讯控股（0700.HK）调研/csv/年度利润表.csv",
       "kind": "csv",
-      "sourceSize": 208,
-      "publicSize": 208,
-      "sourceSha256": "16f09a558ba6058dfb1d54f27d50ab62adc308ef01a0f1fb13089c32755102b5",
-      "publicSha256": "16f09a558ba6058dfb1d54f27d50ab62adc308ef01a0f1fb13089c32755102b5"
+      "sourceSize": 1820,
+      "publicSize": 1820,
+      "sourceSha256": "bb56d0a9e036d2a898dfa752de4856bc34708638446591a128eaab754d3f6d59",
+      "publicSha256": "bb56d0a9e036d2a898dfa752de4856bc34708638446591a128eaab754d3f6d59"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/腾讯控股（0700.HK）调研/csv/年度现金流量表.csv",
       "publicPath": "research/公司研究/腾讯控股（0700.HK）调研/csv/年度现金流量表.csv",
       "kind": "csv",
-      "sourceSize": 179,
-      "publicSize": 179,
-      "sourceSha256": "5f5ba1bcdfe612a5b4045447941af73539fed4b84d2c4f5f2fe240d93bef230f",
-      "publicSha256": "5f5ba1bcdfe612a5b4045447941af73539fed4b84d2c4f5f2fe240d93bef230f"
+      "sourceSize": 2009,
+      "publicSize": 2009,
+      "sourceSha256": "6af9ffcef4016adcd569645deb3d702fa478db883760fad3ba43ba6dba265773",
+      "publicSha256": "6af9ffcef4016adcd569645deb3d702fa478db883760fad3ba43ba6dba265773"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/腾讯控股（0700.HK）调研/csv/年度资产负债表.csv",
       "publicPath": "research/公司研究/腾讯控股（0700.HK）调研/csv/年度资产负债表.csv",
       "kind": "csv",
-      "sourceSize": 189,
-      "publicSize": 189,
-      "sourceSha256": "ba64d68d87ecd1c6b069980a07854a7ec4988eb31258689c9b396467fb54d20e",
-      "publicSha256": "ba64d68d87ecd1c6b069980a07854a7ec4988eb31258689c9b396467fb54d20e"
+      "sourceSize": 1878,
+      "publicSize": 1878,
+      "sourceSha256": "10a2abeca07d040d006c2069da1796f585615f29ebc90d0bbc83eaf1e34c889d",
+      "publicSha256": "10a2abeca07d040d006c2069da1796f585615f29ebc90d0bbc83eaf1e34c889d"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/腾讯控股（0700.HK）调研/csv/情景敏感性.csv",
       "publicPath": "research/公司研究/腾讯控股（0700.HK）调研/csv/情景敏感性.csv",
       "kind": "csv",
-      "sourceSize": 142,
-      "publicSize": 142,
-      "sourceSha256": "09b0e0ad4ff9f6a33b2359bba80be1eb92b741ed2cfd46ff14e3bc2cc81ecb6b",
-      "publicSha256": "09b0e0ad4ff9f6a33b2359bba80be1eb92b741ed2cfd46ff14e3bc2cc81ecb6b"
+      "sourceSize": 1512,
+      "publicSize": 1512,
+      "sourceSha256": "dc235e615f81f3849d417d4d50de062597d69bfa57156ecc66b222b5fe428aaa",
+      "publicSha256": "dc235e615f81f3849d417d4d50de062597d69bfa57156ecc66b222b5fe428aaa"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/腾讯控股（0700.HK）调研/csv/技术壁垒证据.csv",
       "publicPath": "research/公司研究/腾讯控股（0700.HK）调研/csv/技术壁垒证据.csv",
       "kind": "csv",
-      "sourceSize": 640,
-      "publicSize": 640,
-      "sourceSha256": "5a5dd1032b9df45e9b2578fdd090af6433790245a7776725c6d34b8b573e9571",
-      "publicSha256": "5a5dd1032b9df45e9b2578fdd090af6433790245a7776725c6d34b8b573e9571"
+      "sourceSize": 12209,
+      "publicSize": 12209,
+      "sourceSha256": "d87cdad484042445996e7578f248bdb6fb46f4571c90bf9feddd25a0cc6c3a53",
+      "publicSha256": "d87cdad484042445996e7578f248bdb6fb46f4571c90bf9feddd25a0cc6c3a53"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/腾讯控股（0700.HK）调研/csv/技术水位矩阵.csv",
       "publicPath": "research/公司研究/腾讯控股（0700.HK）调研/csv/技术水位矩阵.csv",
       "kind": "csv",
-      "sourceSize": 384,
-      "publicSize": 384,
-      "sourceSha256": "3c15b83c3f3e8d5a4f36ac46893f15a2c9f89c50e713283b4f65224ec4c5d0a1",
-      "publicSha256": "3c15b83c3f3e8d5a4f36ac46893f15a2c9f89c50e713283b4f65224ec4c5d0a1"
+      "sourceSize": 11787,
+      "publicSize": 11787,
+      "sourceSha256": "98285b67d59e2f44984f984f1aa62cc197d2acd7f86da0a118fd5989d2ef0027",
+      "publicSha256": "98285b67d59e2f44984f984f1aa62cc197d2acd7f86da0a118fd5989d2ef0027"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/腾讯控股（0700.HK）调研/csv/盈利预测桥.csv",
       "publicPath": "research/公司研究/腾讯控股（0700.HK）调研/csv/盈利预测桥.csv",
       "kind": "csv",
-      "sourceSize": 176,
-      "publicSize": 176,
-      "sourceSha256": "983562f394c6bf64ecdc70a8f2619368af672925bcfc96c3ddb8d9fa406ab9b2",
-      "publicSha256": "983562f394c6bf64ecdc70a8f2619368af672925bcfc96c3ddb8d9fa406ab9b2"
+      "sourceSize": 2031,
+      "publicSize": 2031,
+      "sourceSha256": "89d1d167a4963340db280501668427730199d5c6d84a58d3fe52ac8723df610f",
+      "publicSha256": "89d1d167a4963340db280501668427730199d5c6d84a58d3fe52ac8723df610f"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/腾讯控股（0700.HK）调研/csv/竞对全景.csv",
       "publicPath": "research/公司研究/腾讯控股（0700.HK）调研/csv/竞对全景.csv",
       "kind": "csv",
-      "sourceSize": 257,
-      "publicSize": 257,
-      "sourceSha256": "49fd8715c2da009c757b3eb011e74067e92751ccc2e935fae5cebdf9a3f418f3",
-      "publicSha256": "49fd8715c2da009c757b3eb011e74067e92751ccc2e935fae5cebdf9a3f418f3"
+      "sourceSize": 5523,
+      "publicSize": 5523,
+      "sourceSha256": "5c010c123b373eafa5adfba121830fcff780bbfa5fade86be31b71a0d6faf2ac",
+      "publicSha256": "5c010c123b373eafa5adfba121830fcff780bbfa5fade86be31b71a0d6faf2ac"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/腾讯控股（0700.HK）调研/csv/股价估值快照.csv",
       "publicPath": "research/公司研究/腾讯控股（0700.HK）调研/csv/股价估值快照.csv",
       "kind": "csv",
-      "sourceSize": 233,
-      "publicSize": 233,
-      "sourceSha256": "a068b129c5cd46ea842b3e4024346de3cc8045d2e1b08176b6f8751fcf8996b0",
-      "publicSha256": "a068b129c5cd46ea842b3e4024346de3cc8045d2e1b08176b6f8751fcf8996b0"
+      "sourceSize": 1078,
+      "publicSize": 1078,
+      "sourceSha256": "9b384f166f6f8dd6a27c8a6bff924214d3e50fa214543c5d2e5d3b3305812193",
+      "publicSha256": "9b384f166f6f8dd6a27c8a6bff924214d3e50fa214543c5d2e5d3b3305812193"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/腾讯控股（0700.HK）调研/csv/股本与交易结构.csv",
       "publicPath": "research/公司研究/腾讯控股（0700.HK）调研/csv/股本与交易结构.csv",
       "kind": "csv",
-      "sourceSize": 116,
-      "publicSize": 116,
-      "sourceSha256": "0e64a3626056dc06c4e844d213e15cf1e2fd79e0464e147ec7ffba7b1660d28d",
-      "publicSha256": "0e64a3626056dc06c4e844d213e15cf1e2fd79e0464e147ec7ffba7b1660d28d"
+      "sourceSize": 2588,
+      "publicSize": 2588,
+      "sourceSha256": "b6475ee5050b5cd062a7e0f3261ad7f1b2f3b7d992e374218225e4ceaae535b1",
+      "publicSha256": "b6475ee5050b5cd062a7e0f3261ad7f1b2f3b7d992e374218225e4ceaae535b1"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/腾讯控股（0700.HK）调研/csv/行业技术评价框架.csv",
       "publicPath": "research/公司研究/腾讯控股（0700.HK）调研/csv/行业技术评价框架.csv",
       "kind": "csv",
-      "sourceSize": 272,
-      "publicSize": 272,
-      "sourceSha256": "25bf20abe5870b14e0a59e524101a38ab568b8acbae24feb0fdb18fdc61226e0",
-      "publicSha256": "25bf20abe5870b14e0a59e524101a38ab568b8acbae24feb0fdb18fdc61226e0"
+      "sourceSize": 11982,
+      "publicSize": 11982,
+      "sourceSha256": "4772c4bfd6e26ec0d1387d384d14c52a43f58370808eda95f19f6b5691df546e",
+      "publicSha256": "4772c4bfd6e26ec0d1387d384d14c52a43f58370808eda95f19f6b5691df546e"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/腾讯控股（0700.HK）调研/csv/预期差与催化剂.csv",
       "publicPath": "research/公司研究/腾讯控股（0700.HK）调研/csv/预期差与催化剂.csv",
       "kind": "csv",
-      "sourceSize": 127,
-      "publicSize": 127,
-      "sourceSha256": "a4e8e39e9c787c650560c9bc70b4589a64ccbda0736231b2161eb9fa7e086e0f",
-      "publicSha256": "a4e8e39e9c787c650560c9bc70b4589a64ccbda0736231b2161eb9fa7e086e0f"
+      "sourceSize": 2148,
+      "publicSize": 2148,
+      "sourceSha256": "bfb8d66998add579fe14d01ede850e92ab305f6c05131b33178c540ca1cda97b",
+      "publicSha256": "bfb8d66998add579fe14d01ede850e92ab305f6c05131b33178c540ca1cda97b"
     },
     {
       "sourceRelativePath": "投资研究/公司研究/腾讯控股（0700.HK）调研/公司调研 - 腾讯控股.md",
       "publicPath": "research/公司研究/腾讯控股（0700.HK）调研/公司调研 - 腾讯控股.md",
       "kind": "markdown",
-      "sourceSize": 7288,
-      "publicSize": 7288,
-      "sourceSha256": "3e16d9ed5530ce18489a83b4ef44ad14a5f73b1c2664710e77aced9be4a1353f",
-      "publicSha256": "3e16d9ed5530ce18489a83b4ef44ad14a5f73b1c2664710e77aced9be4a1353f",
-      "semanticSha256": "c8fb059e7045acef597c5af5c44fc596847b8d76370c4858ba64e08b3a1b73a2",
+      "sourceSize": 26816,
+      "publicSize": 28106,
+      "sourceSha256": "bf14246427dd20f927a874a7f09b6b62b345bb0bf0582a8b14f110a8f88d0105",
+      "publicSha256": "e526c35a234f1dc8b1568b3f5def7228149a75f9c6c635d7aaab9ee629963847",
+      "semanticSha256": "5611050ed424b9177104a56d0787a2be5c0b3e5886517ab6f398244d4895de3b",
       "tableDimensions": [
         {
           "rows": 11,
@@ -6434,51 +7317,67 @@
         },
         {
           "rows": 6,
-          "columns": 7
-        },
-        {
-          "rows": 1,
-          "columns": 11
-        },
-        {
-          "rows": 4,
           "columns": 6
         },
         {
-          "rows": 2,
-          "columns": 20
+          "rows": 5,
+          "columns": 7
+        },
+        {
+          "rows": 8,
+          "columns": 3
+        },
+        {
+          "rows": 4,
+          "columns": 5
+        },
+        {
+          "rows": 7,
+          "columns": 13
         },
         {
           "rows": 6,
           "columns": 5
         },
         {
+          "rows": 7,
+          "columns": 4
+        },
+        {
+          "rows": 4,
+          "columns": 4
+        },
+        {
           "rows": 8,
-          "columns": 10
+          "columns": 6
         },
         {
           "rows": 12,
           "columns": 2
         },
         {
-          "rows": 1,
+          "rows": 6,
           "columns": 8
         },
         {
           "rows": 3,
-          "columns": 9
+          "columns": 7
         },
         {
-          "rows": 4,
+          "rows": 6,
+          "columns": 5
+        },
+        {
+          "rows": 5,
           "columns": 2
         },
         {
-          "rows": 7,
+          "rows": 9,
           "columns": 6
         },
         {
-          "rows": 1,
-          "columns": 9
+          "rows": 8,
+          "columns": 7
         },
         {
           "rows": 7,
@@ -6489,17 +7388,17 @@
           "columns": 2
         }
       ],
-      "numericTokenCount": 28
+      "numericTokenCount": 247
     },
     {
       "sourceRelativePath": "投资研究/公司研究/腾讯控股（0700.HK）调研/小白审核记录 - 腾讯控股.md",
       "publicPath": "research/公司研究/腾讯控股（0700.HK）调研/小白审核记录 - 腾讯控股.md",
       "kind": "markdown",
-      "sourceSize": 2627,
-      "publicSize": 2627,
-      "sourceSha256": "c930597de43bbb6df423d715f11f9bf939fd0a717be5413444b51ca040776655",
-      "publicSha256": "c930597de43bbb6df423d715f11f9bf939fd0a717be5413444b51ca040776655",
-      "semanticSha256": "29ad8e138f8a83e3d7eb22b014f24e8560d422de1f45dd51a5cd46171e2d8d95",
+      "sourceSize": 10087,
+      "publicSize": 10087,
+      "sourceSha256": "09278cd1f995e815613f0fcc8aa1967dae8d6d246399e0cfc660b14ebfbb3c3d",
+      "publicSha256": "09278cd1f995e815613f0fcc8aa1967dae8d6d246399e0cfc660b14ebfbb3c3d",
+      "semanticSha256": "efaeab639f6783596ac9b91f9fa3bf459cf43e5bba7770622dd509da24213ad7",
       "tableDimensions": [
         {
           "rows": 6,
@@ -6510,102 +7409,106 @@
           "columns": 3
         },
         {
-          "rows": 1,
+          "rows": 2,
           "columns": 4
         },
         {
-          "rows": 1,
+          "rows": 2,
           "columns": 3
         }
       ],
-      "numericTokenCount": 10
+      "numericTokenCount": 55
     },
     {
       "sourceRelativePath": "投资研究/公司研究/腾讯控股（0700.HK）调研/技术与壁垒 - 腾讯控股.md",
       "publicPath": "research/公司研究/腾讯控股（0700.HK）调研/技术与壁垒 - 腾讯控股.md",
       "kind": "markdown",
-      "sourceSize": 10684,
-      "publicSize": 10684,
-      "sourceSha256": "c3917bc0cfe0efa50ce17a5c7b884679b5097d81399bbfe147e5dba6c17c707f",
-      "publicSha256": "c3917bc0cfe0efa50ce17a5c7b884679b5097d81399bbfe147e5dba6c17c707f",
-      "semanticSha256": "fddedf513289e5c12a6fd2491b719269ddd26b71ae0fe786521de9dffd26240f",
+      "sourceSize": 26449,
+      "publicSize": 28761,
+      "sourceSha256": "8b5cff5bb4a26f88bbbbae5171bea912ddb35db1fad5c67227205f7190da629d",
+      "publicSha256": "fadb2a8d75144524c1285b7c117cdd585a5846b3f67cb0d693776e05fbe0e9f8",
+      "semanticSha256": "bec788d8a283bfd45356a4e9427cea6af9ddc9077b985008ee1a613146351bfa",
       "tableDimensions": [
         {
-          "rows": 9,
+          "rows": 6,
+          "columns": 5
+        },
+        {
+          "rows": 16,
           "columns": 2
+        },
+        {
+          "rows": 8,
+          "columns": 4
+        },
+        {
+          "rows": 9,
+          "columns": 4
+        },
+        {
+          "rows": 6,
+          "columns": 5
         },
         {
           "rows": 8,
           "columns": 6
         },
         {
-          "rows": 1,
-          "columns": 16
+          "rows": 8,
+          "columns": 5
         },
         {
-          "rows": 1,
-          "columns": 8
-        },
-        {
-          "rows": 1,
-          "columns": 14
-        },
-        {
-          "rows": 1,
-          "columns": 10
-        },
-        {
-          "rows": 1,
-          "columns": 8
-        },
-        {
-          "rows": 1,
-          "columns": 21
+          "rows": 10,
+          "columns": 4
         },
         {
           "rows": 6,
-          "columns": 8
+          "columns": 5
         },
         {
-          "rows": 5,
-          "columns": 8
+          "rows": 7,
+          "columns": 5
         },
         {
-          "rows": 1,
-          "columns": 10
+          "rows": 7,
+          "columns": 4
         },
         {
-          "rows": 1,
-          "columns": 36
+          "rows": 7,
+          "columns": 4
         },
         {
-          "rows": 1,
-          "columns": 11
+          "rows": 7,
+          "columns": 4
         },
         {
-          "rows": 1,
+          "rows": 7,
+          "columns": 3
+        },
+        {
+          "rows": 7,
           "columns": 7
         },
         {
-          "rows": 1,
-          "columns": 7
+          "rows": 7,
+          "columns": 4
         },
         {
-          "rows": 11,
+          "rows": 7,
           "columns": 6
         }
       ],
-      "numericTokenCount": 22
+      "numericTokenCount": 122
     },
     {
       "sourceRelativePath": "投资研究/公司研究/腾讯控股（0700.HK）调研/技术红队审核记录 - 腾讯控股.md",
       "publicPath": "research/公司研究/腾讯控股（0700.HK）调研/技术红队审核记录 - 腾讯控股.md",
       "kind": "markdown",
-      "sourceSize": 2173,
-      "publicSize": 2173,
-      "sourceSha256": "22be6f548410fc219516492da86c8e3af3e25ff33698bd84f492fa363d6bf83a",
-      "publicSha256": "22be6f548410fc219516492da86c8e3af3e25ff33698bd84f492fa363d6bf83a",
-      "semanticSha256": "6079a8e45128490a4473de40a55aa449d346635ff2bb1046c83ce93cfd1b83dd",
+      "sourceSize": 7830,
+      "publicSize": 7830,
+      "sourceSha256": "351328bf004856430506af3ea8c7dea88790df0cb218e2398d2e5c9a43599f5e",
+      "publicSha256": "351328bf004856430506af3ea8c7dea88790df0cb218e2398d2e5c9a43599f5e",
+      "semanticSha256": "2cc5ca302e3c47144b5d31eed11218cb6e3ab6aa25b6d2d867265a58162eb4f4",
       "tableDimensions": [
         {
           "rows": 6,
@@ -6616,93 +7519,494 @@
           "columns": 3
         },
         {
-          "rows": 1,
+          "rows": 2,
           "columns": 5
         },
         {
-          "rows": 1,
+          "rows": 2,
           "columns": 5
         },
         {
-          "rows": 1,
+          "rows": 2,
           "columns": 5
         },
         {
-          "rows": 1,
+          "rows": 2,
           "columns": 4
         },
         {
-          "rows": 1,
+          "rows": 2,
           "columns": 4
         },
         {
-          "rows": 1,
+          "rows": 7,
           "columns": 4
         }
       ],
-      "numericTokenCount": 8
+      "numericTokenCount": 54
     },
     {
       "sourceRelativePath": "投资研究/公司研究/腾讯控股（0700.HK）调研/竞对对比 - 腾讯控股.md",
       "publicPath": "research/公司研究/腾讯控股（0700.HK）调研/竞对对比 - 腾讯控股.md",
       "kind": "markdown",
-      "sourceSize": 1767,
-      "publicSize": 1767,
-      "sourceSha256": "128fc590e415e123fa40d35bcec77a8dfde12b63f4be619513784b05605a57a0",
-      "publicSha256": "128fc590e415e123fa40d35bcec77a8dfde12b63f4be619513784b05605a57a0",
-      "semanticSha256": "80190240dbdd6c72df7955a41adf5fb8e934c1888e4b4f342716c66cdcb2374b",
+      "sourceSize": 6876,
+      "publicSize": 7115,
+      "sourceSha256": "34ffbff450d0263d3a72149ef6ce03c7c356f1a2368e1fe6c3fe39f414b5ce9c",
+      "publicSha256": "a4de94cde456e3e180257815c9a780cce224f183611554cf44ca618a4994a57e",
+      "semanticSha256": "102291c84de6791912cf688a0ca77fb538c0e82ec0acc6e4ff9c6b8f1336520e",
       "tableDimensions": [
         {
-          "rows": 1,
-          "columns": 16
+          "rows": 7,
+          "columns": 5
         },
         {
-          "rows": 5,
-          "columns": 7
+          "rows": 6,
+          "columns": 5
         }
       ],
-      "numericTokenCount": 8
+      "numericTokenCount": 25
     },
     {
       "sourceRelativePath": "投资研究/公司研究/腾讯控股（0700.HK）调研/股价预期 - 腾讯控股.md",
       "publicPath": "research/公司研究/腾讯控股（0700.HK）调研/股价预期 - 腾讯控股.md",
       "kind": "markdown",
-      "sourceSize": 7842,
-      "publicSize": 7842,
-      "sourceSha256": "88ed008d57f9a33549f305cdd69da5829168366d1e450453d42a110481061be2",
-      "publicSha256": "88ed008d57f9a33549f305cdd69da5829168366d1e450453d42a110481061be2",
-      "semanticSha256": "0dac2a52cca4e4dd2a0242ddd2165bb1e9998dd2683bf497bca69c58cde1fff0",
+      "sourceSize": 18784,
+      "publicSize": 20720,
+      "sourceSha256": "f0b24b78d44d79752976977f273455cd9636c22b9465cdb77748615370d4f986",
+      "publicSha256": "aae538f966cac824ff2f2eaa5833ee9ee54500c9464ae0d8356d6d15cfac3c0b",
+      "semanticSha256": "f9b3fd3f4d86f79059553f06e95b567027edb970499d364b4bb68f50e369ea75",
       "tableDimensions": [
         {
-          "rows": 9,
+          "rows": 8,
           "columns": 3
         },
         {
-          "rows": 1,
-          "columns": 17
-        },
-        {
           "rows": 5,
-          "columns": 7
+          "columns": 3
         },
         {
-          "rows": 1,
-          "columns": 16
+          "rows": 2,
+          "columns": 5
+        },
+        {
+          "rows": 15,
+          "columns": 3
         },
         {
           "rows": 7,
-          "columns": 7
+          "columns": 4
+        },
+        {
+          "rows": 2,
+          "columns": 5
+        },
+        {
+          "rows": 4,
+          "columns": 4
         },
         {
           "rows": 8,
           "columns": 5
         },
         {
-          "rows": 1,
-          "columns": 13
+          "rows": 8,
+          "columns": 5
+        },
+        {
+          "rows": 5,
+          "columns": 6
+        },
+        {
+          "rows": 7,
+          "columns": 4
+        },
+        {
+          "rows": 6,
+          "columns": 4
+        },
+        {
+          "rows": 4,
+          "columns": 5
+        },
+        {
+          "rows": 4,
+          "columns": 11
+        },
+        {
+          "rows": 6,
+          "columns": 4
+        },
+        {
+          "rows": 7,
+          "columns": 3
         },
         {
           "rows": 8,
+          "columns": 2
+        }
+      ],
+      "numericTokenCount": 265
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/腾讯控股（0700.HK）调研/财务报表 - 腾讯控股.md",
+      "publicPath": "research/公司研究/腾讯控股（0700.HK）调研/财务报表 - 腾讯控股.md",
+      "kind": "markdown",
+      "sourceSize": 19688,
+      "publicSize": 25734,
+      "sourceSha256": "1f1cf6429316306c6107404132429b0a8be2d6e7d5bf994afdfd5f843ef801a4",
+      "publicSha256": "1545dee57a53d61165e1b835bf6733ca4e0170d32496fbe814de4981c64d9b12",
+      "semanticSha256": "e0a4615dfad33005ddaef666dc6897e44387f544ab26c063eead604432de7510",
+      "tableDimensions": [
+        {
+          "rows": 9,
+          "columns": 2
+        },
+        {
+          "rows": 15,
+          "columns": 7
+        },
+        {
+          "rows": 5,
+          "columns": 6
+        },
+        {
+          "rows": 6,
+          "columns": 11
+        },
+        {
+          "rows": 6,
+          "columns": 12
+        },
+        {
+          "rows": 6,
+          "columns": 9
+        },
+        {
+          "rows": 6,
+          "columns": 4
+        },
+        {
+          "rows": 10,
+          "columns": 9
+        },
+        {
+          "rows": 10,
+          "columns": 9
+        },
+        {
+          "rows": 10,
+          "columns": 8
+        },
+        {
+          "rows": 10,
+          "columns": 4
+        },
+        {
+          "rows": 6,
+          "columns": 7
+        },
+        {
+          "rows": 8,
+          "columns": 5
+        }
+      ],
+      "numericTokenCount": 637
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/药明康德（603259.SH）调研/csv/产品代际路线图.csv",
+      "publicPath": "research/公司研究/药明康德（603259.SH）调研/csv/产品代际路线图.csv",
+      "kind": "csv",
+      "sourceSize": 2510,
+      "publicSize": 2510,
+      "sourceSha256": "11fcdcc5a7a50469ad959bd5c7e46e163fcbc5869cf9f8cca337aa15ff1854b9",
+      "publicSha256": "11fcdcc5a7a50469ad959bd5c7e46e163fcbc5869cf9f8cca337aa15ff1854b9"
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/药明康德（603259.SH）调研/csv/季度利润表.csv",
+      "publicPath": "research/公司研究/药明康德（603259.SH）调研/csv/季度利润表.csv",
+      "kind": "csv",
+      "sourceSize": 1248,
+      "publicSize": 1248,
+      "sourceSha256": "bd14ccf07af6e849474dd43538e27669ad7cd9867f5970333ccbf863bc9c3aaa",
+      "publicSha256": "bd14ccf07af6e849474dd43538e27669ad7cd9867f5970333ccbf863bc9c3aaa"
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/药明康德（603259.SH）调研/csv/季度现金流量表.csv",
+      "publicPath": "research/公司研究/药明康德（603259.SH）调研/csv/季度现金流量表.csv",
+      "kind": "csv",
+      "sourceSize": 1152,
+      "publicSize": 1152,
+      "sourceSha256": "0aece773ae808cc93393524b65aae4c5ed144847882b3cbaadb32fbc51333644",
+      "publicSha256": "0aece773ae808cc93393524b65aae4c5ed144847882b3cbaadb32fbc51333644"
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/药明康德（603259.SH）调研/csv/季度资产负债表.csv",
+      "publicPath": "research/公司研究/药明康德（603259.SH）调研/csv/季度资产负债表.csv",
+      "kind": "csv",
+      "sourceSize": 1182,
+      "publicSize": 1182,
+      "sourceSha256": "784e09f9ebb1840d3536cd92fb6ec4cc8da96783f88069f227f65056232fbfb9",
+      "publicSha256": "784e09f9ebb1840d3536cd92fb6ec4cc8da96783f88069f227f65056232fbfb9"
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/药明康德（603259.SH）调研/csv/市值隐含预期.csv",
+      "publicPath": "research/公司研究/药明康德（603259.SH）调研/csv/市值隐含预期.csv",
+      "kind": "csv",
+      "sourceSize": 1591,
+      "publicSize": 1591,
+      "sourceSha256": "0250ba7aa1dfc84cc70a6d8935cb30ce9a0763c982c53b09691e35bbb17e213c",
+      "publicSha256": "0250ba7aa1dfc84cc70a6d8935cb30ce9a0763c982c53b09691e35bbb17e213c"
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/药明康德（603259.SH）调研/csv/年度利润表.csv",
+      "publicPath": "research/公司研究/药明康德（603259.SH）调研/csv/年度利润表.csv",
+      "kind": "csv",
+      "sourceSize": 857,
+      "publicSize": 857,
+      "sourceSha256": "fb6197cab62db7ffc0e281f6ec0f8623d41745aa2260f013aa6c30cf200e3139",
+      "publicSha256": "fb6197cab62db7ffc0e281f6ec0f8623d41745aa2260f013aa6c30cf200e3139"
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/药明康德（603259.SH）调研/csv/年度现金流量表.csv",
+      "publicPath": "research/公司研究/药明康德（603259.SH）调研/csv/年度现金流量表.csv",
+      "kind": "csv",
+      "sourceSize": 775,
+      "publicSize": 775,
+      "sourceSha256": "4dbf3373950504577ca3998710febcaf516c04c99d453753fe788e943b7095cf",
+      "publicSha256": "4dbf3373950504577ca3998710febcaf516c04c99d453753fe788e943b7095cf"
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/药明康德（603259.SH）调研/csv/年度资产负债表.csv",
+      "publicPath": "research/公司研究/药明康德（603259.SH）调研/csv/年度资产负债表.csv",
+      "kind": "csv",
+      "sourceSize": 780,
+      "publicSize": 780,
+      "sourceSha256": "593c0eda7d60b75d99fd58bd3edabdd5a2cec25e91c9da2c7be55f3dcf437efe",
+      "publicSha256": "593c0eda7d60b75d99fd58bd3edabdd5a2cec25e91c9da2c7be55f3dcf437efe"
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/药明康德（603259.SH）调研/csv/情景敏感性.csv",
+      "publicPath": "research/公司研究/药明康德（603259.SH）调研/csv/情景敏感性.csv",
+      "kind": "csv",
+      "sourceSize": 813,
+      "publicSize": 813,
+      "sourceSha256": "feaecedd684ab78f2b631fa0d0c28ed95e6f97e4fa13489ac008ffaa44fc6c0f",
+      "publicSha256": "feaecedd684ab78f2b631fa0d0c28ed95e6f97e4fa13489ac008ffaa44fc6c0f"
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/药明康德（603259.SH）调研/csv/技术壁垒证据.csv",
+      "publicPath": "research/公司研究/药明康德（603259.SH）调研/csv/技术壁垒证据.csv",
+      "kind": "csv",
+      "sourceSize": 5096,
+      "publicSize": 5096,
+      "sourceSha256": "1cb608c1579d2c12f17185472086a81320be0a9ff675cf8a258ee050bf4cfb7c",
+      "publicSha256": "1cb608c1579d2c12f17185472086a81320be0a9ff675cf8a258ee050bf4cfb7c"
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/药明康德（603259.SH）调研/csv/技术水位矩阵.csv",
+      "publicPath": "research/公司研究/药明康德（603259.SH）调研/csv/技术水位矩阵.csv",
+      "kind": "csv",
+      "sourceSize": 6528,
+      "publicSize": 6528,
+      "sourceSha256": "bfee17ac533f2748ed68ddcfb0cda0415a7e61dc5104dc1c1ba8e91929d23b18",
+      "publicSha256": "bfee17ac533f2748ed68ddcfb0cda0415a7e61dc5104dc1c1ba8e91929d23b18"
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/药明康德（603259.SH）调研/csv/盈利预测桥.csv",
+      "publicPath": "research/公司研究/药明康德（603259.SH）调研/csv/盈利预测桥.csv",
+      "kind": "csv",
+      "sourceSize": 896,
+      "publicSize": 896,
+      "sourceSha256": "aac516eee24f010ba1e2728db837dc83a6ea9d3a2a69151007dff9cebc49a7d0",
+      "publicSha256": "aac516eee24f010ba1e2728db837dc83a6ea9d3a2a69151007dff9cebc49a7d0"
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/药明康德（603259.SH）调研/csv/竞对全景.csv",
+      "publicPath": "research/公司研究/药明康德（603259.SH）调研/csv/竞对全景.csv",
+      "kind": "csv",
+      "sourceSize": 2900,
+      "publicSize": 2900,
+      "sourceSha256": "cc6bd2d66868f8bce44344e7608180abe9fc86cf2f887268aaa5f7cc64229dbd",
+      "publicSha256": "cc6bd2d66868f8bce44344e7608180abe9fc86cf2f887268aaa5f7cc64229dbd"
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/药明康德（603259.SH）调研/csv/股价估值快照.csv",
+      "publicPath": "research/公司研究/药明康德（603259.SH）调研/csv/股价估值快照.csv",
+      "kind": "csv",
+      "sourceSize": 736,
+      "publicSize": 736,
+      "sourceSha256": "c8ed4f5fafdf60dfdddaaebca264b60c8e477bbea89035138bb447584d026538",
+      "publicSha256": "c8ed4f5fafdf60dfdddaaebca264b60c8e477bbea89035138bb447584d026538"
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/药明康德（603259.SH）调研/csv/股本与交易结构.csv",
+      "publicPath": "research/公司研究/药明康德（603259.SH）调研/csv/股本与交易结构.csv",
+      "kind": "csv",
+      "sourceSize": 1136,
+      "publicSize": 1136,
+      "sourceSha256": "f1a54b3297c4d5d9c52176b85bcd130a35aa7f52a4af4f2a1de07544578dbaad",
+      "publicSha256": "f1a54b3297c4d5d9c52176b85bcd130a35aa7f52a4af4f2a1de07544578dbaad"
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/药明康德（603259.SH）调研/csv/行业技术评价框架.csv",
+      "publicPath": "research/公司研究/药明康德（603259.SH）调研/csv/行业技术评价框架.csv",
+      "kind": "csv",
+      "sourceSize": 5483,
+      "publicSize": 5483,
+      "sourceSha256": "96a4379d4bf156612f5092d6e7faf61458ceb631526f011e382a0b1d6772c062",
+      "publicSha256": "96a4379d4bf156612f5092d6e7faf61458ceb631526f011e382a0b1d6772c062"
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/药明康德（603259.SH）调研/csv/预期差与催化剂.csv",
+      "publicPath": "research/公司研究/药明康德（603259.SH）调研/csv/预期差与催化剂.csv",
+      "kind": "csv",
+      "sourceSize": 1065,
+      "publicSize": 1065,
+      "sourceSha256": "c25c4cd69f6debdb478a5df37adc474b1aeaa80d78624d1f2ddbea16acb5e3e4",
+      "publicSha256": "c25c4cd69f6debdb478a5df37adc474b1aeaa80d78624d1f2ddbea16acb5e3e4"
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/药明康德（603259.SH）调研/公司调研 - 药明康德.md",
+      "publicPath": "research/公司研究/药明康德（603259.SH）调研/公司调研 - 药明康德.md",
+      "kind": "markdown",
+      "sourceSize": 31794,
+      "publicSize": 32662,
+      "sourceSha256": "e96558686a545d1c0979b725bdaa0f79777859de273557119a044ed4834e8932",
+      "publicSha256": "0590fbe52a213e68de99dc3187b8061b47cd1c8f8c448d76a0a49535b0898a52",
+      "semanticSha256": "084520d972b4171be85765cbb4724a4b886517e3b5cb6cc6034c8765b4e5ec43",
+      "tableDimensions": [
+        {
+          "rows": 7,
+          "columns": 2
+        },
+        {
+          "rows": 12,
+          "columns": 2
+        },
+        {
+          "rows": 5,
+          "columns": 6
+        },
+        {
+          "rows": 5,
+          "columns": 7
+        },
+        {
+          "rows": 5,
+          "columns": 5
+        },
+        {
+          "rows": 5,
+          "columns": 6
+        },
+        {
+          "rows": 5,
+          "columns": 13
+        },
+        {
+          "rows": 6,
+          "columns": 5
+        },
+        {
+          "rows": 7,
+          "columns": 6
+        },
+        {
+          "rows": 6,
+          "columns": 5
+        },
+        {
+          "rows": 7,
+          "columns": 2
+        },
+        {
+          "rows": 3,
+          "columns": 7
+        },
+        {
+          "rows": 8,
+          "columns": 6
+        },
+        {
+          "rows": 5,
+          "columns": 7
+        },
+        {
+          "rows": 9,
+          "columns": 7
+        },
+        {
+          "rows": 4,
+          "columns": 2
+        },
+        {
+          "rows": 5,
+          "columns": 2
+        }
+      ],
+      "numericTokenCount": 363
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/药明康德（603259.SH）调研/小白审核记录 - 药明康德.md",
+      "publicPath": "research/公司研究/药明康德（603259.SH）调研/小白审核记录 - 药明康德.md",
+      "kind": "markdown",
+      "sourceSize": 8380,
+      "publicSize": 8380,
+      "sourceSha256": "858792a61c10d6b017969ec8dd2d9be038859476cbf93bb47ad6ae4e0fee3a14",
+      "publicSha256": "858792a61c10d6b017969ec8dd2d9be038859476cbf93bb47ad6ae4e0fee3a14",
+      "semanticSha256": "916d42e62f2ae356ff1bc1226b644b57ec867ff02b8b25da18178f4e929e4338",
+      "tableDimensions": [
+        {
+          "rows": 6,
+          "columns": 2
+        },
+        {
+          "rows": 13,
+          "columns": 3
+        },
+        {
+          "rows": 2,
+          "columns": 4
+        },
+        {
+          "rows": 2,
+          "columns": 3
+        },
+        {
+          "rows": 5,
+          "columns": 4
+        }
+      ],
+      "numericTokenCount": 60
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/药明康德（603259.SH）调研/技术与壁垒 - 药明康德.md",
+      "publicPath": "research/公司研究/药明康德（603259.SH）调研/技术与壁垒 - 药明康德.md",
+      "kind": "markdown",
+      "sourceSize": 32427,
+      "publicSize": 32861,
+      "sourceSha256": "d7e22a179d19b60982e9b6829c36901a4bcf0890cdd76548664b5df47417db46",
+      "publicSha256": "0c4e2e100f73c407af387e26cfb880b720d5e9cbd9a2ce2cc87ac687c5c3da2a",
+      "semanticSha256": "0ee416c98bb174fb64e012032495d0e5d5a2b6ce311f32e965e385609e906fbc",
+      "tableDimensions": [
+        {
+          "rows": 7,
+          "columns": 3
+        },
+        {
+          "rows": 5,
+          "columns": 5
+        },
+        {
+          "rows": 12,
+          "columns": 7
+        },
+        {
+          "rows": 5,
+          "columns": 7
+        },
+        {
+          "rows": 13,
           "columns": 6
         },
         {
@@ -6710,92 +8014,263 @@
           "columns": 6
         },
         {
-          "rows": 4,
+          "rows": 6,
           "columns": 6
         },
         {
-          "rows": 4,
+          "rows": 12,
+          "columns": 7
+        },
+        {
+          "rows": 8,
+          "columns": 4
+        },
+        {
+          "rows": 6,
+          "columns": 6
+        },
+        {
+          "rows": 5,
+          "columns": 7
+        },
+        {
+          "rows": 5,
+          "columns": 7
+        },
+        {
+          "rows": 5,
           "columns": 11
         },
         {
-          "rows": 1,
-          "columns": 9
+          "rows": 5,
+          "columns": 7
+        },
+        {
+          "rows": 6,
+          "columns": 6
+        },
+        {
+          "rows": 5,
+          "columns": 5
+        },
+        {
+          "rows": 6,
+          "columns": 5
         },
         {
           "rows": 7,
-          "columns": 10
-        },
-        {
-          "rows": 7,
-          "columns": 2
+          "columns": 5
         }
       ],
-      "numericTokenCount": 18
+      "numericTokenCount": 102
     },
     {
-      "sourceRelativePath": "投资研究/公司研究/腾讯控股（0700.HK）调研/财务报表 - 腾讯控股.md",
-      "publicPath": "research/公司研究/腾讯控股（0700.HK）调研/财务报表 - 腾讯控股.md",
+      "sourceRelativePath": "投资研究/公司研究/药明康德（603259.SH）调研/技术红队审核记录 - 药明康德.md",
+      "publicPath": "research/公司研究/药明康德（603259.SH）调研/技术红队审核记录 - 药明康德.md",
       "kind": "markdown",
-      "sourceSize": 5167,
-      "publicSize": 5167,
-      "sourceSha256": "89a9154ebb0d7d086d600bbef763ffd91cfd07f352357ea0925297677541dba7",
-      "publicSha256": "89a9154ebb0d7d086d600bbef763ffd91cfd07f352357ea0925297677541dba7",
-      "semanticSha256": "ab3993a251e4f3d3946ca40a7329fa5c08fec80e1e7e56423ac41f953a31e938",
+      "sourceSize": 5978,
+      "publicSize": 5978,
+      "sourceSha256": "15af31c5e39b6d2a29da4b8bf737095390965736b4620bc859ddd11554a1d1e0",
+      "publicSha256": "15af31c5e39b6d2a29da4b8bf737095390965736b4620bc859ddd11554a1d1e0",
+      "semanticSha256": "6612b9d185e299438024307766b9c3623d56f0b5501f7a7b513de6cf1908b0f1",
       "tableDimensions": [
         {
-          "rows": 7,
+          "rows": 6,
           "columns": 2
         },
         {
-          "rows": 1,
-          "columns": 11
+          "rows": 13,
+          "columns": 3
         },
         {
           "rows": 2,
-          "columns": 8
+          "columns": 5
         },
         {
-          "rows": 1,
-          "columns": 18
+          "rows": 2,
+          "columns": 5
         },
         {
-          "rows": 1,
-          "columns": 17
+          "rows": 2,
+          "columns": 5
         },
         {
-          "rows": 1,
-          "columns": 13
+          "rows": 2,
+          "columns": 4
         },
         {
-          "rows": 1,
-          "columns": 9
+          "rows": 2,
+          "columns": 4
         },
         {
-          "rows": 1,
-          "columns": 15
+          "rows": 7,
+          "columns": 4
+        }
+      ],
+      "numericTokenCount": 22
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/药明康德（603259.SH）调研/竞对对比 - 药明康德.md",
+      "publicPath": "research/公司研究/药明康德（603259.SH）调研/竞对对比 - 药明康德.md",
+      "kind": "markdown",
+      "sourceSize": 10492,
+      "publicSize": 10926,
+      "sourceSha256": "daf7e8e72e8502b93578c10757063d3e3dfa1a128c4d0da8f8c3f2b5d6ee8939",
+      "publicSha256": "23288cca3c032b834f85aebd39a1773dd7a83bd5f8874c39abeac84d840ccc6e",
+      "semanticSha256": "3e88e81b871e23e01f36890bdfef079db1b3a6b4a6b9541daca7a0c6eb45ab9b",
+      "tableDimensions": [
+        {
+          "rows": 11,
+          "columns": 10
         },
         {
-          "rows": 1,
-          "columns": 15
+          "rows": 6,
+          "columns": 5
         },
         {
-          "rows": 1,
-          "columns": 12
+          "rows": 5,
+          "columns": 6
+        }
+      ],
+      "numericTokenCount": 58
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/药明康德（603259.SH）调研/股价预期 - 药明康德.md",
+      "publicPath": "research/公司研究/药明康德（603259.SH）调研/股价预期 - 药明康德.md",
+      "kind": "markdown",
+      "sourceSize": 18674,
+      "publicSize": 19108,
+      "sourceSha256": "1982b32057146c722639471904c5f8403fa2c4cb6501e1dfe68c9924aa74e415",
+      "publicSha256": "e06f7057fc3e65f20a28c368d1c44aea7e5b9a8d7db092f61e822b4aede926c9",
+      "semanticSha256": "eb5aba409dea69c0818e6f3b022ab40b219ed196c376553feed4e3a14b2b0330",
+      "tableDimensions": [
+        {
+          "rows": 6,
+          "columns": 3
         },
         {
-          "rows": 1,
-          "columns": 9
+          "rows": 2,
+          "columns": 10
         },
         {
-          "rows": 1,
-          "columns": 17
+          "rows": 5,
+          "columns": 5
+        },
+        {
+          "rows": 7,
+          "columns": 5
         },
         {
           "rows": 8,
           "columns": 5
+        },
+        {
+          "rows": 6,
+          "columns": 5
+        },
+        {
+          "rows": 6,
+          "columns": 4
+        },
+        {
+          "rows": 2,
+          "columns": 5
+        },
+        {
+          "rows": 6,
+          "columns": 4
+        },
+        {
+          "rows": 7,
+          "columns": 5
+        },
+        {
+          "rows": 4,
+          "columns": 8
+        },
+        {
+          "rows": 4,
+          "columns": 6
+        },
+        {
+          "rows": 5,
+          "columns": 5
+        },
+        {
+          "rows": 6,
+          "columns": 6
+        },
+        {
+          "rows": 4,
+          "columns": 4
+        },
+        {
+          "rows": 6,
+          "columns": 2
         }
       ],
-      "numericTokenCount": 24
+      "numericTokenCount": 332
+    },
+    {
+      "sourceRelativePath": "投资研究/公司研究/药明康德（603259.SH）调研/财务报表 - 药明康德.md",
+      "publicPath": "research/公司研究/药明康德（603259.SH）调研/财务报表 - 药明康德.md",
+      "kind": "markdown",
+      "sourceSize": 15614,
+      "publicSize": 18435,
+      "sourceSha256": "6a4abb3d33194d3dfc7d633edfda1267796c077806b4e081bddfbc0c214c192e",
+      "publicSha256": "baf1a5a729fa577b0795abe9fa297963d64f58abf4f9dac2348a83cbe6f786b1",
+      "semanticSha256": "e7e7ebe6db462aee568bb0e2de0bd4c5017ba9e633116dc5124184f1530f2911",
+      "tableDimensions": [
+        {
+          "rows": 6,
+          "columns": 2
+        },
+        {
+          "rows": 14,
+          "columns": 7
+        },
+        {
+          "rows": 7,
+          "columns": 7
+        },
+        {
+          "rows": 6,
+          "columns": 12
+        },
+        {
+          "rows": 6,
+          "columns": 13
+        },
+        {
+          "rows": 6,
+          "columns": 7
+        },
+        {
+          "rows": 6,
+          "columns": 6
+        },
+        {
+          "rows": 11,
+          "columns": 11
+        },
+        {
+          "rows": 11,
+          "columns": 10
+        },
+        {
+          "rows": 11,
+          "columns": 8
+        },
+        {
+          "rows": 11,
+          "columns": 6
+        },
+        {
+          "rows": 6,
+          "columns": 5
+        }
+      ],
+      "numericTokenCount": 660
     },
     {
       "sourceRelativePath": "投资研究/公司研究/阳光电源（300274.SZ）调研/csv/产品代际路线图.csv",
