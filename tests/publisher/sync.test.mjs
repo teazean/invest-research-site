@@ -14,6 +14,7 @@ async function fixture() {
   await mkdir(path.join(company, 'assets'), { recursive: true })
   await mkdir(path.join(company, 'csv'), { recursive: true })
   await mkdir(path.join(company, 'reports'), { recursive: true })
+  await mkdir(path.join(company, 'sources'), { recursive: true })
   await mkdir(path.join(company, 'data'), { recursive: true })
   await mkdir(path.join(root, 'vault/投资研究/关注池'), { recursive: true })
 
@@ -28,11 +29,14 @@ async function fixture() {
     '![图](assets/chart.png)',
     '[CSV](csv/annual.csv)',
     '[2025年报](reports/2025.pdf)',
+    '[官方快照](sources/官方快照.html)',
     '[官方来源](https://example.com/source)'
   ].join('\n'))
   await writeFile(path.join(company, 'assets/chart.png'), Buffer.from([0, 1, 2, 3]))
   await writeFile(path.join(company, 'csv/annual.csv'), 'year,revenue\n2025,100\n')
   await writeFile(path.join(company, 'reports/2025.pdf'), 'not-public')
+  await writeFile(path.join(company, 'sources/官方快照.html'), '<html>private</html>')
+  await writeFile(path.join(company, 'sources/旧版快照.htm'), '<html>private</html>')
   await writeFile(path.join(company, 'data/raw.csv'), 'not-public')
   await writeFile(path.join(root, 'vault/投资研究/关注池/个股关注池.md'), '# private')
 
@@ -47,17 +51,26 @@ afterEach(async () => {
 describe('research synchronization', () => {
   it('discovers only allowlisted publication files', async () => {
     const { sourceRoot } = await fixture()
-    const files = await discoverPublicationFiles(sourceRoot)
-    expect(files.map(file => file.relativePath)).toEqual([
+    const publicationPaths = (await discoverPublicationFiles(sourceRoot))
+      .map(file => file.relativePath)
+    expect(publicationPaths).toEqual([
       '投资研究/公司研究/示例公司（000001.SZ）调研/assets/chart.png',
       '投资研究/公司研究/示例公司（000001.SZ）调研/csv/annual.csv',
       '投资研究/公司研究/示例公司（000001.SZ）调研/公司调研 - 示例公司.md',
       '投资研究/公司研究/示例公司（000001.SZ）调研/财务报表 - 示例公司.md'
     ])
+    expect(publicationPaths).not.toContain(
+      '投资研究/公司研究/示例公司（000001.SZ）调研/sources/官方快照.html'
+    )
+    expect(publicationPaths).not.toContain(
+      '投资研究/公司研究/示例公司（000001.SZ）调研/sources/旧版快照.htm'
+    )
     expect([...await discoverAttachmentPaths(sourceRoot)]).toEqual([
       '投资研究/公司研究/示例公司（000001.SZ）调研/assets/chart.png',
       '投资研究/公司研究/示例公司（000001.SZ）调研/csv/annual.csv',
-      '投资研究/公司研究/示例公司（000001.SZ）调研/reports/2025.pdf'
+      '投资研究/公司研究/示例公司（000001.SZ）调研/reports/2025.pdf',
+      '投资研究/公司研究/示例公司（000001.SZ）调研/sources/官方快照.html',
+      '投资研究/公司研究/示例公司（000001.SZ）调研/sources/旧版快照.htm'
     ])
   })
 
@@ -79,13 +92,17 @@ describe('research synchronization', () => {
     )
     expect(publicMarkdown).toContain('[CSV](https://github.com/teazean/obsidian-vault-invest/blob/master/')
     expect(publicMarkdown).toContain('[2025年报](https://github.com/teazean/obsidian-vault-invest/blob/master/')
+    expect(publicMarkdown).toContain('[官方快照](https://github.com/teazean/obsidian-vault-invest/blob/master/')
     expect(publicMarkdown).toContain('[官方来源](https://example.com/source)')
     expect(await readFile(path.join(publicRoot, '财务报表 - 示例公司.md'), 'utf8'))
       .toContain('[巨潮资讯](https://static.cninfo.com.cn/2025.pdf)')
     await expect(stat(path.join(publicRoot, 'reports/2025.pdf'))).rejects.toMatchObject({ code: 'ENOENT' })
+    await expect(stat(path.join(publicRoot, 'sources/官方快照.html')))
+      .rejects.toMatchObject({ code: 'ENOENT' })
     expect(result.files).toHaveLength(4)
-    expect(result.rewrites).toHaveLength(4)
-    expect(new Set(result.rewrites.map(rewrite => rewrite.kind))).toEqual(new Set(['asset', 'csv', 'report']))
+    expect(result.rewrites).toHaveLength(5)
+    expect(new Set(result.rewrites.map(rewrite => rewrite.kind)))
+      .toEqual(new Set(['asset', 'csv', 'report', 'source']))
     expect(result.privateRepository).toEqual(privateRepository)
   })
 

@@ -11,7 +11,9 @@ const attachmentPaths = new Set([
   '投资研究/产业专题/光伏产业/assets/利润状态 图.png',
   '投资研究/产业专题/光伏产业/assets/利润状态图.svg',
   '投资研究/产业专题/光伏产业/csv/利润池.csv',
-  '投资研究/产业专题/光伏产业/reports/行业报告.pdf'
+  '投资研究/产业专题/光伏产业/reports/行业报告.pdf',
+  '投资研究/产业专题/光伏产业/sources/官方快照.html',
+  '投资研究/产业专题/光伏产业/sources/旧版快照.htm'
 ])
 
 function rewrite(markdown, overrides = {}) {
@@ -44,7 +46,8 @@ describe('private attachment links', () => {
   it.each([
     ['[SVG](assets/利润状态图.svg)', 'asset'],
     ['[CSV](csv/利润池.csv)', 'csv'],
-    ['[PDF](reports/行业报告.pdf#page=6)', 'report']
+    ['[PDF](reports/行业报告.pdf#page=6)', 'report'],
+    ['[HTML](sources/官方快照.html#证据)', 'source']
   ])('rewrites %s to the private repository', (markdown, kind) => {
     const result = rewrite(markdown)
 
@@ -53,6 +56,11 @@ describe('private attachment links', () => {
     )
     expect(result.rewrites[0].kind).toBe(kind)
     if (kind === 'report') expect(result.markdown.endsWith('#page=6)')).toBe(true)
+    if (kind === 'source') {
+      expect(result.markdown).toContain(
+        '/sources/%E5%AE%98%E6%96%B9%E5%BF%AB%E7%85%A7.html#证据)'
+      )
+    }
   })
 
   it('decodes an existing encoded destination and encodes it exactly once', () => {
@@ -77,6 +85,16 @@ describe('private attachment links', () => {
     ].join('\n')
 
     expect(rewrite(markdown)).toEqual({ markdown, rewrites: [] })
+  })
+
+  it('does not rewrite HTML outside the sources directory', () => {
+    const markdown = '[专题页](pages/专题.html)'
+
+    expect(rewrite(markdown, {
+      attachmentPaths: new Set([
+        '投资研究/产业专题/光伏产业/pages/专题.html'
+      ])
+    })).toEqual({ markdown, rewrites: [] })
   })
 
   it('preserves an explicitly external-linked image', () => {

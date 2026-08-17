@@ -2,6 +2,7 @@ const MARKDOWN_EXTENSION = /\.md$/i
 const IMAGE_EXTENSION = /\.(png|jpe?g|webp|gif|svg)$/i
 const CSV_EXTENSION = /\.csv$/i
 const PDF_EXTENSION = /\.pdf$/i
+const HTML_EXTENSION = /\.html?$/i
 
 export function normalizeRelativePath(relativePath) {
   return relativePath.split('\\').join('/').replace(/^\.\//, '')
@@ -21,6 +22,7 @@ export function classifyAttachmentPath(relativePath) {
   if (normalized.includes('/assets/') && IMAGE_EXTENSION.test(normalized)) return 'asset'
   if (normalized.includes('/csv/') && CSV_EXTENSION.test(normalized)) return 'csv'
   if (normalized.includes('/reports/') && PDF_EXTENSION.test(normalized)) return 'report'
+  if (normalized.includes('/sources/') && HTML_EXTENSION.test(normalized)) return 'source'
   return null
 }
 
@@ -29,5 +31,5 @@ export function classifyPublicationPath(relativePath) {
   if (!allowedResearchPath(normalized) || normalized.includes('/data/')) return null
   if (MARKDOWN_EXTENSION.test(normalized)) return 'markdown'
   const attachmentKind = classifyAttachmentPath(normalized)
-  return attachmentKind === 'report' ? null : attachmentKind
+  return attachmentKind === 'report' || attachmentKind === 'source' ? null : attachmentKind
 }

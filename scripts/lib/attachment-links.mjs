@@ -5,6 +5,7 @@ const URL_SCHEME = /^[A-Za-z][A-Za-z0-9+.-]*:/
 const IMAGE_EXTENSION = /\.(?:png|jpe?g|webp|gif|svg)$/i
 const CSV_EXTENSION = /\.csv$/i
 const PDF_EXTENSION = /\.pdf$/i
+const HTML_EXTENSION = /\.html?$/i
 
 function isEscaped(source, index) {
   let slashes = 0
@@ -76,6 +77,7 @@ function attachmentKind(decodedPath) {
   if (segments.includes('assets') && IMAGE_EXTENSION.test(decodedPath)) return 'asset'
   if (segments.includes('csv') && CSV_EXTENSION.test(decodedPath)) return 'csv'
   if (segments.includes('reports') && PDF_EXTENSION.test(decodedPath)) return 'report'
+  if (segments.includes('sources') && HTML_EXTENSION.test(decodedPath)) return 'source'
   return null
 }
 
